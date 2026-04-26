@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportUsdError" devLabel="Cannot export selected object to the USDz file format." translation="" />
+	<label commandName="NonAlnumStringForExportUsdError" devLabel="Path or filename contains unsupported characters. Specify a path and filename that only uses ASCII English characters." translation="" />
+	<label commandName="NonAlnumStringInstallPathForExportUsdError" devLabel="System username or Fusion installation path contains unsupported characters. Install Fusion under a username and path that contains only ASCII English characters." translation="" />
+	<label commandName="USDFileFilterDescription" devLabel="USD Files (*.usdz)" translation="" />
+</Resource>

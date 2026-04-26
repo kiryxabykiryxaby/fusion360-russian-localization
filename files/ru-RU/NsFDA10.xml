@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="PropSerializer_write" devLabel="No plugin registered. Failed to write the property !!" translation="" />
+</Resource>

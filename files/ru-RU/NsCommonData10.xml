@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AccessDenied" devLabel="Access Denied" translation="" />
+	<label commandName="AngularPrecisionValue0" devLabel="0" translation="" />
+	<label commandName="AngularPrecisionValue1" devLabel="0.1" translation="" />
+	<label commandName="AngularPrecisionValue1Comma" devLabel="0,1" translation="" />
+	<label commandName="AngularPrecisionValue2" devLabel="0.12" translation="" />
+	<label commandName="AngularPrecisionValue2Comma" devLabel="0,12" translation="" />
+	<label commandName="AngularPrecisionValue3" devLabel="0.123" translation="" />
+	<label commandName="AngularPrecisionValue3Comma" devLabel="0,123" translation="" />
+	<label commandName="AngularPrecisionValue4" devLabel="0.1234" translation="" />
+	<label commandName="AngularPrecisionValue4Comma" devLabel="0,1234" translation="" />
+	<label commandName="AngularPrecisionValue5" devLabel="0.12345" translation="" />
+	<label commandName="AngularPrecisionValue5Comma" devLabel="0,12345" translation="" />
+	<label commandName="AngularPrecisionValue6" devLabel="0.123456" translation="" />
+	<label commandName="AngularPrecisionValue6Comma" devLabel="0,123456" translation="" />
+	<label commandName="AngularPrecisionValue7" devLabel="0.1234567" translation="" />
+	<label commandName="AngularPrecisionValue7Comma" devLabel="0,1234567" translation="" />
+	<label commandName="AngularPrecisionValue8" devLabel="0.12345678" translation="" />
+	<label commandName="AngularPrecisionValue8Comma" devLabel="0,12345678" translation="" />
+	<label commandName="AngularPrecisionValue9" devLabel="0.123456789" translation="" />
+	<label commandName="AngularPrecisionValue9Comma" devLabel="0,123456789" translation="" />
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="" />
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="" />
+	<label commandName="AreaProperty" devLabel="Area" translation="" />
+	<label commandName="BoundingBox" devLabel="Bounding Box" translation="" />
+	<label commandName="CenterOfMass" devLabel="Center of Mass" translation="" />
+	<label commandName="ComponentDefaultExternalUserName" devLabel="External" translation="" />
+	<label commandName="ComponentDefaultUserName" devLabel="Component" translation="" />
+	<label commandName="ComponentRootDefaultUserName" devLabel="RootComponent" translation="" />
+	<label commandName="ConvertToCDBlockedText" devLabel="Unavailable for Standard Designs in Offline mode.&lt;br/&gt;&lt;br/&gt;Go back online to convert Standard Designs to Configured Designs, or create a new Configured Design from scratch." translation="" />
+	<label commandName="CustomGraphicsSelectionCategory" devLabel="Custom Graphics" translation="" />
+	<label commandName="CustomGraphicsSelectionsId" devLabel="Custom Graphics" translation="" />
+	<label commandName="CustomLoadedEnvironment" devLabel="Custom..." translation="" />
+	<label commandName="DefaultUnitsGroupToolTip" devLabel="" translation="" />
+	<label commandName="DefaultUnitsGroupUserName" devLabel="Select a sub page under the Default Units control" translation="" />
+	<label commandName="DegreeDisplayValueComma" devLabel="Decimal (e.g. 39,25 deg)" translation="" />
+	<label commandName="DegreeDisplayValueDecimal" devLabel="Decimal (e.g. 39.25 deg)" translation="" />
+	<label commandName="DegreeDisplayValueDegMinSec" devLabel="Minutes and Seconds (e.g. 39 deg 15')" translation="" />
+	<label commandName="Deleted" devLabel="Deleted" translation="" />
+	<label commandName="DensityProperty" devLabel="Density" translation="" />
+	<label commandName="EmptyExpression" devLabel="Empty Expression" translation="" />
+	<label commandName="GeneralPrecisionValue0" devLabel="0" translation="" />
+	<label commandName="GeneralPrecisionValue0Comma" devLabel="0" translation="" />
+	<label commandName="GeneralPrecisionValue1" devLabel="0.1" translation="" />
+	<label commandName="GeneralPrecisionValue1Comma" devLabel="0,1" translation="" />
+	<label commandName="GeneralPrecisionValue2" devLabel="0.12" translation="" />
+	<label commandName="GeneralPrecisionValue2Comma" devLabel="0,12" translation="" />
+	<label commandName="GeneralPrecisionValue3" devLabel="0.123" translation="" />
+	<label commandName="GeneralPrecisionValue3Comma" devLabel="0,123" translation="" />
+	<label commandName="GeneralPrecisionValue4" devLabel="0.1234" translation="" />
+	<label commandName="GeneralPrecisionValue4Comma" devLabel="0,1234" translation="" />
+	<label commandName="GeneralPrecisionValue5" devLabel="0.12345" translation="" />
+	<label commandName="GeneralPrecisionValue5Comma" devLabel="0,12345" translation="" />
+	<label commandName="GeneralPrecisionValue6" devLabel="0.123456" translation="" />
+	<label commandName="GeneralPrecisionValue6Comma" devLabel="0,123456" translation="" />
+	<label commandName="GeneralPrecisionValue7" devLabel="0.1234567" translation="" />
+	<label commandName="GeneralPrecisionValue7Comma" devLabel="0,1234567" translation="" />
+	<label commandName="GeneralPrecisionValue8" devLabel="0.12345678" translation="" />
+	<label commandName="GeneralPrecisionValue8Comma" devLabel="0,12345678" translation="" />
+	<label commandName="GeneralPrecisionValue9" devLabel="0.123456789" translation="" />
+	<label commandName="GeneralPrecisionValue9Comma" devLabel="0,123456789" translation="" />
+	<label commandName="LengthDisplayValueArchitectural" devLabel="Architectural (e.g. 0'-1 1/2&quot;)" translation="" />
+	<label commandName="LengthDisplayValueDecimal" devLabel="Decimal (e.g. 1.5 in)" translation="" />
+	<label commandName="LengthDisplayValueDecimalComma" devLabel="Decimal (e.g. 1,5 in)" translation="" />
+	<label commandName="LengthDisplayValueFractional" devLabel="Fractional (e.g. 1 1/2&quot;)" translation="" />
+	<label commandName="MassProperty" devLabel="Mass" translation="" />
+	<label commandName="MatUnitDisplayToolTip" devLabel="Set the units for materials" translation="" />
+	<label commandName="MatUnitDisplayUserName" devLabel="Material Unit Display" translation="" />
+	<label commandName="MatUnitEnglishFLP" devLabel="English (ft, lbmass, psf)" translation="" />
+	<label commandName="MatUnitEnglishILP" devLabel="English (in, lbmass, psi)" translation="" />
+	<label commandName="MatUnitEnglishStandard" devLabel="English Standard (ksi, psi, BTU)" translation="" />
+	<label commandName="MatUnitMetricMks" devLabel="Metric mks (m, kg, Pa)" translation="" />
+	<label commandName="MatUnitMetricStandard" devLabel="Metric Standard (MPa, kg, J)" translation="" />
+	<label commandName="MatUnitMetriccgs" devLabel="Metric cgs (cm, g, dyne)" translation="" />
+	<label commandName="MatUnitMetricmmNs" devLabel="Metric mmNs (mm, N, MPa)" translation="" />
+	<label commandName="MatUnitMetricumNs2" devLabel="Metric %1%mNs (%1%m, N, N/%1%m%2%)" translation="" />
+	<label commandName="MaterialProperty" devLabel="Physical Material" translation="" />
+	<label commandName="MinimumPrecisionValue0" devLabel="4" translation="" />
+	<label commandName="MinimumPrecisionValue1" devLabel="4.0" translation="" />
+	<label commandName="MinimumPrecisionValue1Comma" devLabel="4,0" translation="" />
+	<label commandName="MinimumPrecisionValue2" devLabel="4.00" translation="" />
+	<label commandName="MinimumPrecisionValue2Comma" devLabel="4,00" translation="" />
+	<label commandName="MinimumPrecisionValue3" devLabel="4.000" translation="" />
+	<label commandName="MinimumPrecisionValue3Comma" devLabel="4,000" translation="" />
+	<label commandName="MinimumPrecisionValue4" devLabel="4.0000" translation="" />
+	<label commandName="MinimumPrecisionValue4Comma" devLabel="4,0000" translation="" />
+	<label commandName="MinimumPrecisionValue5" devLabel="4.00000" translation="" />
+	<label commandName="MinimumPrecisionValue5Comma" devLabel="4,00000" translation="" />
+	<label commandName="MinimumPrecisionValue6" devLabel="4.000000" translation="" />
+	<label commandName="MinimumPrecisionValue6Comma" devLabel="4,000000" translation="" />
+	<label commandName="MinimumPrecisionValue7" devLabel="4.0000000" translation="" />
+	<label commandName="MinimumPrecisionValue7Comma" devLabel="4,0000000" translation="" />
+	<label commandName="MinimumPrecisionValue8" devLabel="4.00000000" translation="" />
+	<label commandName="MinimumPrecisionValue8Comma" devLabel="4,00000000" translation="" />
+	<label commandName="MomentOfInertiaAtCOG" devLabel="Moment of Inertia at Center of Mass" translation="" />
+	<label commandName="MomentOfInertiaAtOrigin" devLabel="Moment of Inertia at Origin" translation="" />
+	<label commandName="NamedViewSelectionId" devLabel="NamedView" translation="" />
+	<label commandName="NamedViewsSelectionId" devLabel="NamedViews" translation="" />
+	<label commandName="NewNamedViewNamePrefix" devLabel="NamedView" translation="" />
+	<label commandName="NotAllowSaveInOnline" devLabel="%1% is synchronizing the data with cloud storage. Please try again in a moment." translation="" />
+	<label commandName="ParametersComments" devLabel="Comments" translation="" />
+	<label commandName="ParametersExpression" devLabel="Expression" translation="" />
+	<label commandName="ParametersValue" devLabel="Value" translation="" />
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="" />
+	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="" />
+	<label commandName="PropertiesHeight" devLabel="Height" translation="" />
+	<label commandName="PropertiesLength" devLabel="Length" translation="" />
+	<label commandName="PropertiesStr" devLabel="Properties" translation="" />
+	<label commandName="PropertiesWidth" devLabel="Width" translation="" />
+	<label commandName="ScientificAboveValue1" devLabel="9.9999" translation="" />
+	<label commandName="ScientificAboveValue1Comma" devLabel="9,9999" translation="" />
+	<label commandName="ScientificAboveValue2" devLabel="99.9999" translation="" />
+	<label commandName="ScientificAboveValue2Comma" devLabel="99,9999" translation="" />
+	<label commandName="ScientificAboveValue3" devLabel="999.9999" translation="" />
+	<label commandName="ScientificAboveValue3Comma" devLabel="999,9999" translation="" />
+	<label commandName="ScientificAboveValue4" devLabel="9999.9999" translation="" />
+	<label commandName="ScientificAboveValue4Comma" devLabel="9999,9999" translation="" />
+	<label commandName="ScientificAboveValue5" devLabel="99999.9999" translation="" />
+	<label commandName="ScientificAboveValue5Comma" devLabel="99999,9999" translation="" />
+	<label commandName="ScientificAboveValue6" devLabel="999999.9999" translation="" />
+	<label commandName="ScientificAboveValue6Comma" devLabel="999999,9999" translation="" />
+	<label commandName="ScientificAboveValue7" devLabel="9999999.9999" translation="" />
+	<label commandName="ScientificAboveValue7Comma" devLabel="9999999,9999" translation="" />
+	<label commandName="ScientificAboveValue8" devLabel="99999999.9999" translation="" />
+	<label commandName="ScientificAboveValue8Comma" devLabel="99999999,9999" translation="" />
+	<label commandName="ScientificBelowValue1" devLabel="0.1" translation="" />
+	<label commandName="ScientificBelowValue1Comma" devLabel="0,1" translation="" />
+	<label commandName="ScientificBelowValue2" devLabel="0.01" translation="" />
+	<label commandName="ScientificBelowValue2Comma" devLabel="0,01" translation="" />
+	<label commandName="ScientificBelowValue3" devLabel="0.001" translation="" />
+	<label commandName="ScientificBelowValue3Comma" devLabel="0,001" translation="" />
+	<label commandName="ScientificBelowValue4" devLabel="0.0001" translation="" />
+	<label commandName="ScientificBelowValue4Comma" devLabel="0,0001" translation="" />
+	<label commandName="ScientificBelowValue5" devLabel="0.00001" translation="" />
+	<label commandName="ScientificBelowValue5Comma" devLabel="0,00001" translation="" />
+	<label commandName="ScientificBelowValue6" devLabel="0.000001" translation="" />
+	<label commandName="ScientificBelowValue6Comma" devLabel="0,000001" translation="" />
+	<label commandName="ScientificBelowValue7" devLabel="0.0000001" translation="" />
+	<label commandName="ScientificBelowValue7Comma" devLabel="0,0000001" translation="" />
+	<label commandName="ScientificBelowValue8" devLabel="0.00000001" translation="" />
+	<label commandName="ScientificBelowValue8Comma" devLabel="0,00000001" translation="" />
+	<label commandName="ScientificPrecisionValue0" devLabel="1E+04" translation="" />
+	<label commandName="ScientificPrecisionValue0Comma" devLabel="1E+04" translation="" />
+	<label commandName="ScientificPrecisionValue1" devLabel="1.1E+04" translation="" />
+	<label commandName="ScientificPrecisionValue1Comma" devLabel="1,1E+04" translation="" />
+	<label commandName="ScientificPrecisionValue2" devLabel="1.12E+04" translation="" />
+	<label commandName="ScientificPrecisionValue2Comma" devLabel="1,12E+04" translation="" />
+	<label commandName="ScientificPrecisionValue3" devLabel="1.123E+04" translation="" />
+	<label commandName="ScientificPrecisionValue3Comma" devLabel="1,123E+04" translation="" />
+	<label commandName="ScientificPrecisionValue4" devLabel="1.1234E+04" translation="" />
+	<label commandName="ScientificPrecisionValue4Comma" devLabel="1,1234E+04" translation="" />
+	<label commandName="ScientificPrecisionValue5" devLabel="1.12345E+04" translation="" />
+	<label commandName="ScientificPrecisionValue5Comma" devLabel="1,12345E+04" translation="" />
+	<label commandName="ScientificPrecisionValue6" devLabel="1.123456E+04" translation="" />
+	<label commandName="ScientificPrecisionValue6Comma" devLabel="1,123456E+04" translation="" />
+	<label commandName="ScientificPrecisionValue7" devLabel="1.1234567E+04" translation="" />
+	<label commandName="ScientificPrecisionValue7Comma" devLabel="1,1234567E+04" translation="" />
+	<label commandName="ScientificPrecisionValue8" devLabel="1.12345678E+04" translation="" />
+	<label commandName="ScientificPrecisionValue8Comma" devLabel="1,12345678E+04" translation="" />
+	<label commandName="ScientificPrecisionValue9" devLabel="1.123456789E+04" translation="" />
+	<label commandName="ScientificPrecisionValue9Comma" devLabel="1,123456789E+04" translation="" />
+	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="" />
+	<label commandName="SelectionGroupCategory" devLabel="Selection Group" translation="" />
+	<label commandName="SelectionGroupDefaultName" devLabel="Selection Set" translation="" />
+	<label commandName="SelectionGroupSelectionId" devLabel="SelectionGroup" translation="" />
+	<label commandName="SelectionGroupsSelectionId" devLabel="SelectionGroups" translation="" />
+	<label commandName="SelectionInputCustomGraphicsClientType" devLabel="Custom Graphics" translation="" />
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="" />
+	<label commandName="Studio_01" devLabel="Sharp Highlights" translation="" />
+	<label commandName="Studio_02" devLabel="Rim Highlights" translation="" />
+	<label commandName="Studio_03_grids" devLabel="Grid Light" translation="" />
+	<label commandName="Studio_03_grids_spot_03_cool" devLabel="Cool Light" translation="" />
+	<label commandName="Studio_03_grids_spot_03_warm" devLabel="Warm Light" translation="" />
+	<label commandName="Studio_03_soft_boxes" devLabel="Soft Light" translation="" />
+	<label commandName="UnitAngularPrecisionToolTip" devLabel="How many decimal points should be displayed for degree unit value" translation="" />
+	<label commandName="UnitAngularPrecisionUserName" devLabel="Angular precision" translation="" />
+	<label commandName="UnitCompressUnitsToolTip" devLabel="Should units be compressed using powers (e.g. m^3) or simply multiplied (e.g. m m m)" translation="" />
+	<label commandName="UnitCompressUnitsUserName" devLabel="Compress Units" translation="" />
+	<label commandName="UnitDecimalPointIsFullStopToolTip" devLabel="Should a decimal point be displayed as a full stop or a comma" translation="" />
+	<label commandName="UnitDecimalPointIsFullStopUserName" devLabel="Decimal point display" translation="" />
+	<label commandName="UnitDegreeDisplayToolTip" devLabel="How should fractions of a degree be displayed - decimal (39.25 deg) or deg / min / sec (39 deg 15')" translation="" />
+	<label commandName="UnitDegreeDisplayUserName" devLabel="Degree display format" translation="" />
+	<label commandName="UnitDisplayAbbreviatedToolTip" devLabel="Should units be displayed with their abbreviation (if they have one) instead of their full name" translation="" />
+	<label commandName="UnitDisplayAbbreviatedUserName" devLabel="Display abbreviations for units" translation="" />
+	<label commandName="UnitDisplayHideTrailingZeroesName" devLabel="Hide trailing zeroes" translation="" />
+	<label commandName="UnitDisplayHideTrailingZeroesTip" devLabel="Should trailing zeroes be hidden - e.g. display 4.020 as 4.02" translation="" />
+	<label commandName="UnitDisplayMinimumPrecisionName" devLabel="Minimum precision when hiding trailing zeroes" translation="" />
+	<label commandName="UnitDisplayMinimumPrecisionTip" devLabel="Minimum precision when hiding trailing zeroes, so 4.000 will display as 4.00 instead of 4" translation="" />
+	<label commandName="UnitDisplayScientificNotationAboveThresholdName" devLabel="Use scientific notation above" translation="" />
+	<label commandName="UnitDisplayScientificNotationAboveThresholdTip" devLabel="When the absolute value of a number is greater than this limit, display it in scientific notation" translation="" />
+	<label commandName="UnitDisplayScientificNotationBelowThresholdName" devLabel="Use scientific notation below" translation="" />
+	<label commandName="UnitDisplayScientificNotationBelowThresholdTip" devLabel="When the absolute value is less than this limit, display it in scientific notation" translation="" />
+	<label commandName="UnitDisplaySettingsOptionsToolTip" devLabel="Preferences that control how units and values are displayed" translation="" />
+	<label commandName="UnitDisplaySettingsOptionsUserName" devLabel="Unit and Value Display" translation="" />
+	<label commandName="UnitDisplaySymbolToolTip" devLabel="Should units be displayed with their symbol (if they have one) rather than their abbreviation or full name" translation="" />
+	<label commandName="UnitDisplaySymbolUserName" devLabel="Display symbols for units" translation="" />
+	<label commandName="UnitGeneralPrecisionToolTip" devLabel="How many decimal points should be displayed for a general unit value" translation="" />
+	<label commandName="UnitGeneralPrecisionUserName" devLabel="General precision" translation="" />
+	<label commandName="UnitLengthDisplayToolTip" devLabel="How to display length in feet and inches - decimal (1.5 inches), fractional (1 1/2&quot;) or architectural (0'-1 1/2&quot;)" translation="" />
+	<label commandName="UnitLengthDisplayUserName" devLabel="Foot and inch display format" translation="" />
+	<label commandName="UnitScientificNotationToolTip" devLabel="Should a value be displayed using scientific notation if it is big or small (e.g. 1.234E-6)" translation="" />
+	<label commandName="UnitScientificNotationUserName" devLabel="Use scientific notation for big and small values" translation="" />
+	<label commandName="UnitScientificPrecisionToolTip" devLabel="How many decimal points should be displayed for the mantissa in scientific units" translation="" />
+	<label commandName="UnitScientificPrecisionUserName" devLabel="Scientific notation precision" translation="" />
+	<label commandName="UnitTypeAngle" devLabel="Angle" translation="" />
+	<label commandName="UnitTypeAngularVelocity" devLabel="AngularVelocity" translation="" />
+	<label commandName="UnitTypeArea" devLabel="Area" translation="" />
+	<label commandName="UnitTypeCapacitance" devLabel="Capacitance" translation="" />
+	<label commandName="UnitTypeCharge" devLabel="Charge" translation="" />
+	<label commandName="UnitTypeConductance" devLabel="Conductance" translation="" />
+	<label commandName="UnitTypeCurrency" devLabel="Currency" translation="" />
+	<label commandName="UnitTypeCurrent" devLabel="Current" translation="" />
+	<label commandName="UnitTypeElectromotiveForce" devLabel="ElectromotiveForce" translation="" />
+	<label commandName="UnitTypeEnergy" devLabel="Energy" translation="" />
+	<label commandName="UnitTypeFlowRate" devLabel="FlowRate" translation="" />
+	<label commandName="UnitTypeForce" devLabel="Force" translation="" />
+	<label commandName="UnitTypeFrequency" devLabel="Frequency" translation="" />
+	<label commandName="UnitTypeIlluminance" devLabel="Illuminance" translation="" />
+	<label commandName="UnitTypeInductance" devLabel="Inductance" translation="" />
+	<label commandName="UnitTypeLength" devLabel="Length" translation="" />
+	<label commandName="UnitTypeLuminosity" devLabel="Luminosity" translation="" />
+	<label commandName="UnitTypeLuminousFlux" devLabel="LuminousFlux" translation="" />
+	<label commandName="UnitTypeMagneticField" devLabel="MagneticField" translation="" />
+	<label commandName="UnitTypeMagneticFlux" devLabel="MagneticFlux" translation="" />
+	<label commandName="UnitTypeMagnetizingField" devLabel="MagnetizingField" translation="" />
+	<label commandName="UnitTypeMass" devLabel="Mass" translation="" />
+	<label commandName="UnitTypePercentage" devLabel="Percentage" translation="" />
+	<label commandName="UnitTypePieces" devLabel="Pieces" translation="" />
+	<label commandName="UnitTypePower" devLabel="Power" translation="" />
+	<label commandName="UnitTypePressure" devLabel="Pressure" translation="" />
+	<label commandName="UnitTypeResistance" devLabel="Resistance" translation="" />
+	<label commandName="UnitTypeSolidAngle" devLabel="SolidAngle" translation="" />
+	<label commandName="UnitTypeSpeed" devLabel="Speed" translation="" />
+	<label commandName="UnitTypeSubstance" devLabel="Substance" translation="" />
+	<label commandName="UnitTypeTemperature" devLabel="Temperature" translation="" />
+	<label commandName="UnitTypeTime" devLabel="Time" translation="" />
+	<label commandName="UnitTypeViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="UnitTypeVolume" devLabel="Volume" translation="" />
+	<label commandName="UnitlessExpression" devLabel="unitless" translation="" />
+	<label commandName="UnitsDefaultSettingsOptionsToolTip" devLabel="Preferences that sets default units" translation="" />
+	<label commandName="UnitsDefaultSettingsOptionsUserName" devLabel="Default Units" translation="" />
+	<label commandName="UnresolvedComponentDefaultUserName" devLabel="UnresolvedComponent" translation="" />
+	<label commandName="VariedProperty" devLabel="(Various)" translation="" />
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="" />
+	<label commandName="VolumeProperty" devLabel="Volume" translation="" />
+	<label commandName="frontNamedView" devLabel="FRONT" translation="" />
+	<label commandName="homeNamedView" devLabel="HOME" translation="" />
+	<label commandName="lclzAbruptTermination" devLabel="Abrupt Termination" translation="" />
+	<label commandName="lclzUnitMisMatch" devLabel="Units mismatch between expected %1% and evaluated %2%" translation="" />
+	<label commandName="modelingLengthName" devLabel="Modeling Length" translation="" />
+	<label commandName="modelingMassName" devLabel="Modeling Mass" translation="" />
+	<label commandName="rightNamedView" devLabel="RIGHT" translation="" />
+	<label commandName="topNamedView" devLabel="TOP" translation="" />
+</Resource>

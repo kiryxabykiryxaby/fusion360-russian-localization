@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="" />
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="" />
+	<label commandName="BodiesSelectionCategory" devLabel="Bodies Collection" translation="" />
+	<label commandName="BodiesSelectionId" devLabel="Bodies" translation="" />
+	<label commandName="BodyDefaultUserName" devLabel="Body" translation="" />
+	<label commandName="BodySelectionCategory" devLabel="Bodies" translation="" />
+	<label commandName="BodySelectionId" devLabel="Body" translation="" />
+	<label commandName="EdgeSelectionCategory" devLabel="Body Edges" translation="" />
+	<label commandName="EdgeSelectionId" devLabel="Edge" translation="" />
+	<label commandName="EdgeToFaceSelectionCategory" devLabel="Body" translation="" />
+	<label commandName="EdgesSelectionId" devLabel="Edges" translation="" />
+	<label commandName="FaceSelectionId" devLabel="Face" translation="" />
+	<label commandName="FacesSelectionCategory" devLabel="Body Faces" translation="" />
+	<label commandName="FacesSelectionId" devLabel="Faces" translation="" />
+	<label commandName="MultipleBodySelectionId" devLabel="Bodies" translation="" />
+	<label commandName="OverridingBodyDefaultUserName" devLabel="Overriding Body" translation="" />
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="" />
+	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="" />
+	<label commandName="PropertiesStr" devLabel="Properties" translation="" />
+	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="" />
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="" />
+	<label commandName="SurfaceGroupCategory" devLabel="Surface Group" translation="" />
+	<label commandName="SurfaceGroupDefaultName" devLabel="Group" translation="" />
+	<label commandName="SurfaceGroupDefectiveName" devLabel="Defective" translation="" />
+	<label commandName="SurfaceGroupIntersectingName" devLabel="Intersecting" translation="" />
+	<label commandName="SurfaceGroupSelectionId" devLabel="SurfaceGroup" translation="" />
+	<label commandName="SurfaceGroupUnstitchableName" devLabel="Unstitchable" translation="" />
+	<label commandName="SurfaceGroupUnstitchedName" devLabel="Unstitched" translation="" />
+	<label commandName="VertexSelectionCategory" devLabel="Body Vertices" translation="" />
+	<label commandName="VertexSelectionId" devLabel="Vertex" translation="" />
+	<label commandName="VerticesSelectionId" devLabel="Vertices" translation="" />
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="" />
+</Resource>

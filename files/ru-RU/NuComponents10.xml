@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	 <label commandName="ASMFilesFilter" devLabel="ASM Files (*.asm)" translation="ASM-файлы (*.asm)"/>
+    <label commandName="AngleInput" devLabel="Angle" translation="Угол"/>
+    <label commandName="AreaInput1" devLabel="Area" translation="Область"/>
+    <label commandName="AreaInput2" devLabel="Area" translation="Область"/>
+    <label commandName="AxesVisibilityToggleCmd" devLabel="Show/Hide Axes" translation="Показать/Скрыть оси"/>
+    <label commandName="BodyFilterInput" devLabel="Body" translation="Тело"/>
+    <label commandName="CancelTRBodyRestructuring" devLabel="Cancel" translation="Отмена"/>
+    <label commandName="CenterAxisToCenterAxisInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="CenterAxisToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Максимальное расстояние"/>
+    <label commandName="CenterAxisToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Минимальное расстояние"/>
+    <label commandName="CenterPositionInput1X" devLabel="Center Position X" translation="Центральное положение X"/>
+    <label commandName="CenterPositionInput1Y" devLabel="Center Position Y" translation="Центральное положение Y"/>
+    <label commandName="CenterPositionInput1Z" devLabel="Center Position Z" translation="Центральное положение Z"/>
+    <label commandName="CenterPositionInput2X" devLabel="Center Position X" translation="Центральное положение X"/>
+    <label commandName="CenterPositionInput2Y" devLabel="Center Position Y" translation="Центральное положение Y"/>
+    <label commandName="CenterPositionInput2Z" devLabel="Center Position Z" translation="Центральное положение Z"/>
+    <label commandName="CenterToCenterInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="CenterToCenterMinimumInput" devLabel="Minimum Distance" translation="Минимальное расстояние"/>
+    <label commandName="CheckLogForMoreInfo" devLabel="Please check the log file for more information or click to view it: " translation="Проверьте файл журнала для получения дополнительной информации или нажмите, чтобы просмотреть его:"/>
+    <label commandName="CommentMessage" devLabel="Message" translation="Сообщение"/>
+    <label commandName="CommentObject" devLabel="Body" translation="Тело"/>
+    <label commandName="CommentObjectCommand" devLabel="CommentObject" translation="Объект комментария"/>
+    <label commandName="CommentSelectBody" devLabel="Select an object" translation="Выберите объект"/>
+    <label commandName="CommentSelectPoint" devLabel="Select a point on an object" translation="Выберите точку на объекте"/>
+    <label commandName="CommmentsMissedObjectTitle" devLabel="Object does not exist in the current document" translation="Объект не существует в текущем документе"/>
+    <label commandName="CommmentsMissedSetupHeader" devLabel="The object associated with this comment has been removed since the comment was posted." translation="Объект не существует в текущем документе"/>
+    <label commandName="CommmentsMissedSetupHeader2" devLabel="The setup associated with this comment has been removed since the comment was posted. Open version " translation="Настройки, связанные с этим комментарием, были удалены после публикации комментария. Открытая версия"/>
+    <label commandName="CommmentsMissedSetupTail" devLabel=" to view the setup." translation="для просмотра настроек."/>
+    <label commandName="CommmentsMissedSetupTitle" devLabel="Setup does not exist in the current document" translation="Настройки не существуют в текущем документе"/>
+    <label commandName="CommmentsWarningAssetDoesNotExist" devLabel="Asset does not exist" translation="Ресурс не существует"/>
+    <label commandName="CommmentsWarningDocumentClosed" devLabel="Document is closed" translation="Документ закрыт"/>
+    <label commandName="ComponentFilterInput" devLabel="Component" translation="Компонент"/>
+    <label commandName="ContinueTRBodyRestructuring" devLabel="Continue" translation="Продолжать"/>
+    <label commandName="CopyCommand" devLabel="Copy" translation="Копировать"/>
+    <label commandName="CreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Создать набор объектов"/>
+    <label commandName="CycleComponentColorCmd" devLabel="Cycle Component Color" translation="Изменение цвета компонента"/>
+    <label commandName="DataBrowserCommand" devLabel="Launch Data Browser" translation="Запустить средство просмотра данных"/>
+    <label commandName="DeltaInputX" devLabel="X Delta" translation="X Delta"/>
+    <label commandName="DeltaInputY" devLabel="Y Delta" translation="Y Delta"/>
+    <label commandName="DeltaInputZ" devLabel="Z Delta" translation="Z Delta"/>
+    <label commandName="DeltaTypeComponent1" devLabel="Component1" translation="Компонент 1"/>
+    <label commandName="DeltaTypeComponent2" devLabel="Component2" translation="Компонент 2"/>
+    <label commandName="DeltaTypeGloabal" devLabel="Global" translation="Глобальная"/>
+    <label commandName="DeltaTypeOff" devLabel="DeltaOff" translation="DeltaOff"/>
+    <label commandName="DiameterInput1" devLabel="Diameter" translation="Диаметр"/>
+    <label commandName="DiameterInput2" devLabel="Diameter" translation="Диаметр"/>
+    <label commandName="DistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="DoNotAllowInstallIDEDuringUpdate" devLabel="Fusion is unable to install %1% because a software update is currently in progress.&lt;br&gt;&lt;br&gt;Please try again after the update completes." translation="Fusion не может установить %1%, поскольку выполняется обновление программного обеспечения. &lt;br&gt;&lt;br&gt;После завершения обновления повторите попытку."/>
+    <label commandName="DoNotAllowInstallIDEWithUnknownError" devLabel="Fusion is unable to install %1% due to unknown error.&lt;br&gt;&lt;br&gt;Please restart application and try again." translation="Fusion не удалось установить %1% из-за неизвестной ошибки. &lt;br&gt;&lt;br&gt; Перезапустите приложение и повторите попытку."/>
+    <label commandName="DoNotAllowInstallIDEWithoutInternet" devLabel="Fusion is unable to install %1% due to network issues.&lt;br&gt;&lt;br&gt;Please try again after you are on a stable network connection." translation="Fusion не может установить %1% из-за проблем с сетью. &lt;br&gt;&lt;br&gt;Пожалуйста, повторите попытку после установления стабильного сетевого подключения."/>
+    <label commandName="DoNotAllowInstallIDEWithoutUpdateCheck" devLabel="Fusion is unable to install %1% because a software update may be pending.&lt;br&gt;&lt;br&gt;Please try again after the update check is done." translation="Fusion не может установить %1%, поскольку может выполняться обновление программного обеспечения. &lt;br&gt;&lt;br&gt;Пожалуйста, повторите попытку после проверки наличия обновлений."/>
+    <label commandName="DumpEntityCommand" devLabel="Dump Entity Info" translation="Выгрузить информацию об элементе"/>
+    <label commandName="DumpEntityCommandDesc" devLabel="Dump detailed info of selected object" translation="Выгрузить подробную информацию о выбранном объекте"/>
+    <label commandName="DynamicControlID" devLabel="DynamicControlID" translation="Идентификатор динамического элемента управления"/>
+    <label commandName="EntityFinderButton" devLabel="Search" translation="Поиск"/>
+    <label commandName="EntityFinderNothingToZoom" devLabel="Nothing to zoom." translation="Нет объектов для увеличения."/>
+    <label commandName="ExtentsPrompt" devLabel="Terminates at selected object" translation="Заканчивается на выбранном объекте"/>
+    <label commandName="FaceEdgeVertexFilterInput" devLabel="Face/Edge/Vertex" translation="Поверхность/край/вершина"/>
+    <label commandName="InferenceAddRef" devLabel="Add Reference" translation="Добавить ссылку"/>
+    <label commandName="InferenceConcentricTo" devLabel="Concentric To" translation="Концентрично"/>
+    <label commandName="InferenceMatchDiameter" devLabel="Match Diameter" translation="Совместить диаметр"/>
+    <label commandName="InferenceMatchRadius" devLabel="Match Radius" translation="Совместить радиус"/>
+    <label commandName="InferenceSnapTo" devLabel="Snap To" translation="Привязка к"/>
+    <label commandName="InferenceSnapToPt" devLabel="Snap to Point" translation="Привязка к точке"/>
+    <label commandName="InstallErrorTitleStr" devLabel="Unable to install %1%" translation="Не удалось установить %1%"/>
+    <label commandName="JointDOFFlip" devLabel="Flip" translation="Перевернуть"/>
+    <label commandName="LengthInput1" devLabel="Length" translation="Длина"/>
+    <label commandName="LengthInput2" devLabel="Length" translation="Длина"/>
+    <label commandName="LockJOOrientationMac1" devLabel="Select a snap point to place the joint origin. (hold CMD key to lock snaps)" translation="Выберите точку привязки, чтобы разместить начало соединения. (Удерживайте клавишу CMD, чтобы заблокировать привязку.)"/>
+    <label commandName="LockJOOrientationWin1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Выберите точку привязки, чтобы разместить начало соединения. (Удерживайте клавишу CTRL, чтобы заблокировать привязку.)"/>
+    <label commandName="LoopLengthInput1" devLabel="Loop Length" translation="Длина окружности"/>
+    <label commandName="LoopLengthInput2" devLabel="Loop Length" translation="Длина окружности"/>
+    <label commandName="MaterialCommand" devLabel="Manage Materials" translation="Управление материалами"/>
+    <label commandName="Maximum" devLabel="Maximum" translation="Максимальный"/>
+    <label commandName="MeasureCommand" devLabel="Measure" translation="Мера"/>
+    <label commandName="MeasureCommandDesc1" devLabel="Measure distance, angle, area, or position/delta." translation="Измерьте расстояние, угол, площадь или положение/приращение."/>
+    <label commandName="MeasureCommandDesc2" devLabel="Select a vertex, edge, face, body, or component." translation="Выберите вершину, ребро, грань, тело или компонент."/>
+    <label commandName="MeasureCommandPrecisionCursorPrompt" devLabel="Overrides the General precision setting in Preferences." translation="Переопределяет общую настройку точности в настройках."/>
+    <label commandName="MeasureCommandSelectCursorPromptMac" devLabel="Select objects to measure." translation="Выберите объекты для измерения."/>
+    <label commandName="MeasureCommandSelectCursorPromptSnapPointMac" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Выберите объекты для измерения. Удерживайте клавишу Shift, чтобы удалить точки привязки. Удерживайте клавишу Ctrl, чтобы зафиксировать точки привязки."/>
+    <label commandName="MeasureCommandSelectCursorPromptSnapPointWin" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Выберите объекты для измерения. Удерживайте клавишу Shift, чтобы удалить точки привязки. Удерживайте клавишу Ctrl, чтобы зафиксировать точки привязки."/>
+    <label commandName="MeasureCommandSelectCursorPromptWin" devLabel="Select objects to measure." translation="Выберите объекты для измерения."/>
+    <label commandName="MeasureSecondaryUnitsCM" devLabel="cm" translation="см"/>
+    <label commandName="MeasureSecondaryUnitsFt" devLabel="ft" translation="фут"/>
+    <label commandName="MeasureSecondaryUnitsIn" devLabel="in" translation="дюйм"/>
+    <label commandName="MeasureSecondaryUnitsM" devLabel="m" translation="м"/>
+    <label commandName="MeasureSecondaryUnitsMM" devLabel="mm" translation="мм"/>
+    <label commandName="MeasureSecondaryUnitsNone" devLabel="None" translation="Ни один"/>
+    <label commandName="MeasureTypeAngle" devLabel="Angle" translation="Угол"/>
+    <label commandName="MeasureTypeAngleDesc" devLabel="Measure Angle" translation="Измерьте угол"/>
+    <label commandName="MeasureTypeArea" devLabel="Area" translation="Поле"/>
+    <label commandName="MeasureTypeAreaDesc" devLabel="Measure Area" translation="Измерьте поле"/>
+    <label commandName="MeasureTypeDistance" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="MeasureTypeDistanceDesc" devLabel="Measure Distance" translation="Измерьте расстояние"/>
+    <label commandName="MeasureTypePositionDelta" devLabel="Position/Delta" translation="Позиция/Delta"/>
+    <label commandName="MeasureTypePositionDesc" devLabel="Measure Position/Delta" translation="Определить положение/Delta"/>
+    <label commandName="Minimum" devLabel="Minimum" translation="Минимальный"/>
+    <label commandName="POPAlongPathDirection" devLabel="Path Direction" translation="Направление пути"/>
+    <label commandName="POPDirectionType" devLabel="Direction" translation="Направление"/>
+    <label commandName="POPIdentical" devLabel="Identical" translation="Идентично"/>
+    <label commandName="POPOneDirection" devLabel="One Direction" translation="Одно направление"/>
+    <label commandName="POPOrientationType" devLabel="Orientation" translation="Ориентация"/>
+    <label commandName="POPSymmetric" devLabel="Symmetric" translation="Симметричный"/>
+    <label commandName="PasteCommand" devLabel="Paste" translation="Вставить"/>
+    <label commandName="PathPatternDistanceExtentDesc" devLabel="Specify the distance value for the full extent of the pattern along the path." translation="Укажите значение расстояния для всего массива вдоль пути."/>
+    <label commandName="PathPatternDistanceSpacingDesc" devLabel="Specify the distance value between each pattern instance along the path." translation="Укажите значение расстояния между каждым экземпляром шаблона на пути."/>
+    <label commandName="PatterOnPathCounterInput" devLabel="Quantity" translation="Количество"/>
+    <label commandName="PatterOnPathCounterInputDesc" devLabel="Specify the number of pattern instances to create along the path." translation="Укажите количество экземпляров шаблона, которые нужно создать на пути."/>
+    <label commandName="PatterOnPathDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="PatterOnPathStartPointDesc" devLabel="Specify the percentage value to offset the first pattern instance from the start point. Drag the start point along the path to reposition it." translation="Укажите процент смещения первого вхождения шаблона от начальной точки. Перетащите начальную точку вдоль пути, чтобы изменить ее положение."/>
+    <label commandName="PatterOnPathStartPointInput" devLabel="Start Point" translation="Центральная точка"/>
+    <label commandName="PhysicalMaterialEditOnlyCommand" devLabel="Manage Physical Materials" translation="Управление физическими материалами"/>
+    <label commandName="PlaneToCenterAxisInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="PlaneToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Максимальное расстояние"/>
+    <label commandName="PlaneToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Минимальное расстояние"/>
+    <label commandName="PlanesVisibilityToggleCmd" devLabel="Show/Hide Planes" translation="Показать/Скрыть плоскости"/>
+    <label commandName="PointsVisibilityToggleCmd" devLabel="Show/Hide Points" translation="Показать/Скрыть точки"/>
+    <label commandName="PositionInput1X" devLabel="X Position" translation="Позиция X"/>
+    <label commandName="PositionInput1Y" devLabel="Y Position" translation="Позиция Y"/>
+    <label commandName="PositionInput1Z" devLabel="Z Position" translation="Позиция Z"/>
+    <label commandName="PositionInput2X" devLabel="X Position" translation="Позиция X"/>
+    <label commandName="PositionInput2Y" devLabel="Y Position" translation="Позиция Y"/>
+    <label commandName="PositionInput2Z" devLabel="Z Position" translation="Позиция Z"/>
+    <label commandName="PositionProperty2" devLabel="Body" translation="Тело"/>
+    <label commandName="PositionProperty3" devLabel="Output:" translation="Вывод:"/>
+    <label commandName="Precision0" devLabel="0" translation="0"/>
+    <label commandName="Precision1" devLabel="0.1" translation="0,1"/>
+    <label commandName="Precision2" devLabel="0.12" translation="0,12"/>
+    <label commandName="Precision3" devLabel="0.123" translation="0,123"/>
+    <label commandName="Precision4" devLabel="0.1234" translation="0,1234"/>
+    <label commandName="Precision5" devLabel="0.12345" translation="0,12345"/>
+    <label commandName="Precision6" devLabel="0.123456" translation="0,123456"/>
+    <label commandName="Precision7" devLabel="0.1234567" translation="0,1234567"/>
+    <label commandName="Precision8" devLabel="0.12345678" translation="0,12345678"/>
+    <label commandName="PrecisionAll" devLabel="All Decimals" translation="Максимальная точность"/>
+    <label commandName="PrecisionInput" devLabel="Precision" translation="Точность"/>
+    <label commandName="PreviewAngle" devLabel="angle" translation="угол"/>
+    <label commandName="PreviewCenterCenterAxisToCenterAxis" devLabel="center axis to center axis" translation="ось симметрии к оси симметрии"/>
+    <label commandName="PreviewCenterToCenter" devLabel="center to center" translation="от центра к центру"/>
+    <label commandName="PreviewDiameter" devLabel="diameter" translation="диаметр"/>
+    <label commandName="PreviewDistance" devLabel="distance" translation="расстояние"/>
+    <label commandName="PreviewLength" devLabel="length" translation="длина"/>
+    <label commandName="PreviewPlaneToCenterAxis" devLabel="plane to center axis" translation="плоскость относительно оси симметрии"/>
+    <label commandName="PreviewRadius" devLabel="radius" translation="радиус"/>
+    <label commandName="PythonInteractiveCommand" devLabel="Interactive command to run Python Script..." translation="Интерактивная команда запуска сценария Python..."/>
+    <label commandName="PythonSequentialCommand" devLabel="Sequential command to run Python Script..." translation="Последовательная команда для запуска сценария Python..."/>
+    <label commandName="RadiusInput1" devLabel="Radius" translation="Радиус"/>
+    <label commandName="RadiusInput2" devLabel="Radius" translation="Радиус"/>
+    <label commandName="ReanchoringHints" devLabel="Select perpendicular face for re-anchoring" translation="Выберите перпендикулярную поверхность для повторной привязки"/>
+    <label commandName="ReanchoringObjectsHints" devLabel="Select new pivot location" translation="Выберите новую позицию вращения"/>
+    <label commandName="RegexString" devLabel="Enter regular expression for selective journaling." translation="Введите регулярное выражение для выборочной нумерации."/>
+    <label commandName="RemoveOverrideCommand" devLabel="Remove Appearance Override" translation="Удалить переопределение внешнего вида"/>
+    <label commandName="RemoveVisibilityOverrideCommand" devLabel="Remove Visibility Overrides" translation="Удалить переопределения видимости"/>
+    <label commandName="Reorient" devLabel="Set Pivot" translation="Установите точку поворота"/>
+    <label commandName="Rest" devLabel="Rest" translation="Базовое положение"/>
+    <label commandName="RestartAppStr" devLabel="Restart Application" translation="Перезапустите приложение"/>
+    <label commandName="RestartLinkStr" devLabel="Click to save your work and restart now." translation="Нажмите, чтобы сохранить работу и перезапустить сейчас."/>
+    <label commandName="RestartMsgStr" devLabel="The %1% has been installed." translation="%1% установлен."/>
+    <label commandName="RestartSelectionInput" devLabel="Clear Selection" translation="Очистить выбор"/>
+    <label commandName="ResultsDeltaGroupInput" devLabel="XYZ Delta" translation="Поверхности XYZ"/>
+    <label commandName="ResultsGroupInput" devLabel="Results" translation="Полученные результаты"/>
+    <label commandName="Reverse" devLabel="Reverse" translation="Назад"/>
+    <label commandName="SanityCheckCommand" devLabel="Sanity check bodies" translation="Проверка тел"/>
+    <label commandName="SaveAsASMCommand" devLabel="Save As ASM" translation="Сохранить как ASM"/>
+    <label commandName="SaveAsSATCommand" devLabel="Save As SAT" translation="Сохранить как SAT"/>
+    <label commandName="SecondaryUnitsInput" devLabel="Secondary Units" translation="Дополнительные единицы"/>
+    <label commandName="SelectSelectionGroupCmd" devLabel="Select" translation="Выбрать"/>
+    <label commandName="SelectabilityToggleCmd" devLabel="Selectable/Unselectable" translation="Выбираемый/Невыбираемый"/>
+    <label commandName="Selection1ResultsGroupInput" devLabel="Selection 1" translation="Выбор 1"/>
+    <label commandName="Selection2ResultsGroupInput" devLabel="Selection 2" translation="Выбор 2"/>
+    <label commandName="SelectionFilterBodyDesc" devLabel="Filters selection to bodies." translation="Фильтрует выбор для отображения сплошных тел."/>
+    <label commandName="SelectionFilterComponentDesc" devLabel="Filters selection to components." translation="Фильтрует выбор для отображения компонентов."/>
+    <label commandName="SelectionFilterFaceEdgeVertexDesc" devLabel="Filters selections to faces, edges or vertices." translation="Фильтрует выбранные объекты для отображения граней, ребер или вершин."/>
+    <label commandName="SelectionIndicator1" devLabel="Selection Indicator" translation="Индикатор выбора"/>
+    <label commandName="SelectionIndicator2" devLabel="Selection Indicator" translation="Индикатор выбора"/>
+    <label commandName="SelectionInput1" devLabel="Select 1" translation="Выберите 1"/>
+    <label commandName="SelectionInput2" devLabel="Select 2" translation="Выберите 2"/>
+    <label commandName="SelectionInput3" devLabel="Select 3" translation="Выберите 3"/>
+    <label commandName="SelectionTypesInput" devLabel="Selection Filter" translation="Фильтр выбора"/>
+    <label commandName="SeparatorInput" devLabel="Separator" translation="Разделитель"/>
+    <label commandName="ShowAffectedFacesCommand" devLabel="Show Affected Faces" translation="Показать поверхности, затронутые операцией"/>
+    <label commandName="ShowAllBodiesCmd" devLabel="Show All Bodies" translation="Показать все тела"/>
+    <label commandName="ShowAllComponentsCmd" devLabel="Show All Components" translation="Показать все компоненты"/>
+    <label commandName="ShowAllComponentsCmdDesc1" devLabel="Turns on the visibility of selected components, including child components." translation="Обеспечивает видимость выбранных компонентов, включая производные компоненты."/>
+    <label commandName="ShowAllGroupMembersCmd" devLabel="Show All" translation="Показать всё"/>
+    <label commandName="ShowSnapPoints" devLabel="Show Snap Points" translation="Показать точки привязки"/>
+    <label commandName="SnapPointSelectedCmdInput" devLabel="SnapPointSelectedCmdInput" translation="Ввод команды выбранной точки привязки"/>
+    <label commandName="Stop Reorient" devLabel="Done" translation="Выполнено"/>
+    <label commandName="SuppressAppearanceCmd" devLabel="Suppress Appearance Overrides" translation="Отключить переопределение внешнего вида"/>
+    <label commandName="SurfTrimBlankAreaHint" devLabel="Select surfaces to remove" translation="Укажите поверхности, которые необходимо удалить"/>
+    <label commandName="SurfTrimCutToolSelectHint" devLabel="Select a trimming tool" translation="Выберите инструмент обрезки"/>
+    <label commandName="TRBodyRestructureWarning" devLabel="If you move the following bodies, some assembly relationships will break: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Continue moving the bodies anyway? " translation="Если вы переместите следующие тела, некоторые зависимости сборки будут нарушены: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Должен ли я продолжать перемещать твердые тела в любом случае?"/>
+    <label commandName="TogggleSelectiveJournaling" devLabel="Toggle selective journaling." translation="Переключить выборочную сортировку."/>
+    <label commandName="Toggle Occuence" devLabel="Toggle to suppress/unsuppress the occurrence" translation="Переключите, чтобы отключить/включить экземпляр"/>
+    <label commandName="UpdateSelectionGroupCmd" devLabel="Update Selection Set" translation="Обновить набор выбора"/>
+    <label commandName="UpdateSelectionGroupWarning" devLabel="Warning: Nothing selected. Select entities first to update this Selection Set" translation="Внимание: ничего не выбрано. Сначала выберите элементы, чтобы обновить этот набор выбора."/>
+    <label commandName="VSCodeDownloadMsg" devLabel="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;" translation="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;"/>
+    <label commandName="VSCodeDownloadMsgBoxCancelButton" devLabel="Cancel" translation="Отмена"/>
+    <label commandName="VSCodeDownloadMsgBoxTitle" devLabel="Download Visual Studio Code" translation="Скачать код Visual Studio"/>
+    <label commandName="VSCodeDownloadMsgBoxWebsiteButton" devLabel="Open VS Code website" translation="Откройте веб-сайт VS Code."/>
+    <label commandName="ViewCommentCmd" devLabel="ViewComment" translation="Посмотреть комментарий"/>
+    <label commandName="WarnTRBodyRestructuringTitle" devLabel="Assembly relationship will break" translation="Зависимость команды будет нарушена"/>
+    <label commandName="flipTooltip" devLabel="Flips the minimum and maximum motion limits." translation="Инвертирует минимальное и максимальное ограничения движения."/>
+    <label commandName="infoPOPAlongPathDirectionDesc" devLabel="Orients each pattern instance relative to its position along the path." translation="Ориентирует каждое вхождение шаблона относительно его положения на пути."/>
+    <label commandName="infoPOPIdenticalDesc" devLabel="Orients all pattern instances to match the source object." translation="Ориентирует все экземпляры массива в соответствии с исходным объектом."/>
+    <label commandName="infoPOPOneDirectionDesc" devLabel="Distributes pattern instances in one direction from the source object along the path." translation="Упорядочивает экземпляры массива в одном направлении от исходного объекта по пути."/>
+    <label commandName="infoPOPSymmetricDesc" devLabel="Distributes pattern instances symmetrically in two directions from the source object along the path." translation="Упорядочивает экземпляры массива симметрично в двух направлениях от исходного объекта по пути."/>
+    <label commandName="lclzCopyCommandText" devLabel="CopyCommand" translation="Копировать команду"/>
+    <label commandName="lclzPasteCommandText" devLabel="PasteCommand" translation="Вставить команду"/>
+    <label commandName="lclzVisibilityToggleCmdText" devLabel="Show/Hide" translation="Показать."/>
+    <label commandName="maxTooltip" devLabel="Specify the maximum motion limit for the joint." translation="Укажите максимальный лимит движения для соединения."/>
+    <label commandName="minTooltip" devLabel="Specify the minimum  motion limit for the joint." translation="Укажите минимальный лимит движения для подключения."/>
+    <label commandName="restTooltip" devLabel="Specify the default position of the joint at rest." translation="Укажите положение соединения по умолчанию в состоянии покоя."/>
+    <label commandName="selected" devLabel="selected" translation="Выбрано"/>
+    <label commandName="CommmentsMissedSetupHeader2_ccy" devLabel="The setup associated with this comment has been removed since the comment was posted. Open change " translation="Настройка, связанная с этим комментарием, была удалена после его публикации. Открыть изменение" />
+    <label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из удаленного контекста сборки" />
+    <label commandName="DeltaTypeComponent1Desc" devLabel="Component 1 Coordinate System&#10;Displays the XYZ measurements aligned to&#10;the Component 1 Coordinate System." translation="Система координат компонента 1&#10;Отображает измерения XYZ, выровненные по&#10;системе координат компонента 1." />
+    <label commandName="DeltaTypeComponent2Desc" devLabel="Component 2 Coordinate System&#10;Displays the XYZ measurements aligned to&#10;the Component 2 Coordinate System." translation="Система координат компонента 2&#10;Отображает измерения XYZ, выровненные по&#10;системе координат компонента 2." />
+    <label commandName="DeltaTypeGlobalDesc" devLabel="Global Coordinate System&#10;Displays the XYZ measurements aligned to&#10;the root component." translation="Глобальная система координат&#10;Отображает измерения XYZ, выровненные по&#10;корневому компоненту." />
+    <label commandName="DeltaTypeOffDesc" devLabel="None&#10;Hide XYZ measurements" translation="Нет&#10;Скрыть измерения XYZ" />
+    <label commandName="FullAngleInput" devLabel="Full Angle" translation="Полный угол" />
+    <label commandName="LockJOOrientationLinux1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Выберите точку привязки для размещения начала соединения. (удерживайте CTRL для фиксации привязок)" />
+    <label commandName="MeasureCommandSecondaryUnitCursorPrompt" devLabel="Displays the measurement with secondary&#10;units in parentheses." translation="Отображает измерение со&#10;вторичными единицами в скобках." />
+    <label commandName="SelectableUnselectableDescription" devLabel="&lt;br&gt;&lt;br&gt;Enables or disables selection of these objects in the canvas" translation="&lt;br&gt;&lt;br&gt;Включает или отключает выбор этих объектов на холсте" />
+    <label commandName="SelectableUnselectableFirstLine" devLabel="&lt;b&gt;Selectable/Unselectable&lt;/b&gt;" translation="&lt;b&gt;Выбираемый/Невыбираемый&lt;/b&gt;" />
+</Resource>

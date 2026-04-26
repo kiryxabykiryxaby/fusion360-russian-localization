@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Body" devLabel="Body" translation="" />
+	<label commandName="ConversionFailed" devLabel="Conversion failed" translation="" />
+	<label commandName="CreateComponentsFromMeshBodiesFeatureMissing" devLabel="Editing Feature for CreateComponentsFromBodies is missing." translation="" />
+	<label commandName="CreateComponentsFromMeshBodiesMeshMissing" devLabel="Mesh Body for CreateComponentsFromBodies is missing." translation="" />
+	<label commandName="DeriveEntitiesCreateComponentsFromMeshBodiesIsNotSupported" devLabel="This operation is not supported for Derived entities, they will not participate in the operation." translation="" />
+	<label commandName="Face Group" devLabel="Face Group" translation="" />
+	<label commandName="Faces" devLabel="Faces" translation="" />
+	<label commandName="FailedDefectInspection" devLabel="Mesh defect inspection failed." translation="" />
+	<label commandName="FailedParaMeshBoolean" devLabel="Cannot combine mesh bodies. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="" />
+	<label commandName="FailedParaMeshDelete" devLabel="Cannot delete mesh body." translation="" />
+	<label commandName="FailedParaMeshExportOperation" devLabel="Cannot export mesh body. Select a different export format or save the file to a different location." translation="" />
+	<label commandName="FailedParaMeshFaceGroup" devLabel="Cannot generate face groups for mesh body." translation="" />
+	<label commandName="FailedParaMeshFaceGroupDelete" devLabel="Mesh body delete face groups command failed" translation="" />
+	<label commandName="FailedParaMeshFacetsDelete" devLabel="Mesh body delete faces command failed" translation="" />
+	<label commandName="FailedParaMeshHollow" devLabel="Cannot shell mesh body. Adjust thickness or use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="" />
+	<label commandName="FailedParaMeshLattice" devLabel="Cannot lattice mesh body." translation="" />
+	<label commandName="FailedParaMeshLatticeCmd" devLabel="Cannot lattice mesh body." translation="" />
+	<label commandName="FailedParaMeshMerge" devLabel="Cannot combine mesh bodies with the Merge operation." translation="" />
+	<label commandName="FailedParaMeshMergeFaceGroups" devLabel="Cannot combine face groups on mesh body. Use Generate Face Groups to regenerate a starting set of face groups." translation="" />
+	<label commandName="FailedParaMeshMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="" />
+	<label commandName="FailedParaMeshOperation" devLabel="Mesh interface operation failed." translation="" />
+	<label commandName="FailedParaMeshOperationAssetAdapterMissing" devLabel="No Asset or AssetAdapter available. Save the design and restart." translation="" />
+	<label commandName="FailedParaMeshOperationCreate" devLabel="Cannot insert mesh body. The source file may be damaged." translation="" />
+	<label commandName="FailedParaMeshOperationExtract" devLabel="Cannot separate regions of mesh body." translation="" />
+	<label commandName="FailedParaMeshPlaneCut" devLabel="Cannot complete plane cut of mesh body. Use Repair or Direct Edit to ensure mesh body does not intersect itself." translation="" />
+	<label commandName="FailedParaMeshRangeCheck" devLabel="Parameter value is out of bounds" translation="" />
+	<label commandName="FailedParaMeshReduce" devLabel="Cannot reduce mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="" />
+	<label commandName="FailedParaMeshRemesh" devLabel="Cannot remesh mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="" />
+	<label commandName="FailedParaMeshRemeshSeperateRegions" devLabel="Cannot remesh mesh body or face groups. Input selection of triangles may be disjoint, e.g. subareas of the selection not sharing an edge. Adjusting and sanitizing the input selection can help." translation="" />
+	<label commandName="FailedParaMeshRemove" devLabel="Cannot remove mesh body." translation="" />
+	<label commandName="FailedParaMeshRemoveFeature" devLabel="Cannot remove mesh body. Target mesh body does not exist." translation="" />
+	<label commandName="FailedParaMeshRepair" devLabel="Cannot repair mesh body. Try a different repair type." translation="" />
+	<label commandName="FailedParaMeshScaling" devLabel="Cannot scale mesh body. Adjust scale factor or X/Y/Z scale." translation="" />
+	<label commandName="FailedParaMeshSmooth" devLabel="Cannot smooth mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="" />
+	<label commandName="FailedParaMeshTessellate" devLabel="Cannot tessellate solid or surface body to create mesh body." translation="" />
+	<label commandName="FailedParaMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="" />
+	<label commandName="FailedParaMeshToQuadMesh" devLabel="Cannot convert mesh body to quad mesh." translation="" />
+	<label commandName="FailedParaMeshToTSpline" devLabel="Cannot convert mesh body to T-Spline body." translation="" />
+	<label commandName="FeatureBodyComp" devLabel="Body-&gt;Comp" translation="" />
+	<label commandName="FeatureCalculateFaceGroups" devLabel="GenerateFaceGroups" translation="" />
+	<label commandName="FeatureCopyPasteMeshes" devLabel="CopyPasteMeshes" translation="" />
+	<label commandName="FeatureCreateMesh" devLabel="CreateMesh" translation="" />
+	<label commandName="FeatureCutPasteMeshes" devLabel="CutPasteMeshes" translation="" />
+	<label commandName="FeatureMergeFaceGroups" devLabel="CombineFaceGroups" translation="" />
+	<label commandName="FeatureMesh" devLabel="Base Mesh Feature" translation="" />
+	<label commandName="FeatureMeshCombine" devLabel="MeshCombine" translation="" />
+	<label commandName="FeatureMeshExtract" devLabel="MeshSeparate" translation="" />
+	<label commandName="FeatureMeshHollow" devLabel="MeshShell" translation="" />
+	<label commandName="FeatureMeshPlaneCut" devLabel="MeshPlaneCut" translation="" />
+	<label commandName="FeatureMeshReduce" devLabel="MeshReduce" translation="" />
+	<label commandName="FeatureMeshRemesh" devLabel="MeshRemesh" translation="" />
+	<label commandName="FeatureMeshRemove" devLabel="MeshRemove" translation="" />
+	<label commandName="FeatureMeshRepair" devLabel="MeshRepair" translation="" />
+	<label commandName="FeatureMeshReverseNormals" devLabel="MeshReverseNormals" translation="" />
+	<label commandName="FeatureMeshScale" devLabel="Scale" translation="" />
+	<label commandName="FeatureMeshSection" devLabel="MeshSection" translation="" />
+	<label commandName="FeatureMeshSmooth" devLabel="MeshSmooth" translation="" />
+	<label commandName="FeatureMeshTessellate" devLabel="MeshTessellate" translation="" />
+	<label commandName="FeatureMeshToBREP" devLabel="Convert Mesh" translation="" />
+	<label commandName="FeatureMeshToQuadMesh" devLabel="MeshToQuadMesh" translation="" />
+	<label commandName="FeatureModify" devLabel="Modify" translation="" />
+	<label commandName="FreeForm" devLabel="Free Form" translation="" />
+	<label commandName="General" devLabel="General" translation="" />
+	<label commandName="ImportFailed" devLabel="Import failed" translation="" />
+	<label commandName="MESH_SELECTION_OPTION_GROUP" devLabel="Modify Selection" translation="" />
+	<label commandName="MESH_TARGET_BODY_REFERENCE_LOST" devLabel="Lost target body. Edit feature to reselect target body." translation="" />
+	<label commandName="MESH_TOOLBODY_REFERENCE_LOST" devLabel="Lost tool body. Edit feature to reselect tool body." translation="" />
+	<label commandName="MeshConversionNotCompleteWarning" devLabel="Not all facegroups of the mesh body could be converted. The generated solid or surface body is not complete. Try a different method for conversion or adjust the face groups to correspond better to geometric features of the mesh." translation="" />
+	<label commandName="MeshDirectEditFailedMultiComponent" devLabel="Cannot directly edit mesh bodies in different components. Edit mesh bodies separately or move them into the same component." translation="" />
+	<label commandName="MeshGenericReformError" devLabel="Mesh to T-Spline operation failed." translation="" />
+	<label commandName="MeshGenericTSplineError" devLabel="T-Spline operation failed." translation="" />
+	<label commandName="MeshNoParent" devLabel="Missing parent of mesh body. Try pasting mesh body again." translation="" />
+	<label commandName="MeshNoTimelineParent" devLabel="Parent of mesh body missing from timeline. Try pasting mesh body again." translation="" />
+	<label commandName="MeshOperationCanceled" devLabel="Mesh operation canceled" translation="" />
+	<label commandName="MeshOutOfBoundsConvertFaceNumber" devLabel="Face Number value is out of range. The valid range is from %1% to %2%" translation="" />
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpOpeningAngle" devLabel="Angle threshold is out of range. The valid range is from %1% deg to %2% deg" translation="" />
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegTol" devLabel="Boundary tolerance is out of range. The valid range is from %1% cm to %2% cm" translation="" />
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegmentArea" devLabel="Minimum Face Group Size is out of range. The valid range is from %1% to %2%" translation="" />
+	<label commandName="MeshOutOfBoundsHollowInsideThickness" devLabel="Thickness is too small. The minimum value is %1% cm" translation="" />
+	<label commandName="MeshOutOfBoundsTessellateAspectRatio" devLabel="Aspect ratio is out of range. The valid range is from %1% to %2%" translation="" />
+	<label commandName="MeshOutOfBoundsTessellateNormalTol" devLabel="Normal deviation is out of range. The valid range is from %1% to %2%" translation="" />
+	<label commandName="MeshPointsSelectionId" devLabel="Mesh Points" translation="" />
+	<label commandName="MeshScaleGenericError" devLabel="Cannot scale mesh body. Adjust scale settings or selection set." translation="" />
+	<label commandName="MeshToolProps" devLabel="Mesh Selection Tool" translation="" />
+	<label commandName="MeshUnknownASMError" devLabel="Modeling operation failed." translation="" />
+	<label commandName="MeshUnknownError" devLabel="Mesh modeling operation failed." translation="" />
+	<label commandName="MeshWarningHollowShellCount" devLabel="The triangle count did not change. Try adjusting the thickness value." translation="" />
+	<label commandName="MigrationFailedDocumentHasNoSegment" devLabel="Document has no Segment" translation="" />
+	<label commandName="MigrationFailedNoParaMeshWasAdopted" devLabel="No ParaMesh was adopted" translation="" />
+	<label commandName="MigrationFailedObjectPathHasNotMeshBody" devLabel="ObjectPath has not MeshBody" translation="" />
+	<label commandName="NamePostfixParametric" devLabel=" (Parametric)" translation="" />
+	<label commandName="PARAMESH_SELECTOR_BRUSH_SIZE" devLabel="Brush Size" translation="" />
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOCONNECTED_MESH_SEL_ACTION" devLabel="Expand to Connected" translation="" />
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOGROUP_MESH_SEL_ACTION" devLabel="Expand to Face Group" translation="" />
+	<label commandName="PARAMESH_SELECTOR_GROW_MESH_SEL" devLabel="Grow" translation="" />
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_EXPAND" devLabel="Expand" translation="" />
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_GROW" devLabel="Grow/Shrink" translation="" />
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL" devLabel="Invert" translation="" />
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL_ACTION" devLabel="Invert Selection" translation="" />
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_BODIES" devLabel="Selected Mesh Bodies" translation="" />
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_FACE_GROUPS" devLabel="Selected Face Groups" translation="" />
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_TRIANGLES" devLabel="Selected Faces" translation="" />
+	<label commandName="PARAMESH_SELECTOR_SHRINK_MESH_SEL" devLabel="Shrink" translation="" />
+	<label commandName="Paint" devLabel="Paint" translation="" />
+	<label commandName="ParaMeshBodyDefaultUserName" devLabel="MeshBody" translation="" />
+	<label commandName="ParaMeshBodySelectionCategory" devLabel="Mesh Bodies" translation="" />
+	<label commandName="ParaMeshCalculateFaceGroupsBoundaryTolerance" devLabel="Boundary Tolerance" translation="" />
+	<label commandName="ParaMeshCalculateFaceGroupsMinimumEdgeLength" devLabel="Minimum Face Group Size" translation="" />
+	<label commandName="ParaMeshCalculateFaceGroupsOpeningAngle" devLabel="Angle Threshold" translation="" />
+	<label commandName="ParaMeshEditMeshNamePostfix" devLabel="_Edited" translation="" />
+	<label commandName="ParaMeshFaceGroupSelectionCategory" devLabel="Mesh Face Groups" translation="" />
+	<label commandName="ParaMeshFaceGroupSelectionId" devLabel="Face Group" translation="" />
+	<label commandName="ParaMeshFaceGroupSelectionsId" devLabel="Face Groups" translation="" />
+	<label commandName="ParaMeshFaceSelectionId" devLabel="Mesh Faces" translation="" />
+	<label commandName="ParaMeshFaceSelectionsId" devLabel="Mesh Faces" translation="" />
+	<label commandName="ParaMeshFacetSelectionCategory" devLabel="Mesh Faces" translation="" />
+	<label commandName="ParaMeshFeatureSelectionId" devLabel="ParaMesh Feature" translation="" />
+	<label commandName="ParaMeshFeatureSelectionIds" devLabel="ParaMesh Features" translation="" />
+	<label commandName="ParaMeshGridAspectRatio" devLabel="Aspect Ratio" translation="" />
+	<label commandName="ParaMeshMaxEdgeLength" devLabel="Maximum Edge Length" translation="" />
+	<label commandName="ParaMeshNormalTolerance" devLabel="Normal Deviation" translation="" />
+	<label commandName="ParaMeshPointSelectionCategory" devLabel="Mesh Points" translation="" />
+	<label commandName="ParaMeshPointSelectionId" devLabel="Mesh Point" translation="" />
+	<label commandName="ParaMeshReduceFaceCount" devLabel="Face Count" translation="" />
+	<label commandName="ParaMeshReduceProportion" devLabel="Proportion" translation="" />
+	<label commandName="ParaMeshReduceTolerance" devLabel="Tolerance" translation="" />
+	<label commandName="ParaMeshRemeshDensity" devLabel="Density" translation="" />
+	<label commandName="ParaMeshRemeshpShapePreservation" devLabel="Shape Preservation" translation="" />
+	<label commandName="ParaMeshScaleFactorMissing" devLabel="Missing scal-factor for scaling. Edit feature and define scaling factor." translation="" />
+	<label commandName="ParaMeshScaleReferenceMissing" devLabel="Missing reference point for scaling. Edit feature and reselect reference point." translation="" />
+	<label commandName="ParaMeshSelectionId" devLabel="Mesh Body" translation="" />
+	<label commandName="ParaMeshSelectionsId" devLabel="Mesh Bodies" translation="" />
+	<label commandName="ParaMeshSmoothness" devLabel="Smoothness" translation="" />
+	<label commandName="ParaMeshSourceBodyNotFound" devLabel="Cannot find mesh body source. Edit feature to reselect mesh body." translation="" />
+	<label commandName="ParaMeshSurfaceTolerance" devLabel="Surface Deviation" translation="" />
+	<label commandName="ParameshFeatureSelectionCategory" devLabel="Mesh Points" translation="" />
+	<label commandName="SelectBackFacets" devLabel="Select Back Faces" translation="" />
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="" />
+	<label commandName="Selectionmode" devLabel="Selection Type" translation="" />
+	<label commandName="TargetSketchNotFound" devLabel="Missing mesh section sketch. Delete Mesh Section feature from timeline and recreate it." translation="" />
+	<label commandName="Window" devLabel="Window" translation="" />
+</Resource>

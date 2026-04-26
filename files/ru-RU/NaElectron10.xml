@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="BrowseButton" devLabel="Browse" translation="" />
+	<label commandName="ChooseLbrRcDialog" devLabel="Choose &quot;libraries.rc&quot; file..." translation="" />
+	<label commandName="CloseUnsavedFile" devLabel="Close File" translation="" />
+	<label commandName="CopyToDesktopCmdCaption" devLabel="Export Archive" translation="" />
+	<label commandName="DefaultLibraryName" devLabel="Library" translation="" />
+	<label commandName="DefaultPCBName" devLabel="PCB" translation="" />
+	<label commandName="DefaultSchematicName" devLabel="Schematic" translation="" />
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="" />
+	<label commandName="ElectronDocumentTypeNameBrd" devLabel="The board file" translation="" />
+	<label commandName="ElectronDocumentTypeNameDefault" devLabel="The file" translation="" />
+	<label commandName="ElectronDocumentTypeNameLbr" devLabel="The library file" translation="" />
+	<label commandName="ElectronDocumentTypeNameSch" devLabel="The schematic file" translation="" />
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="" />
+	<label commandName="ElectronFileExportFailurePrompt1" devLabel=" has errors and cannot be exported. Save the file before exporting." translation="" />
+	<label commandName="ElectronFileLoadFailureExportMsg" devLabel="Click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="" />
+	<label commandName="ElectronFileLoadFailurePrompt" devLabel=" has errors and cannot be opened." translation="" />
+	<label commandName="ElectronFileLoadWarningExportMsg" devLabel="Click OK to open the file with warnings or click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="" />
+	<label commandName="ElectronFileLoadWarningPrompt" devLabel=" has errors and will be opened with warnings." translation="" />
+	<label commandName="ElectronFileSaveFailureExportMsg" devLabel="Do one of the following:&lt;ul&gt;&lt;li&gt;Select Close File to discard changes and revert to the last saved version.&lt;/li&gt;&lt;li&gt;Click Cancel to continue working on the file to resolve the errors.&lt;/li&gt;&lt;li&gt;Select Export &amp; Close File to save a copy of the file with the latest unsaved changes and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" translation="" />
+	<label commandName="ElectronFileSaveFailureMode1" devLabel=" could not be autosaved." translation="" />
+	<label commandName="ElectronFileSaveFailureMode2" devLabel=" cannot be saved." translation="" />
+	<label commandName="ElectronFileSaveFailurePrompt1" devLabel=" has errors and" translation="" />
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="" />
+	<label commandName="ElectronLoadFailureStatus1" devLabel="Attempt to load the design file failed due to potential corruption.&lt;br/&gt;" translation="" />
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="" />
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="" />
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="" />
+	<label commandName="ElectronSaveFailureArticleMessage" devLabel="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Learn how to fix potential data corruption issues&lt;/a&gt;" translation="" />
+	<label commandName="ElectronSaveFailureStatus2" devLabel=" has errors and cannot be saved.&lt;br/&gt;" translation="" />
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="" />
+	<label commandName="ElectronicsDesignDefaultName" devLabel="Electronics Design" translation="" />
+	<label commandName="ExportUnloadedFile" devLabel="Export" translation="" />
+	<label commandName="ExportUnsavedFiles" devLabel="Export &amp;&amp; Close File" translation="" />
+	<label commandName="FolderIsNotAccessible" devLabel="The selected folder: &quot;%1%&quot; is not accessible." translation="" />
+	<label commandName="ImportEagleLibrariesClick" devLabel="Click here" translation="" />
+	<label commandName="ImportEagleLibrariesDialogCheckbox" devLabel="Import default EAGLE libraries (only imports In Use libraries)" translation="" />
+	<label commandName="ImportEagleLibrariesDialogDescription1" devLabel="Would you like to import your EAGLE libraries to use inside Fusion Electronics?&#10;&#10;Select a libraries.rc file from a previous version of EAGLE" translation="" />
+	<label commandName="ImportEagleLibrariesDialogDescription2" devLabel="Click cancel if you don't want to use the EAGLE library importer." translation="" />
+	<label commandName="ImportEagleLibrariesDialogTitle" devLabel="EAGLE Library Importer" translation="" />
+	<label commandName="ImportEagleLibrariesTitle" devLabel="Import your EAGLE libraries to use inside of Fusion Electronics" translation="" />
+	<label commandName="ImporterAlreadyExecuted" devLabel="EAGLE libraries importer has already been executed." translation="" />
+	<label commandName="ImporterDetailsText" devLabel="Some errors occurred while importing EAGLE libraries into Fusion" translation="" />
+	<label commandName="ImporterDetailsTitle" devLabel="EAGLE Libraries importer errors" translation="" />
+	<label commandName="ImporterResultsHeading" devLabel="Libraries imported successfully" translation="" />
+	<label commandName="ImporterResultsHeading2" devLabel="Failed to import EAGLE libraries" translation="" />
+	<label commandName="ImporterResultsLink" devLabel="More Info" translation="" />
+	<label commandName="ImporterResultsMessage" devLabel="The EAGLE libraries have been successfully imported to use inside Fusion Electronics.&#10;They are available to use from the Library Manager when building Electronics Designs." translation="" />
+	<label commandName="ImporterResultsMessage1" devLabel="&#10;Some issues occurred while importing EAGLE libraries." translation="" />
+	<label commandName="ImporterResultsMessage2" devLabel="The EAGLE libraries have not been imported into Fusion." translation="" />
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="" />
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+</Resource>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="RetryButton" devLabel="Retry" translation="" />
+	<label commandName="ScriptAuthorUnknown" devLabel="Unknown" translation="" />
+	<label commandName="ScriptFutureLoadWarning" devLabel="In the next major Fusion update, you will need to install a new version of the Add-In: '%1%' from '%2%' due to some internal changes being made to the Fusion API." translation="" />
+	<label commandName="ScriptFutureLoadWarningLearnMore" devLabel="Learn More" translation="" />
+	<label commandName="ScriptFutureLoadWarningTitle" devLabel="API Warning!" translation="" />
+	<label commandName="ScriptLoadError" devLabel="Due to some internal changes made to the Fusion API, the Add-In: '%1%' from '%2%' cannot be loaded. You need to install a new version of the Add-In that is compatible with this version of Fusion." translation="" />
+	<label commandName="ScriptLoadErrorLearnMore" devLabel="Learn More" translation="" />
+	<label commandName="ScriptLoadErrorTitle" devLabel="API Error!" translation="" />
+	<label commandName="WorkspaceSuffix" devLabel="Workspace" translation="" />
+</Resource>

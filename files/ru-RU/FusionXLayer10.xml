@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AppStoreAddInDownloadError" devLabel="Failed to download the add-in from app store" translation="" />
+	<label commandName="AppStoreAddInInstallUnknownError" devLabel="Unknown error occurred. Failed to install the add-in!" translation="" />
+	<label commandName="AppStoreAddInRunTimeError" devLabel="Failed to run the add-in after download" translation="" />
+	<label commandName="AppearanceInheritToolTip_1" devLabel="Inherits the Appearance from the Physical Material assigned to this object.&#10;&#10;If the Physical Material changes, this Appearance updates to match." translation="" />
+	<label commandName="AppearanceInheritToolTip_2" devLabel="Inherits the Appearance override from the parent component that contains this object.&#10;&#10;If the Appearance of the parent component changes, this Appearance updates to match." translation="" />
+	<label commandName="AppearanceRootToolTip" devLabel="Current default Appearance override for &#10;" translation="" />
+	<label commandName="FromParentMaterial" devLabel="From Parent" translation="" />
+	<label commandName="FromPhysicalMaterial" devLabel="From Physical Material" translation="" />
+	<label commandName="InheritedMaterialSuffix" devLabel=" (Inherited)" translation="" />
+	<label commandName="PhysicalMaterialInheritToolTip_1" devLabel="Inherits the Physical Material from the parent component that contains this object." translation="" />
+	<label commandName="PhysicalMaterialInheritToolTip_2" devLabel="If the Physical Material of the parent component changes, this updates to match." translation="" />
+	<label commandName="PhysicalMaterialRootToolTip" devLabel="Current default Physical Material for &#10;" translation="" />
+	<label commandName="keyAppearanceTableName" devLabel="Appearance Themes" translation="" />
+	<label commandName="keyChildTableName" devLabel="Theme Table" translation="" />
+	<label commandName="keyPhysicalMaterialTableName" devLabel="Physical Material Themes" translation="" />
+	<label commandName="keyPlasticRuleTableName" devLabel="Plastic Rule Themes" translation="" />
+	<label commandName="keyPrimaryTableName" devLabel="Configurations" translation="" />
+	<label commandName="keySheetMetalRuleTableName" devLabel="Sheet Metal Rule Themes" translation="" />
+	<label commandName="lclzInsertingDistributedDesignNotSupported" devLabel="Inserting a distributed design from another project is not currently supported." translation="" />
+</Resource>

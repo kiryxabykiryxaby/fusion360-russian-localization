@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="RoundedOffset" devLabel="Rounded Offset" translation="Скругленное смещение" />
+    <label commandName="RoundedOffsetToolTip" devLabel="Creates rounded offset corners." translation="Создает скругленные углы смещения." />
+    <label commandName="SharpOffset" devLabel="Sharp Offset" translation="Острое смещение" />
+    <label commandName="SharpOffsetToolTip" devLabel="Creates sharp offset corners." translation="Создает острые углы смещения." />
+    <label commandName="BasicType" devLabel="Basic" translation="Базовый"/>
+    <label commandName="BasicTypeTooltip" devLabel="Basic = Geometry checks, Standard = Basic + Face/Face and Edge/Edge intersecton tests." translation="Базовый = проверка геометрии, стандартный = базовый + тесты пересечения между поверхностями и между кромками."/>
+    <label commandName="BooleanTypeOperation" devLabel="Operation" translation="Операция"/>
+    <label commandName="Boundary" devLabel="Boundary %1%" translation="Граница %1%"/>
+    <label commandName="Chain" devLabel="Chain" translation="Цепь"/>
+    <label commandName="ChainSelCmdInput" devLabel="BoundarySelectionType" translation="Тип выбора граници"/>
+    <label commandName="ChainSelectionOptionInput" devLabel="Chain Selection" translation="Выбор цепочки"/>
+    <label commandName="CheckingLevel" devLabel="Checking Level" translation="Проверка уровня"/>
+    <label commandName="ConnectivityTypeConnected" devLabel="Connected (G0)" translation="Соеденение (G0)"/>
+    <label commandName="ConnectivityTypeCurvature" devLabel="Curvature (G2)" translation="Кривизна (G2)"/>
+    <label commandName="ConnectivityTypeTangent" devLabel="Tangent (G1)" translation="Касательная (G1)"/>
+    <label commandName="CurveTable" devLabel="Curve %1%" translation="Кривая %1%"/>
+    <label commandName="CutType" devLabel="Cut" translation="Вырезать"/>
+    <label commandName="Edge" devLabel="Edge" translation="Кромка"/>
+    <label commandName="EdgeTable" devLabel="Edge %1%" translation="Кромка %1%"/>
+    <label commandName="FreeEdgesInput" devLabel="Free Edges" translation="Свободные края"/>
+    <label commandName="FusionDcMidSurfaceEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcReverseNormalEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceDeleteFaceEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceOffsetEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceOffsetShellEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceRuledEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceShellEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceTrimEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionDcSurfaceUntrimEditCommand" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionSurfaceDeleteFaces" devLabel="Delete Faces" translation="Удаление поверхностей"/>
+    <label commandName="FusionSurfaceEditMidsurfaceShell" devLabel="Edit Midsurface Shell" translation="Редактирование межповерхностной оболочки"/>
+    <label commandName="FusionSurfaceMerge" devLabel="Merge" translation="Объединить"/>
+    <label commandName="FusionSurfaceMidsurfaceShell" devLabel="Midsurface Shell" translation="Средняя поверхностная корка"/>
+    <label commandName="FusionSurfaceOffset" devLabel="Offset" translation="ОФсет"/>
+    <label commandName="FusionSurfaceOffsetShell" devLabel="Offset Shell" translation="ОФсет оболочки"/>
+    <label commandName="FusionSurfacePatch" devLabel="Patch" translation="Заплатка"/>
+    <label commandName="FusionSurfacePatchEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionSurfaceReverseNormal" devLabel="Reverse Normal" translation="Инвертировать нормаль"/>
+    <label commandName="FusionSurfaceRuled" devLabel="Ruled" translation="Линейная поверхность"/>
+    <label commandName="FusionSurfaceRuledSelectDirection" devLabel="Select a linear edge, plane or axis for direction" translation="Выберите ребро, плоскость или ось для направления."/>
+    <label commandName="FusionSurfaceSelectionTransparency" devLabel="Toggle Surface Body Transparency" translation="Переключить прозрачность поверхностного тела"/>
+    <label commandName="FusionSurfaceStitch" devLabel="Stitch" translation="Сшить"/>
+    <label commandName="FusionSurfaceStitchEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionSurfaceSurfaceShell" devLabel="Edit Surface Shell" translation="Редактирование оболочки поверхности"/>
+    <label commandName="FusionSurfaceTransparency" devLabel="Transparent Surfaces Toggle" translation="Переключить прозрачные поверхности"/>
+    <label commandName="FusionSurfaceTrim" devLabel="Trim" translation="Резать"/>
+    <label commandName="FusionSurfaceUnStitch" devLabel="Unstitch" translation="Удалить шов"/>
+    <label commandName="FusionSurfaceUnStitchEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionSurfaceUntrim" devLabel="Untrim" translation="Отменить обрезку"/>
+    <label commandName="FusionSurfaceValidate" devLabel="Validate" translation="Проверять"/>
+    <label commandName="FusionUntrimEdgeInputCursorPrompt" devLabel="Hold %1% to modify selection" translation="Удерживайте клавишу %1%, чтобы изменить выбор."/>
+    <label commandName="FusionUntrimEdgesInputCursorPrompt" devLabel="Select edges to untrim" translation="Выберите края, чтобы отменить обрезку"/>
+    <label commandName="FusionUntrimFaceInputCursorPrompt" devLabel="Select faces to untrim" translation="Выберите грани, чтобы отменить вырез."/>
+    <label commandName="GapToleranceInput" devLabel="Gap Healing" translation="Ремонт интервалов"/>
+    <label commandName="GapToleranceTooltip" devLabel="Maximim gap size to heal, must be 2X small edge/face removal size if this is enabled." translation="Максимальный размер зазора для ремонта. Если этот параметр включен, он должен быть в два раза больше размера удаления небольшого края/поверхности."/>
+    <label commandName="IntersectType" devLabel="Intersect" translation="Резать"/>
+    <label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Создаваемый объект не виден. Переключите видимость в браузере."/>
+    <label commandName="JoinType" devLabel="Join" translation="Соединить"/>
+    <label commandName="MaxGap" devLabel="Max Gap" translation="Макс. расстояние"/>
+    <label commandName="MergeSelectionPrompt" devLabel="Select faces" translation="Выберите поверхности"/>
+    <label commandName="MissingDeleteFaces" devLabel="missing faces" translation="отсутствие поверхности"/>
+    <label commandName="MissingMidsurfaceInputBodies" devLabel="missing bodies" translation="нет твердых частиц"/>
+    <label commandName="MissingOffsetFaces" devLabel="missing faces" translation="отсутствие поверхности"/>
+    <label commandName="MissingPatchBoundaries" devLabel="missing boundary paths" translation="отсутствует граница пути"/>
+    <label commandName="MissingPatchProfiles" devLabel="missing profiels" translation="нет профилей"/>
+    <label commandName="MissingRuledSurfaceEdges" devLabel="Missing edges" translation="отсутствуют края"/>
+    <label commandName="MissingRuledSurfaceRefDir" devLabel="Reselect missing direction reference" translation="Повторно выберите отсутствующую привязку направления"/>
+    <label commandName="MissingStitchSurfaces" devLabel="missing surfaces" translation="отсутствуют поверхности"/>
+    <label commandName="MissingSurfReverseFaces" devLabel="missing faces" translation="отсутствуют поверхности"/>
+    <label commandName="MissingSurfUntrimFaces" devLabel="Missing faces" translation="Нет поверхности"/>
+    <label commandName="MissingSurfaceShellInputBodies" devLabel="missing bodies" translation="нет тел"/>
+    <label commandName="MissingTrimTools" devLabel="missing trim tools" translation="нет инструментов обрезки"/>
+    <label commandName="MissingUnstitchObjects" devLabel="missing target bodies or faces" translation="нет целевых поверхностей или твердых тел"/>
+    <label commandName="MissingUntrimSurfaceEdges" devLabel="Missing edges" translation="Нет краев"/>
+    <label commandName="NewBodyInNewCompType" devLabel="New Component" translation="Новый компонент"/>
+    <label commandName="NewBodyType" devLabel="New Body" translation="Новое Тело"/>
+    <label commandName="NothingStitched" devLabel="Modeling Error: Nothing has stitched." translation="Ошибка моделирования: ничего не прошито."/>
+    <label commandName="OffsetChainSelectionInput" devLabel="Chain Selection" translation="Выбор цепочки"/>
+    <label commandName="PatchContinuity" devLabel="PatchContinuity%1%" translation="Непрерывность закрытия поверхности %1%"/>
+    <label commandName="PatchContinuityInput" devLabel="Continuity" translation="Непрерывность"/>
+    <label commandName="PatchContinuityOptionToolTip" devLabel="Continuity" translation="Непрерывность"/>
+    <label commandName="PatchFlipToolTip" devLabel="Continuity Direction" translation="Направление непрерывности"/>
+    <label commandName="PatchInteriorConstraintsSelectionPrompt" devLabel="Select edges, sketch curves or points to define patch interior constraints" translation="Выберите ребра, эскизные кривые или точки, чтобы определить внутренние ограничения заплатки поверхности."/>
+    <label commandName="PatchSelectionPrompt" devLabel="Select edges, sketch profiles or sketch curves to define patch boundary" translation="Выберите кромки, профили эскиза или кривые эскиза, чтобы определить границу заплатки поверхности."/>
+    <label commandName="PatchTable" devLabel="PatchTable" translation="Таблица исправлений"/>
+    <label commandName="PatchTableAdd" devLabel="Add" translation="Добавлять"/>
+    <label commandName="PatchTableRemvoe" devLabel="Remove" translation="Стереть"/>
+    <label commandName="PatchTableRowLabel" devLabel="Boundray" translation="Граница"/>
+    <label commandName="PatchTangentFlip" devLabel="PatchFlip%1%" translation="Перевернуть заплатку %1%"/>
+    <label commandName="PatchTangentFlipInput" devLabel="Flip" translation="Обеспечить регресс"/>
+    <label commandName="PatchTangentWeight" devLabel="PatchScale%1%" translation="Масштаб закрытия поверхности %1%"/>
+    <label commandName="PatchTangentWeightInput" devLabel="Scale" translation="Шкала"/>
+    <label commandName="PatchTangentWeightToolTip" devLabel="Weight" translation="Ширина"/>
+    <label commandName="PatchTypeBounded" devLabel="Bounded" translation="Ограниченное"/>
+    <label commandName="PatchTypeTrimmed" devLabel="Trimmed" translation="Обрезанный"/>
+    <label commandName="Profile" devLabel="Profile %1%" translation="Профиль %1%"/>
+    <label commandName="SelectStitchSurfaces" devLabel="Select Surfaces to Stitch" translation="Выберите поверхности, которые будут сшиваться."/>
+    <label commandName="SelectTrimToolProfile" devLabel="Select a trimming tool" translation="Выберите инструмент обрезки"/>
+    <label commandName="SelectValidateBodies" devLabel="Select Bodies to validate" translation="Выберите тела для проверки"/>
+    <label commandName="SelectionListControlCmdInput" devLabel="Edge Sets" translation="Наборы кромок"/>
+    <label commandName="SelectionListCtrlGroup" devLabel="Unstitched Edges" translation="Разделенные края"/>
+    <label commandName="ShellfromSurface" devLabel="Shell from Surface" translation="Корка с поверхности"/>
+    <label commandName="SimAutomaticSelectionEnabled" devLabel="Automatic" translation="Автоматически"/>
+    <label commandName="SimAutomaticSelectionSlider" devLabel="Size" translation="Размер"/>
+    <label commandName="SimNativeSurfaceCmdSelection" devLabel="Selection" translation="Выбор"/>
+    <label commandName="SimNativeSurfaceCmdThickness" devLabel="Thickness" translation="Толщина"/>
+    <label commandName="SimPreviewEnabledCheckbox" devLabel="Preview" translation="Предварительный просмотр"/>
+    <label commandName="SimThinShellDistanceGroup" devLabel="Maximum Face Pair Distance" translation="Максимальное расстояние пары поверхностей"/>
+    <label commandName="SimThinShellDistanceSlider" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="SimThinShellDistanceSliderEnabled" devLabel="Automatic Distance" translation="Автоматическое расстояние"/>
+    <label commandName="SimThinShellDistanceValue" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="SimThinShellOptionGroup" devLabel="Options" translation="Параметры"/>
+    <label commandName="SimThinShellPreview" devLabel="Preview" translation="Предпросмотр"/>
+    <label commandName="SimThinShellSmallFaceRemovalPerc" devLabel="Remove Small Faces (%)" translation="Удаление небольших участков (%)"/>
+    <label commandName="SimThinShellThicknessOverride" devLabel="Thickness" translation="Толщина"/>
+    <label commandName="SimThinShellThicknessOverrideEnabled" devLabel="Override Thickness" translation="Переопределить толщину"/>
+    <label commandName="SimThinShellThicknessReset" devLabel="Reset Thickness" translation="Сбросить толщину"/>
+    <label commandName="SmallEdgeFaceToleranceTooltip" devLabel="Maximim Face/Edge size to remove, will be skipped if the body has errors." translation="Максимальный размер удаляемой грани/края. Будет опущено, если тело содержит ошибки."/>
+    <label commandName="SmallEdgeFacesToleranceInput" devLabel="Small Edge/Face Removal" translation="Удаление небольшого края/поверхности"/>
+    <label commandName="StandardType" devLabel="Standard" translation="Стандартный"/>
+    <label commandName="StitchFreeEdge" devLabel="Free Edge" translation="Свободная кромка"/>
+    <label commandName="StitchResultsInput" devLabel="Stitch Result" translation="Результат сшивания"/>
+    <label commandName="StitchTolInput" devLabel="" translation=""/>
+    <label commandName="StitchToleranceInput" devLabel="Tolerance" translation="Допуск"/>
+    <label commandName="StitchedEdgesInput" devLabel="Edges to be Stitched" translation="Края, которые нужно сшить"/>
+    <label commandName="SufaceRefitToleranceInput" devLabel="Refit Bad Surfaces" translation="Ремонт аномальных поверхностей"/>
+    <label commandName="SurfTrimNotargetFaceToRem" devLabel="No Target Face selected to remove!" translation="Ни одна целевая поверхность не выбрана для удаления!"/>
+    <label commandName="SurfaceDeleteFacesInput" devLabel="Faces" translation="Поверхности"/>
+    <label commandName="SurfaceFaceStitchSetTolerance" devLabel="Set Max Gap as Stitch Tolerance" translation="Установите максимальное расстояние в качестве допуска сшивания."/>
+    <label commandName="SurfaceMergeChainSelectionInput" devLabel="Select Chain" translation="Выберите цепочку"/>
+    <label commandName="SurfaceMergeSelectionInput" devLabel="Selection" translation="Выбор"/>
+    <label commandName="SurfaceMidsurfaceBodiesInput" devLabel="Bodies" translation="Тела"/>
+    <label commandName="SurfaceOffsetDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="SurfaceOffsetFacesInput" devLabel="Faces / Surface Bodies" translation="Поверхности/поверхностные тела"/>
+    <label commandName="SurfaceOffsetThicknessInput" devLabel="Thickness" translation="Толщина"/>
+    <label commandName="SurfacePatchChainInput" devLabel="Boundary Edges" translation="Граничные края"/>
+    <label commandName="SurfacePatchChainSelectionInput" devLabel="Enable Chaining" translation="Включить цепочку"/>
+    <label commandName="SurfacePatchConnectivityInput" devLabel="Continuity" translation="Непрерывность"/>
+    <label commandName="SurfacePatchGroupInput" devLabel="Group Edges" translation="Групповые ребра"/>
+    <label commandName="SurfacePatchInteriorRailsAndPointsInput" devLabel="Interior Rails/Points" translation="Внутренние треки/точки"/>
+    <label commandName="SurfacePatchPatchType" devLabel="Patch Type" translation="Тип закрытия поверхности"/>
+    <label commandName="SurfaceRefitFaceToleranceTooltip" devLabel="Maximim distance between the repaired face and the original face." translation="Максимальное расстояние между отремонтированной поверхностью и исходной поверхностью."/>
+    <label commandName="SurfaceReverseNormalInput" devLabel="Faces" translation="Поверхности"/>
+    <label commandName="SurfaceRevolve" devLabel="Revolve" translation="Вращение"/>
+    <label commandName="SurfaceRuledAltFacesInput" devLabel="Alternate Faces" translation="Альтернативные поверхности"/>
+    <label commandName="SurfaceRuledAltFacesInputDesc" devLabel="Flips direction or angle when edges share more than one face." translation="Меняет направление или угол, если ребра имеют более одной общей грани."/>
+    <label commandName="SurfaceRuledAngleInput" devLabel="Angle" translation="Угол"/>
+    <label commandName="SurfaceRuledAngleInputDesc" devLabel="Specify rotation angle." translation="Укажите угол поворота."/>
+    <label commandName="SurfaceRuledChainInput" devLabel="Chain Selection" translation="Выбор цепи"/>
+    <label commandName="SurfaceRuledChainInputDesc" devLabel="Automatically select connected geometry." translation="Автоматический выбор связанной геометрии."/>
+    <label commandName="SurfaceRuledDirectionInput" devLabel="Direction" translation="Направление"/>
+    <label commandName="SurfaceRuledDirectionInputDesc" devLabel="Select a linear edge, plane, or axis." translation="Выберите линейное ребро, плоскость или ось."/>
+    <label commandName="SurfaceRuledDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="SurfaceRuledDistanceInputDesc" devLabel="Specify distance to extend." translation="Укажите расстояние расширения."/>
+    <label commandName="SurfaceRuledMitredCornersInput" devLabel="Mitered Corners" translation="Уголки из угловых соединений"/>
+    <label commandName="SurfaceRuledMitredCornersInputDesc" devLabel="Creates sharp corners instead of rounded corners." translation="Создает острые углы вместо закругленных."/>
+    <label commandName="SurfaceRuledProfileInput" devLabel="Edges" translation="Рёбра"/>
+    <label commandName="SurfaceRuledProfileInputDesc" devLabel="Select edges." translation="Выберите края."/>
+    <label commandName="SurfaceRuledTypeDirectionInput" devLabel="Direction" translation="Направление"/>
+    <label commandName="SurfaceRuledTypeDirectionInputDesc" devLabel="Creates a ruled surface in a direction that you select." translation="Создает перпендикулярную поверхность в выбранном направлении."/>
+    <label commandName="SurfaceRuledTypeInput" devLabel="Type" translation="Тип"/>
+    <label commandName="SurfaceRuledTypeNormalInput" devLabel="Normal" translation="Нормальный"/>
+    <label commandName="SurfaceRuledTypeNormalInputDesc" devLabel="Creates a ruled surface normal to the face of selected edges." translation="Создает перпендикулярную поверхность, нормальную к поверхностям выбранных ребер."/>
+    <label commandName="SurfaceRuledTypeTangentDesc" devLabel="Creates a ruled surface tangent to the face of selected edges." translation="Создает перпендикулярную поверхность, касательную к поверхностям выбранных ребер."/>
+    <label commandName="SurfaceRuledTypeTangentInput" devLabel="Tangent" translation="Касательные"/>
+    <label commandName="SurfaceShellThicknessTip" devLabel="The thickness direction is symmetric about the selected surface." translation="Направление толщины симметрично относительно выбранной поверхности."/>
+    <label commandName="SurfaceStitchChainInput" devLabel="Stitch Surfaces" translation="Сшить поверхности"/>
+    <label commandName="SurfaceStitchFindInWindow" devLabel="Find Edge in Window" translation="Найдите кромку в окне"/>
+    <label commandName="SurfaceSweep" devLabel="Sweep" translation="Провести"/>
+    <label commandName="SurfaceTrimChainInput" devLabel="Trim Tool" translation="Инструмент обрезки"/>
+    <label commandName="SurfaceTrimFaceSelInput" devLabel="FaceRemoveSel" translation="Выберите поверхность для удаления"/>
+    <label commandName="SurfaceUnStitchFacesInput" devLabel="Faces / Bodies" translation="Поверхности/Тела"/>
+    <label commandName="SurfaceUntrimEdgesInput" devLabel="Edges" translation="Края"/>
+    <label commandName="SurfaceUntrimExtensionInput" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="SurfaceUntrimExtensionInputDesc" devLabel="Specify distance to extend untrimmed surface." translation="Укажите расстояние удлинения неразрезанной поверхности."/>
+    <label commandName="SurfaceUntrimFacesInput" devLabel="Faces" translation="Поверхности"/>
+    <label commandName="SurfaceUntrimFacesInputDesc" devLabel="Select faces to untrim." translation="Выберите грани, чтобы отменить вырез."/>
+    <label commandName="SurfaceUntrimKeepCopyInput" devLabel="Keep Copy" translation="Сохранить копию"/>
+    <label commandName="SurfaceUntrimKeepCopyInputDesc" devLabel="Creates a copy of original trimmed surface." translation="Создает копию исходной поверхности выреза."/>
+    <label commandName="SurfaceUntrimTypeAllEdgesInput" devLabel="All Edges" translation="Все края"/>
+    <label commandName="SurfaceUntrimTypeAllEdgesInputDesc" devLabel="Untrims all internal and external edges of a surface." translation="Отменяет обрезку всех краев внутренних и внешних поверхностей."/>
+    <label commandName="SurfaceUntrimTypeExternalEdgesInput" devLabel="External Edges" translation="Внешние края"/>
+    <label commandName="SurfaceUntrimTypeExternalEdgesInputDesc" devLabel="Untrims external edges only." translation="Отменяет обрезку только внешних краев."/>
+    <label commandName="SurfaceUntrimTypeInput" devLabel="Type" translation="Тип"/>
+    <label commandName="SurfaceUntrimTypeInternalEdgesDesc" devLabel="Untrims internal edges only." translation="Отменяет обрезку только внутренних краев."/>
+    <label commandName="SurfaceUntrimTypeInternalEdgesInput" devLabel="Internal Edges" translation="Внутренние края"/>
+    <label commandName="SurfaceUntrimTypeManualInput" devLabel="Manual" translation="Вручную"/>
+    <label commandName="SurfaceValidateBodyInput" devLabel="Validate Bodies" translation="Проверка твердых веществ"/>
+    <label commandName="SurfaceValidateDefectiveNodeName" devLabel="Defective Surface" translation="Поврежденная поверхность"/>
+    <label commandName="SurfaceValidateEdgesRemovedCount" devLabel="Number of edges removed: %1%" translation="Количество удаленных ребер: %1%"/>
+    <label commandName="SurfaceValidateFacesRemovedCount" devLabel="Number of faces removed: %1%" translation="Количество удаленных поверхностей: %1%"/>
+    <label commandName="SurfaceValidateFixedCount" devLabel="Number of surfaces repaired: %1%" translation="Количество отремонтированных поверхностей: %1%"/>
+    <label commandName="SurfaceValidateIntersectNodeName" devLabel="Intersecting Surface" translation="Пересекающаяся поверхность"/>
+    <label commandName="SurfaceValidateIntersectingCount" devLabel="Number of intersecting or overlapping surfaces: %1%" translation="Количество пересекающихся или перекрывающихся поверхностей: %1%"/>
+    <label commandName="SurfaceValidateInvalidCount" devLabel="Number of invalid surfaces: %1%" translation="Количество недопустимых поверхностей: %1%"/>
+    <label commandName="SurfaceValidateNoIssue" devLabel="No issues were found" translation="Проблем не обнаружено"/>
+    <label commandName="SurfaceValidateSmallEdgeFaceRemovalSkipped" devLabel="Small Edge/Face Removal has been skipped." translation="Удаление небольшого края/поверхности пропущено."/>
+    <label commandName="SurfaceValidateSummary" devLabel="Validate Summary:" translation="Информация о проверке:"/>
+    <label commandName="SurfaceValidateUnstitchableCount" devLabel="Number of surfaces that cause stitching failure: %1%" translation="Количество поверхностей, вызывающих ошибку сшивания: %1%"/>
+    <label commandName="SurfaceValidateUnstitchableNodeName" devLabel="Unstitchable Surface" translation="Несшиваемая поверхность"/>
+    <label commandName="TTSurfaceEnvironment" devLabel="Surface" translation="Поверхность"/>
+    <label commandName="UnStitchedEdgeTitle" devLabel="Edge" translation="Кромка"/>
+    <label commandName="UnStitchedGapTitle" devLabel="Max Gap" translation="Макс. расстояние"/>
+    <label commandName="UnStitchedTableFindInWindow" devLabel="Find in Window" translation="Найти в окне"/>
+    <label commandName="UnStitchedTableSetTolerance" devLabel="Set Tolerance" translation="Установите допуск"/>
+    <label commandName="UnstitchedEdgeName" devLabel="UnStitchedEdgeName" translation="Название непрошитого края"/>
+    <label commandName="UnstitchedGapLength" devLabel="UnStitchedGapLength" translation="Длина незашитого пространства"/>
+    <label commandName="ValidateEnableGapRepair" devLabel="Gap Healing" translation="Ремонт интервалов"/>
+    <label commandName="ValidateEnableRepair" devLabel="Repair" translation="Исправить"/>
+    <label commandName="ValidateEnableSmallEdgeFaceRemoval" devLabel="Small Edge/Face Removal" translation="Удаление небольшого края/поверхности"/>
+    <label commandName="ValidateEnableSurfaceRefit" devLabel="Refit Bad Surfaces" translation="Ремонт плохих поверхностей"/>
+    <label commandName="lclzFusionReverseNormalCommand1" devLabel="Flips the positive direction of all faces on a selected surface body." translation="Меняет положительное направление всех поверхностей на выбранном поверхностном теле."/>
+    <label commandName="lclzFusionReverseNormalCommand2" devLabel="Select a surface body to reverse." translation="Выберите тело поверхности для отражения."/>
+    <label commandName="lclzFusionSurfaceMergeCommand1" devLabel="Combines the selected faces into a single quilt surface." translation="Объединяет выбранные поверхности в одну сшитую поверхность."/>
+    <label commandName="lclzFusionSurfaceMergeCommand2" devLabel="Select the faces to merge. You can select solid or surface faces." translation="Выберите поверхности для объединения. Вы можете выбрать твердые поверхности или плоскости поверхностей."/>
+    <label commandName="lclzFusionSurfaceMidsurfaceShellCommand1" devLabel="Creates a new midsurface shell from the selected body." translation="Создает новую оболочку из выбранного тела.."/>
+    <label commandName="lclzFusionSurfaceMidsurfaceShellCommand2" devLabel="Select the face to midsurface." translation="Выберите поверхность, чтобы создать центральную поверхность."/>
+    <label commandName="lclzFusionSurfaceOffsetCommand1" devLabel="Creates a new surface body at a given distance from the selected face or surface body." translation="Создает новое тело поверхности на указанном расстоянии от выбранной грани или тела поверхности."/>
+    <label commandName="lclzFusionSurfaceOffsetCommand2" devLabel="Select a face or surface body to offset, then specify the distance." translation="Выберите поверхность или поверхностное тело для смещения, а затем укажите расстояние."/>
+    <label commandName="lclzFusionSurfaceOffsetShellCommand1" devLabel="Creates a new offset shell at a given distance from the selected face." translation="Создает новое смещение оболочки на указанном расстоянии от выбранной грани."/>
+    <label commandName="lclzFusionSurfaceOffsetShellCommand2" devLabel="Select the face to offset then specify the distance." translation="Выберите поверхность для смещения, затем укажите расстояние."/>
+    <label commandName="lclzFusionSurfacePatchCommand1" devLabel="Creates a planar or 3D surface within the boundary of a specified closed loop." translation="Создает плоскую или трехмерную поверхность внутри ограничивающей рамки указанного замкнутого контура."/>
+    <label commandName="lclzFusionSurfacePatchCommand2" devLabel="Select the loop to patch then apply connected (G0), tangent (G1), and curvature (G2) boundary conditions." translation="Выберите контур, чтобы охватить поверхность, затем примените граничные условия соединения (G0), касательной (G1) или кривизны (G2)."/>
+    <label commandName="lclzFusionSurfaceRuledCommand1" devLabel="Creates a ruled surface at a specified distance and angle from selected edges." translation="Создает прямоугольную поверхность на заданном расстоянии и под заданным углом от выбранных краев."/>
+    <label commandName="lclzFusionSurfaceRuledCommand2" devLabel="Select edges on a solid body, surface body, or sketch. Then select a ruled surface type and specify the direction, distance, and angle." translation="Выберите кромки твердого тела, поверхностного тела или эскиза. Затем выберите тип ортогональной поверхности и укажите направление, расстояние и угол."/>
+    <label commandName="lclzFusionSurfaceShellConvertCommand1" devLabel="Creates a new surface shell from the surface." translation="Создает новую оболочку из поверхности."/>
+    <label commandName="lclzFusionSurfaceShellConvertCommand2" devLabel="Select the surface to surface shell." translation="Выберите поверхность, чтобы создать оболочку поверхности."/>
+    <label commandName="lclzFusionSurfaceStitchCommand1" devLabel="Joins surfaces to make a single surface body or solid body." translation="Объединяет поверхности для создания единой поверхности или твердого тела."/>
+    <label commandName="lclzFusionSurfaceStitchCommand2" devLabel="Select the surfaces to join. Edges within the tolerance are highlighted green." translation="Выберите поверхности для соединения. Края, находящиеся в пределах допуска, выделяются зеленым цветом."/>
+    <label commandName="lclzFusionSurfaceTrimCommand1" devLabel="Removes the selected area of a surface body using the specified cutting tool." translation="Удаляет выбранный участок поверхности тела с помощью указанного режущего инструмента."/>
+    <label commandName="lclzFusionSurfaceTrimCommand2" devLabel="Select the cutting tool to use then select faces or surface bodies to remove." translation="Выберите режущий инструмент, который будет использоваться, затем выберите поверхности или поверхностные тела, которые нужно удалить."/>
+    <label commandName="lclzFusionSurfaceUnStitchCommand1" devLabel="Breaks joined surfaces into individual surfaces." translation="Разрыв соединенных поверхностей для создания единых поверхностей."/>
+    <label commandName="lclzFusionSurfaceUnStitchCommand2" devLabel="Select faces to unstitch. The selected face is unhooked from the parent body and the result body contains the unhooked face." translation="Выберите поверхности для удаления шва. Выбранная поверхность будет отделена от родительского тела, а полученное тело будет содержать отделенную поверхность."/>
+    <label commandName="lclzFusionSurfaceUntrimCommand1" devLabel="Extends trimmed surfaces and fills gaps, holes, or empty regions." translation="Удлиняет поверхности разреза и заполняет зазоры, отверстия или пустые области."/>
+    <label commandName="lclzFusionSurfaceUntrimCommand2" devLabel="Select the surface to untrim, then select the untrim type. You can untrim all edges, internal edges, external edges, or manually select the edges you want to untrim." translation="Выберите грань, чтобы отменить обрезку, а затем выберите тип отмены обрезки. Вы можете отменить все края, внутренние края, внешние края или вручную выбрать края, которые хотите отменить."/>
+    <label commandName="lclzFusionSurfaceValidate1" devLabel="Checks the quality of selected surfaces and attempts to heal surfaces before stitching into quilts and solids." translation="Проверяет качество выбранных поверхностей и пытается отремонтировать поверхности перед созданием швов и твердых тел."/>
+    <label commandName="lclzFusionSurfaceValidate2" devLabel="Select the surfaces to check, specify a tolerance then select the type of validation to perform." translation="Выберите поверхности для проверки, укажите допуск, а затем выберите тип проверки, которую необходимо выполнить."/>
+    <label commandName="lclzMergeTipsAndTricksTips" devLabel="Select the surfaces to merge. You can select solid or surface faces." translation="Выберите поверхности для объединения. Вы можете выбрать твердые поверхности или плоскости поверхностей."/>
+    <label commandName="lclzMergeTipsAndTricksTitle" devLabel="Merge Information" translation="Объединить информацию"/>
+    <label commandName="lclzMidsurfaceShellTipsAndTricksDesc" devLabel="The use of shells can reduce mesh requirements and solve time.  Using this command on a complex body may require slight adjustments with other shellcommands such as Gap Fill." translation="Использование оболочек может снизить требования к сетке и сократить время решения. Использование этой команды для сложного твердого тела может потребовать незначительных изменений в других командах оболочки, таких как «Заполнение зазора»."/>
+    <label commandName="lclzMidsurfaceShellTipsAndTricksTips" devLabel="Creates a shell part in the middle of the selected body or bodies using the thickness of the selected body." translation="Создает оболочку в центре одного или нескольких выбранных тел, используя толщину выбранного тела."/>
+    <label commandName="lclzMidsurfaceShellTipsAndTricksTitle" devLabel="Midsurface Shell Information" translation="Информация о среднеповерхностной корке"/>
+    <label commandName="lclzOffsetShellTipsAndTricksDesc" devLabel="Using the Offset Shell command will create a shell to represent the selected body and remove the selected body from the Simulation Model. To recover the original body the Shell must be removed from the timeline, or a new Simulation Model must be created." translation="Команда «Сместить оболочку» позволяет создать оболочку, представляющую выбранное тело, и удалить выбранное тело из имитационной модели. Чтобы восстановить исходное тело, необходимо удалить оболочку с временной шкалы или создать новую имитационную модель."/>
+    <label commandName="lclzOffsetShellTipsAndTricksTips" devLabel="Creates a new shell at a specified distance from selected faces of a 3D body." translation="Создает новую оболочку на указанном расстоянии от выбранных граней 3D-тела."/>
+    <label commandName="lclzOffsetShellTipsAndTricksTitle" devLabel="Offset Shell Information" translation="Удалить информацию оболочки"/>
+    <label commandName="lclzOffsetTipsAndTricksDesc" devLabel="Select multiple faces to offset them simultaneously." translation="Выберите несколько поверхностей, чтобы удалить их одновременно."/>
+    <label commandName="lclzOffsetTipsAndTricksTips" devLabel="Select the face to offset then specify the distance." translation="Выберите поверхность для смещения, затем укажите расстояние."/>
+    <label commandName="lclzOffsetTipsAndTricksTitle" devLabel="Offset Information" translation="Информация о смещении"/>
+    <label commandName="lclzPatchWorkspaceTitle" devLabel="Creates construction surfaces and repairs surface geometry. Access commands to create surface bodies." translation="Создает вспомогательные поверхности и восстанавливает геометрию поверхности. Перейдите к командам для создания поверхностных тел."/>
+    <label commandName="lclzReverseNormalTipsAndTricksTips" devLabel="Select a surface body to reverse the positive direction of all its faces." translation="Выберите поверхностное тело, чтобы изменить положительное направление всех его поверхностей."/>
+    <label commandName="lclzReverseNormalTipsAndTricksTitle" devLabel="Reverse Normal Information" translation="Инвертировать нормальную информацию"/>
+    <label commandName="lclzRevolveTipsAndTricksDesc" devLabel="If you have a profile and a single center line selected then create a &lt;b&gt;Revolve&lt;/b&gt; feature, the dialog will detect those selections and auto-select the &lt;b&gt;Profile&lt;/b&gt; and &lt;b&gt;Axis&lt;/b&gt; options." translation="Если у вас выбран профиль и имеется одна осевая линия, создайте &lt;b&gt;Rotation&lt;/b&gt;; диалоговое окно обнаружит эти параметры и автоматически выберет &lt;b&gt;Профиль&lt;/b&gt; и &lt;b&gt;Ось&lt;/b&gt;."/>
+    <label commandName="lclzRuledTipsAndTricksDesc" devLabel="You can use the Ruled command to add extensions to existing surfaces, create parting surfaces, or add a drafted surface that follows selected reference geometry." translation="Команда «Линейный» позволяет добавлять расширения к существующим поверхностям, создавать разделенную поверхность или добавлять наклонную поверхность, соответствующую выбранной справочной геометрии."/>
+    <label commandName="lclzRuledTipsAndTricksTips" devLabel="Adjust Type to create ruled surfaces normal or tangent to the face connected to the selected edges, or in a direction that you define." translation="Отрегулируйте параметр «Тип», чтобы создать ортогональные поверхности, нормальные или касательные к поверхности, соединенной с выбранными краями или в заданном вами направлении."/>
+    <label commandName="lclzRuledTipsAndTricksTitle" devLabel="Ruled Information" translation="Прямолинейный - информация"/>
+    <label commandName="lclzStitchTipsAndTricksDesc" devLabel="Green indicates closed edges, whereas red indicates open edges." translation="Зеленый цвет обозначает закрытые края, красный — открытые края."/>
+    <label commandName="lclzStitchTipsAndTricksTips" devLabel="Select the surfaces to join." translation="Выберите поверхности для соединения."/>
+    <label commandName="lclzStitchTipsAndTricksTitle" devLabel="Stitch Information" translation="Информация о шве"/>
+    <label commandName="lclzSurfacePatchTipsAndTricksDesc" devLabel="Use Patch to fill an open body with a new surface. Surfaces can be knit together using the Stitch tool." translation="Команда «Закрыть поверхность» позволяет заполнить открытое тело новой поверхностью. Поверхности можно соединить вместе с помощью инструмента «Сшивка»."/>
+    <label commandName="lclzSurfacePatchTipsAndTricksTips" devLabel="Select the loop to patch then apply connected (G0), tangent (G1), and curvature (G2) boundary conditions." translation="Выберите контур, чтобы охватить поверхность, затем примените граничные условия соединения (G0), касательной (G1) или кривизны (G2)."/>
+    <label commandName="lclzSurfacePatchTipsAndTricksTitle" devLabel="Patch Information" translation="Информация о закрытии поверхности"/>
+    <label commandName="lclzSurfaceRevolve1" devLabel="Revolves a sketch profile or planar face around a selected axis." translation="Вращает профиль эскиза или плоскую поверхность вокруг выбранной оси."/>
+    <label commandName="lclzSurfaceRevolve2" devLabel="Select a profile or planar face and an axis to revolve around, then specify the extent type, direction, and operation." translation="Выберите профиль или плоскую поверхность и ось для вращения, затем укажите тип диапазона, направление и действие."/>
+    <label commandName="lclzSurfaceRevolveTipsAndTricksTips" devLabel="Use the &lt;b&gt;Project Axis&lt;/b&gt; option to project the axis to the same plane as the selected profile. Uncheck to return the axis to its original position." translation="Используйте &lt;b&gt;Project Axis&lt;/b&gt; чтобы спроецировать ось на ту же плоскость, что и выбранный профиль. Снимите флажок, чтобы вернуть ось в исходное положение."/>
+    <label commandName="lclzSurfaceRevolveTipsAndTricksTitle" devLabel="Revolve Information" translation="Информация о ротации"/>
+    <label commandName="lclzSurfaceShellConvertTipsAndTricksDesc" devLabel="A suface body itself will not be considered in simulation until it is transformed into a shell and given a thickness." translation="Само поверхностное тело не будет включено в моделирование до тех пор, пока оно не будет преобразовано в оболочку и не будет указана его толщина."/>
+    <label commandName="lclzSurfaceShellConvertTipsAndTricksTips" devLabel="Transform surface bodies into shells for Simulation." translation="Преобразование поверхностных тел в оболочки для моделирования."/>
+    <label commandName="lclzSurfaceShellConvertTipsAndTricksTitle" devLabel="Shell from Surface Information" translation="Информация о поверхностной корке"/>
+    <label commandName="lclzSurfaceSweep1" devLabel="Sweeps a sketch profile or planar face along a selected path." translation="Перетаскивает профиль эскиза или плоскую поверхность по выбранному пути."/>
+    <label commandName="lclzSurfaceSweep2" devLabel="Select the profile then select the sweep path. The distance for the sweep is a decimal percentage of the selected path." translation="Выберите профиль, а затем выберите путь развертки. Расстояние охвата выражается в десятичных процентах от выбранного пути."/>
+    <label commandName="lclzSurfaceSweepTipsAndTricksDesc" devLabel="The distance for the sweep is a decimal percentage of the length of the path." translation="Расстояние развертки представляет собой десятичный процент от длины пути."/>
+    <label commandName="lclzSurfaceSweepTipsAndTricksTips" devLabel="Select the profile and the sweep path." translation="Выберите профиль и путь перемещения."/>
+    <label commandName="lclzSurfaceSweepTipsAndTricksTitle" devLabel="Sweep Information" translation="Перетащите информацию"/>
+    <label commandName="lclzTrimTipsAndTricksDesc" devLabel="Surfaces to be trimmed will turn red." translation="Поверхности, которые нужно разрезать, будут отображаться красным цветом."/>
+    <label commandName="lclzTrimTipsAndTricksTips" devLabel="Select a plane or a sketch intersecting a surface as the cutting tool, then select the desired surface to trim." translation="Выберите плоскость или эскиз, пересекающий поверхность, в качестве режущего инструмента, а затем выберите нужную поверхность для резки."/>
+    <label commandName="lclzTrimTipsAndTricksTitle" devLabel="Trim Information" translation="Вырезать информацию"/>
+    <label commandName="lclzUnStitchTipsAndTricksTips" devLabel="Select the faces or bodies to unstitch." translation="Выберите поверхности или тела, чтобы удалить шов."/>
+    <label commandName="lclzUnStitchTipsAndTricksTitle" devLabel="Unstitch Information" translation="Удаление информации о шве"/>
+    <label commandName="lclzUntrimTipsAndTricksDesc" devLabel="For the Manual untrim type, hold Ctrl (Windows) or Command (MacOS) to suppress the preview and select multiple edges to untrim." translation="Для типа отмены обрезки вручную удерживайте нажатой клавишу Ctrl (Windows) или Command (MacOS), чтобы отключить предварительный просмотр, и выберите несколько краев для отмены обрезки."/>
+    <label commandName="lclzUntrimTipsAndTricksTips" devLabel="Use Untrim to remove unwanted holes or extend and rebuild clean surface intersections." translation="Команда «Отменить обрезку» позволяет удалять ненужные отверстия или расширять и перестраивать чистые пересечения поверхностей."/>
+    <label commandName="lclzUntrimTipsAndTricksTitle" devLabel="Untrim Information" translation="Об отмене обрезки"/>
+    <label commandName="lclzValidateTipsAndTricksTips" devLabel="Select the surfaces to check, specify a tolerance then select the type of validation to perform." translation="Выберите поверхности для проверки, укажите допуск, а затем выберите тип проверки, которую необходимо выполнить."/>
+    <label commandName="lclzValidateTipsAndTricksTitle" devLabel="Validate Information" translation="Проверьте информацию"/>
+    <label commandName="midsurfaceSelectSolid" devLabel="Select solid bodies to midsurface" translation="Выберите тела для создания центральной поверхности."/>
+    <label commandName="offsetSelectSurface" devLabel="Select faces or surface bodies to offset" translation="Выберите поверхности или поверхностные тела для смещения."/>
+    <label commandName="pInputSet" devLabel="Select objects to delete" translation="Выберите объекты для удаления"/>
+    <label commandName="pInputSurfaceQuiltSet" devLabel="Select surface body" translation="Выберите тело поверхности"/>
+    <label commandName="ruledSelectProfileNoSel" devLabel="Select edges" translation="Выбрать края"/>
+    <label commandName="ruledSelectProfileSel" devLabel="Adjust distance and angle or modify selection" translation="Отрегулируйте расстояние и угол или измените свой выбор."/>
+    <label commandName="unstitchSelectSurface" devLabel="Select bodies to unstitch" translation="Выберите тела, чтобы удалить шов"/>
+    <label commandName="InputOffsetType" devLabel="Offset Type" translation="Тип смещения" />
+    <label commandName="SurfaceUntrimEdgesInputDesc" devLabel="Select edges to untrim.&#10;Hold %1% to suppress command preview and select multiple edges." translation="Выберите кромки для отмены подреза.&#10;Удерживайте %1% для подавления предпросмотра команды и выбора нескольких кромок." />
+    <label commandName="SurfaceUntrimTypeManualInputDesc" devLabel="Untrims manually selected edges of a face.&#10;Hold %1% to suppress command preview and select multiple edges." translation="Отменяет подрез вручную выбранных кромок грани.&#10;Удерживайте %1% для подавления предпросмотра команды и выбора нескольких кромок." />
+    <label commandName="lclzPatchWorkspaceName" devLabel="Surface Workspace" translation="Рабочее пространство &quot;Поверхности&quot;" />
+</Resource>

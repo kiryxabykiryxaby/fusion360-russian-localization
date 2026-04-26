@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DiagnosticsGatherToolFailed" devLabel="Gathering of diagnostic logs failed" translation="Сбор диагностических логов не удался" />
+	<label commandName="SafeModeGatherTool" devLabel="Your %1% log files have been collected in &#10;&#09;%2%&#10;&#09;%3%&#10;&#10;These log files help %1% Support diagnose product issues." translation="Ваши файлы логов %1% были собраны в &#10;&#09;%2%&#10;&#09;%3%&#10;&#10;Эти файлы логов помогают службе поддержки %1% диагностировать проблемы с продуктом." />
+	<label commandName="SafeModeGatherToolTitle" devLabel="Fusion Service Utility - Diagnostic Log Files" translation="Служебная программа Fusion - Диагностические файлы логов" />
+	<label commandName="lclzExpirationMessage" devLabel="Licensing for this product has expired." translation="Лицензия на этот продукт истекла." />
+	<label commandName="lclzSafeModeClose" devLabel="Close Fusion Service Utility" translation="Закрыть служебную программу Fusion" />
+	<label commandName="lclzSafeModeContact" devLabel="Contact Support" translation="Связаться с поддержкой" />
+	<label commandName="lclzSafeModeDesc" devLabel="Please choose an option below." translation="Пожалуйста, выберите опцию ниже." />
+	<label commandName="lclzSafeModeGather" devLabel="Gather System Info" translation="Собрать системную информацию" />
+	<label commandName="lclzSafeModeGatherCancelButton" devLabel="Stop" translation="Остановить" />
+	<label commandName="lclzSafeModeGatherCancelMessage" devLabel="Do you want to stop collection?" translation="Вы хотите остановить сбор?" />
+	<label commandName="lclzSafeModeGatherClose" devLabel="Return to Menu" translation="Вернуться в меню" />
+	<label commandName="lclzSafeModeGatherOpen" devLabel="Open File Location" translation="Открыть расположение файла" />
+	<label commandName="lclzSafeModeGatherOpenLinux" devLabel="Open File Location" translation="Открыть расположение файла" />
+	<label commandName="lclzSafeModeGatherShow" devLabel="Show in Finder" translation="Показать в Finder" />
+	<label commandName="lclzSafeModeGatherWait" devLabel="Gathering system info, please wait ..." translation="Сбор системной информации, пожалуйста, подождите ..." />
+	<label commandName="lclzSafeModeLaunch" devLabel="Launch Fusion" translation="Запустить Fusion" />
+	<label commandName="lclzSafeModeLearnMore" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Fusion-360-Safe-Mode&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Fusion-360-Safe-Mode&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeName" devLabel="Fusion Service Utility" translation="Служебная программа Fusion" />
+	<label commandName="lclzSafeModeNetwork" devLabel="Network Diagnostic Test" translation="Тест диагностики сети" />
+	<label commandName="lclzSafeModeNetworkClose" devLabel="Return to Menu" translation="Вернуться в меню" />
+	<label commandName="lclzSafeModeNetworkHeader" devLabel="Network Diagnostic Test" translation="Тест диагностики сети" />
+	<label commandName="lclzSafeModeNetworkLearnMore" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Network-Diagnostic-Test-Command-from-Fusion-360-Safe-Mode&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Network-Diagnostic-Test-Command-from-Fusion-360-Safe-Mode&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeNetworkName" devLabel="Fusion Service Utility - Network Diagnostic Test" translation="Служебная программа Fusion - Тест диагностики сети" />
+	<label commandName="lclzSafeModeNetworkResultError" devLabel="Diagnostic testing has encountered potential network connectivity issues. Please make sure access to all ports and domains is available before next Fusion launch.&amp;nbsp;&lt;a href=&quot;https://knowledge.autodesk.com/article/Fusion-360-cannot-access-the-services-through-proxy&quot;&gt;Learn more&lt;/a&gt;" translation="Диагностическое тестирование обнаружило потенциальные проблемы с подключением к сети. Пожалуйста, убедитесь, что доступ ко всем портам и доменам доступен перед следующим запуском Fusion.&amp;nbsp;&lt;a href=&quot;https://knowledge.autodesk.com/article/Fusion-360-cannot-access-the-services-through-proxy&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeNetworkResultSuccess" devLabel="There is no network connectivity issue." translation="Проблем с подключением к сети нет." />
+	<label commandName="lclzSafeModeNetworkStart" devLabel="Start" translation="Начать" />
+	<label commandName="lclzSafeModeNetworkStatusColumn" devLabel="Status" translation="Статус" />
+	<label commandName="lclzSafeModeNetworkStatusDone" devLabel="Network diagnostic testing is done." translation="Диагностическое тестирование сети завершено." />
+	<label commandName="lclzSafeModeNetworkStatusInProgress" devLabel="Network diagnostic testing is in progress." translation="Диагностическое тестирование сети выполняется." />
+	<label commandName="lclzSafeModeNetworkStatusInitial" devLabel="Please click &quot;Start&quot; to start network diagnostic testing." translation="Пожалуйста, нажмите &quot;Начать&quot;, чтобы начать диагностическое тестирование сети." />
+	<label commandName="lclzSafeModeNetworkStop" devLabel="Stop" translation="Остановить" />
+	<label commandName="lclzSafeModeRepair" devLabel="Repair Fusion" translation="Восстановить Fusion" />
+	<label commandName="lclzSafeModeRepairLearnMore" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Repair-Fusion-360-Command-from-Fusion-360-Safe-Mode&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Repair-Fusion-360-Command-from-Fusion-360-Safe-Mode&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeRepairMessage" devLabel="Are you sure you want to repair Fusion?&#10;&#10;All cache data will be removed. Fusion service utility &#10;will exit when repair starts. Please wait.&#10;" translation="Вы уверены, что хотите восстановить Fusion?&#10;&#10;Все кэшированные данные будут удалены. Служебная программа Fusion &#10;закроется при начале восстановления. Пожалуйста, подождите.&#10;" />
+	<label commandName="lclzSafeModeRepairMessage2" devLabel="We have detected another instance of Fusion running. It will be closed automatically if you proceed with the repair." translation="Мы обнаружили другой запущенный экземпляр Fusion. Он будет автоматически закрыт, если вы продолжите восстановление." />
+	<label commandName="lclzSafeModeReset" devLabel="Reset Fusion" translation="Сбросить Fusion" />
+	<label commandName="lclzSafeModeResetCancel" devLabel="Return to Menu" translation="Вернуться в меню" />
+	<label commandName="lclzSafeModeResetKeepUserCredential" devLabel="Keep user credential" translation="Сохранить учетные данные пользователя" />
+	<label commandName="lclzSafeModeResetKeepUserData" devLabel="Keep offline user data" translation="Сохранить оффлайн данные пользователя" />
+	<label commandName="lclzSafeModeResetLearnMore" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Reset-Fusion-360-Command-from-Fusion-360-Safe-Mode&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/Overview-of-Reset-Fusion-360-Command-from-Fusion-360-Safe-Mode&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeResetMessage" devLabel="Are you sure you want to reset Fusion? &#10;&#10;All cache data will be removed after reset." translation="Вы уверены, что хотите сбросить Fusion? &#10;&#10;Все кэшированные данные будут удалены после сброса." />
+	<label commandName="lclzSafeModeResetOK" devLabel="Yes, Proceed" translation="Да, продолжить" />
+	<label commandName="lclzSafeModeTitle" devLabel="Service Utility Menu" translation="Меню служебной программы" />
+	<label commandName="lclzSafeModeUninstall" devLabel="Uninstall Fusion" translation="Удалить Fusion" />
+	<label commandName="lclzSafeModeUninstallLearnMore" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/How-to-do-a-clean-uninstall-of-Autodesk-Fusion-360&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/How-to-do-a-clean-uninstall-of-Autodesk-Fusion-360&quot;&gt;Узнать больше&lt;/a&gt;" />
+	<label commandName="lclzSafeModeUninstallMessage" devLabel="Are you sure you want to uninstall Fusion?&#10;&#10;All cache data will be removed. Fusion service &#10;utility will exit when uninstall starts.&#10;" translation="Вы уверены, что хотите удалить Fusion?&#10;&#10;Все кэшированные данные будут удалены. Служебная программа Fusion &#10;закроется при начале удаления.&#10;" />
+	<label commandName="lclzSafeModeUninstallerName" devLabel="Remove %1%" translation="Удалить %1%" />
+	<label commandName="lclzTutorialCatDesc1" devLabel="Learn different design techniques to create various parts of the lamp." translation="Изучите различные техники проектирования для создания различных частей лампы." />
+	<label commandName="lclzTutorialCatDesc2" devLabel="Take the lamp design further by adding joints and realistic materials." translation="Развивайте дизайн лампы, добавляя соединения и реалистичные материалы." />
+	<label commandName="lclzTutorialCatDesc3" devLabel="Make it real by using various manufacturing workflows to fabricate the lamp design." translation="Реализуйте дизайн, используя различные производственные процессы для изготовления лампы." />
+	<label commandName="lclzTutorialCatDesc4" devLabel="Learn how to manage projects, collaborate with team members, and share designs with clients." translation="Узнайте, как управлять проектами, сотрудничать с членами команды и делиться дизайнами с клиентами." />
+	<label commandName="lclzTutorialCatFabricate" devLabel="FABRICATE" translation="ИЗГОТОВЛЕНИЕ" />
+	<label commandName="lclzTutorialCatForm" devLabel="FORM" translation="ФОРМА" />
+	<label commandName="lclzTutorialCatFunction" devLabel="FUNCTION" translation="ФУНКЦИЯ" />
+	<label commandName="lclzTutorialCatManage" devLabel="MANAGE" translation="УПРАВЛЕНИЕ" />
+	<label commandName="lclzTutorialType3Axis" devLabel="3 AXIS MACHINE" translation="3-ОСЕВОЙ СТАНОК" />
+	<label commandName="lclzTutorialType3DPrint" devLabel="3D PRINT" translation="3D-ПЕЧАТЬ" />
+	<label commandName="lclzTutorialTypeAnimate" devLabel="ANIMATE" translation="АНИМАЦИЯ" />
+	<label commandName="lclzTutorialTypeAssemble" devLabel="ASSEMBLE" translation="СБОРКА" />
+	<label commandName="lclzTutorialTypeBasic" devLabel="PART DESIGN" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ" />
+	<label commandName="lclzTutorialTypeDesc1" devLabel="Design the foundation of your lamp with basic solid modeling tools." translation="Спроектируйте основу вашей лампы с помощью базовых инструментов твердотельного моделирования." />
+	<label commandName="lclzTutorialTypeDesc10" devLabel="Prep your design and 3D print with our easy-to-use 3D print utility." translation="Подготовьте свой дизайн и 3D-печать с помощью нашего удобного инструмента для 3D-печати." />
+	<label commandName="lclzTutorialTypeDesc11" devLabel="Create and save a sketch as DXF format to use for laser cutting." translation="Создайте и сохраните эскиз в формате DXF для использования при лазерной резке." />
+	<label commandName="lclzTutorialTypeDesc111" devLabel="Set up and simulate a CAM toolpath of a lamp base plate." translation="Настройте и смоделируйте траекторию инструмента CAM для базовой пластины лампы." />
+	<label commandName="lclzTutorialTypeDesc12" devLabel="Set up a more advanced 3 Axis toolpath and simulate how the lamp base will be machined." translation="Настройте более сложную траекторию инструмента для 3-осевого станка и смоделируйте, как будет обрабатываться основание лампы." />
+	<label commandName="lclzTutorialTypeDesc13" devLabel="Invite collaborators to a new design and keep track of new versions." translation="Пригласите соавторов к новому дизайну и отслеживайте новые версии." />
+	<label commandName="lclzTutorialTypeDesc14" devLabel="Bring an external part into your design and archive the final assembly." translation="Добавьте внешнюю деталь в ваш дизайн и архивируйте окончательную сборку." />
+	<label commandName="lclzTutorialTypeDesc15" devLabel="Get a quick overview of how to get around Fusion and navigate around your design." translation="Получите краткий обзор того, как ориентироваться в Fusion и перемещаться по вашему дизайну." />
+	<label commandName="lclzTutorialTypeDesc16" devLabel="Create basic 3D geometry using 3 different modeling techniques." translation="Создайте базовую 3D-геометрию с использованием 3 различных техник моделирования." />
+	<label commandName="lclzTutorialTypeDesc2" devLabel="Add a sophisticated lamp switch based on it's on-off position." translation="Добавьте сложный выключатель лампы, основанный на его положении вкл/выкл." />
+	<label commandName="lclzTutorialTypeDesc3" devLabel="Use sketches to draw and model a power cord for the lamp model." translation="Используйте эскизы для рисования и моделирования шнура питания для модели лампы." />
+	<label commandName="lclzTutorialTypeDesc4" devLabel="Use various sculpt tools to create a stylized lamp shade." translation="Используйте различные инструменты для создания стилизованного абажура." />
+	<label commandName="lclzTutorialTypeDesc5" devLabel="Render the lamp and make it look real with built-in ray tracing technology." translation="Визуализируйте лампу и сделайте ее реалистичной с помощью встроенной технологии трассировки лучей." />
+	<label commandName="lclzTutorialTypeDesc6" devLabel="Add simple joints between components and assemble the final lamp design." translation="Добавьте простые соединения между компонентами и соберите окончательный дизайн лампы." />
+	<label commandName="lclzTutorialTypeDesc7" devLabel="Animate an exploded view, assembly and disassembly process of the lamp." translation="Анимируйте разобранный вид, процесс сборки и разборки лампы." />
+	<label commandName="lclzTutorialTypeDesc8" devLabel="Determine how the design will deform under various structural loads and boundary conditions." translation="Определите, как дизайн будет деформироваться под различными структурными нагрузками и граничными условиями." />
+	<label commandName="lclzTutorialTypeDesc9" devLabel="Examine how design behaves under various vibrational or modal frequencies" translation="Изучите, как дизайн ведет себя при различных вибрационных или модальных частотах" />
+	<label commandName="lclzTutorialTypeFreeform" devLabel="FREEFORM DESIGN" translation="ДИЗАЙН СВОБОДНОЙ ФОРМЫ" />
+<label commandName="lclzTutorialTypeLasercut" devLabel="LASER CUT" translation="ЛАЗЕРНАЯ РЕЗКА" />
+<label commandName="lclzTutorialTypeMachine" devLabel="MACHINE" translation="МАШИНА" />
+<label commandName="lclzTutorialTypeModelingBasics" devLabel="MODELING BASICS" translation="ОСНОВЫ МОДЕЛИРОВАНИЯ" />
+<label commandName="lclzTutorialTypeRender" devLabel="RENDER" translation="РЕНДЕРИНГ" />
+<label commandName="lclzTutorialTypeSave" devLabel="SAVE" translation="СОХРАНИТЬ" />
+<label commandName="lclzTutorialTypeSimmodal" devLabel="MODAL FREQUENCIES" translation="МОДАЛЬНЫЕ ЧАСТОТЫ" />
+<label commandName="lclzTutorialTypeSketech" devLabel="SKETCH DESIGN" translation="ЭСКИЗНЫЙ ДИЗАЙН" />
+<label commandName="lclzTutorialTypeStatic" devLabel="STATIC STRESS" translation="СТАТИЧЕСКОЕ НАПРЯЖЕНИЕ" />
+<label commandName="lclzTutorialTypeTopDown" devLabel="TOP-DOWN DESIGN" translation="ДИЗАЙН СВЕРХУ ВНИЗ" />
+<label commandName="lclzTutorialTypeUpload" devLabel="UPLOAD" translation="ЗАГРУЗИТЬ" />
+<label commandName="lclzTutorialTypeWorkspace" devLabel="INTRO TO WORKSPACES" translation="ВВЕДЕНИЕ В РАБОЧИЕ ПРОСТРАНСТВА" />
+<label commandName="FusionCancelMsg" devLabel="Cancel" translation="Отмена" />
+<label commandName="FusionFirstLineMsg" devLabel="Multiple instances are not supported." translation="Множественные экземпляры не поддерживаются." />
+<label commandName="FusionLaunchMsg" devLabel="Launch" translation="Запустить" />
+<label commandName="FusionNextLineMsg" devLabel="Are you sure you want to launch another Fusion instance?" translation="Вы уверены, что хотите запустить другой экземпляр Fusion?" />
+<label commandName="FusiondialogtittleMsg" devLabel="Fusion is already open" translation="Fusion уже открыт" />
+<label commandName="FusionlearnMoreMsg" devLabel="&lt;a href=&quot;https://knowledge.autodesk.com/article/Multiple-Fusion-instances-not-supported&quot;&gt;Learn more&lt;/a&gt;" translation="&lt;a href=&quot;https://knowledge.autodesk.com/article/Multiple-Fusion-instances-not-supported&quot;&gt;Узнать больше&lt;/a&gt;" />
+</Resource>

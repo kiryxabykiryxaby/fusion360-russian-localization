@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AllSheetsMulti" devLabel="All Sheets (Multi-File)" translation="" />
+	<label commandName="AllSheetsSingle" devLabel="All Sheets (Single File)" translation="" />
+	<label commandName="CurrentSheet" devLabel="Current Sheet" translation="" />
+	<label commandName="DrawingFormat" devLabel="Format" translation="" />
+	<label commandName="DrawingSheets" devLabel="Sheets" translation="" />
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="" />
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="" />
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="" />
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="" />
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="" />
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="" />
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="" />
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="" />
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="" />
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="" />
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="" />
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="" />
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="" />
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="" />
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="" />
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="" />
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="" />
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="" />
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="" />
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="" />
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="" />
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="" />
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="" />
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="" />
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="" />
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="" />
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="" />
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="" />
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="" />
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="" />
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="" />
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="" />
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="" />
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="" />
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="" />
+	<label commandName="InputRange" devLabel="Range" translation="" />
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="" />
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="" />
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="" />
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="" />
+	<label commandName="Range" devLabel="Range (Multi-File)" translation="" />
+	<label commandName="SelectedSheets" devLabel="Selected Sheets (Multi-File)" translation="" />
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="" />
+	<label commandName="TextHeightLarge" devLabel="Large" translation="" />
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="" />
+	<label commandName="TextHeightSmall" devLabel="Small" translation="" />
+</Resource>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="lclzCancelDecreption" devLabel="Do you want to cancel the upload and close the performance feedback tool?" translation="" />
+	<label commandName="lclzCancelNo" devLabel="No" translation="" />
+	<label commandName="lclzCancelTitle" devLabel="Cancel upload" translation="" />
+	<label commandName="lclzCancelYes" devLabel="Yes" translation="" />
+	<label commandName="lclzCompleteCancelButton" devLabel="Cancel" translation="" />
+	<label commandName="lclzCompleteInfo" devLabel="Your performance feedback data has been successfully submitted. We will review the information and may reach out with extra questions or more feedback as needed. &lt;br/&gt;&lt;br/&gt;Thank you for your time and your feedback.&lt;br/&gt;&lt;br/&gt; Report ID:" translation="" />
+	<label commandName="lclzCompleteLabel" devLabel="Uploading performance feedback..." translation="" />
+	<label commandName="lclzCompleteOkBtn" devLabel="Ok" translation="" />
+	<label commandName="lclzCompleteTitle" devLabel="Performance feedback upload complete" translation="" />
+	<label commandName="lclzConfirmationAgreeCheck" devLabel="Yes, I agree" translation="" />
+	<label commandName="lclzConfirmationAgreeReq" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Please check that you agree to the terms and conditions:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzConfirmationCancel" devLabel="Cancel" translation="" />
+	<label commandName="lclzConfirmationInfo" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This utility will gather operating system performance data while you perform the workflow that causes a performance issue. No audio or video will be captured.&lt;br/&gt;After you stop the data gathering process, you will be shown a questionnaire to provide more details about the issue you are experiencing. You can skip the data gathering portion and just fill out the questionnaire if you prefer.&lt;br/&gt;When finished, the system information and questionnaire will be sent to the Fusion team for analysis.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzConfirmationStart" devLabel="Start gathering data" translation="" />
+	<label commandName="lclzConfirmationTerms" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Terms and Conditions&lt;/span&gt;&lt;br/&gt;I agree to the &lt;a href=&quot;https://www.autodesk.com/company/terms-of-use/en/general-terms/&quot;&gt;&lt;span style=&quot; text-decoration:none;color:#0078d7;&quot;&gt;Autodesk General Terms&lt;/span&gt;&lt;/a&gt; and to the use of my data as described in the &lt;a href=&quot;https://usa.autodesk.com/privacy/&quot;&gt;&lt;span style=&quot; text-decoration:none;color:#0078d7;&quot;&gt;Autodesk Privacy statement &lt;/span&gt;&lt;/a&gt;(which may include transfer of my data to other countries where Autodesk operates).&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzConfirmationTitle" devLabel="Collect performance feedback" translation="" />
+	<label commandName="lclzConfirmationToQuestionnaire" devLabel="Skip to questionnaire" translation="" />
+	<label commandName="lclzContactCopyRight" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright 2024 Autodesk, Inc. All rights reserved. Privacy - &lt;span style=&quot; text-decoration: none;&quot;/&gt;&lt;a href=&quot;https://www.autodesk.com/company/legal-notices-trademarks&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#0078d7;&quot;&gt;Legal Notices &amp;amp; Trademarks&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzContactDisscussionGroup" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Discussion Groups: &lt;/span&gt; &lt;a href=&quot;https://feedback.autodesk.com/key/Fusion360Insider&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#0078d7;&quot;&gt;Fusion Insider&lt;/span&gt;&lt;/a&gt; or &lt;a href=&quot;https://www.autodesk.com/community&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#0078d7;&quot;&gt; Autodesk Fusion Community&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzContactEmail" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Email:&lt;/span&gt;&lt;a href=&quot;mailto:fusion.performance.feedback@autodesk.com&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#0078d7;&quot;&gt; fusion.performance.feedback@autodesk.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzContactInfo" devLabel="If you have questions about the program or about feedback you have already submitted, you can contact members of the Fusion team with your questions." translation="" />
+	<label commandName="lclzContactTitle" devLabel="Contact" translation="" />
+	<label commandName="lclzCopyBtn" devLabel="Copy" translation="" />
+	<label commandName="lclzIvalidArgumentsDlgTitle" devLabel="Report Performance Issue" translation="" />
+	<label commandName="lclzQuestionnaireAttachDesignInfoPushButton" devLabel="Attach design info" translation="" />
+	<label commandName="lclzQuestionnaireAttachInfoLabel" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;While a design file with the performance issue is open, click the button below to attach some helpful information,such as # of bodies and components, # and types of joints,etc. No proprietary data about the design will be captured.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzQuestionnaireCancelButton" devLabel="Cancel" translation="" />
+	<label commandName="lclzQuestionnaireCrashOrUnrespoRadioButton" devLabel="Unresponsive" translation="" />
+	<label commandName="lclzQuestionnaireCrashOrUnrespoTooltip" devLabel="Fusion closes unexpectedly or no longer responds to mouse or keyboard inputs" translation="" />
+	<label commandName="lclzQuestionnaireDesribeIssueLabel" devLabel="Briefly describe the performance issue" translation="" />
+	<label commandName="lclzQuestionnaireDomainAnimation" devLabel="Animation" translation="" />
+	<label commandName="lclzQuestionnaireDomainDataPanel" devLabel="Data Panel" translation="" />
+	<label commandName="lclzQuestionnaireDomainDesign" devLabel="Design" translation="" />
+	<label commandName="lclzQuestionnaireDomainDrawing" devLabel="Drawing" translation="" />
+	<label commandName="lclzQuestionnaireDomainGenDesign" devLabel="Generative Design" translation="" />
+	<label commandName="lclzQuestionnaireDomainHomeTab" devLabel="Home Tab" translation="" />
+	<label commandName="lclzQuestionnaireDomainManufacture" devLabel="Manufacture" translation="" />
+	<label commandName="lclzQuestionnaireDomainOther" devLabel="Other" translation="" />
+	<label commandName="lclzQuestionnaireDomainRender" devLabel="Render" translation="" />
+	<label commandName="lclzQuestionnaireDomainSelect" devLabel="Select" translation="" />
+	<label commandName="lclzQuestionnaireDomainSimulation" devLabel="Simulation" translation="" />
+	<label commandName="lclzQuestionnaireEverytimeRadioButton" devLabel="Every time I use the product" translation="" />
+	<label commandName="lclzQuestionnaireFirstTimeRadioButton" devLabel="This is the first time" translation="" />
+	<label commandName="lclzQuestionnaireFrequencyLabel" devLabel="How often do you encounter this problem?" translation="" />
+	<label commandName="lclzQuestionnaireHalfTheTimeRadioButton" devLabel="Often half the time or more" translation="" />
+	<label commandName="lclzQuestionnaireImprovedLabel" devLabel="Has the issue improved since you first experienced it?" translation="" />
+	<label commandName="lclzQuestionnaireImprovedRadio" devLabel="Yes, it has improved" translation="" />
+	<label commandName="lclzQuestionnaireIsItOkLabel" devLabel="Is it ok for us to contact you if we have additional questions about your issue?" translation="" />
+	<label commandName="lclzQuestionnaireIssueNatureLabel" devLabel="What is the primary nature of the issue?" translation="" />
+	<label commandName="lclzQuestionnaireJumpinessRadioButton" devLabel="Jumpiness" translation="" />
+	<label commandName="lclzQuestionnaireJumpinessTooltip" devLabel="Erratic movement or unexpected UI behaviors" translation="" />
+	<label commandName="lclzQuestionnaireLaggingRadioButton" devLabel="Lagging" translation="" />
+	<label commandName="lclzQuestionnaireLaggingTooltip" devLabel="Low framerate or slow graphics" translation="" />
+	<label commandName="lclzQuestionnaireMonthApril" devLabel="April" translation="" />
+	<label commandName="lclzQuestionnaireMonthAugust" devLabel="August" translation="" />
+	<label commandName="lclzQuestionnaireMonthDecember" devLabel="December" translation="" />
+	<label commandName="lclzQuestionnaireMonthFebruary" devLabel="February" translation="" />
+	<label commandName="lclzQuestionnaireMonthJanuary" devLabel="January" translation="" />
+	<label commandName="lclzQuestionnaireMonthJuly" devLabel="July" translation="" />
+	<label commandName="lclzQuestionnaireMonthJune" devLabel="June" translation="" />
+	<label commandName="lclzQuestionnaireMonthLabel" devLabel="Month" translation="" />
+	<label commandName="lclzQuestionnaireMonthMarch" devLabel="March" translation="" />
+	<label commandName="lclzQuestionnaireMonthMay" devLabel="May" translation="" />
+	<label commandName="lclzQuestionnaireMonthNovember" devLabel="November" translation="" />
+	<label commandName="lclzQuestionnaireMonthOctober" devLabel="October" translation="" />
+	<label commandName="lclzQuestionnaireMonthSelect" devLabel="Select" translation="" />
+	<label commandName="lclzQuestionnaireMonthSeptember" devLabel="September" translation="" />
+	<label commandName="lclzQuestionnaireNextButton" devLabel="Next" translation="" />
+	<label commandName="lclzQuestionnaireNoPreviouslyRadioButton" devLabel="No, it is new to this release" translation="" />
+	<label commandName="lclzQuestionnaireNoRadioButton" devLabel="No" translation="" />
+	<label commandName="lclzQuestionnaireNotImprovedRadio" devLabel="No, it is about the same" translation="" />
+	<label commandName="lclzQuestionnaireOccasionallyRadioButton" devLabel="Occasionally, less than half the time" translation="" />
+	<label commandName="lclzQuestionnaireOtherRadioButton" devLabel="Other" translation="" />
+	<label commandName="lclzQuestionnairePerfoStepsLabel" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;What were you trying to do when you experienced the performance issue?&lt;br/&gt;Please include the steps you took to experience the issue.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzQuestionnairePreviousButton" devLabel="Previous" translation="" />
+	<label commandName="lclzQuestionnairePreviousQuestionLabel" devLabel="Have you encountered this in a previous release of Fusion?" translation="" />
+	<label commandName="lclzQuestionnaireReproducibleWhileGatheringLabel" devLabel="Were you able to reproduce this performance issue while data was being gathered?" translation="" />
+	<label commandName="lclzQuestionnaireSinceWhenLabel" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Approximately when did you first experience this issue?&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="" />
+	<label commandName="lclzQuestionnaireSlownessRadioButton" devLabel="Slowness" translation="" />
+	<label commandName="lclzQuestionnaireSlownessTooltip" devLabel="Long compute times" translation="" />
+	<label commandName="lclzQuestionnaireSubmitButton" devLabel="Submit" translation="" />
+	<label commandName="lclzQuestionnaireTitle" devLabel="Fusion performance feedback questionnaire" translation="" />
+	<label commandName="lclzQuestionnaireWorseRadio" devLabel="No, it has gotten worse" translation="" />
+	<label commandName="lclzQuestionnaireYearLabel" devLabel="Year" translation="" />
+	<label commandName="lclzQuestionnaireYesPreviouslyRadioButton" devLabel="Yes, I have experienced the issue in a previous release" translation="" />
+	<label commandName="lclzQuestionnaireYesRadioButton" devLabel="Yes" translation="" />
+	<label commandName="lclzQuestionnairedontKnowRadioButton" devLabel=" I don't know or (I have never used a previous release)" translation="" />
+	<label commandName="lclzRecordingInfo" devLabel="Performance data gathering in-progress.&lt;br/&gt;Please continue the workflow that causes&lt;br/&gt; the performance issue(s)." translation="" />
+	<label commandName="lclzRecordingStopBtn" devLabel="Stop data gathering" translation="" />
+	<label commandName="lclzRecordingTimerLabel" devLabel="(10:00 maximum)" translation="" />
+</Resource>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AMM_ERROR_DISCONNECTED_MESH" devLabel="The target mesh needs to be a connected mesh." translation="" />
+	<label commandName="AMM_ERROR_EMPTY_SELECTION" devLabel="Failure due to empty selection." translation="" />
+	<label commandName="AMM_ERROR_FAILED_TO_CREATE_MESH" devLabel="Failed to generate the mesh. Try different parameter settings if possible." translation="" />
+	<label commandName="AMM_ERROR_FAILED_TO_OPEN_FILE" devLabel="Failed to open mesh file." translation="" />
+	<label commandName="AMM_ERROR_FAILED_TO_SAVE_FILE" devLabel="Failed to save mesh file." translation="" />
+	<label commandName="AMM_ERROR_FAILED_TO_SLICE_MESH" devLabel="Failed to slice the mesh with the specified plane." translation="" />
+	<label commandName="AMM_ERROR_NO_OVERHANGS_FOR_SUPPORT" devLabel="No supports are required because there are no overhangs in the mesh." translation="" />
+	<label commandName="AMM_ERROR_REPAIR_FAILED" devLabel="The repair tool failed to reduce the number of defects." translation="" />
+	<label commandName="AMM_ERROR_SELECTION_ALREADY_DRAWING" devLabel="Error during paint selection." translation="" />
+	<label commandName="AMM_ERROR_SELECTION_FAILED" devLabel="Error creating selection." translation="" />
+	<label commandName="AMM_ERROR_TOO_SMALL_FOR_SUPPORT" devLabel="Mesh is too small for support generation." translation="" />
+	<label commandName="AMM_ERROR_UNABLE_TO_EXPORT_MULTIPLE_MESHES" devLabel="Mesh export failed." translation="" />
+	<label commandName="AMM_ERROR_UNABLE_TO_FIND_CONSISTENT_NORMAL" devLabel="Unsable to find consistent normals for the mesh. Try repairing any non-manifold regions first." translation="" />
+	<label commandName="AMM_ERROR_WRONG_BRUSH_STROKE_ORDER" devLabel="Error during paint selection." translation="" />
+	<label commandName="AMM_FAILED" devLabel="Mesh operation failed." translation="" />
+	<label commandName="MMIGenerateMeshFromVoxelSolid" devLabel="Generating mesh from voxelized body..." translation="" />
+	<label commandName="MMIGenerateVoxelSolid" devLabel="Generating voxel representation..." translation="" />
+	<label commandName="MMIProjectResultSolid" devLabel="Projecting result on original mesh..." translation="" />
+	<label commandName="MMIReduceMeshSolid" devLabel="Reducing mesh body..." translation="" />
+	<label commandName="MMIRepairMeshSolid" devLabel="Repairing mesh body..." translation="" />
+	<label commandName="MMISmoothVoxelSolid" devLabel="Smoothing voxelized body..." translation="" />
+	<label commandName="MMIThickenVoxelSolid" devLabel="Thickening voxelized body..." translation="" />
+</Resource>

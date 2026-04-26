@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AdditiveEnabledUserName" devLabel="Manufacture Workspace - Additive Machines&lt;p&gt;Adds select additive manufacturing machines (3D printers) to the Manufacture Workspace. This initial stage allows for users to select an additive machine, specify print parameters, manually position and orient a part on  the build platform, generate support structures, and either create a build file for select machines or export a 3MF file for all machines. Note that activating this preview functionality will also enable the Machine Configurations feature above.&lt;/p&gt;" translation="" />
+	<label commandName="AllowLIBOSSFallbackTooltip" devLabel="Allow fallback to legacy file transfer interface." translation="" />
+	<label commandName="AllowLIBOSSFallbacknUserName" devLabel="Legacy data transfer compatibility" translation="" />
+	<label commandName="AnyCADEnabledUserName" devLabel="AnyCAD&lt;p&gt;Reuse Inventor or SolidWorks&lt;font size=&quot;3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/font&gt; CAD data with associative connections into Fusion, so that any changes made to the original data will be automatically reflected in Fusion. This preview is currently available in Fusion Team hubs.&lt;/p&gt;" translation="" />
+	<label commandName="AutoStitchTooltip" devLabel="Attempt to stitch surfaces in the model during import" translation="" />
+	<label commandName="AutoStitchUserName" devLabel="Auto stitch during import" translation="" />
+	<label commandName="Automatic" devLabel="Auto-select" translation="" />
+	<label commandName="BodiesToComponentsTooltip" devLabel="Attempt to convert bodies to components during import" translation="" />
+	<label commandName="BodiesToComponentsUserName" devLabel="Convert Bodies to Components during import" translation="" />
+	<label commandName="BootstrapOptionGroupName" devLabel="Bootstrap" translation="" />
+	<label commandName="BootstrapOptionGroupTooltip" devLabel="Special preferences that require the application to be restarted after a change." translation="" />
+	<label commandName="ChromiumGraphicsBackendToolTip" devLabel="Override the ANGLE backend used by embedded browser frames" translation="" />
+	<label commandName="ChromiumGraphicsBackendUserName" devLabel="Chromium Graphics Backend" translation="" />
+	<label commandName="CompatibilityGroupTooltip" devLabel="Miscellaneous options which may enable Fusion to perform better on certain hardware or&#10; network configurations, and to help diagnose undesirable application behavior." translation="" />
+	<label commandName="CompatibilityGroupUserName" devLabel="Compatibility &amp; Troubleshooting" translation="" />
+	<label commandName="ConfigNameOptionsCDName" devLabel="Configured Design Name" translation="" />
+	<label commandName="ConfigNameOptionsConfigName" devLabel="Configuration Name" translation="" />
+	<label commandName="ConfigNameOptionsNone" devLabel="None" translation="" />
+	<label commandName="ConfigNameOptionsPartNumber" devLabel="Part Number" translation="" />
+	<label commandName="ConfiguredDesignChoice" devLabel="Configured Designs" translation="" />
+	<label commandName="CrossProjectReferenceEnabledUserName2" devLabel="Cross Project References&lt;p&gt;Reuse designs from any project, using the insert workflow, without making a copy in the destination project. At this time the preview is available as part of team hubs.&lt;/p&gt;" translation="" />
+	<label commandName="D3D11Name" devLabel="D3D11" translation="" />
+	<label commandName="D3D9Name" devLabel="D3D9" translation="" />
+	<label commandName="DATA_MODEL_BAD_FILE" devLabel="Failed to open file because of corrupt data." translation="" />
+	<label commandName="DATA_MODEL_CORRUPTED_FILE" devLabel="&lt;b&gt;The file you are trying to open is corrupt! The current operation will be aborted!&lt;/b&gt;&lt;p&gt;For additional information, click the link to the related support article.&lt;p&gt;&lt;a href=&quot;https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/The-file-you-are-trying-to-open-or-operate-is-corrupt-when-opening-a-file-in-Fusion-360.html&quot;&gt;Fusion Support Article&lt;/a&gt;" translation="" />
+	<label commandName="DATA_MODEL_CORRUPTED_FILE_TITLE" devLabel="Corrupted File" translation="" />
+	<label commandName="DATA_MODEL_INVALID_FILE_FORMAT" devLabel="Failed to open an invalid file format." translation="" />
+	<label commandName="DATA_MODEL_OPEN_FILE_LOCKED" devLabel="The file could not be opened. It may be in-use by another program. Check the file usage or try again later." translation="" />
+	<label commandName="DATA_MODEL_OPEN_FILE_LOCKED_TITLE" devLabel="Locked file" translation="" />
+	<label commandName="DATA_MODEL_UNSUPPORTED_NEW_SCHEMA" devLabel="Failed to open file because of new data model schema." translation="" />
+	<label commandName="DConfigGroupName" devLabel="Configurations" translation="" />
+	<label commandName="DConfigGroupTooltip" devLabel="Preferences that control Configurations behavior" translation="" />
+	<label commandName="DOWNLOAD_VERSION_FILE_FAILURE" devLabel="Failed to download version file." translation="" />
+	<label commandName="DefaultDocumentOption" devLabel="Default document preference" translation="" />
+	<label commandName="DefaultDocumentOptionTooltip" devLabel="Specifies the document type when starting a new design." translation="" />
+	<label commandName="DefaultObjectVisibilityToolTip" devLabel="&lt;b&gt;Default Joint Object Visibility&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Sets the default &lt;b&gt;Object Visibility&lt;/b&gt; for &lt;b&gt;Joints&lt;/b&gt; in new designs.&lt;ul&gt;&lt;li&gt;&lt;b&gt;Visible&lt;/b&gt; - Turns on &lt;b&gt;Joints Object Visibility&lt;/b&gt; and shows the joints in the canvas.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Hidden&lt;/b&gt; - Turns off &lt;b&gt;Joints Object Visibility&lt;/b&gt; and hides the joints in the canvas.&lt;/li&gt;&lt;/ul&gt;" translation="" />
+	<label commandName="DefaultObjectVisibilityUserName" devLabel="Default Joints Object Visibility" translation="" />
+	<label commandName="DesktopGLName" devLabel="Desktop GL" translation="" />
+	<label commandName="DisableChromiumHttpsOnlyToolTip" devLabel="Disable forcibly upgrading all browser connections to HTTPS.&#10;This may be necessary for development using LocalHost." translation="" />
+	<label commandName="DisableChromiumHttpsOnlyUserName" devLabel="Override HTTPS-Only Mode" translation="" />
+	<label commandName="DisableTransferAccelerationTooltip" devLabel="Disable the use of regional Content Delivery Networks for cloud data. This may fix upload/download connectivity issues on some networks." translation="" />
+	<label commandName="DisableTransferAccelerationUserName" devLabel="Disable data transfer acceleration" translation="" />
+	<label commandName="EMBOnToolTip" devLabel="Exchange Material On" translation="" />
+	<label commandName="EMBOnUserName" devLabel="EMBOn" translation="" />
+	<label commandName="ExtensionsOptionGroupTooltip" devLabel="Control early access to extensions in Fusion." translation="" />
+	<label commandName="ExtensionsOptionGroupUserName" devLabel="Extensions" translation="" />
+	<label commandName="FeaturePackOptionGroupTooltip" devLabel="Control the availability of early availability features in Fusion." translation="" />
+	<label commandName="FeaturePackOptionGroupUserName" devLabel="Preview" translation="" />
+	<label commandName="FixAndReportOpt1" devLabel="Fix and Report issues" translation="" />
+	<label commandName="FixAndReportOpt2" devLabel="Check for issues only" translation="" />
+	<label commandName="FixAndReportOpt3" devLabel="Don't check for issues" translation="" />
+	<label commandName="FixAndReportOptionsTooltip" devLabel="Issue Fixing and Reporting" translation="" />
+	<label commandName="FixAndReportOptionsUserName" devLabel="Issue Fixing and Reporting" translation="" />
+	<label commandName="FusionInsiderGroupName" devLabel="Fusion Insider" translation="" />
+	<label commandName="GeneralSearchPathOptionGroupUserName" devLabel="General search path" translation="" />
+	<label commandName="GeneralSearchPathToolTip" devLabel="General search paths" translation="" />
+	<label commandName="GeneralSearchPathUserName" devLabel="General search paths" translation="" />
+	<label commandName="GeneralSerachPathOptionGroupToolTip" devLabel="General search path options" translation="" />
+	<label commandName="GraphicsApiOtionAutomatic" devLabel="Automatic" translation="" />
+	<label commandName="GraphicsApiOtionD3D11" devLabel="D3D11" translation="" />
+	<label commandName="GraphicsApiOtionMetal" devLabel="Metal" translation="" />
+	<label commandName="GraphicsApiOtionOpenGL" devLabel="OpenGL" translation="" />
+	<label commandName="InterruptEnabledUserName" devLabel="Enable interruptible behavior in Fusion." translation="" />
+	<label commandName="JointsHidden" devLabel="Hidden" translation="" />
+	<label commandName="JointsVisible" devLabel="Visible" translation="" />
+	<label commandName="MTComputeEnabledUserName" devLabel="Enable Multi-threaded component compute - Performance" translation="" />
+	<label commandName="MacSwizzlingTooltip" devLabel="Disabling this facilitates taking screenshots of command windows,&#10;but macOS Spaces will attempt to create a virtual desktop for each&#10;of Fusion's floating windows as if each were its own application." translation="" />
+	<label commandName="MacSwizzlingUserName" devLabel="Enforce window parenting for command palettes" translation="" />
+	<label commandName="MachineConfigurationEnabledUserName" devLabel="Manufacture Workspace - Machine Configurations&lt;p&gt;The first stage of machine definitions has been added to Autodesk Fusion. This will lay the framework for information about a machine to be used throughout the Manufacture workspace. A machine configuration will contain information about the machine such as its axes, maximum spindle speed, feedrate limits, print configurations, and more, which will allow Fusion to alert the user to potential issues as well as aid users in making toolpathing decisions and configure the output programs.&lt;/p&gt;" translation="" />
+	<label commandName="MissingFeatureId" devLabel="Missing Id in Feature element" translation="" />
+	<label commandName="MissingFeaturePackId" devLabel="Missing Id in FeaturePack element" translation="" />
+	<label commandName="MissingImageResourceUri" devLabel="Missing Uri in ImageResource element" translation="" />
+	<label commandName="MissingResourceId" devLabel="Missing Id in Resource element" translation="" />
+	<label commandName="ModeledThreadUserName" devLabel="Set default Thread Type as Modeled." translation="" />
+	<label commandName="NO_COMPONENT_IN_FILE" devLabel="Version file doesn't contain design component." translation="" />
+	<label commandName="NewPreviewOptionGroupName" devLabel="Preview Features" translation="" />
+	<label commandName="OfflineCacheTimePeriodToolTip" devLabel="Set number of days to keep files in offline cache" translation="" />
+	<label commandName="OfflineCacheTimePeriodUserName" devLabel="Offline cache time period (days)" translation="" />
+	<label commandName="OpenGLES" devLabel="Open GL ES" translation="" />
+	<label commandName="OverrideChromiumGPUWorkaroundsTooltip" devLabel="Disable Chromium's default graphics workarounds for &#10;various GPU driver bugs in embedded browser frames." translation="" />
+	<label commandName="OverrideChromiumGPUWorkaroundsUserName" devLabel="Override Chromium GPU Workarounds" translation="" />
+	<label commandName="PerformanceAppLogName" devLabel="Event performance logging" translation="" />
+	<label commandName="PerformanceAppLogToolTip" devLabel="Generates extra information about time differentials between events in the application log.&#10;This can result in large log files, and should be used sparingly." translation="" />
+	<label commandName="PersistenceOptionsToolTip" devLabel="Persistence options" translation="" />
+	<label commandName="PersistenceOptionsUserName" devLabel="Persistence Options" translation="" />
+	<label commandName="PreviewFeedbackLink" devLabel="'https://az1.qualtrics.com/SE/?SID=SV_elm4ORQYcyM6ypf'" translation="" />
+	<label commandName="PreviewFunctionalityGroupName" devLabel="Preview" translation="" />
+	<label commandName="PreviewFunctionalityGroupTooltip" devLabel="Preferences to try Preview Functionality" translation="" />
+	<label commandName="PreviewOptionGroupName" devLabel="Preview" translation="" />
+	<label commandName="PreviewOptionGroupTooltip" devLabel="Preferences to try Preview Functionality" translation="" />
+	<label commandName="PreviewTeamFunctionsGroupName" devLabel="Team" translation="" />
+	<label commandName="PreviewTeamFunctionsGroupTooltip" devLabel="Preferences to try Preview Team Hub Functionality" translation="" />
+	<label commandName="PreviewTermAgreedUserName" devLabel="I agree the %1% Preview Terms and Conditions." translation="" />
+	<label commandName="PreviewTermsLink" devLabel="'http://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/autodesk-cloud-services-beta-terms-of-service-rev-4-10-2012'" translation="" />
+	<label commandName="ProgressBarUserName" devLabel="Enable the progress bar." translation="" />
+	<label commandName="ProteinMaterialLibraryNameOptionToolTip" devLabel="Material Library Name Options" translation="" />
+	<label commandName="ProteinMaterialLibraryNameOptionUserName" devLabel="Material Library Name Options" translation="" />
+	<label commandName="ProteinMaterialLibraryPathOptionToolTip" devLabel="Material Library Path Options" translation="" />
+	<label commandName="ProteinMaterialLibraryPathOptionUserName" devLabel="Material Library Path Options" translation="" />
+	<label commandName="ProteinMaterialOptionGroupToolTip" devLabel="Material Options" translation="" />
+	<label commandName="ProteinMaterialOptionGroupUserName" devLabel="Material Options" translation="" />
+	<label commandName="PseudoLocalizeName" devLabel="Pseudo Localize" translation="" />
+	<label commandName="PseudoLocalizeTooltip" devLabel="Present text in an artificial language to test globalization and localizations" translation="" />
+	<label commandName="SaveMissingLocalizationsName" devLabel="Save Missing Localizations" translation="" />
+	<label commandName="SaveMissingLocalizationsTooltip" devLabel="Save the missing localizations so they can be output later" translation="" />
+	<label commandName="SavePreviewEnabledName" devLabel="Save preview" translation="" />
+	<label commandName="SavePreviewEnabledTooltip" devLabel="Switch the save preview on or off." translation="" />
+	<label commandName="ScriptingOptionsDescription" devLabel="These are a set of options that are used for scripting." translation="" />
+	<label commandName="ScriptingOptionsName" devLabel="Scripting" translation="" />
+	<label commandName="ShortElementErrorsTooltip" devLabel="Attempt to check model on small/sliver faces during import" translation="" />
+	<label commandName="ShortElementErrorsUserName" devLabel="Include small/sliver faces in import check" translation="" />
+	<label commandName="ShortElementsErrorTooltip" devLabel="Faces narrower or smaller than this will be detected" translation="" />
+	<label commandName="ShortElementsErrorUserName" devLabel="Small/Sliver Faces Tolerance (mm)" translation="" />
+	<label commandName="SpaceMouseDriverOption0" devLabel="Legacy" translation="" />
+	<label commandName="SpaceMouseDriverOption1" devLabel="Latest" translation="" />
+	<label commandName="SpaceMousedriver" devLabel="SpaceMouse driver" translation="" />
+	<label commandName="SpaceMousedriverTooltip" devLabel="Changes the version of the SpaceMouse SDK used by Fusion. Discontinued devices should use Legacy." translation="" />
+	<label commandName="StandardDesignChoice" devLabel="Standard Designs" translation="" />
+	<label commandName="TechPreviewGroupName" devLabel="Preview" translation="" />
+	<label commandName="TechPreviewGroupTooltip" devLabel="Preferences for Preview" translation="" />
+	<label commandName="Test" devLabel="Test for localizable xml attribute, please don't translate this." translation="" />
+	<label commandName="Theme" devLabel="Theme" translation="" />
+	<label commandName="ThemeTip" devLabel="Changes the active theme used by Fusion UI." translation="" />
+	<label commandName="ToolpathVisibilityEnabledUserName" devLabel="Blah" translation="" />
+	<label commandName="TransactionOptionsToolTip" devLabel="Transaction options" translation="" />
+	<label commandName="TransactionOptionsUserName" devLabel="Transaction Options" translation="" />
+	<label commandName="TwoAxisCuttingEnabledUserName" devLabel="Generative Design workspace - 2-Axis Cutting&lt;p&gt;Adds a new manufacturing method. It enables you to generate outcomes which can be manufactured using 2-axis cutting operations.&lt;/p&gt;" translation="" />
+	<label commandName="UNKNOWN_EXCEPTION_FOR_FILE_OPEN" devLabel="Failed to open file because of known exception." translation="" />
+	<label commandName="UnexpectedFeatureElement" devLabel="Unexpected element in Feature XML" translation="" />
+	<label commandName="UnexpectedFeaturePackElement" devLabel="Unexpected element in FeaturePack XML" translation="" />
+	<label commandName="UnexpectedResourceElement" devLabel="Unexpected element in Resources XML" translation="" />
+	<label commandName="UnknowExceptionThrown" devLabel="Internal error" translation="" />
+	<label commandName="UserIntentOption" devLabel="Start My Fusion in" translation="" />
+	<label commandName="UserIntentOptionTooltip" devLabel="Sets the content you'll see in the My Fusion page on the Home tab." translation="" />
+	<label commandName="UserLanguageName" devLabel="User language" translation="" />
+	<label commandName="UserLanguageTooltip" devLabel="The language used to present the UI." translation="" />
+	<label commandName="UserLanguageValueChineseSimplified" devLabel="Chinese (Simplified)" translation="" />
+	<label commandName="UserLanguageValueChineseTraditional" devLabel="Chinese (Traditional)" translation="" />
+	<label commandName="UserLanguageValueCzech" devLabel="Czech" translation="" />
+	<label commandName="UserLanguageValueEnglish" devLabel="English" translation="" />
+	<label commandName="UserLanguageValueFrench" devLabel="French" translation="" />
+	<label commandName="UserLanguageValueGerman" devLabel="German" translation="" />
+	<label commandName="UserLanguageValueHungarian" devLabel="Hungarian" translation="" />
+	<label commandName="UserLanguageValueItalian" devLabel="Italian" translation="" />
+	<label commandName="UserLanguageValueJapanese" devLabel="Japanese" translation="" />
+	<label commandName="UserLanguageValueKorean" devLabel="Korean" translation="" />
+	<label commandName="UserLanguageValuePolish" devLabel="Polish" translation="" />
+	<label commandName="UserLanguageValuePortugeseBrazilian" devLabel="Portuguese (Brazil)" translation="" />
+	<label commandName="UserLanguageValueRussian" devLabel="Russian" translation="" />
+	<label commandName="UserLanguageValueSpanish" devLabel="Spanish" translation="" />
+	<label commandName="UserLanguageValueTurkish" devLabel="Turkish" translation="" />
+	<label commandName="VulkanName" devLabel="Vulkan" translation="" />
+	<label commandName="WarpName" devLabel="Warp (software DirectX)" translation="" />
+	<label commandName="XMLDocument::_load" devLabel="Failed to load XML file %1%." translation="" />
+	<label commandName="graphicsApiOptionToolTip" devLabel="Controls the graphics API used to render the User Interface. This has no effect on the 3D modeling canvas." translation="" />
+	<label commandName="graphicsApiOptionUserName" devLabel="Qt Rendering Hardware Interface API" translation="" />
+	<label commandName="highDPI-preview-desc" devLabel="&lt;p&gt;Utilize Per-Monitor (V2) DPI Awareness on Windows for high-DPI scaling of the application UI.&#09;&#09;Disabling this option can improve compatibility with mixed-DPI display environments at the cost of visual fidelity.&lt;/p&gt;" translation="" />
+	<label commandName="highDPI-preview-title" devLabel="High-DPI Application Scaling" translation="" />
+	<label commandName="lclzConfigurationNameOptionsUserName" devLabel="Display configured components in Browser" translation="" />
+	<label commandName="lclzConfigurationNamingOption" devLabel="Determines which information to display in the Browser for all configured components." translation="" />
+	<label commandName="lclzDOeCAM" devLabel="CAM" translation="" />
+	<label commandName="lclzDOeCAMLong" devLabel="Manufacturing" translation="" />
+	<label commandName="lclzDOeDesign" devLabel="Design" translation="" />
+	<label commandName="lclzDOeDrawing" devLabel="Drawing" translation="" />
+	<label commandName="lclzDOeElectronics" devLabel="Electronics" translation="" />
+	<label commandName="lclzDOeElectronicsLong" devLabel="Electronics Engineering" translation="" />
+	<label commandName="lclzDOeGenerative" devLabel="Generative" translation="" />
+	<label commandName="lclzDOeGenerativeLong" devLabel="Generative Design" translation="" />
+	<label commandName="lclzDOeOther" devLabel="Other" translation="" />
+	<label commandName="lclzDOeSimulation" devLabel="Simulation" translation="" />
+	<label commandName="lclzDOeSurfacing" devLabel="Surfacing" translation="" />
+	<label commandName="lclzElectronicsDesign" devLabel="Electronics Design" translation="" />
+	<label commandName="lclzExportConfiguredCompsAsCDsTooltip" devLabel="Sets the default export option for configured components in assemblies to either &lt;b&gt;Configured Designs&lt;/b&gt; or &lt;b&gt;Standard Designs.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; &lt;b&gt;Configured Designs&lt;/b&gt; will include the configuration table and the ability to switch a configured component to any of its sibling configurations in the exported design." translation="" />
+	<label commandName="lclzExportConfiguredCompsAsCDsUserName" devLabel="Export configured components as" translation="" />
+	<label commandName="lclzHometabAsStartupExperienceUserName" devLabel="Show Home tab at startup" translation="" />
+	<label commandName="lclzInvalidMetaType" devLabel="Invalid MetaType Registered" translation="" />
+	<label commandName="lclzMechanicalDesign" devLabel="Design" translation="" />
+	<label commandName="lclzMissingSubjectArea" devLabel="Cannot find subject area %1% used by operation %2% in text command" translation="" />
+	<label commandName="lclzSkipLaunchItemsCreationTooltip" devLabel="Skip launch items creation when live update" translation="" />
+	<label commandName="lclzSkipLaunchItemsCreationUserName" devLabel="Skip launch items creation when live update" translation="" />
+	<label commandName="lclzhometabAsStartupExperienceTooltip" devLabel="Alternate UI for accessing your data, progressively being made available to customers." translation="" />
+	<label commandName="server.XMLAttributeNotExist" devLabel="Attribute with key %1% doesn't exist" translation="" />
+	<label commandName="server.XMLBuildFileFailed" devLabel="%1% does not contain valid XML data." translation="" />
+	<label commandName="server.XMLSaveFileFailed" devLabel="Failed to save XML file %1%." translation="" />
+	<label commandName="server.XMLSaveFileFailed1" devLabel="Failed to save XML file %1%. Exception: %2%" translation="" />
+	<label commandName="server.XMLSaveFileFailed2" devLabel="Failed to save XML file %1%. Exception: %2%" translation="" />
+	<label commandName="server.XMLSaveFileFailed3" devLabel="Failed to save XML file %1%. Exception: %2%" translation="" />
+	<label commandName="server.XMLSaveFileFailed4" devLabel="Failed to save XML file %1%" translation="" />
+	<label commandName="server.XMLSaveFileFailedGeneric" devLabel="Failed to save an XML file." translation="" />
+	<label commandName="server.Zip64CreateFailed" devLabel="Failed to create zip package %1%." translation="" />
+	<label commandName="server.Zip64OpenFailed" devLabel="Failed to open zip package %1%." translation="" />
+	<label commandName="server.Zip64SaveAsFailed" devLabel="Failed to save %1% as a zip package." translation="" />
+	<label commandName="server.Zip64SaveFailed" devLabel="Failed to save the zip package %1%." translation="" />
+	<label commandName="techPreviewLSA_eula_accept_button" devLabel="Sign me up" translation="" />
+	<label commandName="techPreviewLSA_eula_body1" devLabel="&lt;p&gt;In response to your feedback, we've been hard at work on some great new features for %1% that we'd like you to preview: &lt;ul&gt;&lt;li&gt;Drawings&lt;/li&gt;&lt;li&gt;API&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;" translation="" />
+	<label commandName="techPreviewLSA_eula_body2" devLabel="&lt;p&gt;So go ahead and &quot;kick the tires&quot; by hitting the sign me up button and experience these new capabilities before they are released. Also, stay tuned for more exciting things to come.  Don't forget to let us know what you think, too. We always value your &lt;a href=&quot;http://forums.autodesk.com/t5/Fusion-360/ct-p/1234/&quot;&gt;feedback&lt;/a&gt;.&lt;/p&gt;" translation="" />
+	<label commandName="techPreviewLSA_eula_body3" devLabel="&lt;p&gt;A little legal stuff:  signing up means you agree to the %1% Preview &lt;a href=&quot;http://autodesk.com/fusion-tech-preview-lsa&quot;&gt;Terms and Conditions&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You may always opt out under Preferences &amp;gt; Preview&lt;/p&gt;" translation="" />
+	<label commandName="techPreviewLSA_eula_reject_button" devLabel="No Thanks" translation="" />
+	<label commandName="techPreviewLSA_eula_title" devLabel="&lt;p&gt;%1% Preview&lt;/p&gt;" translation="" />
+	<label commandName="techpreview_eula_preference_common_ending1" devLabel="&lt;br/&gt;&lt;p&gt;We always value your &lt;a href=&quot;" translation="" />
+	<label commandName="techpreview_eula_preference_common_ending2" devLabel="&quot;&gt;feedback&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You can opt in or out of the Preview program by checking or unchecking the box below.&lt;br/&gt;Opting in means you agree to the %1% Preview &lt;a href=&quot;" translation="" />
+	<label commandName="techpreview_eula_preference_common_ending3" devLabel="&quot;&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;" translation="" />
+	<label commandName="techpreview_eula_preference_feedback" devLabel="http://forums.autodesk.com/t5/Fusion-360/ct-p/1234/" translation="" />
+	<label commandName="techpreview_eula_preference_terms" devLabel="http://autodesk.com/fusion-tech-preview-lsa" translation="" />
+</Resource>

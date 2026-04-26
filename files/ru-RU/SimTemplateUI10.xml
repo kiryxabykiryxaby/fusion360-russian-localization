@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="QSimStudyDialog__IWantToTemplate" devLabel="integrate a new solve pipeline in to Fusion. (Template)" translation="" />
+	<label commandName="ResultsViewsPanel" devLabel="Display" translation="" />
+	<label commandName="SimAnimatePanel" devLabel="Animate" translation="" />
+	<label commandName="SimAnsysPanel" devLabel="ANSYS" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="" />
+	<label commandName="SimComparePanel" devLabel="COMPARE" translation="" />
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="" />
+	<label commandName="SimFinishTemplateWebViewerCmd" devLabel="Finish Results" translation="" />
+	<label commandName="SimFinishTemplateWebViewerPanel" devLabel="Finish Results" translation="" />
+	<label commandName="SimForceLoadDesc1" devLabel="Use a Force load to push or pull on an object. Forces can cause stress and deformation." translation="" />
+	<label commandName="SimForceLoadDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set. When you apply a Force load to multiple entities, the total magnitude of the force is distributed across the selected entities." translation="" />
+	<label commandName="SimForceLoadDesc3" devLabel="To load a face involved in a contact, use a Pressure instead of a Force." translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimInspectPanel" devLabel="Inspect" translation="" />
+	<label commandName="SimLoadsPanel" devLabel="Loads" translation="" />
+	<label commandName="SimManagePanel" devLabel="Manage" translation="" />
+	<label commandName="SimMaterialsPanel" devLabel="Materials" translation="" />
+	<label commandName="SimMeshDisplayPanel" devLabel="Display" translation="" />
+	<label commandName="SimOptionsPanel" devLabel="Options" translation="" />
+	<label commandName="SimResultsManagePanel" devLabel="Manage" translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimSelectPanel" devLabel="Select" translation="" />
+	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="" />
+	<label commandName="SimSimplifyPanel" devLabel="Simplify" translation="" />
+	<label commandName="SimSolvePanel" devLabel="Solve" translation="" />
+	<label commandName="SimStructuralLoadTipsAndTricksDesc" devLabel="Define the magnitude and direction. Note that some load types allow you to edit the direction by changing the &lt;b&gt;Direction Type&lt;/b&gt;." translation="" />
+	<label commandName="SimStructuralLoadTipsAndTricksTips" devLabel="Select the geometry where load will be placed. The geometry can be edges, faces, or vertices. You can select individual or multiple entities." translation="" />
+	<label commandName="SimStructuralLoadTipsAndTricksTitle" devLabel="Structural Loads Information" translation="" />
+	<label commandName="SimStudyPanel" devLabel="Study" translation="" />
+	<label commandName="SimSynchronizePanel" devLabel="Synchronize" translation="" />
+	<label commandName="SimTemplate" devLabel="Template" translation="" />
+	<label commandName="SimTemplateCaseName" devLabel="Name" translation="" />
+	<label commandName="SimTemplateCaseTemplateBoolSetting" devLabel="Include example Template Bool Setting flag" translation="" />
+	<label commandName="SimTemplateDesc" devLabel="This is a template extension that Fusion developers can use to integrate new Simulation Studies &amp; Solvers.&lt;br&gt;It provides an end to end template for setting up a study, and solving via CloudOS Compute." translation="" />
+	<label commandName="SimTemplateEditStructuralAttributeCommand" devLabel="Edit Template Structural Attribute" translation="" />
+	<label commandName="SimTemplateReusedAttributeCommand" devLabel="Template Reused Attribute (Thermal Load)" translation="" />
+	<label commandName="SimTemplateStructuralAttributeCommand" devLabel="Template Structural Attribute" translation="" />
+	<label commandName="SimTemplateStructuralAttributeCurveMagnitude" devLabel="Curve Magnitude" translation="" />
+	<label commandName="SimTemplateStructuralAttributeDirection" devLabel="Flip Direction" translation="" />
+	<label commandName="SimTemplateStructuralAttributeDirectionAngle" devLabel="Angle (delta)" translation="" />
+	<label commandName="SimTemplateStructuralAttributeDirectionNormal" devLabel="Normal" translation="" />
+	<label commandName="SimTemplateStructuralAttributeDirectionReference" devLabel="Reference" translation="" />
+	<label commandName="SimTemplateStructuralAttributeDirectionType" devLabel="Direction Type" translation="" />
+	<label commandName="SimTemplateStructuralAttributeFlag" devLabel="Template Flag" translation="" />
+	<label commandName="SimTemplateStructuralAttributeFlipSide" devLabel="Flip Side" translation="" />
+	<label commandName="SimTemplateStructuralAttributeItem" devLabel="Template Structual Attribute" translation="" />
+	<label commandName="SimTemplateStructuralAttributeMagnitude" devLabel="Magnitude" translation="" />
+	<label commandName="SimTemplateStructuralAttributeTransformInput" devLabel="Direction" translation="" />
+	<label commandName="SimTemplateStructuralAttributeUnitsType" devLabel="Units" translation="" />
+	<label commandName="SimTemplateStructuralAttributeX" devLabel="Fx" translation="" />
+	<label commandName="SimTemplateStructuralAttributeXYZDirectionComponents" devLabel="Vectors (x, y, z)" translation="" />
+	<label commandName="SimTemplateStructuralAttributeY" devLabel="Fy" translation="" />
+	<label commandName="SimTemplateStructuralAttributeZ" devLabel="Fz" translation="" />
+	<label commandName="SimTemplateStructuralAttributesReferenceInput" devLabel="Reference" translation="" />
+	<label commandName="SimTemplateStructuralAttributesUnitsSwitcher" devLabel="Change Units" translation="" />
+	<label commandName="SimTemplateWebViewerCmd" devLabel="Results" translation="" />
+	<label commandName="SimTemplateWebViewerPanel" devLabel="Results" translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+	<label commandName="SimViewsPanel" devLabel="Display" translation="" />
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="" />
+	<label commandName="lclzCompareTab" devLabel="COMPARE" translation="" />
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="" />
+	<label commandName="lclzDeformation" devLabel="DEFORMATION" translation="" />
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="" />
+	<label commandName="lclzFilePanel" devLabel="File" translation="" />
+	<label commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="" />
+	<label commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="" />
+	<label commandName="lclzFinishTemplateWebViewerCmd" devLabel="Exits the Explore workspace and returns to the Simulation workspace." translation="" />
+	<label commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="" />
+	<label commandName="lclzResultsViewerTab" devLabel="RESULTS" translation="" />
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="" />
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="" />
+	<label commandName="lclzSimResultsTab" devLabel="RESULTS" translation="" />
+	<label commandName="lclzSimSetupTab" devLabel="SETUP" translation="" />
+	<label commandName="lclzSimTemplateWebViewerCmd1" devLabel="Explores design alternatives, called outcomes, using tools that help you identify the optimal outcome." translation="" />
+	<label commandName="lclzSimTemplateWebViewerCmd2" devLabel="Use different views to visually explore outcomes and examine their properties. Apply filters and compare multiple outcomes. Explore an outcome in detail in the 3D view and select an outcome iteration." translation="" />
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="" />
+</Resource>

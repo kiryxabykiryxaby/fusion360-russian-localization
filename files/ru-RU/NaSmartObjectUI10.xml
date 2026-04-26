@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CalloutCommand" devLabel="Create Callout" translation="Создать выноску" />
+	<label commandName="CalloutEditCommand" devLabel="Edit Callout" translation="Редактировать выноску" />
+	<label commandName="DragCalloutCmd" devLabel="Move Callout" translation="Переместить выноску" />
+	<label commandName="PublisherTrailHideAllCommand" devLabel="Hide All Trail Lines" translation="Скрыть все линии траектории" />
+	<label commandName="PublisherTrailShowAllCommand" devLabel="Show All Trail Lines" translation="Показать все линии траектории" />
+	<label commandName="PublisherTrailVisibilityCommand" devLabel="Show/Hide Trail Lines" translation="Показать/Скрыть линии траектории" />
+	<label commandName="TrailDragCmd" devLabel="Move Trail Line" translation="Переместить линию траектории" />
+	<label commandName="infoCancel" devLabel="Cancel" translation="Отмена" />
+	<label commandName="infoLink" devLabel="Link" translation="Ссылка" />
+	<label commandName="infoOK" devLabel="OK" translation="ОК" />
+	<label commandName="lclzCallout" devLabel="Drop the pin onto a component and enter text to add an associated 3D annotation." translation="Перетащите маркер на компонент и введите текст, чтобы добавить связанную 3D-аннотацию." />
+	<label commandName="select" devLabel="Component:" translation="Компонент:" />
+</Resource>

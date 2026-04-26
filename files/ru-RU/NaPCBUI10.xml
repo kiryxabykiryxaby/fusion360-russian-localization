@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="3D PCB Environment" devLabel="3D PCB" translation="" />
+	<label commandName="3DPCBTypeCanvas" devLabel="Canvas" translation="" />
+	<label commandName="3DPCBTypeComplete" devLabel="Complete 3D" translation="" />
+	<label commandName="3DPCBTypeInput" devLabel="3D PCB Type" translation="" />
+	<label commandName="3DPCBTypeSimple" devLabel="Simple 3D" translation="" />
+	<label commandName="ChooseEagleProfile" devLabel="Choose EAGLE Board Shape" translation="" />
+	<label commandName="ChooseFusionProfile" devLabel="Choose Fusion Board Shape" translation="" />
+	<label commandName="Create Hole on Board" devLabel="PCBHole" translation="" />
+	<label commandName="Create PCB" devLabel="Create Independent PCB" translation="" />
+	<label commandName="Create PCB Document" devLabel="New 3D PCB" translation="" />
+	<label commandName="Create PCB Workspace" devLabel="Create PCB" translation="" />
+	<label commandName="CreatePCBCircNPTHInput" devLabel="Convert Circles to NPTHs" translation="" />
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="" />
+	<label commandName="CreatePCBNPTHDiameterInput" devLabel="Max NPTH Diameter" translation="" />
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="" />
+	<label commandName="DerivePCBProfileInput" devLabel="Profile" translation="" />
+	<label commandName="DerivePCBXDirRefInput" devLabel="X Axis" translation="" />
+	<label commandName="Edit PCB Board" devLabel="Edit Board" translation="" />
+	<label commandName="EnterIntoPCBEnvironment" devLabel="You have entered into the PCB Mechanical Environment." translation="" />
+	<label commandName="FusionMovePCBComponent" devLabel="Hold SHIFT while moving to snap to grid" translation="" />
+	<label commandName="FusionPCB3DFlipComponent" devLabel="Flip 3D PCB Component" translation="" />
+	<label commandName="FusionPCBActivate" devLabel="Edit" translation="" />
+	<label commandName="FusionPCBFlipComponent" devLabel="Flip Component" translation="" />
+	<label commandName="FusionPCBSelectSketchPlaneNew" devLabel="Select top or bottom face of PCB." translation="" />
+	<label commandName="FusionPCBStop" devLabel="Finish PCB" translation="" />
+	<label commandName="FusionPCBUpdateDocument" devLabel="Update 3D PCB" translation="" />
+	<label commandName="FusionSelectDeriveProfileError" devLabel="Can't select 3d sketch to derive" translation="" />
+	<label commandName="FusionSelectFaceForHole" devLabel="Select face to locate hole" translation="" />
+	<label commandName="FusionSelectOriginRefPCBDefineBoard" devLabel="Select sketch point for PCB board origin reference" translation="" />
+	<label commandName="FusionSelectPCBComponent" devLabel="Select PCB components" translation="" />
+	<label commandName="FusionSelectPCBComponentBodyEdit" devLabel="Select Body from PCB component" translation="" />
+	<label commandName="FusionSelectPCBComponentEdit" devLabel="Select a PCB component" translation="" />
+	<label commandName="FusionSelectProfileCreatePCB" devLabel="Select sketch profile(s) for PCB" translation="" />
+	<label commandName="FusionSelectProfileDerivePCB" devLabel="Select sketch profile(s) for PCB" translation="" />
+	<label commandName="FusionSelectProfileError" devLabel="Can't select 3d sketch to create PCB" translation="" />
+	<label commandName="FusionSelectProfilePCBDefineBoard" devLabel="Select sketch profile(s) and origin for PCB" translation="" />
+	<label commandName="FusionSelectProfilePCBEditBoard" devLabel="Select sketch profile for PCB" translation="" />
+	<label commandName="FusionSelectReferencesForHole" devLabel="Select linear or circular reference edges to fully define hole location" translation="" />
+	<label commandName="FusionSelectSingleForHole" devLabel="Select face to locate hole" translation="" />
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="" />
+	<label commandName="FusionSelectXDirPointRefPCBEditBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="" />
+	<label commandName="InvalidExtrudeFeature" devLabel="There is no PCB board feature to Edit!" translation="" />
+	<label commandName="InvalidProfileSelection" devLabel="The selected profiles must be able to be merged into single one!" translation="" />
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="" />
+	<label commandName="MissingExtrudeProfile" devLabel="Missing profiles" translation="" />
+	<label commandName="MissingHoleOrigin" devLabel="missing face" translation="" />
+	<label commandName="MissingPCBAxis" devLabel="Missing axis" translation="" />
+	<label commandName="MissingPCBOrigin" devLabel="Missing origin" translation="" />
+	<label commandName="Move 3D PCB components" devLabel="Move 3D PCB Component" translation="" />
+	<label commandName="Move PCB component Body" devLabel="Move PCB Component body" translation="" />
+	<label commandName="Move PCB components" devLabel="Move PCB Components" translation="" />
+	<label commandName="MoveAngle" devLabel="Angle" translation="" />
+	<label commandName="MoveMethodFreeMove" devLabel="Free Move" translation="" />
+	<label commandName="MoveMethodPoint2Point" devLabel="Point to Point" translation="" />
+	<label commandName="MoveMethodRotate" devLabel="Rotate" translation="" />
+	<label commandName="MoveMethodType" devLabel="Move Type" translation="" />
+	<label commandName="MoveP2POrigin" devLabel="Origin Point" translation="" />
+	<label commandName="MoveP2POriginPrompt" devLabel="Select first point" translation="" />
+	<label commandName="MoveP2PTarget" devLabel="Target Point" translation="" />
+	<label commandName="MoveP2PTargetPrompt" devLabel="Select second point" translation="" />
+	<label commandName="MoveRotateAxis" devLabel="Axis" translation="" />
+	<label commandName="PCB Environment" devLabel="PCB" translation="" />
+	<label commandName="PCB Profile" devLabel="PCB Profile" translation="" />
+	<label commandName="PCB Sketch" devLabel="Edit EAGLE Profile" translation="" />
+	<label commandName="PCB3DBoardOutlineEditCommand" devLabel="Edit Sketch" translation="" />
+	<label commandName="PCBConstruction" devLabel="Construction" translation="" />
+	<label commandName="PCBCreateCmdFlipXAxis" devLabel="Flip X Axis" translation="" />
+	<label commandName="PCBCreateCmdFlipYAxis" devLabel="Flip Y Axis" translation="" />
+	<label commandName="PCBCreateCmdFlipZAxis" devLabel="Flip Z Axis" translation="" />
+	<label commandName="PCBCreateLimitText" devLabel="The maximum number of PCBs within a Design, %1%, has been reached.&#10;PCBs can be inserted from other Designs." translation="" />
+	<label commandName="PCBCreateLimitTitle" devLabel="PCB Limit Reached" translation="" />
+	<label commandName="PCBCreateOriginRefInput" devLabel="Origin" translation="" />
+	<label commandName="PCBCreateSimExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#10;&#10;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="" />
+	<label commandName="PCBCreateXDirRefInput" devLabel="X Axis" translation="" />
+	<label commandName="PCBCreateXRefExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#10;&#10;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="" />
+	<label commandName="PCBDefineBoardFlipInput" devLabel="Flip" translation="" />
+	<label commandName="PCBDefineBoardHeightInput" devLabel="Thickness" translation="" />
+	<label commandName="PCBDefineBoardOriginGroup" devLabel="Origin" translation="" />
+	<label commandName="PCBDefineBoardOriginRefInput" devLabel="Origin" translation="" />
+	<label commandName="PCBDefineBoardProfileInput" devLabel="Profile" translation="" />
+	<label commandName="PCBDefineBoardProfileOnBottom" devLabel="PCB Bottom Layer" translation="" />
+	<label commandName="PCBDefineBoardProfileOnInput" devLabel="Profile On" translation="" />
+	<label commandName="PCBDefineBoardProfileOnTop" devLabel="PCB Top Layer" translation="" />
+	<label commandName="PCBDefineBoardReorientInput" devLabel="Reorient" translation="" />
+	<label commandName="PCBDefineBoardShapeGroup" devLabel="Shape" translation="" />
+	<label commandName="PCBDefineBoardTopInput" devLabel="PCB Top" translation="" />
+	<label commandName="PCBDefineBoardXDirRefInput" devLabel="X Axis" translation="" />
+	<label commandName="PCBDerive" devLabel="Create Associative PCB" translation="" />
+	<label commandName="PCBDeriveCmdFlipXAxis" devLabel="Flip X Axis" translation="" />
+	<label commandName="PCBDeriveCmdFlipYAxis" devLabel="Flip Y Axis" translation="" />
+	<label commandName="PCBDeriveCmdFlipZAxis" devLabel="Flip Z Axis" translation="" />
+	<label commandName="PCBDeriveOriginRefInput" devLabel="Origin" translation="" />
+	<label commandName="PCBEditCmdFlipXAxis" devLabel="Flip X Axis" translation="" />
+	<label commandName="PCBEditCmdFlipYAxis" devLabel="Flip Y Axis" translation="" />
+	<label commandName="PCBEditOriginRefInput" devLabel="Origin" translation="" />
+	<label commandName="PCBEditXDirRefInput" devLabel="X Axis" translation="" />
+	<label commandName="PCBFixed" devLabel="Fixed" translation="" />
+	<label commandName="PCBHoleCenterInput" devLabel="Center" translation="" />
+	<label commandName="PCBHoleDiameterInput" devLabel="Diameter" translation="" />
+	<label commandName="PCBHoleEdit" devLabel="Edit" translation="" />
+	<label commandName="PCBHoleFaceInput" devLabel="Face" translation="" />
+	<label commandName="PCBHoleFail" devLabel="PCB Hole Creation Failed: 3D PCB is outdated, please create it again." translation="" />
+	<label commandName="PCBHoleRef0" devLabel="Distance" translation="" />
+	<label commandName="PCBHoleRef0Btn" devLabel="Reference" translation="" />
+	<label commandName="PCBHoleRef1" devLabel="Distance" translation="" />
+	<label commandName="PCBHoleRef1Btn" devLabel="Reference" translation="" />
+	<label commandName="PCBImprintEagle" devLabel="Copy EAGLE Profile" translation="" />
+	<label commandName="PCBImprintSelPrompt" devLabel="Select destination plane or sketch" translation="" />
+	<label commandName="PCBIncrementalMoveInput" devLabel="Use 2D PCB Grid" translation="" />
+	<label commandName="PCBMoveBodySelectionInput" devLabel="Selection" translation="" />
+	<label commandName="PCBMoveBodyTransformInput" devLabel="Distance" translation="" />
+	<label commandName="PCBMoveRerouteInput" devLabel="Reroute" translation="" />
+	<label commandName="PCBMoveSelectionInput" devLabel="Selection" translation="" />
+	<label commandName="PCBMoveTransformInput" devLabel="Distance" translation="" />
+	<label commandName="PCBMoveUpdateInput" devLabel="Update 2D PCB" translation="" />
+	<label commandName="PCBOpenFileInput" devLabel="Select Board file" translation="" />
+	<label commandName="PCBSketchCreationCommand" devLabel="Create PCB Sketch" translation="" />
+	<label commandName="PCBSketchSelect" devLabel="Destination" translation="" />
+	<label commandName="PCBStatus" devLabel="PCB Status" translation="" />
+	<label commandName="PCBStatusBoardHeight" devLabel="Board Height" translation="" />
+	<label commandName="PCBStatusBoardShape" devLabel="Board Shape" translation="" />
+	<label commandName="PCBStatusChanged" devLabel="Changed" translation="" />
+	<label commandName="PCBStatusComponents" devLabel="PCB Components" translation="" />
+	<label commandName="PCBStatusEagleInput" devLabel="EAGLE Board Shape" translation="" />
+	<label commandName="PCBStatusFusionInput" devLabel="Fusion Board Shape" translation="" />
+	<label commandName="PCBStatusUnchanged" devLabel="Unchanged" translation="" />
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="" />
+	<label commandName="PushDeriveInvalidSelectionMsg" devLabel="Unexpected invalid selection" translation="" />
+	<label commandName="PushDeriveToExistingTxnMessage" devLabel="New Derive Feature" translation="" />
+	<label commandName="Replace PCB component" devLabel="Replace Component Body" translation="" />
+	<label commandName="RotateAxisPrompt" devLabel="Pick a Rotate Axis" translation="" />
+	<label commandName="StepFFilesFilter" devLabel="STEP Files (*.stp *.step)" translation="" />
+	<label commandName="UnSupportedDeriveObject" devLabel="Target document is 3D PCB, which only accepts sketch for derive" translation="" />
+	<label commandName="Update PCB component" devLabel="Update PCB Component" translation="" />
+	<label commandName="XmlFilesFilter" devLabel="Xml Files (*.xml)" translation="" />
+	<label commandName="createPCBFlipXDirectionInputTooltip" devLabel="Flip X direction for create PCB" translation="" />
+	<label commandName="createPCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for create PCB" translation="" />
+	<label commandName="createPCBFlipZDirectionInputTooltip" devLabel="Flip Z direction for create PCB" translation="" />
+	<label commandName="derivePCBFlipXDirectionInputTooltip" devLabel="Flip X direction for derive PCB" translation="" />
+	<label commandName="derivePCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for derive PCB" translation="" />
+	<label commandName="derivePCBFlipZDirectionInputTooltip" devLabel="Flip Z direction for derive PCB" translation="" />
+	<label commandName="editPCBFlipXDirectionInputTooltip" devLabel="Flip X direction for Edit Board" translation="" />
+	<label commandName="editPCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for Edit Board" translation="" />
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="Mechanical 3D PCB Workspace" translation="" />
+	<label commandName="lclzPCBBoardSketchEditCmd1" devLabel="Edit the sketch generated from EAGLE board." translation="" />
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksDesc" devLabel="This command is only available when there's sketch generated from EAGLE board." translation="" />
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTips" devLabel="This command will activate the sketch generated from EAGLE board for editing." translation="" />
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTitle" devLabel="Edit the sketch generated from EAGLE board" translation="" />
+	<label commandName="lclzPCBComponentLocked" devLabel="Component or layer is locked. Switch to the 2D PCB document and unlock the component or layer. Edit the object position, then retry updating the 3D PCB." translation="" />
+	<label commandName="lclzPCBCreateCommand1" devLabel="Create a 3D PCB document from the selected sketch or face." translation="" />
+	<label commandName="lclzPCBCreateCommand2" devLabel="Use the 3D PCB document as an external reference in the enclosure design." translation="" />
+	<label commandName="lclzPCBDefineBoardCmd1" devLabel="Define the shape of the PCB via a sketched profile." translation="" />
+	<label commandName="lclzPCBDefineBoardCmd2" devLabel="Select a profile and an origin point." translation="" />
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksDesc" devLabel="After selecting the profile, you must choose an origin to ensure the communication with EAGLE is precise. One corner of the PCB normally works well. Decide if the profile is on the top or bottom of the PCB, and be sure that the extrusion direction is correct. The PCB shape will become visible to EAGLE after the model is saved, and the EAGLE user can change the shape of the board as well." translation="" />
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTips" devLabel="Select a profile and an origin point." translation="" />
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTitle" devLabel="PCB Define Board Information" translation="" />
+	<label commandName="lclzPCBDeriveCommand1" devLabel="Derive a sketch from this design to a 3D PCB design. The selected profiles will be used to create the board outline. " translation="" />
+	<label commandName="lclzPCBDeriveCommand2" devLabel="The board outline updates with changes to this design." translation="" />
+	<label commandName="lclzPCBImprintCmd1" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch." translation="" />
+	<label commandName="lclzPCBImprintCmdTipsAndTricksDesc" devLabel="This command is primarily useful when both the Fusion and EAGLE user are actively changing the shape of the PCB." translation="" />
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTips" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch. You can copy to a pre-existing sketch, or create a new sketch by selecting a planar face or construction plane. The selected sketch or plane must be parallel to the PCB.  If there is already an upstream sketch that drives the PCB feature, that sketch will be selected by default." translation="" />
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTitle" devLabel="Copy EAGLE Profile Information" translation="" />
+	<label commandName="lclzPCBMoveComponentBodyCommand1" devLabel="Move PCB component body to align with the footprint on the board." translation="" />
+	<label commandName="lclzPCBMoveComponentBodyCommand2" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="" />
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion." translation="" />
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTips" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="" />
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTitle" devLabel="Move PCB Component Body Information" translation="" />
+	<label commandName="lclzPCBMoveComponentsCommand1" devLabel="Move PCB components to new locations on the board." translation="" />
+	<label commandName="lclzPCBMoveComponentsCommand2" devLabel="Select a component and move it by dragging or typing in values." translation="" />
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion, and will become visible to EAGLE after the model is saved, and the EAGLE user can move the components as well." translation="" />
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTips" devLabel="Select a component and move it by dragging or typing in values." translation="" />
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTitle" devLabel="Move PCB Components Information" translation="" />
+	<label commandName="lclzPCBReplaceComponentCommand1" devLabel="Replace PCB component with different one." translation="" />
+	<label commandName="lclzPCBReplaceComponentCommand2" devLabel="Select a PCB 3d model(step, stp file format) to replace existing PCB component." translation="" />
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="" />
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTips" devLabel="Select a model to replace selected PCB component and move it to adjust its position." translation="" />
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTitle" devLabel="Replace PCB Component Information" translation="" />
+	<label commandName="lclzPCBSketchCreate1" devLabel="Creates a sketch on a selected face or plane and displays the Sketch toolbar." translation="" />
+	<label commandName="lclzPCBSketchCreate2" devLabel="Add construction geometry that can be referenced in both 2D and 3D PCB documents." translation="" />
+	<label commandName="lclzPCBStatusCommand1" devLabel="Check the status of the PCB shape and component positions. " translation="" />
+	<label commandName="lclzPCBStatusCommand2" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="" />
+	<label commandName="lclzPCBStatusCommandTipsAndTricksDesc" devLabel="If the board shape and/or component positions have been edited in Fusion after the last EAGLE update, this command will allow you to see both PCB shapes. Also, it will tell you if your current component positions are different from the last EAGLE update." translation="" />
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTips" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="" />
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTitle" devLabel="PCB Status Information" translation="" />
+	<label commandName="lclzPCBStop1" devLabel="Return to the Model workspace." translation="" />
+	<label commandName="lclzPCBUpdateComponentCommand1" devLabel="Update PCB component from library." translation="" />
+	<label commandName="lclzPCBUpdateComponentCommand2" devLabel="Download PCB component from library to replace existing PCB component." translation="" />
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="" />
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTips" devLabel="Download PCB component from library to replace the selected PCB component and move it to adjust its position." translation="" />
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTitle" devLabel="Update PCB Component Information" translation="" />
+	<label commandName="lclzPCBWorkspaceTitle" devLabel="Mechanical PCB Workspace" translation="" />
+</Resource>

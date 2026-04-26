@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="QSimStudyDialog__IWantToThermalStress" devLabel="Will my design deform excessively, or fail, when physical loads are applied to it while it is heated or cooled?" translation="" />
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="" />
+	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal Stress" translation="" />
+	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal Stress" translation="" />
+	<label commandName="SimAllSupportedFiles" devLabel="All supported files ( %1% ) ;;" translation="" />
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="" />
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="" />
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="" />
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="" />
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="" />
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="" />
+	<label commandName="SimAverageElementSizeLabel" devLabel="Average Element Size (% of model size)" translation="" />
+	<label commandName="SimAverageElementSizeTooltip" devLabel="Average element length relative to the diagonal measurement of the model bounding box. 5% to 10% recommended." translation="" />
+	<label commandName="SimCFDFilter" devLabel="Fluid export Files (*.cfdpkg)" translation="" />
+	<label commandName="SimCaseName" devLabel="Name" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="" />
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="" />
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="" />
+	<label commandName="SimCreateImportedCFDCaseFailed" devLabel="Create Imported CFD study failed." translation="" />
+	<label commandName="SimCreateImportedCFDCaseImportingDataFailed" devLabel="Failed to import this CFD package." translation="" />
+	<label commandName="SimCreateImportedCFDCaseImportingDataFailedMsg" devLabel="Failed to open the selected CFD package." translation="" />
+	<label commandName="SimCreateImportedCFDCaseNoSolidPartFailed" devLabel="No any solid part in the CFD package." translation="" />
+	<label commandName="SimCreateImportedCFDCaseNoSolidPartFailedMsg" devLabel="The study can't be created because there is no solid part in the CFD package." translation="" />
+	<label commandName="SimCurvedMeshElementsCheckBox" devLabel="Create Curved Mesh Elements" translation="" />
+	<label commandName="SimCurvedMeshElementsTooltip" devLabel="Elements shapes will better follow curved and rounded faces." translation="" />
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="" />
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="" />
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="" />
+	<label commandName="SimGradingFactorLabel" devLabel="Adjacent Elements Size Ratio" translation="" />
+	<label commandName="SimGradingFactorTooltip" devLabel="Maximum length ratio between adjacent elements. It effects transition between fine and coarse mesh. 1.5 to 3.0 recommended." translation="" />
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="" />
+	<label commandName="SimImportedCFD" devLabel="Imported CFD" translation="" />
+	<label commandName="SimImportedCFDDesc" devLabel="Shows the model and its temperature distribution which are imported from CFD thermal analysis." translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="" />
+	<label commandName="SimLSSAutoContactType" devLabel="Default Contact Type" translation="" />
+	<label commandName="SimLSSAutoContactTypeTooltip" devLabel="Default contact type." translation="" />
+	<label commandName="SimLSSAverageElementSizeShellLabel" devLabel="Shells" translation="" />
+	<label commandName="SimLSSAverageElementSizeSolidLabel" devLabel="Solids" translation="" />
+	<label commandName="SimLSSContactGeneration" devLabel="Contacts" translation="" />
+	<label commandName="SimLSSGenerateAutoContacts" devLabel="Enable Solver Contacts" translation="" />
+	<label commandName="SimLSSGenerateAutoContactsTooltip" devLabel="Generate automatic contacts during solve." translation="" />
+	<label commandName="SimLSSResultsToConvergeLabel" devLabel="Results for Baseline Accuracy" translation="" />
+	<label commandName="SimLSSResultsToConvergeTooltip" devLabel="Which result type to use for calculating convergence criteria." translation="" />
+	<label commandName="SimLinkedFrom" devLabel="Linked from: " translation="" />
+	<label commandName="SimLockedSettings" devLabel="These settings are blocked because they are linked from another Study." translation="" />
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="" />
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="" />
+	<label commandName="SimMaximumTurnAngleLabel" devLabel="Maximum Element Angle on Curves" translation="" />
+	<label commandName="SimMaximumTurnAngleTooltip" devLabel="The smaller the angle, the more elements will be generated on curves and radii. 30 to 60 deg recommended." translation="" />
+	<label commandName="SimMeshSectionLabel" devLabel="Mesh" translation="" />
+	<label commandName="SimNastranAutoContactCAPTOL" devLabel="Tolerance" translation="" />
+	<label commandName="SimNastranAutoContactCAPTOLTooltip" devLabel="Tolerance." translation="" />
+	<label commandName="SimNastranAutoContactFSTIF" devLabel="Frictional Stiffness for Stick" translation="" />
+	<label commandName="SimNastranAutoContactFSTIFTooltip" devLabel="Frictional Stiffness for Stick" translation="" />
+	<label commandName="SimNastranAutoContactMAXAD" devLabel="Max. Allowable Penetration" translation="" />
+	<label commandName="SimNastranAutoContactMAXADTooltip" devLabel="Max. Allowable Penetration." translation="" />
+	<label commandName="SimNastranAutoContactMU" devLabel="Coefficient of Friction" translation="" />
+	<label commandName="SimNastranAutoContactMUTooltip" devLabel="Coefficient of Friction." translation="" />
+	<label commandName="SimNastranAutoContactSFACT" devLabel="Stiffness Factor" translation="" />
+	<label commandName="SimNastranAutoContactSFACTTooltip" devLabel="Stiffness Factor." translation="" />
+	<label commandName="SimNastranPenetrationSurfaceOffset" devLabel="Penetration surface offset" translation="" />
+	<label commandName="SimNastranPenetrationSurfaceOffsetTooltip" devLabel="Penetration surface offset." translation="" />
+	<label commandName="SimRefinementTresholdLabel" devLabel="Portion of Elements to Refine (%)" translation="" />
+	<label commandName="SimRefinementTresholdTooltip" devLabel="Only areas of the model within this percentage of the maximum result will be refined and iterated." translation="" />
+	<label commandName="SimRemoveRBMTooltip" devLabel="Soft springs will be added when the model is not fully constrained but is in Static Equilibrium." translation="" />
+	<label commandName="SimReportJobFailed" devLabel="Job has failed. Import cannot continue." translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimSmallMeshSize" devLabel="An overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may be interested in using Adaptive Mesh Refinement to refine the mesh only in critical areas. &#10;&#10;Do you want to continue?" translation="" />
+	<label commandName="SimSmallMeshSize1" devLabel="Overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size." translation="" />
+	<label commandName="SimSmallMeshSize2" devLabel="An overly fine mesh(&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size. &#10;&#10;Do you want to continue?" translation="" />
+	<label commandName="SimTImportedCFDMeshSectionLabel" devLabel="Mesh" translation="" />
+	<label commandName="SimTImportedCFDRemoveRBMCheckBox" devLabel="Remove Rigid Body Modes" translation="" />
+	<label commandName="SimTImportedCFDUGeneralSectionLabel" devLabel="General" translation="" />
+	<label commandName="SimTStressAverageElementSizeAftText" devLabel=" % of model size" translation="" />
+	<label commandName="SimTStressAverageElementSizeText" devLabel="Average Element Size is " translation="" />
+	<label commandName="SimTStressReferenceTemperatureLabel" devLabel="Global Stress-free Temperature" translation="" />
+	<label commandName="SimTStressReferenceTemperatureTooltip" devLabel="The reference temperature for the temperature-induced stress for all components in the Study." translation="" />
+	<label commandName="SimTStressUMeshSectionLabel" devLabel="Mesh" translation="" />
+	<label commandName="SimTemperature" devLabel="Temperature" translation="" />
+	<label commandName="SimThermalStress" devLabel="Thermal Stress" translation="" />
+	<label commandName="SimThermalStressDesc" devLabel="Determine temperatures and stress distributions on the model resulting from both thermal and structural loads.&lt;br&gt;&lt;br&gt;The stress-free reference temperature is defined in the Study Settings." translation="" />
+	<label commandName="SimThermalStressReferenceTemperature" devLabel="Stress-free Temperatures" translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDesc1" devLabel="Define stress-free temperature of components. Default temperature comes from general settings." translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgDefaultReferenceTemperature" devLabel="Use Default" translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgPart" devLabel="Component" translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgReferenceTemperature" devLabel="Stress-free Temperature" translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgSelectAll" devLabel="Select All" translation="" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgWindowTitle" devLabel="Stress-free Temperatures" translation="" />
+	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+	<label commandName="SimUsePartBasedMeasureForAsmMeshCheckBox" devLabel="Use Part Based Measure for Assembly Mesh" translation="" />
+	<label commandName="SimUsePartBasedMeasureForAsmMeshTooltip" devLabel="Element length is relative to each part bounding box rather than the assembly bounding box." translation="" />
+	<label commandName="SimVonMisesStress" devLabel="von Mises Stress" translation="" />
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="" />
+</Resource>

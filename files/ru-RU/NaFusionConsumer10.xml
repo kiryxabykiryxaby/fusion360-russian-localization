@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AGDObstacleBodyName" devLabel="Obstacle%1%" translation="" />
+	<label commandName="AGDOrganicBodyName" devLabel="Organic%1%" translation="" />
+	<label commandName="AGDPreserveBodyName" devLabel="Preserve%1%" translation="" />
+	<label commandName="AGD_DESIGN_DESCRIPTION" devLabel="Created from generative design outcome" translation="" />
+</Resource>

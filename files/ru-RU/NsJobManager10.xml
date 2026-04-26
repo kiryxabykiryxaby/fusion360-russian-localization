@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="jobManagerGenerativeDesignSolving" devLabel="Generative Design Solving" translation="" />
+	<label commandName="jobManagerSimulationSolving" devLabel="Simulation Solving" translation="" />
+	<label commandName="jobManagerTranslating" devLabel="Translating" translation="" />
+	<label commandName="jobManagerUploading" devLabel="Uploading" translation="" />
+</Resource>

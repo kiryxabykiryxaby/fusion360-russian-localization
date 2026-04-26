@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AnimationStoreboardNotFound" devLabel="Animation Storyboard not found" translation="" />
+	<label commandName="CalloutCopiedName" devLabel="(copy %1% of) " translation="" />
+	<label commandName="CalloutCopy" devLabel="copy" translation="" />
+	<label commandName="CalloutCopyOf" devLabel="(copy of) " translation="" />
+	<label commandName="CalloutName" devLabel="Callout" translation="" />
+	<label commandName="CalloutSelectionId" devLabel="Callout" translation="" />
+	<label commandName="CameraAction" devLabel="Camera" translation="" />
+	<label commandName="IActionSelectionId" devLabel="IAction" translation="" />
+	<label commandName="NextValidChildStoryboardName" devLabel="Storyboard" translation="" />
+	<label commandName="PasteStoryboardDefaultName" devLabel="%1%-copy%2%" translation="" />
+	<label commandName="PublisherAnnotations" devLabel="Annotations" translation="" />
+	<label commandName="PublisherCameraNotRecord" devLabel="View is not recording" translation="" />
+	<label commandName="PublisherComponentMotionPathAction" devLabel="Move" translation="" />
+	<label commandName="PublisherComponentRotationAction" devLabel="Rotate" translation="" />
+	<label commandName="PublisherComponentVisibilityAction" devLabel="Visibility" translation="" />
+	<label commandName="PublisherComponentsActorDisplayName" devLabel="Components" translation="" />
+	<label commandName="SmartObjectSelectionCategory" devLabel="SmartObject" translation="" />
+	<label commandName="SmartObjectSelectionId" devLabel="SmartObject" translation="" />
+	<label commandName="SmartObjectVisibilityAction" devLabel="Visibility" translation="" />
+	<label commandName="StoryboardDefaultName" devLabel="Storyboard" translation="" />
+	<label commandName="StoryboardSelectionId" devLabel="Storyboard" translation="" />
+	<label commandName="TrailSelectionId" devLabel="Trail Line" translation="" />
+	<label commandName="ViewActorDisplayName" devLabel="View" translation="" />
+</Resource>

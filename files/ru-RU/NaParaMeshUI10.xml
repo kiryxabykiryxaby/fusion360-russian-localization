@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="MeshAligninfoInputFromToolTip" devLabel="Select a face on a mesh body to align." translation="Выберите грань на mesh-теле для выравнивания." />
+	<label commandName="MeshAligninfoInputToToolTip" devLabel="Select a plane to align the body to." translation="Выберите плоскость, относительно которой выровнять тело." />
+	<label commandName="lclzParaMeshAlignDesc1" devLabel="Aligns a face on a mesh body to a plane with one transformation." translation="Выравнивает грань на mesh-теле относительно плоскости за одно преобразование." />
+	<label commandName="lclzParaMeshAlignDesc2" devLabel="Select a mesh face, then select a plane to align the body to." translation="Выберите грань mesh-тела, затем выберите плоскость для выравнивания тела." />
+    <label commandName="Before / After No of Defects" devLabel="Before / After" translation="До / После" />
+    <label commandName="BlackDisplacement" devLabel="Black Point" translation="Черная точка" />
+    <label commandName="BlackDisplacementToolTip" devLabel="Specify the maximum distance to set the height or depth for black areas in the texture image. Enter a positive value to extrude away from the selected geometry or a negative value to cut into it." translation="Задайте максимальное расстояние для установки высоты или глубины черных областей в текстуре. Введите положительное значение для выдавливания от выбранной геометрии или отрицательное для врезания в нее." />
+    <label commandName="BodyToCalculateFaceGroups" devLabel="Bodies/Face Groups" translation="Тела/Группы граней" />
+    <label commandName="BodyToCalculateFaceGroupsToolTip" devLabel="Select mesh bodies or face groups to generate new face groups." translation="Выберите сеточные тела или группы граней для создания новых групп граней." />
+    <label commandName="BodyToEdit" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToEditToolTip" devLabel="Select a mesh body to edit directly" translation="Выберите сеточное тело для прямого редактирования" />
+    <label commandName="BodyToExtractFrom" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToExtractFromToolTip" devLabel="Select mesh body to separate." translation="Выберите сеточное тело для разделения." />
+    <label commandName="BodyToHollow" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToHollowToolTip" devLabel="Select a mesh body to shell." translation="Выберите сеточное тело для создания оболочки." />
+    <label commandName="BodyToPlanarSection" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToPlanarSectionToolTip" devLabel="Select a mesh body to generate the section line from." translation="Выберите сеточное тело для создания линии сечения." />
+    <label commandName="BodyToPlaneCut" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToPlaneCutToolTip" devLabel="Select mesh body to cut." translation="Выберите сеточное тело для разрезания." />
+    <label commandName="BodyToPosition" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToPositionToolTip" devLabel="" translation="" />
+    <label commandName="BodyToQuadMesh" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToQuadMeshToolTip" devLabel="" translation="" />
+    <label commandName="BodyToReduce" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToReduceDM" devLabel="Selection" translation="Выбор" />
+    <label commandName="BodyToReduceDMToolTip" devLabel="Select a mesh body, face groups or faces to reduce." translation="Выберите сеточное тело, группы граней или грани для уменьшения." />
+    <label commandName="BodyToReducePM" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToReducePMToolTip" devLabel="Select a mesh body or face groups to reduce." translation="Выберите сеточное тело или группы граней для уменьшения." />
+    <label commandName="BodyToReduceToolTip" devLabel="Select mesh body or face groups to reduce." translation="Выберите сеточное тело или группы граней для уменьшения." />
+    <label commandName="BodyToRemesh" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToRemeshDM" devLabel="Selection" translation="Выбор" />
+    <label commandName="BodyToRemeshDMToolTip" devLabel="Select a mesh body, face groups or faces to remesh." translation="Выберите сеточное тело, группы граней или грани для перерасчета сетки." />
+    <label commandName="BodyToRemeshPM" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToRemeshPMToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Выберите сеточное тело или группы граней для перерасчета сетки." />
+    <label commandName="BodyToRemeshToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Выберите сеточное тело или группы граней для перерасчета сетки." />
+    <label commandName="BodyToRemove" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToRemoveToolTip" devLabel="Select a mesh body to remove" translation="Выберите сеточное тело для удаления" />
+    <label commandName="BodyToSmooth" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToSmoothDM" devLabel="Selection" translation="Выбор" />
+    <label commandName="BodyToSmoothDMToolTip" devLabel="Select a mesh body, face groups or faces to smooth." translation="Выберите сеточное тело, группы граней или грани для сглаживания." />
+    <label commandName="BodyToSmoothPM" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToSmoothPMToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Выберите сеточное тело или группы граней для сглаживания." />
+    <label commandName="BodyToSmoothToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Выберите сеточное тело или группы граней для сглаживания." />
+    <label commandName="BodyToTessellate" devLabel="Body" translation="Тело" />
+    <label commandName="BodyToTessellateToolTip" devLabel="Select a solid or surface body to tessellate." translation="Выберите твердотельное или поверхностное тело для тесселяции." />
+    <label commandName="BodyToTexture" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToTextureDM" devLabel="Selection" translation="Выбор" />
+    <label commandName="BodyToTextureDMToolTip" devLabel="Select a mesh body, faces, or face groups to add texture to." translation="Выберите сеточное тело, грани или группы граней для наложения текстуры." />
+    <label commandName="BodyToTexturePM" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="BodyToTexturePMToolTip" devLabel="Select a mesh body or face groups to add texture to." translation="Выберите сеточное тело или группы граней для наложения текстуры." />
+    <label commandName="BodyToTextureToolTip" devLabel="Select a mesh body or face groups to add texture to." translation="Выберите сеточное тело или группы граней для наложения текстуры." />
+    <label commandName="BrushSize" devLabel="Brush Size" translation="Размер кисти" />
+    <label commandName="BrushSizeToolTip" devLabel="Adjust the brush size for paint selection." translation="Настройте размер кисти для выбора рисованием." />
+    <label commandName="CalculateFacegroupsSelectTargetBody" devLabel="Select mesh body" translation="Выберите сеточное тело" />
+    <label commandName="CalculateFacegroupsSelectedTargetBody" devLabel="Select type and adjust settings" translation="Выберите тип и настройте параметры" />
+    <label commandName="CenterTransform" devLabel="Center" translation="По центру" />
+    <label commandName="CenterTransformToolTip" devLabel="Centers the mesh body on the origin of the active component." translation="Центрирует сеточное тело относительно начала активного компонента." />
+    <label commandName="CmMKS" devLabel="Centimeter" translation="Сантиметр" />
+    <label commandName="CmMKSToolTip" devLabel="One unit from the original file equals one centimeter." translation="Одна единица из исходного файла равна одному сантиметру." />
+    <label commandName="ConvertMeshAdjustConversionSettings" devLabel="Adjust conversion settings" translation="Настройте параметры преобразования" />
+    <label commandName="ConvertMeshBaseFeature" devLabel="Base Feature" translation="Базовый элемент" />
+    <label commandName="ConvertMeshBaseFeatureToolTip" devLabel="Creates a base feature or T-Spline form in the timeline that does not maintain any upstream parametric relationships." translation="Создает базовый элемент или T-Spline форму в таймлайне, которые не сохраняют параметрические связи с предыдущими элементами." />
+    <label commandName="ConvertMeshOperation" devLabel="Operation" translation="Операция" />
+    <label commandName="ConvertMeshOperationBaseFeatureToolTipDescription" devLabel="Converts the mesh body to a T-Spline form and opens the Form contextual environment. You can edit the form before completing the conversion." translation="Преобразует сеточное тело в T-Spline форму и открывает контекстную среду Формы. Вы можете редактировать форму перед завершением преобразования." />
+    <label commandName="ConvertMeshOperationParametricToolTipDescription" devLabel="Converts the mesh body to an organically shaped solid or surface body. You cannot edit the form before completing the conversion. If this method fails, try the Base Feature operation and select the Organic method." translation="Преобразует сеточное тело в органически shaped твердотельное или поверхностное тело. Вы не можете редактировать форму перед завершением преобразования. Если этот метод не сработает, попробуйте операцию Базовый элемент и выберите органический метод." />
+    <label commandName="ConvertMeshParametric" devLabel="Parametric" translation="Параметрический" />
+    <label commandName="ConvertMeshParametricToolTip" devLabel="Creates a feature in the timeline that maintains its upstream parametric relationships." translation="Создает элемент в таймлайне, который сохраняет параметрические связи с предыдущими элементами." />
+    <label commandName="ConvertMeshSelectTargetBody" devLabel="Select mesh body to convert" translation="Выберите сеточное тело для преобразования" />
+    <label commandName="ConvertOrganicTargetType" devLabel="Resolution" translation="Разрешение" />
+    <label commandName="ConvertSmoothBoundary" devLabel="Preprocess Holes" translation="Предобработка отверстий" />
+    <label commandName="ConvertSmoothBoundaryToolTip" devLabel="Smooths the boundaries of open holes in the mesh body.&lt;br/&gt;&lt;br/&gt;Improves the chance of successful conversion by refining the shape of holes that will remain open." translation="Сглаживает границы открытых отверстий в сеточном теле.&lt;br/&gt;&lt;br/&gt;Увеличивает шанс успешного преобразования, улучшая форму отверстий, которые останутся открытыми." />
+    <label commandName="ConvertTargetFaceNumberInput" devLabel="" translation="" />
+    <label commandName="ConvertTargetOrganicAccuracy" devLabel="Accuracy" translation="Точность" />
+    <label commandName="CreateFaceGroupInput" devLabel="Faces" translation="Грани" />
+    <label commandName="CreateFaceGroupInputToolTip" devLabel="Select faces to include in the face group." translation="Выберите грани для включения в группу граней." />
+    <label commandName="CreateFacegroupTriangleWarning" devLabel="&lt;b&gt;Warning&lt;/b&gt;: The selection has more than 5000 Faces. Calculation will take a considerable amount of time. Consider performing the Fast Method or only selecting a subset of the Face Groups currently selected." translation="&lt;b&gt;Предупреждение&lt;/b&gt;: Выбор содержит более 5000 граней. Вычисления займут значительное время. Рекомендуется выполнить Быстрый метод или выбрать только часть currently выбранных Групп граней." />
+    <label commandName="CustomRefinementOption" devLabel="Custom" translation="Пользовательский" />
+    <label commandName="CustomRefinementOptionToolTip" devLabel="Applies custom refinement settings to tessellate the body." translation="Применяет пользовательские настройки измельчения для тесселяции тела." />
+    <label commandName="Cut" devLabel="Cut" translation="Вырезать" />
+    <label commandName="CutSelectTargetBody" devLabel="Select mesh body to cut" translation="Выберите сеточное тело для разрезания" />
+    <label commandName="CutToolTip" devLabel="Removes overlapping areas from target body." translation="Удаляет перекрывающиеся области из целевого тела." />
+    <label commandName="Defect Type" devLabel="Issue Type" translation="Тип проблемы" />
+    <label commandName="Defect TypeToolTip" devLabel="" translation="" />
+    <label commandName="DefectTable" devLabel="Defect Table" translation="Таблица дефектов" />
+    <label commandName="DefectTableToolTip" devLabel="" translation="" />
+    <label commandName="DefectTypeTitle" devLabel="Issue Type" translation="Тип проблемы" />
+    <label commandName="DefectTypeTitleToolTip" devLabel="" translation="" />
+    <label commandName="DegenerateEdge" devLabel="Degenerate Edges" translation="Вырожденные ребра" />
+    <label commandName="DegenerateThreshold" devLabel="Degenerate Threshold" translation="Порог вырождения" />
+    <label commandName="DegenerateThresholdToolTip" devLabel="Specify the maximum size of degenerate edges and faces to repair." translation="Задайте максимальный размер вырожденных ребер и граней для исправления." />
+    <label commandName="DegenerateTriangle" devLabel="Degenerate Faces" translation="Вырожденные грани" />
+    <label commandName="DensityTolInput" devLabel="" translation="" />
+    <label commandName="DirectEditSelectTargetBody" devLabel="Select a mesh body to edit directly" translation="Выберите сеточное тело для прямого редактирования" />
+    <label commandName="EnableDefect" devLabel="" translation="" />
+    <label commandName="EnterIntoCreateMeshEnvironment" devLabel="You have entered into Mesh Direct Edit." translation="Вы вошли в режим прямого редактирования сетки." />
+    <label commandName="EraseAndFillDensity" devLabel="Density" translation="Плотность" />
+    <label commandName="EraseAndFillDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Задайте плотность для контроля количества создаваемых граней." />
+    <label commandName="EraseAndFillInput" devLabel="Selection" translation="Выбор" />
+    <label commandName="EraseAndFillInputToolTip" devLabel="Select faces around a hole to fill or faces of a region to repair on a mesh body." translation="Выберите грани вокруг отверстия для заполнения или грани области для восстановления на сеточном теле." />
+    <label commandName="EraseAndFillMeshingType" devLabel="Type" translation="Тип" />
+    <label commandName="EraseAndFillMeshingTypeToolTip" devLabel="" translation="" />
+    <label commandName="EraseAndFillMinimalType" devLabel="Minimal" translation="Минимальный" />
+    <label commandName="EraseAndFillMinimalTypeToolTip" devLabel="Fills the selected region with the minimum number of faces, typically resulting in long, thin triangles." translation="Заполняет выбранную область минимальным количеством граней, обычно создавая длинные тонкие треугольники." />
+    <label commandName="EraseAndFillScale" devLabel="Scale" translation="Масштаб" />
+    <label commandName="EraseAndFillScaleToolTip" devLabel="Specify weight to control the influence of surrounding faces on the new faces." translation="Задайте вес для контроля влияния окружающих граней на новые грани." />
+    <label commandName="EraseAndFillSmoothType" devLabel="Smooth" translation="Сглаженный" />
+    <label commandName="EraseAndFillSmoothTypeToolTip" devLabel="Fills the selected region with the very smoothly with triangles and tries to keep the shape of the model." translation="Заполняет выбранную область очень плавными треугольниками и старается сохранить форму модели." />
+    <label commandName="EraseAndFillUniformType" devLabel="Uniform" translation="Равномерный" />
+    <label commandName="EraseAndFillUniformTypeToolTip" devLabel="Fills the selected region with regular-shaped triangles." translation="Заполняет выбранную область правильными треугольниками." />
+    <label commandName="EraseDensitySlider" devLabel="" translation="" />
+    <label commandName="EraseDensitySliderToolTip" devLabel="" translation="" />
+    <label commandName="EraseScaleSlider" devLabel="" translation="" />
+    <label commandName="EraseScaleSliderToolTip" devLabel="" translation="" />
+    <label commandName="ExitMeshPanel" devLabel="Close" translation="Закрыть" />
+    <label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Расширить до связанных" />
+    <label commandName="ExpandToConnectedSelToolTip" devLabel="Expand face selection to all faces connected to the current selection." translation="Расширяет выбор граней до всех граней, связанных с текущим выделением." />
+    <label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Расширить до группы граней" />
+    <label commandName="ExpandToGroupSelToolTip" devLabel="Expand face selection to include all faces in the same face group." translation="Расширяет выбор граней, включая все грани в той же группе граней." />
+    <label commandName="ExtrudeFlipColor" devLabel="Flip" translation="Обратить" />
+    <label commandName="ExtrudeFlipColorToolTip" devLabel="Flips the black and white extrude direction." translation="Изменяет направление выдавливания для черного и белого цветов." />
+    <label commandName="ExtrudeGroup" devLabel="Extrude" translation="Выдавливание" />
+    <label commandName="ExtrudeGroupToolTip" devLabel="" translation="" />
+    <label commandName="ExtrudePreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="ExtrudePreviewInputToolTip" devLabel="Displays a preview of extruded texture in the canvas." translation="Отображает превью выдавливаемой текстуры на холсте." />
+    <label commandName="FaceGroupCount" devLabel="Face Group Count" translation="Количество групп граней" />
+    <label commandName="FaceGroupCountToolTip" devLabel="" translation="" />
+    <label commandName="FaceGroupPreviewCalculation" devLabel="Preview Calculation" translation="Превью вычислений" />
+    <label commandName="FaceGroupPreviewCalculationToolTip" devLabel="Displays a preview of the face groups on the mesh body in the canvas." translation="Отображает превью групп граней на сеточном теле на холсте." />
+    <label commandName="FaceGroupPreviewGroup" devLabel="Preview" translation="Превью" />
+    <label commandName="FaceGroupPreviewGroupToolTip" devLabel="" translation="" />
+    <label commandName="FaceGroupsToMerge" devLabel="Face Groups" translation="Группы граней" />
+    <label commandName="FaceGroupsToMergeToolTip" devLabel="Select two or more adjacent face groups on a mesh body to combine them." translation="Выберите две или более смежных групп граней на сеточном теле для их объединения." />
+    <label commandName="FacesToReverse" devLabel="Body/Face Group" translation="Тело/Группа граней" />
+    <label commandName="FacesToReverseDM" devLabel="Selection" translation="Выбор" />
+    <label commandName="FacesToReverseDMToolTip" devLabel="Select a mesh body, face groups or faces to reverse." translation="Выберите сеточное тело, группы граней или грани для обращения." />
+    <label commandName="FacesToReversePM" devLabel="Body/Face Groups" translation="Тело/Группы граней" />
+    <label commandName="FacesToReversePMToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Выберите сеточное тело или группы граней для обращения." />
+    <label commandName="FacesToReverseToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Выберите сеточное тело или группы граней для обращения." />
+    <label commandName="FacetCount" devLabel="Facet Count" translation="Количество граней" />
+    <label commandName="FastSegmentAreaInput" devLabel="" translation="" />
+    <label commandName="FinishMeshPanel" devLabel="Finish Direct Editing" translation="Завершить прямое редактирование" />
+    <label commandName="GridAspectRatio" devLabel="Aspect Ratio" translation="Соотношение сторон" />
+    <label commandName="GridAspectRatioSlider" devLabel="" translation="" />
+    <label commandName="GridAspectRatioSliderToolTip" devLabel="" translation="" />
+    <label commandName="GridAspectRatioToolTip" devLabel="Specify ratio between the height and width of each face on the mesh body." translation="Задайте соотношение между высотой и шириной каждой грани на сеточном теле." />
+    <label commandName="GroundTransform" devLabel="Move To Ground" translation="Переместить к земле" />
+    <label commandName="GroundTransformToolTip" devLabel="Positions the bottom of the mesh body to rest on the ground plane of the active component." translation="Помещает нижнюю часть сеточного тела на плоскость земли активного компонента." />
+    <label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Увеличить выделение" />
+    <label commandName="GrowMeshSelToolTip" devLabel="Increases the boundary of the selection set." translation="Увеличивает границу выделенной области." />
+    <label commandName="HighRefinementOption" devLabel="High" translation="Высокий" />
+    <label commandName="HighRefinementOptionToolTip" devLabel="Applies a preset with high refinement settings to tessellate the body." translation="Применяет предустановку с высокими настройками сглаживания для тесселяции тела." />
+    <label commandName="HollowSelectTargetBody" devLabel="Select mesh body to shell" translation="Выберите сеточное тело для создания оболочки" />
+    <label commandName="HollowSelectedTargetBody" devLabel="Adjust direction and thickness" translation="Настройте направление и толщину" />
+    <label commandName="Imperial" devLabel="Foot" translation="Фут" />
+    <label commandName="ImperialToolTip" devLabel="One unit from the original file equals one foot." translation="Одна единица из исходного файла равна одному футу." />
+    <label commandName="InchImperial" devLabel="Inch" translation="Дюйм" />
+    <label commandName="InchImperialToolTip" devLabel="One unit from the original file equals one inch." translation="Одна единица из исходного файла равна одному дюйму." />
+    <label commandName="InfoPreview" devLabel="Preview" translation="Превью" />
+    <label commandName="InfoPreviewToolTip" devLabel="Displays a preview of the shelled mesh body in the canvas." translation="Отображает превью сеточного тела с оболочкой на холсте." />
+    <label commandName="InsertMesh" devLabel="Insert" translation="Вставить" />
+    <label commandName="InsideThicknessInput" devLabel="" translation="" />
+    <label commandName="InspectDefects" devLabel="Detailed Analysis" translation="Детальный анализ" />
+    <label commandName="InspectDefectsToolTip" devLabel="Check to see a granular analysis of specific issues." translation="Проверьте детальный анализ конкретных проблем." />
+    <label commandName="Intersect" devLabel="Intersect" translation="Пересечение" />
+    <label commandName="IntersectToolTip" devLabel="Combines overlapping areas into a mesh body." translation="Объединяет перекрывающиеся области в одно сеточное тело." />
+    <label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Инвертировать выделение" />
+    <label commandName="InvertMeshSelToolTip" devLabel="Selects all faces that were previously not selected and deselects all faces that were previously selected." translation="Выделяет все грани, которые ранее не были выделены, и снимает выделение со всех ранее выделенных граней." />
+    <label commandName="Join" devLabel="Join" translation="Объединить" />
+    <label commandName="JoinToolTip" devLabel="Combines multiple mesh bodies into a single mesh body by enclosing their volumes." translation="Объединяет несколько сеточных тел в одно, заключая их объемы." />
+    <label commandName="KeepToolBodiesOption" devLabel="Keep Tools" translation="Сохранить инструменты" />
+    <label commandName="KeepToolBodiesOptionToolTip" devLabel="Preserves a copy of each tool body." translation="Сохраняет копию каждого тела-инструмента." />
+    <label commandName="LoadMeshFilter" devLabel="Mesh Files (*.3mf *.obj *.stl);;STL File (*.stl);;3MF File (*.3mf);;OBJ File (*.obj)" translation="Файлы сеток (*.3mf *.obj *.stl);;STL файлы (*.stl);;3MF файлы (*.3mf);;OBJ файлы (*.obj)" />
+    <label commandName="LowRefinementOption" devLabel="Low" translation="Низкий" />
+    <label commandName="LowRefinementOptionToolTip" devLabel="Applies a preset with low refinement settings to tessellate the body" translation="Применяет предустановку с низкими настройками сглаживания для тесселяции тела" />
+    <label commandName="MESH_MANY_TRIANGLE_WARNING" devLabel="This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="Эта сетка содержит более 10000 треугольников. Вычисления займут значительное время." />
+    <label commandName="MMKS" devLabel="Meter" translation="Метр" />
+    <label commandName="MMKSToolTip" devLabel="One unit from the original file equals one meter." translation="Одна единица из исходного файла равна одному метру." />
+    <label commandName="MakeSolid" devLabel="Rebuild" translation="Перестроить" />
+    <label commandName="MakeSolidToolTip" devLabel="Reconstructs the mesh body using one of 4 rebuild types. All inner structures are destroyed. (Slowest)" translation="Перестраивает сеточное тело с использованием одного из 4 типов перестроения. Все внутренние структуры уничтожаются. (Самый медленный)" />
+    <label commandName="MaxEdgeLengthSlider" devLabel="" translation="" />
+    <label commandName="MaxEdgeLengthSliderToolTip" devLabel="" translation="" />
+    <label commandName="MaximumEdgeLength" devLabel="Maximum Edge Length" translation="Максимальная длина ребра" />
+    <label commandName="MaximumEdgeLengthToolTip" devLabel="Specify maximum length of any face edge on the mesh body." translation="Задайте максимальную длину любого ребра грани на сеточном теле." />
+    <label commandName="MediumRefinementOption" devLabel="Medium" translation="Средний" />
+    <label commandName="MediumRefinementOptionToolTip" devLabel="Applies a preset with medium refinement settings to tessellate the body." translation="Применяет предустановку со средними настройками сглаживания для тесселяции тела." />
+    <label commandName="Merge" devLabel="Merge" translation="Слить" />
+    <label commandName="MergeFaceGroupsSelectTargetBody" devLabel="Select two or more adjacent face groups" translation="Выберите две или более смежных групп граней" />
+    <label commandName="MergeToolTip" devLabel="Combines multiple mesh bodies into a single mesh body without altering the faces of the original mesh bodies." translation="Объединяет несколько сеточных тел в одно без изменения граней исходных сеточных тел." />
+    <label commandName="Mesh" devLabel="Mesh" translation="Сетка" />
+    <label commandName="MeshAlignFlip" devLabel="Flip" translation="Обратить" />
+    <label commandName="MeshAlignFlipToolTip" devLabel="Flips the aligned body." translation="Обращает выровненное тело." />
+    <label commandName="MeshAlignPreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="MeshAlignPreviewInputToolTip" devLabel="Displays a preview of the aligned mesh body in the canvas." translation="Отображает превью выровненного сеточного тела на холсте." />
+    <label commandName="MeshAligninfoInputFrom" devLabel="From" translation="От" />
+    <label commandName="MeshAligninfoInputTo" devLabel="To" translation="К" />
+    <label commandName="MeshBodyPrompt" devLabel="Select mesh body" translation="Выберите сеточное тело" />
+    <label commandName="MeshCombineOperation" devLabel="Operation" translation="Операция" />
+    <label commandName="MeshCombineOperationToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Выберите сеточные тела для объединения с целевым телом." />
+    <label commandName="MeshCutSplitFaces" devLabel="Split Faces" translation="Разделить грани" />
+    <label commandName="MeshCutSplitFacesToolTip" devLabel="Splits mesh faces along the cut plane and maintains a single mesh body." translation="Разделяет грани сетки вдоль плоскости разреза и сохраняет единое сеточное тело." />
+    <label commandName="MeshDensity" devLabel="Density" translation="Плотность" />
+    <label commandName="MeshDensityToolTip" devLabel="Increase or decrease density of triangles in mesh body." translation="Увеличить или уменьшить плотность треугольников в сеточном теле." />
+    <label commandName="MeshDistance" devLabel="Offset" translation="Смещение" />
+    <label commandName="MeshDistanceToolTip" devLabel="Specify distance to offset repaired mesh from original mesh body." translation="Задайте расстояние для смещения восстановленной сетки от исходного сеточного тела." />
+    <label commandName="MeshErrorLoadImageMessage" devLabel="Cannot insert %1% It may be corrupt, damaged, or in an unsupported file format." translation="Не удалось вставить %1%. Возможно, файл поврежден или имеет неподдерживаемый формат." />
+    <label commandName="MeshErrorLoadImageTitle" devLabel="Cannot insert image" translation="Не удалось вставить изображение" />
+    <label commandName="MeshExtractAllFaceGroupsOption" devLabel="All Face Groups" translation="Все группы граней" />
+    <label commandName="MeshExtractAllFaceGroupsOptionToolTip" devLabel="Separates all face groups into independent mesh bodies." translation="Разделяет все группы граней на независимые сеточные тела." />
+    <label commandName="MeshExtractAsSeparateBodies" devLabel="Multiple Bodies" translation="Несколько тел" />
+    <label commandName="MeshExtractAsSeparateBodiesToolTip" devLabel="Separates each face group into an independent mesh body." translation="Разделяет каждую группу граней на независимое сеточное тело." />
+    <label commandName="MeshExtractPreserveSourceBody" devLabel="Keep Body" translation="Сохранить тело" />
+    <label commandName="MeshExtractPreserveSourceBodyToolTip" devLabel="Preserves a copy of the original mesh body." translation="Сохраняет копию исходного сеточного тела." />
+    <label commandName="MeshExtractSelectedFaceGroups" devLabel="Face Groups" translation="Группы граней" />
+    <label commandName="MeshExtractSelectedFaceGroupsOption" devLabel="Select Face Groups" translation="Выбрать группы граней" />
+    <label commandName="MeshExtractSelectedFaceGroupsOptionToolTip" devLabel="Separates a selection of face groups into one ore more independent mesh bodies." translation="Разделяет выбранные группы граней на одно или несколько независимых сеточных тел." />
+    <label commandName="MeshExtractSelectedFaceGroupsToolTip" devLabel="Select face groups on mesh body to separate." translation="Выберите группы граней на сеточном теле для разделения." />
+    <label commandName="MeshExtractSelectedFaces" devLabel="Faces" translation="Грани" />
+    <label commandName="MeshExtractSelectedFacesOption" devLabel="Select Faces" translation="Выбрать грани" />
+    <label commandName="MeshExtractSelectedFacesOptionToolTip" devLabel="Separates a selection of faces into an independent mesh body." translation="Разделяет выбранные грани на независимое сеточное тело." />
+    <label commandName="MeshExtractSelectedFacesToolTip" devLabel="Select face groups on mesh body to separate." translation="Выберите группы граней на сеточном теле для разделения." />
+    <label commandName="MeshExtractShellsOption" devLabel="Mesh Shells" translation="Оболочки сетки" />
+    <label commandName="MeshExtractShellsOptionToolTip" devLabel="Separates all mesh shells into independent mesh bodies." translation="Разделяет все оболочки сетки на независимые сеточные тела." />
+    <label commandName="MeshExtractTypeInput" devLabel="Type" translation="Тип" />
+    <label commandName="MeshExtractTypeInputToolTip" devLabel="" translation="" />
+    <label commandName="MeshMeshAlignSelectPlanePrompt" devLabel="Select a plane" translation="Выберите плоскость" />
+    <label commandName="MeshModifyFastSegmentAreaInput" devLabel="Minimum Face Group Size" translation="Минимальный размер группы граней" />
+    <label commandName="MeshModifyFastSegmentAreaInputToolTip" devLabel="Specify percentage of the overall mesh area to determine smallest face group." translation="Задайте процент от общей площади сетки для определения наименьшей группы граней." />
+    <label commandName="MeshModifyInsideThicknessInput" devLabel="Thickness" translation="Толщина" />
+    <label commandName="MeshModifyInsideThicknessInputToolTip" devLabel="Specify the distance to offset the mesh body." translation="Задайте расстояние для смещения сеточного тела." />
+    <label commandName="MeshModifyOpeningAngleInput" devLabel="Angle Threshold" translation="Порог угла" />
+    <label commandName="MeshModifyOpeningAngleInputToolTip" devLabel="Specify normal angle threshold between faces to determine face group boundaries." translation="Задайте порог угла между нормалями граней для определения границ групп граней." />
+    <label commandName="MeshModifySegmentToleranceInput" devLabel="Boundary Tolerance" translation="Допуск границ" />
+    <label commandName="MeshModifySegmentToleranceInputToolTip" devLabel="Specify tolerance to define face group boundaries, as a proportion of the largest distance value on the mesh body." translation="Задайте допуск для определения границ групп граней как долю от наибольшего значения расстояния на сеточном теле." />
+    <label commandName="MeshModifySmoothnessInput" devLabel="Smoothness" translation="Сглаженность" />
+    <label commandName="MeshModifySmoothnessInputToolTip" devLabel="Specify the degree of smoothness to apply to the mesh body." translation="Задайте степень сглаживания, применяемую к сеточному телу." />
+    <label commandName="MeshPlanarSectionPlaneSel" devLabel="Section Plane" translation="Плоскость сечения" />
+    <label commandName="MeshPlanarSectionPlaneSelToolTip" devLabel="Select a plane to intersect the mesh body." translation="Выберите плоскость для пересечения с сеточным телом." />
+    <label commandName="MeshPlanarSectionTransfPlane" devLabel="Transform Plane" translation="Трансформировать плоскость" />
+    <label commandName="MeshPlanarSectionTransfPlaneToolTip" devLabel="" translation="" />
+    <label commandName="MeshPlaneCutFillMinimal" devLabel="Minimal" translation="Минимальный" />
+    <label commandName="MeshPlaneCutFillMinimalToolTip" devLabel="Adds a minimal number of mesh faces to close mesh body." translation="Добавляет минимальное количество граней сетки для закрытия сеточного тела." />
+    <label commandName="MeshPlaneCutFillNone" devLabel="No Fill" translation="Без заполнения" />
+    <label commandName="MeshPlaneCutFillNoneToolTip" devLabel="Does not add mesh faces to close mesh body." translation="Не добавляет грани сетки для закрытия сеточного тела." />
+    <label commandName="MeshPlaneCutFillType" devLabel="Fill Type" translation="Тип заполнения" />
+    <label commandName="MeshPlaneCutFillTypeToolTip" devLabel="" translation="" />
+    <label commandName="MeshPlaneCutFillUniform" devLabel="Uniform" translation="Равномерный" />
+    <label commandName="MeshPlaneCutFillUniformToolTip" devLabel="Adds a uniform set of mesh faces to close mesh body." translation="Добавляет равномерный набор граней сетки для закрытия сеточного тела." />
+    <label commandName="MeshPlaneCutFlipTrimDir" devLabel="Flip" translation="Обратить" />
+    <label commandName="MeshPlaneCutFlipTrimDirToolTip" devLabel="Flips side of mesh body to trim relative to cut plane." translation="Изменяет сторону сеточного тела для обрезки относительно плоскости разреза." />
+    <label commandName="MeshPlaneCutPlanePrompt" devLabel="Select section plane" translation="Выберите плоскость сечения" />
+    <label commandName="MeshPlaneCutPlaneSel" devLabel="Cut Plane" translation="Плоскость разреза" />
+    <label commandName="MeshPlaneCutPlaneSelToolTip" devLabel="Select plane to cut through mesh body." translation="Выберите плоскость для разрезания сеточного тела." />
+    <label commandName="MeshPlaneCutSelectPlanePrompt" devLabel="Select a cut plane" translation="Выберите плоскость разреза" />
+    <label commandName="MeshPlaneCutSelectTransformPlanePrompt" devLabel="Position cut plane or select cut type and fill type" translation="Расположите плоскость разреза или выберите тип разреза и тип заполнения" />
+    <label commandName="MeshPlaneCutSplitBody" devLabel="Split Body" translation="Разделить тело" />
+    <label commandName="MeshPlaneCutSplitBodyToolTip" devLabel="Splits mesh faces along the cut plane, then separates the mesh body into two mesh bodies." translation="Разделяет грани сетки вдоль плоскости разреза, затем разделяет сеточное тело на два тела." />
+    <label commandName="MeshPlaneCutTransfPlane" devLabel="Transform Plane" translation="Трансформировать плоскость" />
+    <label commandName="MeshPlaneCutTransfPlaneToolTip" devLabel="Select plane to cut through mesh body." translation="Выберите плоскость для разрезания сеточного тела." />
+    <label commandName="MeshPlaneCutTransformPlanePrompt" devLabel="Adjust distance and angles to orient section plane" translation="Настройте расстояние и углы для ориентации плоскости сечения" />
+    <label commandName="MeshPlaneCutTrim" devLabel="Trim" translation="Обрезать" />
+    <label commandName="MeshPlaneCutTrimToolTip" devLabel="Splits mesh faces along the cut plane, then removes one side of the mesh body." translation="Разделяет грани сетки вдоль плоскости разреза, затем удаляет одну сторону сеточного тела." />
+    <label commandName="MeshPlaneCutType" devLabel="Type" translation="Тип" />
+    <label commandName="MeshPlaneCutTypeToolTip" devLabel="" translation="" />
+    <label commandName="MeshRepairRebuildInput" devLabel="Rebuild Type" translation="Тип перестроения" />
+    <label commandName="MeshRepairRebuildInputToolTip" devLabel="" translation="" />
+    <label commandName="MeshRepairTypeInput" devLabel="Repair Type" translation="Тип восстановления" />
+    <label commandName="MeshRepairTypeInputToolTip" devLabel="" translation="" />
+    <label commandName="MeshSanityCheck" devLabel="Quick Analysis" translation="Быстрый анализ" />
+    <label commandName="MeshSanityCheckToolTip" devLabel="" translation="" />
+    <label commandName="MeshToAdopt" devLabel="Mesh To Adopt" translation="Сетка для принятия" />
+    <label commandName="MeshToAdoptToolTip" devLabel="" translation="" />
+    <label commandName="MeshToBREPAlgorithmInput" devLabel="Method" translation="Метод" />
+    <label commandName="MeshToDemote" devLabel="Mesh To Convert" translation="Сетка для преобразования" />
+    <label commandName="MeshToDemoteToolTip" devLabel="" translation="" />
+    <label commandName="MeshToToBREP" devLabel="Body" translation="Тело" />
+    <label commandName="MeshToToBREPToolTip" devLabel="Select a mesh body to convert." translation="Выберите сеточное тело для преобразования." />
+    <label commandName="MeshToolTip" devLabel="" translation="" />
+    <label commandName="MeshingTypeOption_1" devLabel="Remesh Type" translation="Тип перерасчета сетки" />
+    <label commandName="MeshingTypeOption_1ToolTip" devLabel="" translation="" />
+    <label commandName="MmMKS" devLabel="Millimeter" translation="Миллиметр" />
+    <label commandName="MmMKSToolTip" devLabel="One unit from the original file equals one millimeter." translation="Одна единица из исходного файла равна одному миллиметру." />
+    <label commandName="ModelOpacity" devLabel="Opacity" translation="Прозрачность" />
+    <label commandName="ModelOpacityToolTip" devLabel="Adjust the opacity of the mesh body to investigate issues more easily." translation="Настройте прозрачность сеточного тела для более удобного исследования проблем." />
+    <label commandName="NDefectsTitle" devLabel="Number of Defects" translation="Количество дефектов" />
+    <label commandName="NDefectsTitleToolTip" devLabel="" translation="" />
+    <label commandName="Ndefects" devLabel="Number of Defects" translation="Количество дефектов" />
+    <label commandName="NdefectsToolTip" devLabel="" translation="" />
+    <label commandName="NewComponentOption" devLabel="New Component" translation="Новый компонент" />
+    <label commandName="NewComponentOptionToolTip" devLabel="Creates a new component to contain combined mesh bodies." translation="Создает новый компонент для содержания объединенных сеточных тел." />
+    <label commandName="No" devLabel="No" translation="Нет" />
+    <label commandName="No of Defects" devLabel="Number" translation="Количество" />
+    <label commandName="NonManifold" devLabel="Non-Manifold Edges" translation="Неодномерные ребра" />
+    <label commandName="NormalThresholdInput" devLabel="" translation="" />
+    <label commandName="NormalTolSlider" devLabel="" translation="" />
+    <label commandName="NormalTolSliderToolTip" devLabel="" translation="" />
+    <label commandName="NormalTolerance" devLabel="Normal Deviation" translation="Отклонение нормали" />
+    <label commandName="NormalToleranceToolTip" devLabel="Specify maximum angle between the normal vectors of each face on the mesh body." translation="Задайте максимальный угол между векторами нормалей каждой грани на сеточном теле." />
+    <label commandName="NumericalInputsGroup" devLabel="Numerical Inputs" translation="Числовые входы" />
+    <label commandName="NumericalInputsGroupToolTip" devLabel="" translation="" />
+    <label commandName="Ok" devLabel="OK" translation="ОК" />
+    <label commandName="OpenBoundary" devLabel="Open Boundaries" translation="Открытые границы" />
+    <label commandName="Organic Conversion" devLabel="Organic conversion" translation="Органическое преобразование" />
+    <label commandName="ParaMEshMeshEditText" devLabel="Directly editing this mesh body will create a copy of the original up to this point in history.&#10;&#10;Preserve the history of the original body?" translation="Прямое редактирование этого сеточного тела создаст копию оригинала до этой точки в истории.&#10;&#10;Сохранить историю исходного тела?" />
+    <label commandName="ParaMesh" devLabel="Mesh" translation="Сетка" />
+    <label commandName="ParaMesh Environment" devLabel="ParaMesh" translation="ParaMesh" />
+    <label commandName="ParaMeshAdoptCommand" devLabel="Convert Mesh body to Parametric Mesh" translation="Преобразовать сеточное тело в параметрическую сетку" />
+    <label commandName="ParaMeshAlignCommand" devLabel="Mesh Align" translation="Выравнивание сетки" />
+    <label commandName="ParaMeshAlignSelectPrompt" devLabel="Select one face to align the body to a plane" translation="Выберите одну грань для выравнивания тела по плоскости" />
+    <label commandName="ParaMeshBaseFeatureActivateCommand" devLabel="Edit" translation="Редактировать" />
+    <label commandName="ParaMeshBaseFeatureCreateCommand" devLabel="Direct Edit" translation="Прямое редактирование" />
+    <label commandName="ParaMeshBaseFeatureStopCommand" devLabel="Finish Direct Edit" translation="Завершить прямое редактирование" />
+    <label commandName="ParaMeshCalculateFaceGroupsCommand" devLabel="Generate Face Groups" translation="Сгенерировать группы граней" />
+    <label commandName="ParaMeshCombineCommand" devLabel="Combine" translation="Объединить" />
+    <label commandName="ParaMeshConvertCommand" devLabel="Convert Mesh" translation="Преобразовать сетку" />
+    <label commandName="ParaMeshCreateFaceGroupCommand" devLabel="Create Face Group" translation="Создать группу граней" />
+    <label commandName="ParaMeshCreateFaceGroupSelectPrompt" devLabel="Select faces on mesh body" translation="Выберите грани на сеточном теле" />
+    <label commandName="ParaMeshDcCalculateFaceGroupsEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcCombineEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcConvertEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcConvertEditCommandRestricted" devLabel="Convert Mesh, Cannot be edited" translation="Преобразовать сетку, нельзя редактировать" />
+    <label commandName="ParaMeshDcExtractEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcHollowEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcMergeFaceGroupsEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcMoveEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcPlanarSectionEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcPlaneCutEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcReduceEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcRemeshEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcRepairEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcReverseNormalsEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcScaleEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcSmoothEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcTessellateEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcTextureEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDcToQuadMeshEditCommand" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="ParaMeshDemoteCommand" devLabel="Convert Parametric Mesh to Mesh body " translation="Преобразовать параметрическую сетку в сеточное тело" />
+    <label commandName="ParaMeshEmptyBaseFeatureCommand" devLabel="Create Base Mesh Feature" translation="Создать базовый сеточный элемент" />
+    <label commandName="ParaMeshEraseAndFillCommand" devLabel="Erase And Fill" translation="Стереть и заполнить" />
+    <label commandName="ParaMeshEraseAndFillSelectPrompt" devLabel="Select faces to repair or double-click a face at the edge of a hole to fill" translation="Выберите грани для восстановления или дважды щелкните грань на краю отверстия для заполнения" />
+    <label commandName="ParaMeshExtractCommand" devLabel="Separate" translation="Разделить" />
+    <label commandName="ParaMeshFaceGroup" devLabel="Face Group on Parametric Mesh" translation="Группа граней на параметрической сетке" />
+    <label commandName="ParaMeshFlatMeshShading" devLabel="Flat Shaded" translation="Плоское затенение" />
+    <label commandName="ParaMeshHollowCommand" devLabel="Shell" translation="Оболочка" />
+    <label commandName="ParaMeshInsertAlignCommand" devLabel="Insert Mesh" translation="Вставить сетку" />
+    <label commandName="ParaMeshInsertCommand" devLabel="Insert Mesh" translation="Вставить сетку" />
+    <label commandName="ParaMeshMergeFaceGroupsCommand" devLabel="Combine Face Groups" translation="Объединить группы граней" />
+    <label commandName="ParaMeshMeshEditTitle" devLabel="Direct mesh editing" translation="Прямое редактирование сетки" />
+    <label commandName="ParaMeshPlanarSectionCommand" devLabel="Create Mesh Section Sketch" translation="Создать эскиз сечения сетки" />
+    <label commandName="ParaMeshPlaneCutCommand" devLabel="Plane Cut" translation="Разрез плоскостью" />
+    <label commandName="ParaMeshPositionCommand" devLabel="Insert Mesh" translation="Вставить сетку" />
+    <label commandName="ParaMeshPropAppearance" devLabel="Appearance" translation="Внешний вид" />
+    <label commandName="ParaMeshPropArea" devLabel="Area" translation="Площадь" />
+    <label commandName="ParaMeshPropBody" devLabel="Body" translation="Тело" />
+    <label commandName="ParaMeshPropDensity" devLabel="Density" translation="Плотность" />
+    <label commandName="ParaMeshPropFaceGroupCount" devLabel="Face Group Count" translation="Количество групп граней" />
+    <label commandName="ParaMeshPropFacetCount" devLabel="Facet Count" translation="Количество граней" />
+    <label commandName="ParaMeshPropHasColor" devLabel="Color" translation="Цвет" />
+    <label commandName="ParaMeshPropHasPositiveVolume" devLabel="Mesh has Positive Volume" translation="Сетка имеет положительный объем" />
+    <label commandName="ParaMeshPropHasTextures" devLabel="Texture Count" translation="Количество текстур" />
+    <label commandName="ParaMeshPropIsClosed" devLabel="Mesh is Closed" translation="Сетка замкнута" />
+    <label commandName="ParaMeshPropIsOriented" devLabel="Mesh is Oriented" translation="Сетка ориентирована" />
+    <label commandName="ParaMeshPropMass" devLabel="Mass" translation="Масса" />
+    <label commandName="ParaMeshPropMaterial" devLabel="Physical Material" translation="Физический материал" />
+    <label commandName="ParaMeshPropMesh" devLabel="Mesh" translation="Сетка" />
+    <label commandName="ParaMeshPropMeshAnalysis" devLabel="Mesh Analysis" translation="Анализ сетки" />
+    <label commandName="ParaMeshPropShellCount" devLabel="Shell Count" translation="Количество оболочек" />
+    <label commandName="ParaMeshPropVertexCount" devLabel="Vertex Count" translation="Количество вершин" />
+    <label commandName="ParaMeshPropVolume" devLabel="Volume" translation="Объем" />
+    <label commandName="ParaMeshReduceCommand" devLabel="Reduce" translation="Уменьшить" />
+    <label commandName="ParaMeshRemeshCommand" devLabel="Remesh" translation="Пересчитать сетку" />
+    <label commandName="ParaMeshRemoveCommand" devLabel="Remove" translation="Удалить" />
+    <label commandName="ParaMeshRepairCommand" devLabel="Repair" translation="Восстановить" />
+    <label commandName="ParaMeshReverseNormalsCommand" devLabel="Reverse Normal" translation="Обратить нормали" />
+    <label commandName="ParaMeshScaleCommand" devLabel="Scale Mesh" translation="Масштабировать сетку" />
+    <label commandName="ParaMeshSelectionPalette" devLabel="Mesh Selection Palette" translation="Палитра выбора сетки" />
+    <label commandName="ParaMeshShowSelectionPanel" devLabel="Mesh Palette" translation="Палитра сетки" />
+    <label commandName="ParaMeshSmoothCommand" devLabel="Smooth" translation="Сгладить" />
+    <label commandName="ParaMeshSmoothMeshShading" devLabel="Smooth Shaded" translation="Сглаженное затенение" />
+    <label commandName="ParaMeshStatusClosed" devLabel="Mesh is closed." translation="Сетка замкнута." />
+    <label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="Сетка пуста." />
+    <label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="Сетка не имеет положительного объема." />
+    <label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="Сетка не замкнута." />
+    <label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="Сетка не ориентирована." />
+    <label commandName="ParaMeshStatusOriented" devLabel="Mesh is oriented." translation="Сетка ориентирована." />
+    <label commandName="ParaMeshStatusPositiveVolume" devLabel="Mesh has a positive volume." translation="Сетка имеет положительный объем." />
+    <label commandName="ParaMeshTessellateCommand" devLabel="Tessellate" translation="Тесселировать" />
+    <label commandName="ParaMeshTextureCommand" devLabel="Texture Extrude" translation="Текстурное выдавливание" />
+    <label commandName="ParaMeshToQuadMeshCommand" devLabel="Convert To Quad Mesh" translation="Преобразовать в квад-сетку" />
+    <label commandName="PositionInputsGroup" devLabel="Position" translation="Позиция" />
+    <label commandName="PositionInputsGroupToolTip" devLabel="" translation="" />
+    <label commandName="PositionMeshTransformInput" devLabel="Distance" translation="Расстояние" />
+    <label commandName="PositionMeshTransformInputToolTip" devLabel="" translation="" />
+    <label commandName="PreviewCalculation" devLabel="Preview Calculation" translation="Превью вычислений" />
+    <label commandName="PreviewCalculationToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Отображает превью нового сеточного тела поверх исходного твердотельного или поверхностного тела на холсте." />
+    <label commandName="PreviewGroupStart" devLabel="Preview" translation="Превью" />
+    <label commandName="PreviewGroupStartToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Отображает превью нового сеточного тела поверх исходного твердотельного или поверхностного тела на холсте." />
+    <label commandName="PreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="PreviewInputToolTip" devLabel="Displays a preview of the combined mesh bodies in the canvas." translation="Отображает превью объединенных сеточных тел на холсте." />
+    <label commandName="Prismatic Conversion" devLabel="Prismatic conversion" translation="Призматическое преобразование" />
+    <label commandName="Prismatic Restricted Message" devLabel="Turn a mesh body into a prismatic solid body so that you can design parametric features." translation="Преобразуйте сеточное тело в призматическое твердотельное тело для проектирования параметрических элементов." />
+    <label commandName="Prismatic Restricted Title" devLabel="Prismatic" translation="Призматический" />
+    <label commandName="QuadCount" devLabel="Quad Count" translation="Количество квадов" />
+    <label commandName="QuadCountToolTip" devLabel="Displays the total number of quads that will be created on the new mesh body." translation="Отображает общее количество квадов, которые будут созданы на новом сеточном теле." />
+    <label commandName="QuadMeshModifyPreserveBoundaries" devLabel="Preserve Boundaries" translation="Сохранить границы" />
+    <label commandName="QuadMeshModifyPreserveBoundariesToolTip" devLabel="" translation="" />
+    <label commandName="QuadMeshModifyPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Сохранить острые ребра" />
+    <label commandName="QuadMeshModifyPreserveSharpEdgesToolTip" devLabel="" translation="" />
+    <label commandName="QuadMeshModifyTargetEdgeLengthInput" devLabel="Target Edge Length" translation="Целевая длина ребра" />
+    <label commandName="QuadMeshModifyTargetEdgeLengthInputToolTip" devLabel="" translation="" />
+    <label commandName="QuadMeshOutputType" devLabel="Output type" translation="Тип вывода" />
+    <label commandName="QuadMeshOutputTypeToolTip" devLabel="" translation="" />
+    <label commandName="ReduceFacetCount" devLabel="Face Count" translation="Количество граней" />
+    <label commandName="ReduceFacetCountToolTip" devLabel="Specify the number of faces to include in the reduced mesh." translation="Задайте количество граней для включения в уменьшенную сетку." />
+    <label commandName="ReduceFacetsInput" devLabel="" translation="" />
+    <label commandName="ReduceMaxDeviationInput" devLabel="" translation="" />
+    <label commandName="ReducePreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="ReducePreviewInputToolTip" devLabel="Displays a preview of the reduced mesh body in the canvas." translation="Отображает превью уменьшенного сеточного тела на холсте." />
+    <label commandName="ReduceProportion" devLabel="Proportion" translation="Пропорция" />
+    <label commandName="ReduceProportionInput" devLabel="" translation="" />
+    <label commandName="ReduceProportionToolTip" devLabel="Specify a percentage of the original number of faces to include in the reduced mesh." translation="Задайте процент от исходного количества граней для включения в уменьшенную сетку." />
+    <label commandName="ReduceSelectTargetBody" devLabel="Select mesh body or face groups to reduce" translation="Выберите сеточное тело или группы граней для уменьшения" />
+    <label commandName="ReduceSelectTargetBodyFaces" devLabel="Select parts of mesh body to reduce" translation="Выберите части сеточного тела для уменьшения" />
+    <label commandName="ReduceSelectedTargetBody" devLabel="Adjust reduce type and settings" translation="Настройте тип уменьшения и параметры" />
+    <label commandName="ReduceType" devLabel="Type" translation="Тип" />
+    <label commandName="ReduceTypeProportion" devLabel="Proportion" translation="Пропорция" />
+    <label commandName="ReduceTypeProportionToolTip" devLabel="Reduces mesh to a proportion of the number of faces on the original mesh." translation="Уменьшает сетку до пропорции количества граней исходной сетки." />
+    <label commandName="ReduceTypeToolTip" devLabel="" translation="" />
+    <label commandName="ReduceTypetolerance" devLabel="Tolerance" translation="Допуск" />
+    <label commandName="ReduceTypetoleranceToolTip" devLabel="Reduces mesh by merging faces within a maximum deviation from the original mesh shape." translation="Уменьшает сетку путем объединения граней в пределах максимального отклонения от исходной формы сетки." />
+    <label commandName="RefinementGroup" devLabel="Refinement Settings" translation="Настройки сглаживания" />
+    <label commandName="RefinementGroupToolTip" devLabel="" translation="" />
+    <label commandName="RefinementOptionsInput" devLabel="Refinement" translation="Сглаживание" />
+    <label commandName="RefinementOptionsInputToolTip" devLabel="" translation="" />
+    <label commandName="RemeshBoundaryOption" devLabel="Preserve Boundaries" translation="Сохранить границы" />
+    <label commandName="RemeshBoundaryOptionToolTip" devLabel="Preserves the shape of any open boundary edges from the original mesh." translation="Сохраняет форму любых открытых граничных ребер исходной сетки." />
+    <label commandName="RemeshDensity" devLabel="Density" translation="Плотность" />
+    <label commandName="RemeshDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Задайте плотность для контроля количества создаваемых граней." />
+    <label commandName="RemeshNormalThreshold" devLabel="Shape Preservation" translation="Сохранение формы" />
+    <label commandName="RemeshNormalThresholdToolTip" devLabel="Specify how much of the original mesh shape to preserve." translation="Задайте, насколько сохранять исходную форму сетки." />
+    <label commandName="RemeshPreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="RemeshPreviewInputToolTip" devLabel="Displays a preview of the remeshed mesh body in the canvas." translation="Отображает превью пересчитанного сеточного тела на холсте." />
+    <label commandName="RemeshSelectTargetBody" devLabel="Select mesh body or face groups to remesh" translation="Выберите сеточное тело или группы граней для перерасчета сетки" />
+    <label commandName="RemeshSelectTargetBodyFaces" devLabel="Select parts of mesh body to remesh" translation="Выберите части сеточного тела для перерасчета сетки" />
+    <label commandName="RemeshSelectedTargetBody" devLabel="Adjust remesh type and settings" translation="Настройте тип перерасчета сетки и параметры" />
+    <label commandName="RemeshSharpOption" devLabel="Preserve Sharp Edges" translation="Сохранить острые ребра" />
+    <label commandName="RemeshSharpOptionToolTip" devLabel="Preserves sharp edges from the original mesh." translation="Сохраняет острые ребра исходной сетки." />
+    <label commandName="RemoveMeshSelectTargetBody" devLabel="Select a mesh body to remove" translation="Выберите сеточное тело для удаления" />
+    <label commandName="RepairAdjustAccurate" devLabel="Adjust repair type, rebuild type, density, or offset" translation="Настройте тип восстановления, тип перестроения, плотность или смещение" />
+    <label commandName="RepairAdjustNotAccurate" devLabel="Adjust repair type, rebuild type, or density" translation="Настройте тип восстановления, тип перестроения или плотность" />
+    <label commandName="RepairAdjustType" devLabel="Adjust repair type" translation="Настройте тип восстановления" />
+    <label commandName="RepairBodyToRepair" devLabel="Body" translation="Тело" />
+    <label commandName="RepairBodyToRepairToolTip" devLabel="Select mesh body to repair." translation="Выберите сеточное тело для восстановления." />
+    <label commandName="RepairDensityInput" devLabel="" translation="" />
+    <label commandName="RepairSelect" devLabel="Select mesh body to repair" translation="Выберите сеточное тело для восстановления" />
+    <label commandName="RepairSolidAccurate" devLabel="Accurate" translation="Точный" />
+    <label commandName="RepairSolidAccurateToolTip" devLabel="Rebuilds mesh body as accurately as possible." translation="Перестраивает сеточное тело максимально точно." />
+    <label commandName="RepairSolidBlocky" devLabel="Blocky" translation="Блочный" />
+    <label commandName="RepairSolidBlockyToolTip" devLabel="Rebuilds mesh body in a blocky style." translation="Перестраивает сеточное тело в блочном стиле." />
+    <label commandName="RepairSolidPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Сохранить острые ребра" />
+    <label commandName="RepairSolidPreserveSharpEdgesToolTip" devLabel="Rebuilds mesh body while preserving sharp edges." translation="Перестраивает сеточное тело с сохранением острых ребер." />
+    <label commandName="RepairSolidTypeFast" devLabel="Fast" translation="Быстрый" />
+    <label commandName="RepairSolidTypeFastToolTip" devLabel="Rebuilds mesh body quickly, but not accurately." translation="Быстро перестраивает сеточное тело, но не точно." />
+    <label commandName="RepairTypeDefault" devLabel="Stitch and Remove" translation="Сшить и удалить" />
+    <label commandName="RepairTypeDefaultToolTip" devLabel="Makes the same changes as Close Holes, and also stitches triangles, removes double triangles, removes degenerated faces, and removes tiny shells. (Fast)" translation="Выполняет те же изменения, что и Закрыть отверстия, а также сшивает треугольники, удаляет двойные треугольники, вырожденные грани и мелкие оболочки. (Быстро)" />
+    <label commandName="RepairTypeExtended" devLabel="Wrap" translation="Обернуть" />
+    <label commandName="RepairTypeExtendedToolTip" devLabel="Makes the same changes as Stitch and Remove, and also wraps the surface of the mesh body. All inner structures are destroyed. (Average)" translation="Выполняет те же изменения, что и Сшить и удалить, а также оборачивает поверхность сеточного тела. Все внутренние структуры уничтожаются. (Средне)" />
+    <label commandName="RepairTypeSimple" devLabel="Close Holes" translation="Закрыть отверстия" />
+    <label commandName="RepairTypeSimpleToolTip" devLabel="Makes the fewest number of changes to the mesh body. Fixes flipped triangles and closes holes. (Fastest)" translation="Вносит минимальное количество изменений в сеточное тело. Исправляет перевернутые треугольники и закрывает отверстия. (Самый быстрый)" />
+    <label commandName="ResetTransform" devLabel="Reset" translation="Сбросить" />
+    <label commandName="ResetTransformToolTip" devLabel="Resets the default position settings for the mesh body." translation="Сбрасывает настройки позиции сеточного тела по умолчанию." />
+    <label commandName="ReverseNormalsSelectTargetBody" devLabel="Select a mesh body, face groups or faces to reverse" translation="Выберите сеточное тело, группы граней или грани для обращения" />
+    <label commandName="SegmentationMethod" devLabel="Type" translation="Тип" />
+    <label commandName="SegmentationMethodAccurate" devLabel="Accurate" translation="Точный" />
+    <label commandName="SegmentationMethodAccurateToolTip" devLabel="Generates face groups by matching mesh faces to simple geometric primitives. Prioritizes accuracy over speed." translation="Генерирует группы граней путем сопоставления граней сетки с простыми геометрическими примитивами. Приоритет точности над скоростью." />
+    <label commandName="SegmentationMethodFast" devLabel="Fast" translation="Быстрый" />
+    <label commandName="SegmentationMethodFastToolTip" devLabel="Generates face groups based on an angle threshold between faces. Prioritizes speed over accuracy." translation="Генерирует группы граней на основе порога угла между гранями. Приоритет скорости над точностью." />
+    <label commandName="SegmentationMethodToolTip" devLabel="" translation="" />
+    <label commandName="SelectBodiesToRemove" devLabel="Select bodies to remove" translation="Выберите тела для удаления" />
+    <label commandName="SelectTargetBody" devLabel="Select target body" translation="Выберите целевое тело" />
+    <label commandName="SelectToolBodies" devLabel="Select bodies to combine with target body" translation="Выберите тела для объединения с целевым телом" />
+    <label commandName="SelectedBodiesToRemove" devLabel="Adjust selection set" translation="Настройте набор выделения" />
+    <label commandName="SelectedToolBodies" devLabel="Adjust operation or selection set" translation="Настройте операцию или набор выделения" />
+    <label commandName="SelectionFilter" devLabel="Selection Filter" translation="Фильтр выделения" />
+    <label commandName="SelectionFilterToolTip" devLabel="Choose a geometry type to filter your selections in the canvas by type." translation="Выберите тип геометрии для фильтрации выделений на холсте по типу." />
+    <label commandName="SelectionType" devLabel="Selection Type" translation="Тип выделения" />
+    <label commandName="SelectionTypeToolTip" devLabel="Choose a selection method." translation="Выберите метод выделения." />
+    <label commandName="SelfIntersection" devLabel="Self Intersections" translation="Самопересечения" />
+    <label commandName="SeperateTargetBody" devLabel="Select mesh body to separate" translation="Выберите сеточное тело для разделения" />
+    <label commandName="SeperateTargetFacegroups" devLabel="Select mesh face groups to separate" translation="Выберите группы граней сетки для разделения" />
+    <label commandName="SeperateTargetFaces" devLabel="Select mesh faces to separate" translation="Выберите грани сетки для разделения" />
+    <label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Уменьшить выделение" />
+    <label commandName="ShrinkMeshSelToolTip" devLabel="Decreases the boundary of the selection set." translation="Уменьшает границу выделенной области." />
+    <label commandName="SmallComponentThreshold" devLabel="Small Shell Threshold" translation="Порог мелких оболочек" />
+    <label commandName="SmallComponentThresholdToolTip" devLabel="Specify the maximum size of small shells to repair." translation="Задайте максимальный размер мелких оболочек для восстановления." />
+    <label commandName="SmallShell" devLabel="Small Shells" translation="Мелкие оболочки" />
+    <label commandName="SmoothPreviewInput" devLabel="Preview" translation="Превью" />
+    <label commandName="SmoothPreviewInputToolTip" devLabel="Displays a preview of the smoothed mesh body in the canvas." translation="Отображает превью сглаженного сеточного тела на холсте." />
+    <label commandName="SmoothSelectTargetBody" devLabel="Select mesh body or face groups to smooth" translation="Выберите сеточное тело или группы граней для сглаживания" />
+    <label commandName="SmoothSelectTargetBodyFaces" devLabel="Select parts of mesh body to smooth" translation="Выберите части сеточного тела для сглаживания" />
+    <label commandName="SmoothSelectedTargetBody" devLabel="Adjust smoothness" translation="Настройте степень сглаживания" />
+    <label commandName="SmothnessInput" devLabel="" translation="" />
+    <label commandName="SolidType" devLabel="Rebuild Type" translation="Тип перестроения" />
+    <label commandName="SolidTypeToolTip" devLabel="" translation="" />
+    <label commandName="SuccessfulSanityCheck" devLabel="Successful Sanity Check" translation="Проверка завершена успешно" />
+    <label commandName="SuccessfulSanityCheckTooltip" devLabel="Quick analysis succeeded. Check Detailed Analysis for a granular analysis of specific issues." translation="Быстрый анализ выполнен успешно. Проверьте Детальный анализ для подробного анализа конкретных проблем." />
+    <label commandName="SurfaceTolSlider" devLabel="" translation="" />
+    <label commandName="SurfaceTolSliderToolTip" devLabel="" translation="" />
+    <label commandName="SurfaceTolerance" devLabel="Surface Deviation" translation="Отклонение поверхности" />
+    <label commandName="SurfaceToleranceToolTip" devLabel="Specify maximum distance between the surface of the original body and the surface of the mesh body." translation="Задайте максимальное расстояние между поверхностью исходного тела и поверхностью сеточного тела." />
+    <label commandName="TSpline" devLabel="Form" translation="Форма" />
+    <label commandName="TSplineToolTip" devLabel="" translation="" />
+    <label commandName="Target Body" devLabel="Target Body" translation="Целевое тело" />
+    <label commandName="Target BodyToolTip" devLabel="Select the target mesh body." translation="Выберите целевое сеточное тело." />
+    <label commandName="TesselateSelectTargetBody" devLabel="Select a solid or surface body to tessellate" translation="Выберите твердотельное или поверхностное тело для тесселяции" />
+    <label commandName="TesselateSelectedTargetBody" devLabel="Adjust refinement settings" translation="Настройте параметры сглаживания" />
+    <label commandName="TextureCanvasOpacity" devLabel="Opacity" translation="Прозрачность" />
+    <label commandName="TextureCanvasOpacityToolTip" devLabel="Sets the opacity of the image in the canvas. Lower the opacity to make the texture extrude more visible." translation="Устанавливает прозрачность изображения на холсте. Уменьшите прозрачность для лучшей видимости текстурного выдавливания." />
+    <label commandName="TextureClearance" devLabel="Offset" translation="Смещение" />
+    <label commandName="TextureClearanceToolTip" devLabel="Specify the offset distance of the texture to the selection boundary." translation="Задайте расстояние смещения текстуры от границы выделения." />
+    <label commandName="TextureExtrude" devLabel="Extrude Distance" translation="Расстояние выдавливания" />
+    <label commandName="TextureExtrudeToolTip" devLabel="Specify the maximum extrude distance." translation="Задайте максимальное расстояние выдавливания." />
+    <label commandName="TextureFalloff" devLabel="Blend Distance" translation="Расстояние смешивания" />
+    <label commandName="TextureFalloffToolTip" devLabel="Specify the distance to blend the texture to the selection boundary." translation="Задайте расстояние для смешивания текстуры с границей выделения." />
+    <label commandName="TextureImage" devLabel="Image" translation="Изображение" />
+    <label commandName="TextureImageToolTip" devLabel="Select an image to use as the texture pattern.&#10;&#10;Black and White or grayscale images provide the most predictable results. Color images are converted to grayscale and the extrusion height depends on the shades of gray." translation="Выберите изображение для использования в качестве текстуры.&#10;&#10;Черно-белые или градации серого дают наиболее предсказуемые результаты. Цветные изображения преобразуются в градации серого, и высота выдавливания зависит от оттенков серого." />
+    <label commandName="TextureMultiplicity" devLabel="Multiplicity" translation="Множитель" />
+    <label commandName="TextureMultiplicityToolTip" devLabel="The multiplicity factor for the UV map defines how often the texutre should be applied." translation="Множитель UV-карты определяет, как часто должна применяться текстура." />
+    <label commandName="TextureNothingSelected" devLabel="Select face groups or a body to texture" translation="Выберите группы граней или тело для текстурирования" />
+    <label commandName="TextureNothingSelectedFaces" devLabel="Select mesh faces, face groups, or a body to texture" translation="Выберите грани сетки, группы граней или тело для текстурирования" />
+    <label commandName="TextureRepeat" devLabel="Repeat" translation="Повтор" />
+    <label commandName="TextureRepeatToolTip" devLabel="Repeats the texture in a grid pattern across the selected geometry." translation="Повторяет текстуру в виде сетки по выбранной геометрии." />
+    <label commandName="TextureSelectedBody" devLabel="Select a texture image in the dialog" translation="Выберите текстуру в диалоговом окне" />
+    <label commandName="TextureSelectedImageAndBody" devLabel="Adjust extrude and image settings" translation="Настройте параметры выдавливания и изображения" />
+    <label commandName="TextureTransform3D" devLabel="Transform Texture" translation="Трансформировать текстуру" />
+    <label commandName="TextureTransform3DToolTip" devLabel="" translation="" />
+    <label commandName="Tool Bodies" devLabel="Tool Bodies" translation="Тела-инструменты" />
+    <label commandName="Tool BodiesToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Выберите сеточные тела для объединения с целевым телом." />
+    <label commandName="TransformGroup" devLabel="Image Transform" translation="Трансформация изображения" />
+    <label commandName="TransformGroupToolTip" devLabel="" translation="" />
+    <label commandName="TransformTriad" devLabel="Transform" translation="Трансформация" />
+    <label commandName="TransformTriadToolTip" devLabel="" translation="" />
+    <label commandName="Triangle Warning" devLabel="&lt;b&gt;Warning&lt;/b&gt;: This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="&lt;b&gt;Предупреждение&lt;/b&gt;: Эта сетка содержит более 10000 треугольников. Вычисления займут значительное время." />
+    <label commandName="TriangleCount" devLabel="Triangle Count" translation="Количество треугольников" />
+    <label commandName="TriangleCountToolTip" devLabel="Displays the total number of triangles that will be created on the new mesh body." translation="Отображает общее количество треугольников, которые будут созданы на новом сеточном теле." />
+    <label commandName="TriangulateMesh" devLabel="Create Quads" translation="Создать квады" />
+    <label commandName="TriangulateMeshToolTip" devLabel="Creates quad faces on the mesh body where possible." translation="Создает четырехугольные грани на сеточном теле, где это возможно." />
+    <label commandName="UnitsType" devLabel="Unit Type" translation="Тип единиц" />
+    <label commandName="UnitsTypeToolTip" devLabel="" translation="" />
+    <label commandName="UnsuccessfulSanityCheck" devLabel="Unsuccessful Sanity Check" translation="Проверка завершена с ошибками" />
+    <label commandName="UnsuccessfulSanityCheckTooltip" devLabel="Check Detailed Analysis for a granular analysis of specific issues." translation="Проверьте Детальный анализ для подробного анализа конкретных проблем." />
+    <label commandName="UpDirType" devLabel="Flip Up Direction" translation="Обратить направление вверх" />
+    <label commandName="UpDirTypeToolTip" devLabel="Flips direction of Y and Z axes." translation="Изменяет направление осей Y и Z." />
+    <label commandName="Warning" devLabel="Warning" translation="Предупреждение" />
+    <label commandName="WhiteDisplacement" devLabel="White Point" translation="Белая точка" />
+    <label commandName="WhiteDisplacementToolTip" devLabel="Specify the maximum distance to set the height or depth for white areas in the texture image. Enter a positive value to extrude away from the selected geometry or a negative value to cut into it." translation="Задайте максимальное расстояние для установки высоты или глубины белых областей в текстуре. Введите положительное значение для выдавливания от выбранной геометрии или отрицательное для врезания в нее." />
+    <label commandName="Yes" devLabel="Yes" translation="Да" />
+    <label commandName="allow_backface_facet_sel" devLabel="Select Back Faces" translation="Выбирать задние грани" />
+    <label commandName="allow_backface_facet_selToolTip" devLabel="Sets whether to allow face selection from both sides." translation="Определяет, разрешать ли выбор граней с обеих сторон." />
+    <label commandName="infoAdaptiveType" devLabel="Adaptive" translation="Адаптивный" />
+    <label commandName="infoAdaptiveTypeToolTip" devLabel="Creates smaller faces in areas of high detail and larger faces in areas of low detail." translation="Создает меньшие грани в областях с высокой детализацией и большие грани в областях с низкой детализацией." />
+    <label commandName="infoExtrudeAsymmetric" devLabel="Asymmetric" translation="Асимметричный" />
+    <label commandName="infoExtrudeAsymmetricToolTip" devLabel="Lets you specify unique inputs for black and white extrude distances." translation="Позволяет задать уникальные значения для расстояний выдавливания черного и белого цветов." />
+    <label commandName="infoExtrudeSymmetric" devLabel="Symmetric" translation="Симметричный" />
+    <label commandName="infoExtrudeSymmetricToolTip" devLabel="Lets you specify a single extrude distance.&#10;By default, white areas extrude away from the selected geometry and black areas cut into the selected geometry." translation="Позволяет задать одно расстояние выдавливания.&#10;По умолчанию белые области выдавливаются от выбранной геометрии, а черные врезаются в нее." />
+    <label commandName="infoExtrudeType" devLabel="Extrude Type" translation="Тип выдавливания" />
+    <label commandName="infoExtrudeTypeToolTip" devLabel="Defines the behavior for the black and white displacement" translation="Определяет поведение для смещения черного и белого цветов" />
+    <label commandName="infoInspect" devLabel="Analyze" translation="Анализировать" />
+    <label commandName="infoInspectToolTip" devLabel="" translation="" />
+    <label commandName="infoMeshingType" devLabel="Type" translation="Тип" />
+    <label commandName="infoMeshingTypeToolTip" devLabel="" translation="" />
+    <label commandName="infoMethodOrganic" devLabel="Organic" translation="Органический" />
+    <label commandName="infoMethodOrganicToolTip" devLabel="" translation="" />
+    <label commandName="infoMethodPrismatic" devLabel="Prismatic" translation="Призматический" />
+    <label commandName="infoMethodPrismaticToolTip" devLabel="Merges groups of faces in prismatic features into singular faces on the new solid or surface body. Face groups are used to infer prismatic features." translation="Объединяет группы граней в призматических элементах в единые грани на новом твердотельном или поверхностном теле. Группы граней используются для определения призматических элементов." />
+    <label commandName="infoMethodTriangleBased" devLabel="Faceted" translation="Граненый" />
+    <label commandName="infoMethodTriangleBasedToolTip" devLabel="Converts individual faces on the mesh body to individual faces on the new solid or surface body." translation="Преобразует отдельные грани сеточного тела в отдельные грани нового твердотельного или поверхностного тела." />
+    <label commandName="infoPreview" devLabel="Preview" translation="Превью" />
+    <label commandName="infoPreviewToolTip" devLabel="Displays a preview of the repaired mesh body." translation="Отображает превью восстановленного сеточного тела." />
+    <label commandName="infoProjectionType" devLabel="Projection Type" translation="Тип проекции" />
+    <label commandName="infoProjectionTypeToolTip" devLabel="Specifies how the texture is projected onto the selected geometry." translation="Определяет, как текстура проецируется на выбранную геометрию." />
+    <label commandName="infoSelectDefect" devLabel="Select Defect" translation="Выбрать дефект" />
+    <label commandName="infoSelectDefectTitle" devLabel="Select Defect Title" translation="Заголовок выбора дефекта" />
+    <label commandName="infoSelectDefectTitleToolTip" devLabel="" translation="" />
+    <label commandName="infoSelectDefectToolTip" devLabel="" translation="" />
+    <label commandName="infoTargetFaceNumber" devLabel="Number Of Faces" translation="Количество граней" />
+    <label commandName="infoTargetFaceNumberToolTip" devLabel="Specify the number of faces to generate for the converted body." translation="Задайте количество граней для генерирования преобразованного тела." />
+    <label commandName="infoTargetOrganicAccuracyExtreme" devLabel="Precise" translation="Точный" />
+    <label commandName="infoTargetOrganicAccuracyExtremeToolTip" devLabel="Converts the body with the highest possible accuracy compared to the original mesh body. (Slowest)" translation="Преобразует тело с максимально возможной точностью по сравнению с исходным сеточным телом. (Самый медленный)" />
+    <label commandName="infoTargetOrganicAccuracyHigh" devLabel="High" translation="Высокий" />
+    <label commandName="infoTargetOrganicAccuracyHighToolTip" devLabel="Converts the body with high accuracy compared to the original mesh body. (Average)" translation="Преобразует тело с высокой точностью по сравнению с исходным сеточным телом. (Средне)" />
+    <label commandName="infoTargetOrganicAccuracyLow" devLabel="Low" translation="Низкий" />
+    <label commandName="infoTargetOrganicAccuracyLowToolTip" devLabel="Converts the body with low accuracy compared to the original mesh body. (Fastest)" translation="Преобразует тело с низкой точностью по сравнению с исходным сеточным телом. (Самый быстрый)" />
+    <label commandName="infoTargetOrganicAccuracyMedium" devLabel="Medium" translation="Средний" />
+    <label commandName="infoTargetOrganicAccuracyMediumToolTip" devLabel="Converts the body with medium accuracy compared to the original mesh body. (Fast)" translation="Преобразует тело со средней точностью по сравнению с исходным сеточным телом. (Быстро)" />
+    <label commandName="infoTypeBox" devLabel="Box" translation="Коробка" />
+    <label commandName="infoTypeBoxToolTip" devLabel="Maps the texture onto box-like objects and repeats the texture on each side." translation="Накладывает текстуру на объекты коробкообразной формы и повторяет текстуру на каждой стороне." />
+    <label commandName="infoTypeCylindrical" devLabel="Cylindrical" translation="Цилиндрическая" />
+    <label commandName="infoTypeCylindricalToolTip" devLabel="Maps the texture onto a cylindrical object so the image are wraps around the cylinder and caps the ends." translation="Накладывает текстуру на цилиндрический объект, оборачивая изображение вокруг цилиндра и закрывая торцы." />
+    <label commandName="infoTypePlanar" devLabel="Planar" translation="Плоская" />
+    <label commandName="infoTypePlanarToolTip" devLabel="Projects the texture onto the object. If the selected geometry is non-planar, the texture adapts to the topology of the selection." translation="Проецирует текстуру на объект. Если выбранная геометрия не плоская, текстура адаптируется к топологии выделения." />
+    <label commandName="infoTypeSpherical" devLabel="Spherical" translation="Сферическая" />
+    <label commandName="infoTypeSphericalToolTip" devLabel="Wraps the texture around a spherical object. Two opposing edges of the image are compressed to a point at the &quot;north and south poles&quot; of the sphere." translation="Оборачивает текстуру вокруг сферического объекта. Две противоположные края изображения сжимаются в точку на &quot;северном и южном полюсах&quot; сферы." />
+    <label commandName="infoUniformType" devLabel="Uniform" translation="Равномерный" />
+    <label commandName="infoUniformTypeToolTip" devLabel="Creates faces of similar size in all areas." translation="Создает грани одинакового размера во всех областях." />
+    <label commandName="lclzMeshSelect" devLabel="Select" translation="Выбрать" />
+    <label commandName="lclzPParaMeshAlignTipsAndTricksTips" devLabel="Use preview to see what the flip option does. If you cannot select a face, please check if the Mesh Palette is actually visible (otherwise toogle Select &gt; Mesh Palette) and Selection Filter is set to Faces. " translation="Используйте превью, чтобы увидеть, что делает опция обращения. Если вы не можете выбрать грань, проверьте, видима ли палитра сетки (иначе переключите Выбор &gt; Палитра сетки) и установлен ли фильтр выделения на Грани." />
+    <label commandName="lclzParaMeshAdoptDesc1" devLabel="Converts a mesh body to a parametric mesh body." translation="Преобразует сеточное тело в параметрическое сеточное тело." />
+    <label commandName="lclzParaMeshAlignTipsAndTricksTitle" devLabel="Mesh Align Information" translation="Информация о выравнивании сетки" />
+    <label commandName="lclzParaMeshBaseFeatureCreateDesc1" devLabel="Creates a mesh base feature that you can edit directly." translation="Создает базовый сеточный элемент, который можно редактировать напрямую." />
+    <label commandName="lclzParaMeshBaseFeatureCreateDesc2" devLabel="Select the mesh body to edit. A mesh base feature displays on the timeline and you can make local modifications to the mesh body without capturing the changes in the parametric history of the design." translation="Выберите сеточное тело для редактирования. Базовый сеточный элемент отображается в таймлайне, и вы можете вносить локальные изменения в сеточное тело без сохранения изменений в параметрической истории проекта." />
+    <label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTips" devLabel="Use the Direct Edit command to make local modifications to mesh bodies outside the parametric timeline of the design." translation="Используйте команду Прямое редактирование для внесения локальных изменений в сеточные тела вне параметрического таймлайна проекта." />
+    <label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTitle" devLabel="Direct Edit Information" translation="Информация о прямом редактировании" />
+    <label commandName="lclzParaMeshBaseFeatureStopDesc1" devLabel="Finish directly editing the mesh body and return to parametric modeling in the Design workspace." translation="Завершите прямое редактирование сеточного тела и вернитесь к параметрическому моделированию в рабочем пространстве Дизайн." />
+    <label commandName="lclzParaMeshBaseFeatureTab" devLabel="Direct Mesh Editing" translation="Прямое редактирование сетки" />
+    <label commandName="lclzParaMeshCalculateFaceGroupsDesc1" devLabel="Automatically generates face groups on a mesh body using the normal angles between faces to determine the boundaries of each face group." translation="Автоматически генерирует группы граней на сеточном теле, используя углы между нормалями граней для определения границ каждой группы граней." />
+    <label commandName="lclzParaMeshCalculateFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select mesh bodies or face groups, select the generation method, then adjust the face opening angle, tolerance, and minimal area ratio." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней. Выберите сеточные тела или группы граней, выберите метод генерации, затем настройте угол открытия граней, допуск и минимальное соотношение площади." />
+    <label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней." />
+    <label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTips" devLabel="When you insert a mesh that has no face groups, use the &lt;b&gt;Fast&lt;/b&gt; generation method to generate an initial set of face groups on the mesh body. Then select specific sets of face groups and use the &lt;b&gt;Accurate&lt;/b&gt; generation method to capture detailed areas more accurately." translation="При вставке сетки без групп граней используйте &lt;b&gt;Быстрый&lt;/b&gt; метод генерации для создания начального набора групп граней на сеточном теле. Затем выберите конкретные наборы групп граней и используйте &lt;b&gt;Точный&lt;/b&gt; метод генерации для более точного захвата детализированных областей." />
+    <label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTitle" devLabel="Generate Face Groups Information" translation="Информация о генерации групп граней" />
+    <label commandName="lclzParaMeshCombineDesc1" devLabel="Joins, intersects, cuts, or merges two or more mesh bodies to create a single mesh body." translation="Объединяет, пересекает, вырезает или сливает два или более сеточных тела для создания единого сеточного тела." />
+    <label commandName="lclzParaMeshCombineDesc2" devLabel="Select the target body, select one or more tool bodies to combine with the target body, then select the operation to use to combine the bodies together." translation="Выберите целевое тело, выберите одно или более тел-инструментов для объединения с целевым телом, затем выберите операцию для объединения тел." />
+    <label commandName="lclzParaMeshCombineTipsAndTricksDesc" devLabel="You can also choose to create a new component to contain the combined bodies or keep a copy of the original bodies." translation="Вы также можете создать новый компонент для содержания объединенных тел или сохранить копию исходных тел." />
+    <label commandName="lclzParaMeshCombineTipsAndTricksTips" devLabel="Overlapping boundary edges are stitched." translation="Перекрывающиеся граничные ребра сшиваются." />
+    <label commandName="lclzParaMeshCombineTipsAndTricksTitle" devLabel="Combine Information" translation="Информация об объединении" />
+    <label commandName="lclzParaMeshConvertDesc1" devLabel="Converts a mesh body to a solid or surface body." translation="Преобразует сеточное тело в твердотельное или поверхностное тело." />
+    <label commandName="lclzParaMeshConvertDesc2" devLabel="Select the mesh body to convert, then select the operation and method. In the browser and the canvas, the mesh body converts to a solid or surface body. Face groups are used to infer prismatic features." translation="Выберите сеточное тело для преобразования, затем выберите операцию и метод. В браузере и на холсте сеточное тело преобразуется в твердотельное или поверхностное тело. Группы граней используются для определения призматических элементов." />
+    <label commandName="lclzParaMeshConvertTipsAndTricksDesc" devLabel="If the mesh body is watertight, it coverts to a solid body. If the mesh is not watertight, it converts to a surface body." translation="Если сеточное тело водонепроницаемо, оно преобразуется в твердотельное тело. Если сетка не водонепроницаема, она преобразуется в поверхностное тело." />
+    <label commandName="lclzParaMeshConvertTipsAndTricksTips" devLabel="Use the &lt;b&gt;Faceted&lt;/b&gt; operation to generate one face on the solid or surface body for each individual face on the mesh body. Use the &lt;b&gt;Prismatic&lt;/b&gt; operation to convert geometry originally created using solid or surface modeling tools. Use the &lt;b&gt;Organic&lt;/b&gt; operation to convert geometry originally created from scan data or organic modeling tools." translation="Используйте &lt;b&gt;Граненую&lt;/b&gt; операцию для создания одной грани на твердотельном или поверхностном теле для каждой отдельной грани сеточного тела. Используйте &lt;b&gt;Призматическую&lt;/b&gt; операцию для преобразования геометрии, изначально созданной с помощью инструментов твердотельного или поверхностного моделирования. Используйте &lt;b&gt;Органическую&lt;/b&gt; операцию для преобразования геометрии, изначально созданной из данных сканирования или инструментов органического моделирования." />
+    <label commandName="lclzParaMeshConvertTipsAndTricksTitle" devLabel="Convert Mesh Information" translation="Информация о преобразовании сетки" />
+    <label commandName="lclzParaMeshCreate" devLabel="Create" translation="Создать" />
+    <label commandName="lclzParaMeshCreateFaceGroupDesc1" devLabel="Creates a face group from a selection of faces on a mesh body." translation="Создает группу граней из выбранных граней на сеточном теле." />
+    <label commandName="lclzParaMeshCreateFaceGroupDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select faces on a mesh body to include in the face group. Adjust the settings in the Mesh Selection Palette to refine the selection set." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней. Выберите грани на сеточном теле для включения в группу граней. Настройте параметры в Палитре выбора сетки для уточнения набора выделения." />
+    <label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTips" devLabel="You can select any faces on the same mesh body to include in the face group, even if they are not connected." translation="Вы можете выбрать любые грани на том же сеточном теле для включения в группу граней, даже если они не соединены." />
+    <label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTitle" devLabel="Create Face Group Information" translation="Информация о создании группы граней" />
+    <label commandName="lclzParaMeshDemoteDesc1" devLabel="Converts a parametric mesh body to a mesh body." translation="Преобразует параметрическое сеточное тело в сеточное тело." />
+    <label commandName="lclzParaMeshEmptyBaseFeatureDesc1" devLabel="Creates an empty Mesh Base Feature." translation="Создает пустой базовый сеточный элемент." />
+    <label commandName="lclzParaMeshEraseAndFillDesc1" devLabel="Removes and replaces faces on a mesh body to fill holes and repair regions." translation="Удаляет и заменяет грани на сеточном теле для заполнения отверстий и восстановления областей." />
+    <label commandName="lclzParaMeshEraseAndFillDesc2" devLabel="Select the boundary of faces around a hole to fill, or select the faces of a region to remove and replace." translation="Выберите границу граней вокруг отверстия для заполнения или выберите грани области для удаления и замены." />
+    <label commandName="lclzParaMeshEraseAndFillTipsAndTricksDesc" devLabel="Use the Uniform type to achieve the smoothest and most usable result. Use the Minimal type to reduce the number of triangles on the mesh body, but note the long, thin triangular faces may be more difficult to work with downstream." translation="Используйте тип Равномерный для получения наиболее гладкого и удобного результата. Используйте тип Минимальный для уменьшения количества треугольников на сеточном теле, но учтите, что длинные тонкие треугольные грани могут быть сложнее в дальнейшей работе." />
+    <label commandName="lclzParaMeshEraseAndFillTipsAndTricksTips" devLabel="Hover over a face along the boundary of a hole in the mesh body, then double-click to select all the faces along the edge of the boundary and fill the hole." translation="Наведите курсор на грань вдоль границы отверстия в сеточном теле, затем дважды щелкните, чтобы выбрать все грани вдоль края границы и заполнить отверстие." />
+    <label commandName="lclzParaMeshEraseAndFillTipsAndTricksTitle" devLabel="Erase And Fill Information" translation="Информация о стирании и заполнении" />
+    <label commandName="lclzParaMeshExport" devLabel="Export" translation="Экспорт" />
+    <label commandName="lclzParaMeshExtractDesc1" devLabel="Separates regions of a mesh body into independent mesh bodies." translation="Разделяет области сеточного тела на независимые сеточные тела." />
+    <label commandName="lclzParaMeshExtractDesc2" devLabel="Select a separation type, then select a mesh body or face groups to separate into individual bodies." translation="Выберите тип разделения, затем выберите сеточное тело или группы граней для разделения на отдельные тела." />
+    <label commandName="lclzParaMeshExtractTipsAndTricksDesc" devLabel="You can keep a copy of the original mesh body or choose to replace it." translation="Вы можете сохранить копию исходного сеточного тела или выбрать его замену." />
+    <label commandName="lclzParaMeshExtractTipsAndTricksTips" devLabel="After you generate face groups on a mesh body, use Separate to split features or regions into independent mesh bodies to make it easier to work with them." translation="После генерации групп граней на сеточном теле используйте Разделить для разделения элементов или областей на независимые сеточные тела для упрощения работы с ними." />
+    <label commandName="lclzParaMeshExtractTipsAndTricksTitle" devLabel="Separate Information" translation="Информация о разделении" />
+    <label commandName="lclzParaMeshGenerateFaceGroupTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней." />
+    <label commandName="lclzParaMeshHollowDesc1" devLabel="Hollows the interior of a mesh body." translation="Выполняет полость внутри сеточного тела." />
+    <label commandName="lclzParaMeshHollowDesc2" devLabel="Select a mesh body, then adjust the direction and thickness to hollow the interior volume." translation="Выберите сеточное тело, затем настройте направление и толщину для создания полости внутри объема." />
+    <label commandName="lclzParaMeshHollowTipsAndTricksTips" devLabel="You can use the Shell command to hollow a mesh body and significantly reduce the amount of print material, time, and cost required for 3D printing." translation="Вы можете использовать команду Оболочка для создания полости в сеточном теле и значительного уменьшения количества материала, времени и стоимости, необходимых для 3D-печати." />
+    <label commandName="lclzParaMeshHollowTipsAndTricksTitle" devLabel="Shell Information" translation="Информация об оболочке" />
+    <label commandName="lclzParaMeshInsertAlignDesc1" devLabel="Inserts an existing STL, OBJ, or 3MF file as a mesh body into the active component in a design." translation="Вставляет существующий файл STL, OBJ или 3MF как сеточное тело в активный компонент проекта." />
+    <label commandName="lclzParaMeshInsertAlignDesc2" devLabel="Select a file to insert. The contents of the file displays as a mesh body in the canvas and the browser." translation="Выберите файл для вставки. Содержимое файла отображается как сеточное тело на холсте и в браузере." />
+    <label commandName="lclzParaMeshInsertAlignDesc3" devLabel="For STL or OBJ files, select the unit type that matches the units from the original design that generated the STL or OBJ." translation="Для файлов STL или OBJ выберите тип единиц, соответствующий единицам из исходного проекта, который сгенерировал STL или OBJ." />
+    <label commandName="lclzParaMeshInsertAlignTipsAndTricksTips" devLabel="If you insert an OBJ or 3MF file with existing textures, they will display on the mesh body in the canvas. Turn off the Mesh Display &gt; Face Groups display setting to see the textures on the mesh body." translation="При вставке файла OBJ или 3MF с существующими текстурами они будут отображаться на сеточном теле на холсте. Отключите настройку отображения Отображение сетки &gt; Группы граней, чтобы увидеть текстуры на сеточном теле." />
+    <label commandName="lclzParaMeshInsertAlignTipsAndTricksTitle" devLabel="Insert Mesh Information" translation="Информация о вставке сетки" />
+    <label commandName="lclzParaMeshMergeFaceGroupsDesc1" devLabel="Combines two or more adjacent face groups on a mesh body." translation="Объединяет две или более смежных групп граней на сеточном теле." />
+    <label commandName="lclzParaMeshMergeFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select two or more adjacent face groups on the mesh body to combine them." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней. Выберите две или более смежных групп граней на сеточном теле для их объединения." />
+    <label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Для отображения групп граней разверните Настройки отображения &gt; Отображение сетки, затем установите флажок Группы граней." />
+    <label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTips" devLabel="You can combine two or more face groups on a mesh body as long as they share a common edge." translation="Вы можете объединить две или более групп граней на сеточном теле, если они имеют общее ребро." />
+    <label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTitle" devLabel="Combine Face Groups Information" translation="Информация об объединении групп граней" />
+    <label commandName="lclzParaMeshModify" devLabel="Modify" translation="Изменить" />
+    <label commandName="lclzParaMeshOuterTab" devLabel="Mesh" translation="Сетка" />
+    <label commandName="lclzParaMeshPlanarSectionDesc1" devLabel="Creates a sketch that contains a section line where a plane intersects a mesh body." translation="Создает эскиз, содержащий линию сечения, где плоскость пересекает сеточное тело." />
+    <label commandName="lclzParaMeshPlanarSectionDesc2" devLabel="Select a mesh body, select a plane, then adjust the location of the section line. Edit the sketch and use the Fit Curves To Mesh Section command to create sketch geometry to match the section line." translation="Выберите сеточное тело, выберите плоскость, затем настройте расположение линии сечения. Отредактируйте эскиз и используйте команду Подогнать кривые к сечению сетки для создания геометрии эскиза, соответствующей линии сечения." />
+    <label commandName="lclzParaMeshPlanarSectionTipsAndTricksTips" devLabel="Create a series of mesh section sketches to reverse-engineer complex mesh bodies. Edit each section sketch and use the Fit Curves To Mesh Section command to generate a series of sketch profiles. You can use the sketch profiles to create parametric solid and surface bodies to recreate the design." translation="Создайте серию эскизов сечений сетки для реверс-инжиниринга сложных сеточных тел. Отредактируйте каждый эскиз сечения и используйте команду Подогнать кривые к сечению сетки для генерации серии профилей эскизов. Вы можете использовать профили эскизов для создания параметрических твердотельных и поверхностных тел для воссоздания проекта." />
+    <label commandName="lclzParaMeshPlanarSectionTipsAndTricksTitle" devLabel="Create Mesh Section Sketch Information" translation="Информация о создании эскиза сечения сетки" />
+    <label commandName="lclzParaMeshPlaneCutDesc1" devLabel="Uses a plane to trim or split a mesh body." translation="Использует плоскость для обрезки или разделения сеточного тела." />
+    <label commandName="lclzParaMeshPlaneCutDesc2" devLabel="Select a mesh body, then select and position the cutting plane. The cut can trim the body, split the body into multiple bodies, or split the faces only. For the Trim and Split Body cut types, select a fill type to generate watertight bodies." translation="Выберите сеточное тело, затем выберите и расположите плоскость разреза. Разрез может обрезать тело, разделить тело на несколько тел или только разделить грани. Для типов разреза Обрезать и Разделить тело выберите тип заполнения для создания водонепроницаемых тел." />
+    <label commandName="lclzParaMeshPlaneCutTipsAndTricksDesc" devLabel="Adjust the Fill Type to either leave a mesh open or close the mesh body after you cut it. You can fill the voids that the cut plane leaves behind with either uniform or minimal mesh faces." translation="Настройте Тип заполнения, чтобы оставить сетку открытой или закрыть сеточное тело после разреза. Вы можете заполнить пустоты, оставленные плоскостью разреза, равномерными или минимальными гранями сетки." />
+    <label commandName="lclzParaMeshPlaneCutTipsAndTricksTips" devLabel="Use the Plane Cut command to slice a mesh body along a plane and either trim away one side of the body, split the mesh body into two separate bodies, or slice the mesh faces but leave the mesh body whole." translation="Используйте команду Разрез плоскостью для разрезания сеточного тела вдоль плоскости и либо обрезки одной стороны тела, разделения сеточного тела на два отдельных тела, либо разрезания граней сетки с сохранением целостности сеточного тела." />
+    <label commandName="lclzParaMeshPlaneCutTipsAndTricksTitle" devLabel="Plane Cut Information" translation="Информация о разрезе плоскостью" />
+    <label commandName="lclzParaMeshPrepare" devLabel="Prepare" translation="Подготовить" />
+    <label commandName="lclzParaMeshReduceDesc1" devLabel="Reduces the number of faces on a mesh body to minimize complexity." translation="Уменьшает количество граней на сеточном теле для минимизации сложности." />
+    <label commandName="lclzParaMeshReduceDesc2" devLabel="Select a mesh body or face groups, select a reduction target, then adjust the settings to reduce the number of mesh faces." translation="Выберите сеточное тело или группы граней, выберите цель уменьшения, затем настройте параметры для уменьшения количества граней сетки." />
+    <label commandName="lclzParaMeshReduceTipsAndTricksDesc" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Используйте тип перерасчета сетки Адаптивный для сохранения деталей. Используйте тип перерасчета сетки Равномерный для сохранения относительно одинакового размера граней." />
+    <label commandName="lclzParaMeshReduceTipsAndTricksTips" devLabel="Use the Tolerance reduction type to reduce complexity and improve computational performance while working with the mesh. The Tolerance reduction type merges faces while remaining within a maximum deviation from the original mesh shape." translation="Используйте тип уменьшения Допуск для снижения сложности и улучшения вычислительной производительности при работе с сеткой. Тип уменьшения Допуск объединяет грани, оставаясь в пределах максимального отклонения от исходной формы сетки." />
+    <label commandName="lclzParaMeshReduceTipsAndTricksTitle" devLabel="Reduce Information" translation="Информация об уменьшении" />
+    <label commandName="lclzParaMeshRemeshDesc1" devLabel="Refines or coarsens faces on a mesh body or face groups." translation="Уточняет или огрубляет грани на сеточном теле или группах граней." />
+    <label commandName="lclzParaMeshRemeshDesc2" devLabel="Select a mesh body or face groups on a mesh body, then adjust the settings to regenerate the mesh faces." translation="Выберите сеточное тело или группы граней на сеточном теле, затем настройте параметры для перегенерации граней сетки." />
+    <label commandName="lclzParaMeshRemeshTipsAndTricksTips" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Используйте тип перерасчета сетки Адаптивный для сохранения деталей. Используйте тип перерасчета сетки Равномерный для сохранения относительно одинакового размера граней." />
+    <label commandName="lclzParaMeshRemeshTipsAndTricksTitle" devLabel="Remesh Information" translation="Информация о перерасчете сетки" />
+    <label commandName="lclzParaMeshRemoveDesc1" devLabel="Remove meshes" translation="Удалить сетки" />
+    <label commandName="lclzParaMeshRemoveDesc2" devLabel="Select the mesh bodies to be removed. For every mesh which is removed, a feature appears in the timeline. The removal can be, in contrast to delete, be undone and meshes can be restored parametrically." translation="Выберите сеточные тела для удаления. Для каждой удаленной сетки в таймлайне появляется элемент. В отличие от удаления, удаление можно отменить, и сетки можно восстановить параметрически." />
+    <label commandName="lclzParaMeshRepairDesc1" devLabel="Repairs a mesh body to prepare it for further design and manufacturing operations." translation="Восстанавливает сеточное тело для подготовки к дальнейшим проектным и производственным операциям." />
+    <label commandName="lclzParaMeshRepairDesc2" devLabel="Select a mesh body to repair, then select a repair type. For the Rebuild repair type, select a rebuild type, then adjust density and offset." translation="Выберите сеточное тело для восстановления, затем выберите тип восстановления. Для типа восстановления Перестроить выберите тип перестроения, затем настройте плотность и смещение." />
+    <label commandName="lclzParaMeshRepairTipsAndTricksDesc" devLabel="Use the Repair command to fix errors in a mesh body to prepare it for further design and manufacturing operations. Errors may include holes in the mesh body or suboptimal arrangement, orientation, or intersection of triangles in the mesh body." translation="Используйте команду Восстановить для исправления ошибок в сеточном теле для подготовки к дальнейшим проектным и производственным операциям. Ошибки могут включать отверстия в сеточном теле или неоптимальное расположение, ориентацию или пересечение треугольников в сеточном теле." />
+    <label commandName="lclzParaMeshRepairTipsAndTricksTips" devLabel="Use the &lt;b&gt;Close Holes&lt;/b&gt; or &lt;b&gt;Stitch and Remove&lt;/b&gt; repair types for faster results and fewer changes to the mesh body. For more complex repairs, use the &lt;b&gt;Wrap&lt;/b&gt; or &lt;b&gt;Rebuild&lt;/b&gt; repair types, but keep in mind that these will take longer to compute and will make more significant changes to the mesh body." translation="Используйте типы восстановления &lt;b&gt;Закрыть отверстия&lt;/b&gt; или &lt;b&gt;Сшить и удалить&lt;/b&gt; для более быстрых результатов и меньшего количества изменений сеточного тела. Для более сложных восстановлений используйте типы &lt;b&gt;Обернуть&lt;/b&gt; или &lt;b&gt;Перестроить&lt;/b&gt;, но учтите, что они займут больше времени на вычисления и внесут более значительные изменения в сеточное тело." />
+    <label commandName="lclzParaMeshRepairTipsAndTricksTitle" devLabel="Repair Information" translation="Информация о восстановлении" />
+    <label commandName="lclzParaMeshReverseNormalsDesc1" devLabel="Reverses the normal direction of selected faces on a mesh body." translation="Обращает направление нормалей выбранных граней на сеточном теле." />
+    <label commandName="lclzParaMeshReverseNormalsDesc2" devLabel="Select faces on a mesh body to reverse their normal direction." translation="Выберите грани на сеточном теле для обращения направления их нормалей." />
+    <label commandName="lclzParaMeshReverseNormalsTipsAndTricksTips" devLabel="Some faces on imported mesh bodies may be oriented incorrectly, and the Reverse Normal command lets you orient those faces correctly in a targeted way." translation="Некоторые грани на импортированных сеточных телах могут быть ориентированы неправильно, и команда Обратить нормали позволяет ориентировать эти грани правильно целенаправленным способом." />
+    <label commandName="lclzParaMeshReverseNormalsTipsAndTricksTitle" devLabel="Reverse Normal Information" translation="Информация об обращении нормалей" />
+    <label commandName="lclzParaMeshScaleDesc1" devLabel="Scales mesh bodies from a reference point." translation="Масштабирует сеточные тела от точки отсчета." />
+    <label commandName="lclzParaMeshScaleDesc2" devLabel="Select mesh bodies, select a reference point to scale from and a scale type, then specify the scale factor to scale the mesh bodies." translation="Выберите сеточные тела, выберите точку отсчета для масштабирования и тип масштабирования, затем укажите коэффициент масштабирования для масштабирования сеточных тел." />
+    <label commandName="lclzParaMeshScaleTipsAndTricksDesc" devLabel="Select multiple mesh bodies to scale them all at once from a common reference point." translation="Выберите несколько сеточных тел для их одновременного масштабирования от общей точки отсчета." />
+    <label commandName="lclzParaMeshScaleTipsAndTricksTips" devLabel="Use the Nonuniform scale type to scale mesh bodies by a different scale factor along the X, Y, and Z axes." translation="Используйте тип масштабирования Неравномерный для масштабирования сеточных тел разными коэффициентами вдоль осей X, Y и Z." />
+    <label commandName="lclzParaMeshScaleTipsAndTricksTitle" devLabel="Scale Mesh Information" translation="Информация о масштабировании сетки" />
+    <label commandName="lclzParaMeshSmoothDesc1" devLabel="Smooths rough or creased regions on a mesh body." translation="Сглаживает шероховатые или смятые области на сеточном теле." />
+    <label commandName="lclzParaMeshSmoothDesc2" devLabel="Select a mesh body or face groups, select a smoothing type, then adjust the smoothness and scale to smooth rough or creased regions." translation="Выберите сеточное тело или группы граней, выберите тип сглаживания, затем настройте степень сглаживания и масштаб для сглаживания шероховатых или смятых областей." />
+    <label commandName="lclzParaMeshSmoothTipsAndTricksDesc" devLabel="Use the Smooth command to soften rough areas or sharp creases on a mesh body." translation="Используйте команду Сгладить для смягчения шероховатых областей или острых складок на сеточном теле." />
+    <label commandName="lclzParaMeshSmoothTipsAndTricksTips" devLabel="Specify Smoothness on a scale from 0-1.00, where 0 applies minimal smoothing effects to the mesh body and 1.00 applies maximum smoothing effects." translation="Задайте Степень сглаживания по шкале от 0 до 1.00, где 0 применяет минимальные эффекты сглаживания к сеточному телу, а 1.00 применяет максимальные эффекты сглаживания." />
+    <label commandName="lclzParaMeshSmoothTipsAndTricksTitle" devLabel="Smooth Information" translation="Информация о сглаживании" />
+    <label commandName="lclzParaMeshTessellateDesc1" devLabel="Converts an existing solid or surface body into a mesh body." translation="Преобразует существующее твердотельное или поверхностное тело в сеточное тело." />
+    <label commandName="lclzParaMeshTessellateDesc2" devLabel="Select the solid or surface body to tessellate, then adjust the mesh refinement settings to convert the body to a mesh body." translation="Выберите твердотельное или поверхностное тело для тесселяции, затем настройте параметры сглаживания сетки для преобразования тела в сеточное тело." />
+    <label commandName="lclzParaMeshTessellateTipsAndTricksDesc" devLabel="Start with one of the Refinement presets, then customize the refinement settings to fine-tune the result before you complete the tessellation." translation="Начните с одной из предустановок Сглаживания, затем настройте параметры сглаживания для точной настройки результата перед завершением тесселяции." />
+    <label commandName="lclzParaMeshTessellateTipsAndTricksTips" devLabel="Check the Preview setting to see what the new mesh body will look like as you adjust the Refinement Settings." translation="Проверьте настройку Превью, чтобы увидеть, как будет выглядеть новое сеточное тело при настройке параметров сглаживания." />
+    <label commandName="lclzParaMeshTessellateTipsAndTricksTitle" devLabel="Tesselate Information" translation="Информация о тесселяции" />
+    <label commandName="lclzParaMeshTextureDesc1" devLabel="Uses an image to add surface texture to a mesh body." translation="Использует изображение для добавления текстуры поверхности на сеточное тело." />
+    <label commandName="lclzParaMeshTextureDesc2" devLabel="Select faces, face groups, or a mesh body to add texture to and choose an image to use for the texture. Specify the extrude type and distance then adjust the image scale and placement." translation="Выберите грани, группы граней или сеточное тело для наложения текстуры и выберите изображение для текстуры. Укажите тип выдавливания и расстояние, затем настройте масштаб и расположение изображения." />
+    <label commandName="lclzParaMeshTextureDesc3" devLabel="Optionally, repeat the texture in a grid pattern across the selected geometry." translation="При необходимости повторите текстуру в виде сетки по выбранной геометрии." />
+    <label commandName="lclzParaMeshTextureTipsAndTricksDesc" devLabel="Images with blended gradients create smoother textures while pure black-and-white images create textures with steep extrudes." translation="Изображения со смешанными градиентами создают более гладкие текстуры, а чисто черно-белые изображения создают текстуры с крутым выдавливанием." />
+    <label commandName="lclzParaMeshTextureTipsAndTricksTips" devLabel="Black and White or grayscale images provide the most predictable results. Color images are converted to grayscale and the extrusion height depends on the shades of gray." translation="Черно-белые изображения или градации серого дают наиболее предсказуемые результаты. Цветные изображения преобразуются в градации серого, и высота выдавливания зависит от оттенков серого." />
+    <label commandName="lclzParaMeshTextureTipsAndTricksTitle" devLabel="Texture Extrude Information" translation="Информация о текстурном выдавливании" />
+    <label commandName="lclzParaMeshToQuadMeshDesc1" devLabel="Converts a mesh body or face groups with triangular faces to a mesh body or face groups with quad faces." translation="Преобразует сеточное тело или группы граней с треугольными гранями в сеточное тело или группы граней с четырехугольными гранями." />
+    <label commandName="lclzParaMeshToQuadMeshDesc2" devLabel="Select a mesh body or face groups, select an output type, then adjust the settings to convert from triangular to quad faces." translation="Выберите сеточное тело или группы граней, выберите тип вывода, затем настройте параметры для преобразования из треугольных в четырехугольные грани." />
+    <label commandName="lclzStopMeshBaseFeature" devLabel="Finish direct editing" translation="Завершить прямое редактирование" />
+    <label commandName="targetOrganicEdgeAccuracy" devLabel="By Accuracy" translation="По точности" />
+    <label commandName="targetOrganicEdgeAccuracyToolTip" devLabel="Creates a solid or surface body that matches the shape of the original mesh body more or less accurately, based on the resolution you select." translation="Создает твердотельное или поверхностное тело, которое более или менее точно соответствует форме исходного сеточного тела, в зависимости от выбранного разрешения." />
+    <label commandName="targetOrganicFaceNumber" devLabel="By Face Number" translation="По количеству граней" />
+    <label commandName="targetOrganicFaceNumberToolTip" devLabel="Creates solid or surface body with a specific number of faces." translation="Создает твердотельное или поверхностное тело с определенным количеством граней." />
+    <label commandName="tolerance" devLabel="Tolerance" translation="Допуск" />
+    <label commandName="toleranceToolTip" devLabel="Specify the maximum percentage deviation of the reduced mesh from the original mesh shape." translation="Задайте максимальное процентное отклонение уменьшенной сетки от исходной формы сетки." />
+    <label commandName="triCount" devLabel="Face Count" translation="Количество граней" />
+    <label commandName="triCountToolTip" devLabel="Reduces mesh to a specific number of faces." translation="Уменьшает сетку до определенного количества граней." />
+</Resource>

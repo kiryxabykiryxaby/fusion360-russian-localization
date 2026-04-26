@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportStepError" devLabel="Autodesk Translation Services failed to translate the current document to step file!" translation="" />
+	<label commandName="CreateComponentsByImportStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="" />
+	<label commandName="CreateComponentsByOpenStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="" />
+	<label commandName="STEPFileFilterDescription" devLabel="STEP Files (*.stp *.step)" translation="" />
+</Resource>

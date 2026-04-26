@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DiagnosticsCommand" devLabel="Diagnostics" translation="" />
+	<label commandName="ErrorRateMeterToolTip" devLabel="Show/Hide ErrorRate Meter options." translation="" />
+	<label commandName="ErrorRateMeterUserName" devLabel="ErrorRateMeter enable" translation="" />
+	<label commandName="InteractivityMeterToolTip" devLabel="Show/Hide Interactivity Meter options." translation="" />
+	<label commandName="InteractivityMeterUserName" devLabel="InteractivityMeter enable" translation="" />
+	<label commandName="lclzDiagnosticsText" devLabel="DiagnosticsCommand" translation="" />
+</Resource>

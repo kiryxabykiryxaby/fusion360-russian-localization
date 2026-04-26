@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="SimCallTemplateReusedAttribute" devLabel="Click here to select 'Template Reused Attribute'." translation="" />
+	<label commandName="SimCallTemplateStructuralAttribute" devLabel="Click here to select 'Template Structural Attribute'." translation="" />
+	<label commandName="SimCaseGeneralSettingsTemplateBoolSetting" devLabel="Template Bool Setting" translation="" />
+	<label commandName="SimCaseNameTemplate" devLabel="Study %1% - Template (Default Name)" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="" />
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="" />
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="" />
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="" />
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="" />
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimLoadCaseString" devLabel=" in &quot;%1%&quot;" translation="" />
+	<label commandName="SimNoTemplateAttributeAssigned" devLabel="Cannot Solve: Please assign at least one attribute%1%." translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimTemplate" devLabel="Simulation Template (Localized Case Type Name)" translation="" />
+	<label commandName="SimTemplateReusedAttributeSelectionName" devLabel="TemplateReusedAttributeSelection" translation="" />
+	<label commandName="SimTemplateStructuralAttributeFlag" devLabel="Value" translation="" />
+	<label commandName="SimTemplateStructuralAttributeName" devLabel="Template Structural Attribute" translation="" />
+	<label commandName="SimTemplateStructuralAttributeSelectionName" devLabel="TemplateStructuralAttributeSelection" translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+</Resource>

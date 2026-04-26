@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ComputeInMouseDragToolTip" devLabel="Switch on/off compute in mouse drag for push / pull." translation="" />
+	<label commandName="ComputeInMouseDragUserName" devLabel="ComputeInMouseDrag enable" translation="" />
+	<label commandName="ComputeInPreviewToolTip" devLabel="Switch on/off compute in preview for push / pull." translation="" />
+	<label commandName="ComputeInPreviewUserName" devLabel="ComputeInPreview enable" translation="" />
+	<label commandName="ComputeInThreadToolTip" devLabel="Switch on/off compute in another thread for push / pull dragging." translation="" />
+	<label commandName="ComputeInThreadUserName" devLabel="ComputeInThread enable" translation="" />
+	<label commandName="CycleDependencyInComputeCommon" devLabel="The operation will be aborted due to cyclic dependency error. Please report this issue to Autodesk!" translation="" />
+	<label commandName="MinimumComputeTimeToolTip" devLabel="set the minimum compute time for thread compute." translation="" />
+	<label commandName="MinimumComputeTimeUserName" devLabel="MinimumComputeTime" translation="" />
+	<label commandName="MinimumSpeedUpRatioToolTip" devLabel="set the minimum speed up ratio(serialTime/parallelTime)" translation="" />
+	<label commandName="MinimumSpeedUpRatioUserName" devLabel="MinimumSpeedUpRatio" translation="" />
+	<label commandName="ParallelComputingToolTip" devLabel="Switch on/off parallel computing option." translation="" />
+	<label commandName="ParallelComputingUserName" devLabel="ParallelComputing enable" translation="" />
+	<label commandName="XRefPlaceToolTip" devLabel="Switch on/off XRef import options." translation="" />
+	<label commandName="XRefPlaceUserName" devLabel="XRef Place enable" translation="" />
+</Resource>

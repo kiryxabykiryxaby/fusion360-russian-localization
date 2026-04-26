@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Download_File" devLabel="Download file" translation="" />
+	<label commandName="Export_Complete_Notification_Message" devLabel="has been exported to .%1% format." translation="" />
+	<label commandName="Export_Failed_Notification_Message" devLabel="Could not export this file. Please try again." translation="" />
+</Resource>

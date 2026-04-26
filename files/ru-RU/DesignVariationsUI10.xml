@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ActivateGenWorkingModel" devLabel="Activate Generative Model" translation="" />
+	<label commandName="ActivateGenerativeModel" devLabel="Activate Generative Model" translation="" />
+	<label commandName="ActivateModel" devLabel="Activate Model" translation="" />
+	<label commandName="ActivateSimulationModel" devLabel="Activate Simulation Model" translation="" />
+	<label commandName="ActivateWorkingModel" devLabel="Activate Simulation Model" translation="" />
+	<label commandName="ActivateWorkingModelText" devLabel="Activate Simulation Model" translation="" />
+	<label commandName="AppearanceInheritToolTip_1" devLabel="Inherits the Appearance from the Physical Material assigned to this object.&#10;&#10;If the Physical Material changes, this Appearance updates to match." translation="" />
+	<label commandName="AppearanceInheritToolTip_2" devLabel="Inherits the Appearance override from the parent component that contains this object.&#10;&#10;If the Appearance of the parent component changes, this Appearance updates to match." translation="" />
+	<label commandName="AppearanceRootToolTip" devLabel="Current default Appearance override for &#10;" translation="" />
+	<label commandName="ConvertSurfaceBody2TSCommand" devLabel="Convert Surface Body to TSpline" translation="" />
+	<label commandName="CopyActiveWorkingModelFailure1" devLabel="Suspended command!" translation="" />
+	<label commandName="CopyActiveWorkingModelFailure2" devLabel="No Active asset session!" translation="" />
+	<label commandName="CopyActiveWorkingModelFailure3" devLabel="No Active WM asset session!" translation="" />
+	<label commandName="CopyActiveWorkingModelFailure4" devLabel="Copy of active WM failed" translation="" />
+	<label commandName="CopyWorkingModel" devLabel="Copy Working Model" translation="" />
+	<label commandName="CopyWorkingModelAndImport" devLabel="Copy Working Model, activate it and import gemetry" translation="" />
+	<label commandName="CopyWorkingModelText" devLabel="Copy Simulation Model" translation="" />
+	<label commandName="DeleteWorkingModel" devLabel="Delete Working Model" translation="" />
+	<label commandName="DeleteWorkingModelText" devLabel="Delete Simulation Model" translation="" />
+	<label commandName="ExtractTSSurfaceBodyCommand" devLabel="Extract TSpline from Surface Body" translation="" />
+	<label commandName="FinishEditModelCommand" devLabel="Finish Edit Model" translation="" />
+	<label commandName="FinishEditModelCommandModelText" devLabel="Enables you to return to the Generative Design workspace." translation="" />
+	<label commandName="FinishSimplifyCommand" devLabel="Finish Simplify" translation="" />
+	<label commandName="FinishSimplifyCommandModelText" devLabel="Click Finish Simplify to return to the Simulation workspace." translation="" />
+	<label commandName="FromParentMaterial" devLabel="From Parent" translation="" />
+	<label commandName="FromPhysicalMaterial" devLabel="From Physical Material" translation="" />
+	<label commandName="FusionComponentInstanceFoldername" devLabel="Model Components" translation="" />
+	<label commandName="FusionDeleteOverrideCommand" devLabel="Delete" translation="" />
+	<label commandName="GenWorkingModelEnvironment" devLabel="Edit Model" translation="" />
+	<label commandName="GenerativeModels" devLabel="Generative Models" translation="" />
+	<label commandName="InheritedMaterialSuffix" devLabel=" (Inherited)" translation="" />
+	<label commandName="InvalidAssetSelectedForDeletion" devLabel="No valid model selected for deletion." translation="" />
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="" />
+	<label commandName="Models" devLabel="Models" translation="" />
+	<label commandName="PhysicalMaterialInheritToolTip_1" devLabel="Inherits the Physical Material from the parent component that contains this object." translation="" />
+	<label commandName="PhysicalMaterialInheritToolTip_2" devLabel="If the Physical Material of the parent component changes, this updates to match." translation="" />
+	<label commandName="PhysicalMaterialRootToolTip" devLabel="Current default Physical Material for &#10;" translation="" />
+	<label commandName="SimPromoteSolidIsProbablySurface" devLabel="A closed solid could not be produced from the Optimization Result. The generated surface body(ies) may need to be Patched and Stitched." translation="" />
+	<label commandName="SimulationModels" devLabel="Simulation Models" translation="" />
+	<label commandName="SoftDeleteAllUnselected" devLabel="Remove All Except Selected" translation="" />
+	<label commandName="SoftDeleteAllUnselectedText" devLabel="Remove All Except Selected" translation="" />
+	<label commandName="SuppressGeometry" devLabel="Suppress" translation="" />
+	<label commandName="UnSuppressGeometry" devLabel="UnSuppress" translation="" />
+	<label commandName="WorkingModelEnvironment" devLabel="Simplify" translation="" />
+	<label commandName="keyAppearanceTableName" devLabel="Appearance Themes" translation="" />
+	<label commandName="keyChildTableName" devLabel="Theme Table" translation="" />
+	<label commandName="keyPhysicalMaterialTableName" devLabel="Physical Material Themes" translation="" />
+	<label commandName="keyPlasticRuleTableName" devLabel="Plastic Rule Themes" translation="" />
+	<label commandName="keyPrimaryTableName" devLabel="Configurations" translation="" />
+	<label commandName="keySheetMetalRuleTableName" devLabel="Sheet Metal Rule Themes" translation="" />
+	<label commandName="lclzFusionRepairBrowserCaption" devLabel="Repair Browser" translation="" />
+	<label commandName="lclzGenWorkingModelWorkspaceTitle" devLabel="Edits a generative model by creating bodies to represent preserve, obstacle, and starting shape geometries in a design problem." translation="" />
+</Resource>

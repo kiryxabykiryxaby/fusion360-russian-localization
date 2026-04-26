@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AddBaseFlangeSelection" devLabel="Add" translation="Добавить" />
+	<label commandName="AddBaseFlangeSelectionButton" devLabel="Add selection set." translation="Добавить набор выделения." />
+	<label commandName="AddContourFlangeJoinSelection" devLabel="Add" translation="Добавить" />
+	<label commandName="AddContourFlangeJoinSelectionButton" devLabel="Add selection set." translation="Добавить набор выделения." />
+	<label commandName="AddContourFlangeSelection" devLabel="Add" translation="Добавить" />
+	<label commandName="AddContourFlangeSelectionButton" devLabel="Add selection set." translation="Добавить набор выделения." />
+	<label commandName="AddEdgeFlangeSelection" devLabel="Add" translation="Добавить" />
+	<label commandName="AddEdgeFlangeSelectionButton" devLabel="Add selection set." translation="Добавить набор выделения." />
+	<label commandName="AddHemFlangeSelection" devLabel="Add" translation="Добавить" />
+	<label commandName="AddHemFlangeSelectionButton" devLabel="Add selection set." translation="Добавить набор выделения." />
+	<label commandName="BaseFlangeTitle" devLabel="Base Flange" translation="Базовый фланец" />
+	<label commandName="BendTrimToBendDesc" devLabel="Creates a bend relief in the shape of a square, defined by the limits of the bend zone, centered on the corner where 2 bends meet." translation="Создает рельеф гиба в форме квадрата, определяемый границами зоны гибки, центрированный на углу, где встречаются 2 гиба." />
+	<label commandName="ContourFlangeTitle" devLabel="Contour Flange" translation="Фланец по контуру" />
+	<label commandName="CornerAlignedWidthExtents" devLabel="Aligned" translation="Выровнено" />
+	<label commandName="CornerAlignedWidthExtentsDesc" devLabel="Creates corner closure with aligned width extents." translation="Создает угловое замыкание с выровненными границами ширины." />
+	<label commandName="CornerBendSmooth" devLabel="Smooth" translation="Плавный" />
+	<label commandName="CornerBendSmoothDesc" devLabel="Positions the bend so that it starts at the selected edge on the base corner." translation="Позиционирует гиб так, чтобы он начинался от выбранной кромки на базовом углу." />
+	<label commandName="CornerBendStraightLine" devLabel="Straight Line" translation="Прямая линия" />
+	<label commandName="CornerBendStraightLineDesc" devLabel="" translation="" />
+	<label commandName="CornerBendTransitionOption" devLabel="Bend Transition" translation="Переход гиба" />
+	<label commandName="CornerBendTransitionOptionDesc" devLabel="Select corner bend transition." translation="Выберите переход гиба в углу." />
+	<label commandName="CornerBendTrimToBend" devLabel="Trim To Bend" translation="Обрезка по гибу" />
+	<label commandName="CornerMiterGap" devLabel="Miter Gap" translation="Зазор скоса" />
+	<label commandName="CornerMiterGapDesc" devLabel="" translation="" />
+	<label commandName="CornerOverrideSeparator" devLabel="Override Separator" translation="Разделитель переопределения" />
+	<label commandName="CornerOverrideSeparatorDesc" devLabel="Override Separator" translation="Разделитель переопределения" />
+	<label commandName="CornerOverrideThreeBendCornerGroup" devLabel="3-Bend Corner Override" translation="Переопределение угла 3-х гибов" />
+	<label commandName="CornerOverrideThreeBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 3 bends intersect.&#10;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Позволяет переопределить форму, размер и размещение рельефа в углах, где пересекаются 3 гиба.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значений, определенных в Правиле листового металла." />
+	<label commandName="CornerOverrideTwoBendCornerGroup" devLabel="2-Bend Corner Override" translation="Переопределение угла 2-х гибов" />
+	<label commandName="CornerOverrideTwoBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 2 bends intersect.&#10;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Позволяет переопределить форму, размер и размещение рельефа в углах, где пересекаются 2 гиба.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значений, определенных в Правиле листового металла." />
+	<label commandName="CornerPerpendicularWidthExtents" devLabel="Perpendicular" translation="Перпендикулярно" />
+	<label commandName="CornerPerpendicularWidthExtentsDesc" devLabel="Creates corner closure with perpendicular width extents." translation="Создает угловое замыкание с перпендикулярными границами ширины." />
+	<label commandName="CornerThreeBendReliefRadius" devLabel="Relief Radius" translation="Радиус рельефа" />
+	<label commandName="CornerThreeBendReliefShapeFullRound" devLabel="Full Round" translation="Полное скругление" />
+	<label commandName="CornerThreeBendReliefShapeFullRoundDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a full round fillet at the intersection, tangent to the flange edges starting at the bend zone." translation="Создает форму рельефа гиба путем продления кромок фланцев до их пересечения, затем добавляет полное скругление в месте пересечения, касательное к кромкам фланцев, начиная от зоны гибки." />
+	<label commandName="CornerThreeBendReliefShapeIntersection" devLabel="Intersection" translation="Пересечение" />
+	<label commandName="CornerThreeBendReliefShapeIntersectionDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect." translation="Создает форму рельефа гиба путем продления кромок фланцев до их пересечения." />
+	<label commandName="CornerThreeBendReliefShapeNoReplacement" devLabel="No Replacement" translation="Без замены" />
+	<label commandName="CornerThreeBendReliefShapeNoReplacementDesc" devLabel="Creates no special bend relief shape at the corner where 3 bends meet." translation="Не создает специальной формы рельефа гиба в углу, где встречаются 3 гиба." />
+	<label commandName="CornerThreeBendReliefShapeRoundWithRadius" devLabel="Round with Radius" translation="Круглый с радиусом" />
+	<label commandName="CornerThreeBendReliefShapeRoundWithRadiusDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a fillet of a size that you specify to round the intersection." translation="Создает форму рельефа гиба путем продления кромок фланцев до их пересечения, затем добавляет скругление указанного вами размера для округления пересечения." />
+	<label commandName="CornerTwoBendReliefPlacement" devLabel="Relief Placement" translation="Размещение рельефа" />
+	<label commandName="CornerTwoBendReliefPlacementDesc" devLabel="" translation="" />
+	<label commandName="CornerTwoBendReliefPlacementIntersection" devLabel="Intersection" translation="Пересечение" />
+	<label commandName="CornerTwoBendReliefPlacementIntersectionDesc" devLabel="Centers the relief shape on the intersection where 2 flanges meet the base flange." translation="Центрирует форму рельефа на пересечении, где 2 фланца встречаются с базовым фланцем." />
+	<label commandName="CornerTwoBendReliefPlacementTangent" devLabel="Tangent" translation="По касательной" />
+	<label commandName="CornerTwoBendReliefPlacementTangentDesc" devLabel="Places a rounded relief shape so that it is tangent to the edges of 2 flanges where they meet the base flange." translation="Размещает скругленную форму рельефа так, чтобы она была касательной к кромкам 2 фланцев в месте их соединения с базовым фланцем." />
+	<label commandName="CornerTwoBendReliefShapeArcWeld" devLabel="Arc Weld" translation="Дуговая сварка" />
+	<label commandName="CornerTwoBendReliefShapeArcWeldDesc" devLabel="Creates a bend relief in the shape of two splines, cut from intersection of the bend zone and the edges of two flanges to the points where they intersect the bend zone on the base flange, separated by the Miter/Rip/Seam Gap value." translation="Создает рельеф гиба в форме двух сплайнов, вырезанных от пересечения зоны гибки и кромок двух фланцев до точек, где они пересекают зону гибки на базовом фланце, разделенных значением зазора скоса/разрыва/шва." />
+	<label commandName="CornerTwoBendReliefShapeLinearWeld" devLabel="Linear Weld" translation="Линейная сварка" />
+	<label commandName="CornerTwoBendReliefShapeLinearWeldDesc" devLabel="Creates a bend relief in the shape of a V, cut from the corner of the bend zone on the base flange to the intersection of the bend zone on the edges of 2 flanges." translation="Создает рельеф гиба в форме буквы V, вырезанный от угла зоны гибки на базовом фланце до пересечения зоны гибки на кромках 2 фланцев." />
+	<label commandName="CornerTwoBendReliefShapeOption" devLabel="Relief Shape" translation="Форма рельефа" />
+	<label commandName="CornerTwoBendReliefShapeOptionDesc" devLabel="" translation="" />
+	<label commandName="CornerTwoBendReliefShapeRound" devLabel="Round" translation="Круглый" />
+	<label commandName="CornerTwoBendReliefShapeRoundDesc" devLabel="Creates a bend relief in the shape of a circle, at a size and placement that you specify, centered on the corner where 2 bends meet." translation="Создает рельеф гиба в форме круга указанного вами размера и размещения, центрированный на углу, где встречаются 2 гиба." />
+	<label commandName="CornerTwoBendReliefShapeSquare" devLabel="Square" translation="Квадратный" />
+	<label commandName="CornerTwoBendReliefShapeSquareDesc" devLabel="Creates a bend relief in the shape of a square, at a size that you specify, centered on the corner where 2 bends meet." translation="Создает рельеф гиба в форме квадрата указанного вами размера, центрированный на углу, где встречаются 2 гиба." />
+	<label commandName="CornerTwoBendReliefShapeTear" devLabel="Tear" translation="Разрыв" />
+	<label commandName="CornerTwoBendReliefShapeTearDesc" devLabel="Creates no bend relief, so the material is torn at the corner where 2 bends meet." translation="Не создает рельефа гиба, поэтому материал разрывается в углу, где встречаются 2 гиба." />
+	<label commandName="CornerTwoBendReliefShapeTrimToBend" devLabel="Trim to Bend" translation="Обрезка по гибу" />
+	<label commandName="CornerTwoBendReliefShapeTrimToBendDesc" devLabel="Creates a bend relief in the shape of a square, defined by the limits of the bend zone, centered on the corner where 2 bends meet." translation="Создает рельеф гиба в форме квадрата, определяемый границами зоны гибки, центрированный на углу, где встречаются 2 гиба." />
+	<label commandName="CornerTwoBendReliefSize" devLabel="Relief Size" translation="Размер рельефа" />
+	<label commandName="CornerTwoBendReliefSizeDesc" devLabel="Specify the relief size value to override the sheet metal rule." translation="Укажите значение размера рельефа для переопределения правила листового металла." />
+	<label commandName="CornerinfoThreeBendReliefShapeOption" devLabel="Relief Shape" translation="Форма рельефа" />
+	<label commandName="CornerinfoThreeBendReliefShapeOptionDesc" devLabel="" translation="" />
+	<label commandName="EdgeFlangeTitle" devLabel="Edge Flange" translation="Кромочный фланец" />
+	<label commandName="EditBaseFlangeTitle" devLabel="Edit Base Flange" translation="Редактировать базовый фланец" />
+	<label commandName="EditContourFlangeTitle" devLabel="Edit Contour Flange" translation="Редактировать фланец по контуру" />
+	<label commandName="EditEdgeFlangeTitle" devLabel="Edit Edge Flange" translation="Редактировать кромочный фланец" />
+	<label commandName="FusionSheetMetalCorner" devLabel="Corner Closure" translation="Угловое замыкание" />
+	<label commandName="OverrideThreeBendCornerGroup" devLabel="3-Bend Corner Override" translation="Переопределение угла 3-х гибов" />
+	<label commandName="OverrideTwoBendCornerGroup" devLabel="2-Bend Corner Override" translation="Переопределение угла 2-х гибов" />
+	<label commandName="RemoveBaseFlangeSelection" devLabel="Remove" translation="Удалить" />
+	<label commandName="RemoveBaseFlangeSelectionButton" devLabel="Remove selection set." translation="Удалить набор выделения." />
+	<label commandName="RemoveContourFlangeJoinSelection" devLabel="Remove" translation="Удалить" />
+	<label commandName="RemoveContourFlangeJoinSelectionButton" devLabel="Remove selection set." translation="Удалить набор выделения." />
+	<label commandName="RemoveContourFlangeSelection" devLabel="Remove" translation="Удалить" />
+	<label commandName="RemoveContourFlangeSelectionButton" devLabel="Remove selection set." translation="Удалить набор выделения." />
+	<label commandName="RemoveEdgeFlangeSelection" devLabel="Remove" translation="Удалить" />
+	<label commandName="RemoveEdgeFlangeSelectionButton" devLabel="Remove selection set." translation="Удалить набор выделения." />
+	<label commandName="RemoveHemFlangeSelection" devLabel="Remove" translation="Удалить" />
+	<label commandName="RemoveHemFlangeSelectionButton" devLabel="Remove selection set." translation="Удалить набор выделения." />
+	<label commandName="SheetMetalHemFlangeDefaultTooltip" devLabel="Select an edge to hem" translation="Выберите кромку для отбортовки" />
+	<label commandName="SheetMetalRulesLibraryCmdInputSelect" devLabel="Select..." translation="Выбрать..." />
+	<label commandName="SheetMetalRulesLibraryCmdInputTitle" devLabel="Sheet Metal Rule" translation="Правило листового металла" />
+	<label commandName="infoShapeArcWeldDesc" devLabel="Creates a blunt notch bend relief with spline edges limited by the bending area." translation="Создает тупую выемку рельефа гиба со сплайновыми кромками, ограниченными областью гибки." />
+	<label commandName="infoShapeLaserWeld" devLabel="Laser Weld" translation="Лазерная сварка" />
+	<label commandName="infoShapeLaserWeldDesc" devLabel="Creates a circular notch bend relief with spline edges limited by the bending area." translation="Создает круглую выемку рельефа гиба со сплайновыми кромками, ограниченными областью гибки." />
+	<label commandName="infoShapeLinearWeldDesc" devLabel="Creates a V-notch bend relief limited by the bending area." translation="Создает V-образную выемку рельефа гиба, ограниченную областью гибки." />
+	<label commandName="infoShapeSquareDesc" devLabel="Creates a square bend relief of a specified size." translation="Создает квадратный рельеф гиба указанного размера." />
+	<label commandName="infoShapeTrimToBendDesc" devLabel="Creates a square bend relief limited by the bending area." translation="Создает квадратный рельеф гиба, ограниченный областью гибки." />
+	<label commandName="infoTwoBendShapeRoundDesc" devLabel="Creates a circular bend relief of a specified size." translation="Создает круглый рельеф гиба указанного размера." />
+	<label commandName="infoTwoBendShapeTearDesc" devLabel="Creates no bend relief, so the material is torn at the corner." translation="Не создает рельефа гиба, поэтому материал разрывается в углу." />
+	<label commandName="lclzSheetMetalFlange3" devLabel="&amp;nbsp; • &amp;nbsp;Edge Flange creates bend and face on the &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;edge of existing sheet metal face." translation="&amp;nbsp; • &amp;nbsp;Кромочный фланец создает гиб и грань на &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;кромке существующей грани листового металла." />
+	<label commandName="lclzSheetMetalFlange4" devLabel="&amp;nbsp; • &amp;nbsp;Contour Flange constructs multiple bends &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;and faces based on open sketch profile." translation="&amp;nbsp; • &amp;nbsp;Фланец по контуру создает несколько гибов &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;и граней на основе открытого эскизного профиля." />
+    <label commandName="ActivateFlatPattern" devLabel="Activate" translation="Активировать"/>
+    <label commandName="BendAdjacent" devLabel="Adjacent" translation="Соседний"/>
+    <label commandName="BendAdjacentDesc" devLabel="Positions the bend so that it starts at the selected edge on the base flange." translation="Размещает изгиб так, чтобы он начинался от выбранного ребра на базовом фланце."/>
+    <label commandName="BendAngleMigration" devLabel="Bend Angle Parameter Migration" translation="Миграция параметра угла изгиба"/>
+    <label commandName="BendAngleParamMigration" devLabel="In some Bend features, the Bend Angle parameter has been automatically updated to reflect the correct flip condition from older Fusion version. Component geometry is not affected but it is recommended to verify the body and angle parameters for correct output." translation="Для некоторых элементов сгиба параметр «Угол сгиба» был автоматически обновлен, чтобы отразить правильное условие переворота из старой версии Fusion. Это не влияет на геометрию компонента, но рекомендуется проверить параметры тела и угла, чтобы убедиться в правильности результата."/>
+    <label commandName="BendInside" devLabel="Inside" translation="Внутри"/>
+    <label commandName="BendInsideDesc" devLabel="Positions the bend inside the boundary of the outermost faces of the base flange and new flange." translation="Задает место сгиба внутри ограничивающей рамки крайних поверхностей базового фланца и нового фланца."/>
+    <label commandName="BendLine" devLabel="Bend Line %1%" translation="Линия сгиба %1%"/>
+    <label commandName="BendOutside" devLabel="Outside" translation="Снаружи"/>
+    <label commandName="BendOutsideDesc" devLabel="Positions the bend outside the boundary of the innermost faces of the base flange and new flange." translation="Задает место сгиба за пределами ограничивающей рамки внутренних поверхностей базового фланца и нового фланца."/>
+    <label commandName="BendRadiusInput" devLabel="Bend Radius" translation="Радиус изгиба"/>
+    <label commandName="BendRadiusInputDesc" devLabel="Specify the bend radius value to override the sheet metal rule." translation="Укажите значение радиуса сгиба, чтобы переопределить правило для листового металла."/>
+    <label commandName="BendReliefDepthDefault" devLabel="" translation="Укажите значение радиуса сгиба, чтобы переопределить правило для листового металла."/>
+    <label commandName="BendReliefOverrideOptionsGroup" devLabel="Bend Relief Override" translation="Корректировка изгиба"/>
+    <label commandName="BendReliefRemnant" devLabel="Relief Remnant" translation="Остаток подрезки"/>
+    <label commandName="BendReliefRemnantDesc" devLabel="Specify the relief remnant value to override the sheet metal rule." translation="Укажите значение остатка подреза, чтобы переопределить правило обработки листового металла."/>
+    <label commandName="BendSelectionCmdInputSelect" devLabel="Select" translation="Выбрать"/>
+    <label commandName="BendSelectionCmdInputSelected" devLabel="selected" translation="Выбрано"/>
+    <label commandName="BendTangent" devLabel="Tangent" translation="Тангенциально"/>
+    <label commandName="BendTangentDesc" devLabel="Positions the bend so that it is tangent to the selected edge on the base flange." translation="Размещает изгиб так, чтобы он касался выбранной кромки базового фланца."/>
+    <label commandName="BooleanTypeOperation" devLabel="Operation" translation="Операция"/>
+    <label commandName="CFAgainstExtrudeDistance" devLabel="Distance 2" translation="Расстояние 2"/>
+    <label commandName="CFAgainstExtrudeDistanceInputDesc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Укажите расстояние выдавливания выбранного профиля от его центра в одну сторону."/>
+    <label commandName="CFExtentDirectionType" devLabel="Direction" translation="Направление"/>
+    <label commandName="CFExtrudeDistanceInpuSideOnetDesc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Укажите расстояние выдавливания выбранного профиля от его центра в одну сторону."/>
+    <label commandName="CFExtrudeDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="CFExtrudeDistanceInputDesc" devLabel="Specify the distance to extrude the selected profile." translation="Укажите расстояние выдавливания выбранного профиля."/>
+    <label commandName="CFExtrudeDistanceInputSideOne" devLabel="Distance 1" translation="Расстояние 1"/>
+    <label commandName="CS2MEnableDH" devLabel="  Capture Design History  " translation="Запись истории проекта"/>
+    <label commandName="CS2MEnableDHWarningMsg" devLabel="Before you can use the &lt;b&gt;Sheet Metal&lt;/b&gt; tools, you must switch to &lt;b&gt;Parametric Modeling mode&lt;/b&gt;. This will capture the design history as parametric features in the &lt;b&gt;Timeline&lt;/b&gt;. &lt;br&gt;&lt;/br&gt; &lt;br&gt;Capture design history?&lt;/br&gt; &lt;br&gt;&lt;/br&gt;" translation="Перед использованием инструментов &lt;b&gt;Листовой металл&lt;/b&gt; вам необходимо переключиться в режим &lt;b&gt;Параметрическое моделирование&lt;/b&gt; При этом история проекта будет записана в виде параметрических элементов на &lt;b&gt;временной шкале&lt;/b&gt;. &lt;br&gt;&lt;/br&gt; &lt;br&gt;Записывать историю проекта?&lt;/br&gt; &lt;br&gt;&lt;/br&gt;"/>
+    <label commandName="CS2MWarningTitle" devLabel="Parametric Modeling mode" translation="Режим параметрического моделирования"/>
+    <label commandName="Center" devLabel="Center" translation="Центр"/>
+    <label commandName="CenterDesc" devLabel="Centers the sheet metal material on the profile." translation="Центрирует листовой материал на профиле."/>
+    <label commandName="ChangingDerivedRuleNoFailure" devLabel="The original rule was derived from another design. Changing the rule will not affect the bodies that were derived with the rule. It will only affect new Sheet Metal bodies." translation="Исходное правило было создано из другого проекта. Изменение правила не повлияет на тела, созданные с использованием этого правила. Это повлияет только на новые тела из листового металла."/>
+    <label commandName="ChordToleranceDesc" devLabel="Lets you specify the maximum distance from an arc segment to the chord that spans between its end points to determine the number of facets to create around the bend." translation="Указывает максимальное расстояние от сегмента дуги до хорды, проходящей между его конечными точками, чтобы определить количество граней, создаваемых вокруг изгиба."/>
+    <label commandName="ChordToleranceInfo" devLabel="Chord Tolerance" translation="Допуск хорды"/>
+    <label commandName="ChordToleranceValue" devLabel="Chord Tolerance" translation="Допуск хорды"/>
+    <label commandName="ChordToleranceValueDesc" devLabel="Specify the maximum chord distance value to determine the number of facets to create around the bend." translation="Укажите максимальное значение расстояния хорды, чтобы определить количество граней, создаваемых вокруг изгиба."/>
+    <label commandName="CommandsInsideUnfold" devLabel="You must refold your design before continuing." translation="Прежде чем продолжить, вам нужно будет повторно согнуть вашу конструкцию."/>
+    <label commandName="ContinueWithSave" devLabel="Continue" translation="Продолжить"/>
+    <label commandName="ContourFlangeJoinWidth1" devLabel="Distance 1" translation="Расстояние 1"/>
+    <label commandName="ContourFlangeJoinWidth2" devLabel="Distance 2" translation="Расстояние 2"/>
+    <label commandName="ConvToSMBaseFaceSelection" devLabel="Select a base face to infer body thickness." translation="Выберите базовую поверхность, чтобы определить толщину твердого тела."/>
+    <label commandName="ConvertToSheetMetalEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+    <label commandName="ConvertToSheetMetalMissingBaseFace" devLabel="Missing base face." translation="Нет базовой поверхности."/>
+    <label commandName="CopyPasteNotSupportedForSheetMetalBodiesMainMsg" devLabel="Copy and paste of sheet metal bodies is not supported in order to maintain sheet metal rules." translation="Копирование и вставка тел из листового металла не поддерживается для соблюдения правил обработки листового металла."/>
+    <label commandName="CopyPasteNotSupportedForSheetMetalBodiesSubMsg" devLabel="Copy at the sheet metal component level instead." translation="Вместо этого выполните операцию копирования на уровне компонента листового металла."/>
+    <label commandName="CopyPasteOfSMBodyInUnfoldRefoldModeSubMsg" devLabel="To create a copy of a sheet metal component, refold the model or roll the timeline back to a folded state, then copy at the sheet metal component level." translation="Чтобы создать копию компонента листового металла, повторно согните модель или восстановите ее в сложенное состояние на временной шкале, а затем выполните операцию копирования на уровне компонента листового металла."/>
+    <label commandName="CopyPasteRuleInUnfolRefoldModeMainMsg" devLabel="Sorry, components cannot be copied while a sheet metal body is unfolded." translation="К сожалению, вы не можете копировать компоненты, когда тело из листового металла согнуто."/>
+    <label commandName="CopyPasteRuleInUnfolRefoldModeSubMsg" devLabel="Refold the model or roll the timeline back to a folded state to copy components." translation="Повторно сложите модель или верните ее в сложенное состояние на временной шкале, чтобы скопировать компоненты."/>
+    <label commandName="CreateFlatPatternCmd" devLabel="Create Flat Pattern" translation="Создайте развертку"/>
+    <label commandName="CutPasteNotSupportedForSheetMetalBodies" devLabel="Cut and paste of a sheet metal body is not supported. The selected sheet metal bodies will not be included in the operation." translation="Вырезание и вставка тела из листового металла не поддерживается. Выбранные тела из листового металла не будут включены в операцию."/>
+    <label commandName="DieFormDesc" devLabel="Creates sheet metal flanges that will be formed using a stamping die as the manufacturing method." translation="Создает фланцы для конструкций из листового металла, которые будут формоваться с использованием матрицы в качестве метода производства."/>
+    <label commandName="DieFormInfo" devLabel="Die Form" translation="Литье под давлением"/>
+    <label commandName="EFExtrudeDistanceInput" devLabel="Height" translation="Высота"/>
+    <label commandName="EFExtrudeDistanceInputDesc" devLabel="Specify the distance to extrude the flange from the height datum." translation="Укажите расстояние выдавливания фланца от опорного элемента высоты."/>
+    <label commandName="EdgeFlangeDeleteTooltip" devLabel="Remove edge" translation="Удалить край"/>
+    <label commandName="EdgeFlangeFirstOffset" devLabel="Offset 1" translation="Смещение 1"/>
+    <label commandName="EdgeFlangeFirstOffsetReference" devLabel="Reference 1" translation="Ссылка 1"/>
+    <label commandName="EdgeFlangeOption" devLabel="Full Edge" translation="Полный край"/>
+    <label commandName="EdgeFlangeOptionDesc" devLabel="Creates a flange along the entire length of the selected edge." translation="Создает фланец по всей длине выбранного края."/>
+    <label commandName="EdgeFlangeRef1Tooltip" devLabel="Select reference 1" translation="Выберите ссылку 1"/>
+    <label commandName="EdgeFlangeRef2Tooltip" devLabel="Select reference 2" translation="Выберите ссылку 2"/>
+    <label commandName="EdgeFlangeSecondOffset" devLabel="Offset 2" translation="Смещение 2"/>
+    <label commandName="EdgeFlangeSecondOffsetReference" devLabel="Reference 2" translation="Ссылка 2"/>
+    <label commandName="EdgeFlangeWidth1" devLabel="Distance 1" translation="Расстояние 1"/>
+    <label commandName="EdgeFlangeWidth1Desc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Укажите расстояние выдавливания выбранного профиля от его центра в одну сторону."/>
+    <label commandName="EdgeFlangeWidth2" devLabel="Distance 2" translation="Расстояние 2"/>
+    <label commandName="EdgeFlangeWidth2Desc" devLabel="Specify the distance to extrude the selected profile from its center to one side." translation="Укажите расстояние выдавливания выбранного профиля от его центра в одну сторону."/>
+    <label commandName="EdgeNumberString" devLabel="EdgeNumberString" translation="Строка номера ребра"/>
+    <label commandName="EdgeSelDeleteBtn" devLabel="RemoveEdge" translation="Удалить край"/>
+    <label commandName="EdgeSelRow" devLabel="Edge %1%" translation="Край %1%"/>
+    <label commandName="EditUnfold" devLabel="Edit Unfold" translation="Редактировать изгиб"/>
+    <label commandName="ErrorsDuringUpdateAllFlats" devLabel="Errors in one or more Flat Patterns." translation="Ошибки хотя бы в одном развертке."/>
+    <label commandName="ErrorsDuringUpdateFlat" devLabel="Errors in Flat Pattern." translation="Ошибки при развертке листового металла."/>
+    <label commandName="ErrorsInFlatDuringSaveMain" devLabel="Saving the design recomputed the flat pattern. There were errors in the recompute of the flat pattern that affect the geometry." translation="Сохранение проекта привело к перерасчету развертки листового металла. Имеются ошибки в пересчете развертки листового металла, влияющие на геометрию."/>
+    <label commandName="ErrorsInFlatDuringSaveSub" devLabel="You can save the design with the errors or cancel the save to check the errors." translation="Вы можете сохранить проект с ошибками или отменить сохранение, чтобы проверить наличие ошибок."/>
+    <label commandName="ExitFlatPatternCmdTT" devLabel="Finish Flat Pattern" translation="Завершение разворачивания листового металла"/>
+    <label commandName="FaceForFlatten" devLabel="Stationary Face" translation="Стационарная поверхность"/>
+    <label commandName="FacetAngleDesc" devLabel="Lets you specify the maximum angle between the end points of each facet to determine the number of facets to create around the bend." translation="Указывает максимальный угол между конечными точками каждой грани, чтобы определить количество граней, созданных вокруг изгиба."/>
+    <label commandName="FacetAngleInfo" devLabel="Facet Angle" translation="Угол поверхности"/>
+    <label commandName="FacetAngleValue" devLabel="Facet Angle" translation="Угол поверхности"/>
+    <label commandName="FacetAngleValueDesc" devLabel="Specify the maximum angle value to determine the number of facets to create around the bend." translation="Укажите максимальное значение угла, чтобы определить количество граней, создаваемых вокруг сгиба."/>
+    <label commandName="FacetControl" devLabel="Facet Control" translation="Проверка поверхности"/>
+    <label commandName="FacetDistanceDesc" devLabel="Lets you specify the maximum distance between the end points of each facet to determine the number of facets to create around the bend." translation="Указывает максимальное расстояние между конечными точками каждой грани, чтобы определить количество граней, созданных вокруг сгиба."/>
+    <label commandName="FacetDistanceInfo" devLabel="Facet Distance" translation="Расстояние до поверхности"/>
+    <label commandName="FacetDistanceValue" devLabel="Facet Distance" translation="Расстояние до поверхности"/>
+    <label commandName="FacetDistanceValueDesc" devLabel="Specify the maximum facet distance value to determine the number of facets to create around the bend." translation="Укажите максимальное значение расстояния между гранями, чтобы определить количество граней, создаваемых вокруг сгиба."/>
+    <label commandName="FacetNumberDesc" devLabel="Lets you specify the number of facets to create around the bend." translation="Указывает количество граней, созданных вокруг сгиба."/>
+    <label commandName="FacetNumberInfo" devLabel="Facet Number" translation="Номер грани"/>
+    <label commandName="FacetNumberValue" devLabel="Facet Number" translation="Номер грани"/>
+    <label commandName="FacetNumberValueDesc" devLabel="Specify the number of facets to create around the bend." translation="Укажите количество граней, созданных вокруг изгиба."/>
+    <label commandName="FilterRulesByThickness" devLabel="Show Matching Rules" translation="Показать правила соответствия"/>
+    <label commandName="FlangeAngleInput" devLabel="Angle" translation="Угол"/>
+    <label commandName="FlangeAngleInputDesc" devLabel="Specify the angle of the flange relative to the selected edges on the base flange." translation="Укажите угол фланца относительно выбранных кромок базового фланца."/>
+    <label commandName="FlangeChainingOption" devLabel="Chain Selection" translation="Выбор цепи"/>
+    <label commandName="FlangeChainingOptionDesc" devLabel="Automatically selects connected chains of geometry." translation="Автоматически выбирает связанные геометрические цепочки."/>
+    <label commandName="FlangeEdgeSelTable" devLabel="EdgeSelTable" translation="Таблица выбора кромки"/>
+    <label commandName="FlangeEdgeSelectionsGroup" devLabel="Selections" translation="Выбор"/>
+    <label commandName="FlangeExtentDropnDownOptions" devLabel="Flange Extent" translation="Диапазон фланца"/>
+    <label commandName="FlangeInputSels" devLabel="Edges/Profiles" translation="Края/профили"/>
+    <label commandName="FlangeInputSelsDesc" devLabel="Select sheet metal edges or sketch geometry to use for flange profiles." translation="Выберите кромки листового металла или эскиз геометрии для использования в профилях фланцев."/>
+    <label commandName="FlangeMetringOptionInput" devLabel="Miter Corners" translation="Углы углового соединения"/>
+    <label commandName="FlangeMetringOptionInputDesc" devLabel="Miters the corners where sheet metal corners would otherwise overlap." translation="Создает угловые соединения там, где углы листового металла будут перекрываться."/>
+    <label commandName="FlangeTypeLabel" devLabel="Type" translation="Тип"/>
+    <label commandName="FlatAlreadyExistForBodyMain" devLabel="A flat pattern already exists for the selected body." translation="Развертка для выбранного твердого тела уже существует."/>
+    <label commandName="FlatAlreadyExistForBodySub" devLabel="Do you want to activate the existing flat pattern?" translation="Вы хотите активировать существующий развертку?"/>
+    <label commandName="FlatAlreadyExistForCompMain" devLabel="The component that contains the selected body already contains a flat pattern." translation="Компонент, содержащий выбранное твердое тело, уже содержит развертку."/>
+    <label commandName="FlatAlreadyExistForCompSub" devLabel="A component can contain only one flat pattern. Sheet metal bodies need to be in separate components in order to create flat patterns." translation="Компонент может содержать только одну развертку. Для создания плоских поверхностей из листового металла тела из листового металла должны находиться в отдельных компонентах."/>
+    <label commandName="FlatPattenFaceSelection" devLabel="Select Stationary face to create Flat Pattern" translation="Выберите неподвижную поверхность для создания развертки."/>
+    <label commandName="FlatPatternDXFExportCmd" devLabel="Export Flat Pattern as DXF" translation="Экспорт развертки в виде файла DXF."/>
+    <label commandName="FlatPatternMisaligned" devLabel="This flat pattern appears to be misaligned due to a problem in an earlier version of Fusion. This issue has now been fixed. We suggest deleting and recreating this flat pattern to fix the issue." translation="Этот развертка смещена из-за проблемы в более старой версии Fusion. Теперь эта проблема решена. Чтобы решить проблему, рекомендуется удалить и воссоздать этот развертку."/>
+    <label commandName="FlipBendDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+    <label commandName="FlipBendDirectionCI" devLabel="FlipBendDirection%1%" translation="Обратное направление изгиба %1%"/>
+    <label commandName="FlipDirection" devLabel="Flip" translation="Перевернуть"/>
+    <label commandName="FlipDirectionDesc" devLabel="Flips the new flange 180 degrees over the base flange." translation="Переворачивает новый фланец на 180 градусов относительно базового фланца."/>
+    <label commandName="FormingType" devLabel="Forming Type" translation="Тип формирования"/>
+    <label commandName="FusionConvertToSheetMetal" devLabel="Convert to Sheet Metal" translation="Превратить в листовой металл"/>
+    <label commandName="FusionFilletSelection" devLabel="Selection" translation="Выбор"/>
+    <label commandName="FusionSheetMetalBend" devLabel="Bend" translation="Согнуть"/>
+    <label commandName="FusionSheetMetalRip" devLabel="Rip" translation="Разрез"/>
+    <label commandName="FusionSheetMetalRules" devLabel="Sheet Metal Rules" translation="Правила для конструкций из листового металла"/>
+    <label commandName="FusionSheetmetalRefold" devLabel="Refold" translation="Свернуть"/>
+    <label commandName="FusionSheetmetalUnfold" devLabel="Unfold" translation="Развёртка"/>
+    <label commandName="InnerFaces" devLabel="Inner Faces" translation="Внутренние поверхности"/>
+    <label commandName="InnerFacesDesc" devLabel="Measures the flange height from the intersection of the inner faces of the base flange and the new flange." translation="Измеряет высоту фланца от пересечения внутренних поверхностей базового фланца и нового фланца."/>
+    <label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Создаваемый объект не виден. Переключите видимость в браузере."/>
+    <label commandName="LoftedFlangeInfo" devLabel="Lofted Flange" translation="Лофт Фланец"/>
+    <label commandName="LoftedFlangeInputSels" devLabel="Profiles" translation="Профили"/>
+    <label commandName="NewBodyInNewCompType" devLabel="New Component" translation="Новый компонент"/>
+    <label commandName="NewBodyInNewCompTypeDesc" devLabel="Creates a new body in a new component." translation="Создает новое тело в новом компоненте."/>
+    <label commandName="NewBodyType" devLabel="New Body" translation="Новая форма"/>
+    <label commandName="NewBodyTypeDesc" devLabel="Creates a new body in the active component." translation="Создает новое тело в активном компоненте."/>
+    <label commandName="NoteForThicknessChanged" devLabel="Note: Thickness will be changed to " translation="Примечание. Толщина будет изменена на"/>
+    <label commandName="OODFlatsWillBeUpdated" devLabel="Saving the design updates any flat patterns that are out-of-date." translation="При сохранении проекта все устаревшие развертки будут обновлены."/>
+    <label commandName="OneSide" devLabel="Side 1" translation="Страница 1"/>
+    <label commandName="OneSideDesc" devLabel="Offsets the sheet metal material to one side of the profile." translation="Смещает листовой металл к одной стороне профиля."/>
+    <label commandName="OneSideExtent" devLabel="One Side" translation="Одна страница"/>
+    <label commandName="OneSideExtentDesc" devLabel="Creates an extrusion on one side of the profile plane." translation="Создает выдавливание на одной стороне плоскости профиля."/>
+    <label commandName="Orientation" devLabel="Orientation" translation="Ориентация"/>
+    <label commandName="OtherSide" devLabel="Side 2" translation="Страница 2"/>
+    <label commandName="OuterFaces" devLabel="Outer Faces" translation="Внешние поверхности"/>
+    <label commandName="OuterFacesDesc" devLabel="Measures the flange height from the intersection of the outer faces of the base flange and the new flange." translation="Измеряет высоту фланца от пересечения внешних поверхностей базового фланца и нового фланца."/>
+    <label commandName="OverrideBendReliefGroup" devLabel="Bend Relief Override" translation="Корректировка изгиба"/>
+    <label commandName="OverrideOptionGroupBendOverride" devLabel="Bend Override" translation="Переопределение сгиба"/>
+    <label commandName="OverrideRulesOptionInput" devLabel="Override Rules" translation="Перезаписать правила"/>
+    <label commandName="PressBrakeDesc" devLabel="Creates sheet metal flanges that will be formed using a press brake with a punch and die as the manufacturing method." translation="Создает фланцы для конструкций из листового металла, которые будут формоваться с использованием штамповочного пресса в качестве метода изготовления."/>
+    <label commandName="PressBrakeInfo" devLabel="Brake Form" translation="Формовка на листогибочном прессе"/>
+    <label commandName="RipDistance" devLabel="Gap Width" translation="Ширина зазора"/>
+    <label commandName="RipFirstPoint" devLabel="Offset 1" translation="Смещение 1"/>
+    <label commandName="RipGapWidthDesc" devLabel="Specify the Gap Width value." translation="Укажите значение ширины зазора."/>
+    <label commandName="RipInputSels" devLabel="Face/Edge/Vertex" translation="Поверхность/край/вершина"/>
+    <label commandName="RipInputSelsDesc" devLabel="Select a face, edge or vertex to create a rip." translation="Выберите грань, ребро или вершину, чтобы создать разрыв."/>
+    <label commandName="RipSecondPoint" devLabel="Offset 2" translation="Смещение 2"/>
+    <label commandName="RuleNoteForThicknessChanged" devLabel="ThicknessChange" translation="Изменение толщины"/>
+    <label commandName="RulesWidget" devLabel="Rules Widget" translation="Виджет правил"/>
+    <label commandName="SMBendAllowBendReliefTooltip" devLabel="Turn off to skip creating any bend reliefs." translation="Отключите эту опцию, чтобы пропустить создание рельефов изгиба."/>
+    <label commandName="SMBendAllowCornerReliefTooltip" devLabel="Turn off to skip creating any corner reliefs." translation="Отключите эту опцию, чтобы пропустить создание угловых рельефов."/>
+    <label commandName="SMBendAngleCI" devLabel="SMBendAngleCI%1%" translation="Ввод команды угла изгиба листового металла %1%"/>
+    <label commandName="SMBendFeatAngleInput" devLabel="Bend Angle" translation="УГОЛ ИЗГИБА"/>
+    <label commandName="SMBendFeatCurveSelTooltip" devLabel="Select a sketch line over a sheet metal face." translation="Выберите линию эскиза над поверхностью листового металла."/>
+    <label commandName="SMBendFeatFaceSelection" devLabel="Stationary Side" translation="Стационарная сторона"/>
+    <label commandName="SMBendFeatLineSelectionCI" devLabel="Bend Line" translation="Линия изгиба"/>
+    <label commandName="SMBendFeatureFaceSelection" devLabel="Click on the stationary side of a face on a sheet metal body." translation="Линия изгиба "/>
+    <label commandName="SMBendFlipUpDownTooltip" devLabel="Flips the direction of the bend up / down." translation="Меняет направление сгиба вверх/вниз."/>
+    <label commandName="SMBendLinePositionTooltip" devLabel="Creates the bend at the start, end or center of the bend line." translation="Создает изгиб в начале, конце или середине линии сгиба."/>
+    <label commandName="SMBendTable" devLabel="SMBendTable" translation="Таблица сгиба конструкций из листового металла"/>
+    <label commandName="SMBendTableAdd" devLabel="Add" translation="Добавить"/>
+    <label commandName="SMBendTableRemvoe" devLabel="Remove" translation="Удалить"/>
+    <label commandName="SMBendTableRowLabel" devLabel="Row Label" translation="Метка строки"/>
+    <label commandName="SMComponentType" devLabel="Sheet Metal" translation="Конструкция из листового металла"/>
+    <label commandName="SMComponentTypeDTT" devLabel="Creates a sheet metal component in the assembly" translation="Конструкция из листового металла "/>
+    <label commandName="SMFlangeDirectionType" devLabel="Orientation" translation="Ориентация"/>
+    <label commandName="SheetMetal Environment" devLabel="Sheet Metal" translation="Конструкция из листового металла"/>
+    <label commandName="SheetMetalBaseFlangePreviewSuppressedTooltip" devLabel="Select or deselect closed sketch profiles" translation="Выбор или отмена выбора закрытых профилей эскиза"/>
+    <label commandName="SheetMetalBaseFlangePreviewTooltipMac" devLabel="Select more closed sketch profiles, adjust settings, or hold Command to modify selection" translation="Выберите больше замкнутых профилей эскиза, отрегулируйте настройки или удерживайте команду, чтобы изменить выбор."/>
+    <label commandName="SheetMetalBaseFlangePreviewTooltipWindows" devLabel="Select more closed sketch profiles, adjust settings, or hold Ctrl to modify selection" translation="Выберите больше закрытых профилей эскиза, отрегулируйте настройки или удерживайте клавишу Ctrl, чтобы изменить выбор."/>
+    <label commandName="SheetMetalBendMissingStationaryEntity" devLabel="Missing stationary face." translation="Нет стационарной поверхности."/>
+    <label commandName="SheetMetalCompName" devLabel="Component" translation="Компонент"/>
+    <label commandName="SheetMetalContourFlangeJoinTooltip" devLabel="If the sketch starts on an edge, select additional edges" translation="Если ваш эскиз начинается с края, выберите дополнительные края."/>
+    <label commandName="SheetMetalContourFlangePreviewSuppressedTooltip" devLabel="Select or deselect open sketch profiles" translation="Выберите или отмените выбор открытых профилей эскиза."/>
+    <label commandName="SheetMetalEdgeFlangePreviewSuppressedTooltip" devLabel="Select or deselect sheet metal edges" translation="Выбрать или отменить выбор кромок листового металла"/>
+    <label commandName="SheetMetalEdgeFlangeTooltip" devLabel="Select more sheet metal edges or specify height to extrude" translation="Выберите больше кромок листового металла или укажите высоту для выдавливания."/>
+    <label commandName="SheetMetalFlangeContourFlangeTooltip" devLabel="Select more open sketch profiles or specify height to extrude" translation="Выберите больше открытых профилей эскиза или укажите высоту для выдавливания."/>
+    <label commandName="SheetMetalFlangeDefaultTooltip" devLabel="Select sheet metal edges or sketch geometry to use for flange profiles" translation="Выберите кромки листового металла или эскиз геометрии для использования в профилях фланцев."/>
+    <label commandName="SheetMetalFlangePreviewTooltipMac" devLabel="Adjust settings or hold Command to modify selection" translation="Отрегулируйте настройки или удерживайте команду, чтобы изменить свой выбор."/>
+    <label commandName="SheetMetalFlangePreviewTooltipWindows" devLabel="Adjust settings or hold Ctrl to modify selection" translation="Отрегулируйте настройки или удерживайте клавишу Ctrl, чтобы изменить выбор."/>
+    <label commandName="SheetMetalLoftedFlangeDefaultTooltip" devLabel="Select sketch geometry to use for flange profiles" translation="Выберите геометрию эскиза, которая будет использоваться для профилей фланцев."/>
+    <label commandName="SheetMetalLoftedFlangePreviewSuppressedTooltip" devLabel="Select or deselect sketch profiles" translation="Выбор или отмена выбора профилей эскизов"/>
+    <label commandName="SheetMetalLoftedFlangeTooltip" devLabel="Select second sketch profile to loft" translation="Выберите второй профиль эскиза для лофта."/>
+    <label commandName="SheetMetalRipAlongEdgePreviewCursorPromptMac" devLabel="Adjust the Gap Width value or hold Command to modify selection" translation="Отрегулируйте значение ширины зазора или удерживайте нажатой клавишу Command, чтобы изменить выбор."/>
+    <label commandName="SheetMetalRipAlongEdgePreviewCursorPromptWindows" devLabel="Adjust the Gap Width value or hold Ctrl to modify selection" translation="Отрегулируйте значение ширины зазора или удерживайте клавишу Ctrl, чтобы изменить выбор."/>
+    <label commandName="SheetMetalRipBetweenPointsOneSelectionCursorPrompt" devLabel="Select the end point on an opposing external edge of the same face" translation="Выберите конечную точку противоположного внешнего края той же грани."/>
+    <label commandName="SheetMetalRipBetweenPointsPreviewCursorPromptMac" devLabel="Adjust the Gap Width value, point locations, or hold Command to modify selection" translation="Отрегулируйте значение ширины зазора, расположение точек или удерживайте нажатой клавишу Command, чтобы изменить выбор."/>
+    <label commandName="SheetMetalRipBetweenPointsPreviewCursorPromptWindows" devLabel="Adjust the Gap Width value, point locations, or hold Ctrl to modify selection" translation="Отрегулируйте значение ширины зазора, укажите местоположения или удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+    <label commandName="SheetMetalRipDefaultCursorPrompt" devLabel="Select a face, an internal edge, or a start point on an external edge" translation="Выберите грань, внутреннее ребро или начальную точку внешнего ребра."/>
+    <label commandName="SheetMetalRipDefaultTooltip" devLabel="Select a face, an internal edge, or a start point on an external edge" translation="Выберите грань, внутреннее ребро или начальную точку внешнего ребра."/>
+    <label commandName="SheetMetalRipEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+    <label commandName="SheetMetalRipFacePreviewCursorPromptMac" devLabel="Hold Command to modify selection" translation="Удерживайте клавишу Command, чтобы изменить свой выбор."/>
+    <label commandName="SheetMetalRipFacePreviewCursorPromptWindows" devLabel="Hold Ctrl to modify selection" translation="Удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+    <label commandName="SheetMetalRule" devLabel="Sheet Metal Rule" translation="Правило изготовления листового металла"/>
+    <label commandName="SheetMetalRulesName" devLabel="Sheet Metal Rules" translation="Правила для конструкций из листового металла"/>
+    <label commandName="SheetMetalRulesToolTip" devLabel="Sheet Metal Rules" translation="Правила для конструкций из листового металла"/>
+    <label commandName="SheetMetalSettingsCmdInput" devLabel="SheetMetalSettingsCmdInput" translation="Ввод команды настройки листового металла"/>
+    <label commandName="SheetmetalSheetMetalBendEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+    <label commandName="SheetmetalUnfoldEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+    <label commandName="SketchNumberString" devLabel="SketchNumberString" translation="Строка номера эскиза"/>
+    <label commandName="SketchSelRow" devLabel="Profile %1%" translation="Профиль %1%"/>
+    <label commandName="SplineToPolylineTolerance" devLabel="Tolerance" translation="Толерантность"/>
+    <label commandName="StationaryFaceSelection" devLabel="Stationary Side" translation="Стационарная сторона"/>
+    <label commandName="StationarySideSelCmdInput" devLabel="StationarySideType" translation="Фиксированный тип страницы"/>
+    <label commandName="SwitchSheetMetalDataCommand" devLabel="Switch Sheet Metal Rule" translation="Переключить правило листового металла"/>
+    <label commandName="SymmetricExtent" devLabel="Symmetric" translation="Симметрично"/>
+    <label commandName="SymmetricExtentDesc" devLabel="Creates identical extrusions on each side of the profile plane." translation="Создает одинаковые сдвиги на каждой стороне плоскости профиля."/>
+    <label commandName="SymmetricFlangeOption" devLabel="Symmetric" translation="Симметрично"/>
+    <label commandName="SymmetricFlangeOptionDesc" devLabel="Creates a flange of a specific width centered on the mid-point of the selected edge." translation="Создает фланец указанной ширины с центром в средней точке выбранного края."/>
+    <label commandName="SymmetryWidth" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="SymmetryWidthDesc" devLabel="Specify the distance to extrude the selected profile." translation="Укажите расстояние выдавливания выбранного профиля."/>
+    <label commandName="TangentToBend" devLabel="Tangent To Bend" translation="Касательная к изгибу"/>
+    <label commandName="TangentToBendDesc" devLabel="Measures the flange height tangent to the bend between the base flange and new flange, parallel to the new flange." translation="Измеряет высоту фланца, касательную к изгибу между базовым фланцем и новым фланцем, параллельно новому фланцу."/>
+    <label commandName="ThicknessCmdInput" devLabel="ThicknessType" translation="Тип толщины"/>
+    <label commandName="ThicknessId" devLabel="Thickness: " translation="Толщина: "/>
+    <label commandName="ThreeBendReliefRadius" devLabel="Relief Radius" translation="Радиус подреза"/>
+    <label commandName="ThreeBendReliefRadiusDesc" devLabel="Specify the relief radius value to override the sheet metal rule." translation="Укажите значение радиуса рельефа, чтобы переопределить правило обработки листового металла."/>
+    <label commandName="TwoBendCornerReliefSize" devLabel="Relief Size" translation="Размер подреза"/>
+    <label commandName="TwoBendReliefSize" devLabel="Relief Size" translation="Размер подреза"/>
+    <label commandName="TwoBendReliefSizeDesc" devLabel="Specify the relief size value to override the sheet metal rule." translation="Укажите значение размера выреза, чтобы переопределить правило листового металла."/>
+    <label commandName="TwoOffsetFlangeOption" devLabel="Two Offsets" translation="Два смещения"/>
+    <label commandName="TwoOffsetFlangeOptionDesc" devLabel="Creates a flange to two selected offsets." translation="Создает фланец для двух выбранных смещений."/>
+    <label commandName="TwoOffsetRef1Label" devLabel="Reference 1" translation="Ссылка 1"/>
+    <label commandName="TwoOffsetRef2Label" devLabel="Reference 2" translation="Ссылка 2"/>
+    <label commandName="TwoOffsetRefOrder" devLabel="TwoOffsetRefOrder" translation="Двухсмещенный эталонный ордер"/>
+    <label commandName="TwoSideExtent" devLabel="Two Sides" translation="Две стороны"/>
+    <label commandName="TwoSideExtentDesc" devLabel="Creates a unique extrusion on each side of the profile plane." translation="Создает уникальную вытяжку на каждой стороне плоскости профиля."/>
+    <label commandName="TwoSideFlangeOption" devLabel="Two Sides" translation="Две стороны"/>
+    <label commandName="TwoSideFlangeOptionDesc" devLabel="Creates a flange of a specified width with the center of the selected edge but two possible distances to both sides." translation="Создает фланец указанной ширины с центром на выбранном крае, но с двумя возможными расстояниями с каждой стороны."/>
+    <label commandName="UISheetMetalOptionGroupName" devLabel="Sheet Metal" translation="Конструкция из листового металла"/>
+    <label commandName="UISheetMetalOptionGroupTooltip" devLabel="Preferences controlling SheetMetal Rules" translation="Настройки, управляющие правилами обработки листового металла"/>
+    <label commandName="UnfoldAllBendsInput" devLabel="Unfold all bends" translation="Разгибаем все сгибы"/>
+    <label commandName="UnfoldBendFacesInput" devLabel="Bends" translation="сгибы"/>
+    <label commandName="UnfoldEnvironment" devLabel="Unfold Environment" translation="Развернуть окружение"/>
+    <label commandName="UnfoldInsideOtherGroup" devLabel="Unfold is not supported inside other custom group. Please come out of the group by roll back or roll forward on timeline, and try unfold." translation="Растяжение не поддерживается в другой пользовательской группе. Выйдите из группы, двигаясь назад или вперед по временной шкале, и попробуйте согнуться."/>
+    <label commandName="UnfoldInsideUnfold" devLabel="You are already in Unfold mode. Would you like to edit the unfold feature to add bends?" translation="Режим разворачивания теперь активен. Хотите отредактировать элемент сгиба, чтобы добавить сгибы?"/>
+    <label commandName="UnfoldMissingStationaryEntity" devLabel="Missing stationary face." translation="Нет стационарной поверхности."/>
+    <label commandName="UnfoldStationaryFace" devLabel="Stationary Entity" translation="Неподвижный элемент"/>
+    <label commandName="UpdateAllFlatPatternsCommand" devLabel="Update All Flat Patterns" translation="Обновить все развертки"/>
+    <label commandName="UpdateFlatPatternCommand" devLabel="Update Flat Pattern" translation="Обновить развертку"/>
+    <label commandName="UpdateFlatPatternFromMainDesignCommand" devLabel="Update Flat Pattern" translation="Обновить развертку"/>
+    <label commandName="allowBendReliefOptInput" devLabel="Bend Relief" translation="Обновить состав Блахи"/>
+    <label commandName="allowCornerReliefOptInput" devLabel="Corner Relief" translation="Подсхема Повествование"/>
+    <label commandName="bendLinePosition" devLabel="bendLinePosition%1%" translation="Ледовые линии Польши %1%"/>
+    <label commandName="bendReliefDepth" devLabel="Relief Depth" translation="Глубина рельефа"/>
+    <label commandName="bendReliefDepthDesc" devLabel="Specify the relief depth value to override the sheet metal rule." translation="Укажите значение глубины рельефа, чтобы переопределить правило обработки листового металла."/>
+    <label commandName="bendReliefWidth" devLabel="Relief Width" translation="Подсхема нулевого дерева"/>
+    <label commandName="bendReliefWidthDesc" devLabel="Specify the relief width value to override the sheet metal rule." translation="Określ wartość szerokości podcięcia, aby nadpisać regułę konstrukcji blachowej."/>
+    <label commandName="infoAllowBendReliefOption" devLabel="infoAllowBendReliefOption%1%" translation="Разрешить опцию облегчения изгиба %1%"/>
+    <label commandName="infoBendLineAtCenter" devLabel="Center" translation="Центр"/>
+    <label commandName="infoBendLineAtEnd" devLabel="End" translation="Конец"/>
+    <label commandName="infoBendLineAtStart" devLabel="Start" translation="Старт"/>
+    <label commandName="infoBendLinePosition" devLabel="Bend Line Position" translation="Положение линии сгиба"/>
+    <label commandName="infoBendPositionOption" devLabel="Bend Position" translation="Положение сгиба"/>
+    <label commandName="infoBendReliefShapePositionOption" devLabel="Relief Shape" translation="Форма подреза"/>
+    <label commandName="infoConvToSMFeatBodyThickness" devLabel="Thickness (Detected)" translation="Толщина (обнаружена)"/>
+    <label commandName="infoConvToSMFeatFaceSelection" devLabel="Source" translation="Источник"/>
+    <label commandName="infoHeightDatumOption" devLabel="Height Datum" translation="Ориентир по высоте"/>
+    <label commandName="infoShapeArcWeld" devLabel="Arc Weld" translation="Дуговая сварка"/>
+    <label commandName="infoShapeFullRound" devLabel="Full Round" translation="Полное скругление"/>
+    <label commandName="infoShapeFullRoundDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a full round fillet at the intersection, tangent to the flange edges starting at the bend zone." translation="Создает форму рельефа сгиба путем удлинения кромок фланца до их пересечения, а затем добавления полного скругления в месте пересечения по касательной к кромке фланца, начиная с зоны сгиба."/>
+    <label commandName="infoShapeIntersection" devLabel="Intersection" translation="Резать"/>
+    <label commandName="infoShapeIntersectionDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect." translation="Создает рельефную форму изгиба путем удлинения кромок фланца до их пересечения."/>
+    <label commandName="infoShapeLinearWeld" devLabel="Linear Weld" translation="Линейный сварной шов"/>
+    <label commandName="infoShapeNoReplacement" devLabel="No Replacement" translation="Без замены"/>
+    <label commandName="infoShapeNoReplacementDesc" devLabel="Creates no special bend relief shape at the corner where 3 bends meet." translation="Он не создает специальную форму подреза для сгиба в углу, где встречаются три сгиба."/>
+    <label commandName="infoShapeRound" devLabel="Round" translation="Круглый"/>
+    <label commandName="infoShapeRoundDesc" devLabel="Creates a bend relief with a rounded notch and a width, depth, and remnant that you specify." translation="Создает рельеф изгиба с закругленной обрезкой и заданной шириной, глубиной и остатком."/>
+    <label commandName="infoShapeRoundWithRadius" devLabel="Round with Radius" translation="Закругление по радиусу"/>
+    <label commandName="infoShapeRoundWithRadiusDesc" devLabel="Creates a bend relief shape by extending the flange edges until they intersect, then adding a fillet of a size that you specify to round the intersection." translation="Создает форму рельефа сгиба путем удлинения кромок фланца до их пересечения, а затем добавления скругления заданного пользователем размера для скругления пересечения."/>
+    <label commandName="infoShapeSquare" devLabel="Square" translation="Квадрат"/>
+    <label commandName="infoShapeStraight" devLabel="Straight" translation="Прямой"/>
+    <label commandName="infoShapeStraightDesc" devLabel="Creates a bend relief with a squared notch and a width, depth, and remnant that you specify." translation="Создает рельеф изгиба с квадратным вырезом и заданной шириной, глубиной и остатком."/>
+    <label commandName="infoShapeTear" devLabel="Tear" translation="Надрез"/>
+    <label commandName="infoShapeTearDesc" devLabel="Creates no bend relief, so the material is torn and leaves a remnant that you specify." translation="Он не создает подрез для изгиба, поэтому материал рвется и оставляет определяемый пользователем остаток."/>
+    <label commandName="infoShapeTrimToBend" devLabel="Trim to Bend" translation="Обрезать, чтобы сложить"/>
+    <label commandName="infoTableRowLabel" devLabel="infoTableRowLabel%1%" translation="Информация метки строки таблицы %1%"/>
+    <label commandName="infoThreeBendReliefShapePositionOption" devLabel="Relief Shape" translation="Форма подреза"/>
+    <label commandName="infoTwoBendCornerReliefPlacement" devLabel="Relief Placement" translation="Размещение подрезки"/>
+    <label commandName="infoTwoBendCornerReliefPlacementIntersection" devLabel="Intersection" translation="Резать"/>
+    <label commandName="infoTwoBendCornerReliefShapeOption" devLabel="Relief Shape" translation="Форма подреза"/>
+    <label commandName="infoTwoBendCornerReliefShapeRound" devLabel="Round" translation="Круглый"/>
+    <label commandName="infoTwoBendCornerReliefShapeSquare" devLabel="Square" translation="Квадрат"/>
+    <label commandName="infoTwoBendCornerReliefShapeTear" devLabel="Tear" translation="Надрез"/>
+    <label commandName="infoTwoBendPlacementIntersection" devLabel="Intersection" translation="Резать"/>
+    <label commandName="infoTwoBendPlacementIntersectionDesc" devLabel="Centers the relief shape on the intersection where 2 flanges meet the base flange." translation="Центрирует форму рельефа в месте пересечения двух фланцев с базовым фланцем."/>
+    <label commandName="infoTwoBendPlacementTangent" devLabel="Tangent" translation="Касательная"/>
+    <label commandName="infoTwoBendPlacementTangentDesc" devLabel="Places a rounded relief shape so that it is tangent to the edges of 2 flanges where they meet the base flange." translation="Размещает закругленную рельефную форму по касательной к краям двух фланцев в месте их соединения с базовым фланцем."/>
+    <label commandName="infoTwoBendReliefPlacement" devLabel="Relief Placement" translation="Размещение подрезки"/>
+    <label commandName="infoTwoBendReliefShapeOption" devLabel="Relief Shape" translation="Форма подреза"/>
+    <label commandName="infoTwoBendShapeRound" devLabel="Round" translation="Скругление"/>
+    <label commandName="infoTwoBendShapeTear" devLabel="Tear" translation="Надрез"/>
+    <label commandName="lclzArc" devLabel="Arc" translation="Дуга"/>
+    <label commandName="lclzCONSTRAINTS" devLabel="CONSTRAINTS" translation="ПРИВЯЗКИ"/>
+    <label commandName="lclzCREATE" devLabel="CREATE" translation="СОЗДАТЬ"/>
+    <label commandName="lclzChangeSheetMetalData1" devLabel="Displays sheetmetal rule data." translation="Отображает данные правил обработки листового металла"/>
+    <label commandName="lclzCircle" devLabel="Circle" translation="Окружность"/>
+    <label commandName="lclzConstruction" devLabel="Construct" translation="Построение"/>
+    <label commandName="lclzConvToSMTipsAndTricksDesc" devLabel="Use this to add Sheet Metal features to a solid body." translation="Используйте это, чтобы добавить элементы листового металла к твердому телу."/>
+    <label commandName="lclzConvToSMTipsAndTricksTips" devLabel="Select a face of a solid body for inferring thickness." translation="Выберите грань твердого тела для определения толщины."/>
+    <label commandName="lclzConvToSMTipsAndTricksTitle" devLabel="Convert To Sheet Metal Information" translation="О преобразовании в листовой металл"/>
+    <label commandName="lclzConvertToSheetMetalCmd1" devLabel="Converts a solid body of uniform thickness to a sheet metal body." translation="Преобразует твердое тело одинаковой толщины в твердое тело из листового металла."/>
+    <label commandName="lclzConvertToSheetMetalCmd2" devLabel="Select a face of a solid body for inferring thickness." translation="Выберите поверхность твердого тела, чтобы определить толщину."/>
+    <label commandName="lclzCreate" devLabel="Create" translation="Создать"/>
+    <label commandName="lclzFlatPatternDXFExportCmd2" devLabel="Outer profiles, interior profiles, bend center lines, bend extend lines, and text are assigned to different layers in the DXF file." translation="Внешние профили, внутренние профили, центральные линии сгиба, удлиненные линии сгиба и текст назначаются разным слоям в файле DXF."/>
+    <label commandName="lclzFlatPatternDXFTipsAndTricksTips" devLabel="The Flat Pattern will be exported as a DXF file to use for laser cutting. Outer profiles, interior profiles, bend center lines, bend extent lines and text will each be assigned to a different layer in the DXF file." translation="Развернутый образец листового металла будет экспортирован в файл DXF для лазерной резки. Внешние профили, внутренние профили, центральные линии сгиба, линии диапазона сгиба и текст будут назначены другому слою в файле DXF."/>
+    <label commandName="lclzFlatPatternDXFTipsAndTricksTitle" devLabel="Export Flat Pattern As DXF Information" translation="Об экспорте развертки листового металла в виде файла DXF"/>
+    <label commandName="lclzFlatPatternSolidTab" devLabel="FLAT PATTERN SOLID" translation="ПЛОСКИЙ ШАБЛОН"/>
+    <label commandName="lclzFlatPatternSurfaceTab" devLabel="FLAT PATTERN SURFACE" translation="ОБЛАСТЬ РАЗРАБОТКИ ЛИСТОВОГО МЕТАЛЛА"/>
+    <label commandName="lclzFusionSheetMetalExitFlatPatternCmd1" devLabel="Return to the folded model." translation="Вернитесь к согнутой модели."/>
+    <label commandName="lclzFusionSheetMetalFlatPatternCmd1" devLabel="Enters Flat Pattern mode and creates a flat pattern from a folded design." translation="Переключение в режим «Плоский лист» и создание развертки на основе сложенного рисунка."/>
+    <label commandName="lclzFusionSheetMetalFlatPatternCmd2" devLabel="Select the face to position on the XY plane. All flanges are unfolded from that face. Select Finish Flat Pattern to exit out of the mode." translation="Выберите грань для размещения на плоскости XY. Все фланцы будут изогнуты от этой грани. Выберите «Завершить развертку листового металла», чтобы выйти из этого режима."/>
+    <label commandName="lclzFusionSheetMetalRipCommand1" devLabel="Creates a Rip on a sheet metal flange along an edge, between two points, or removes a face." translation="Создает разрыв на фланце листового металла вдоль кромки, между двумя точками или стирает поверхность."/>
+    <label commandName="lclzFusionSheetMetalRipCommand2" devLabel="Select a face to remove, an edge to rip along, or two points to define the start and end of the rip. If selecting two points or an edge, specify the Gap Width value." translation="Выберите грань, которую нужно удалить, край, который нужно оторвать, или две точки, чтобы определить начало и конец разрыва. Если вы выберете две точки или ребра, укажите значение ширины зазора."/>
+    <label commandName="lclzFusionSheetmetalRefoldCommand1" devLabel="Returns the unfolded bends to their folded state and exits the unfold mode." translation="Возвращает разогнутые сгибы в сложенное состояние и выходит из режима разгиба."/>
+    <label commandName="lclzFusionSheetmetalUnfoldCommand1" devLabel="Unfolds the selected bends. Unfolding the bends lets you create features across flanges." translation="Разворачивает выбранные изгибы. Развертка сгибов позволяет создавать элементы на фланцах."/>
+    <label commandName="lclzFusionSheetmetalUnfoldCommand2" devLabel="Select the face that remains stationery then select the bends to unfold. Click the Refold command to exit the Unfold mode." translation="Выберите поверхность, которая останется неподвижной, а затем выберите изгибы для сгиба. Нажмите «Сложить» еще раз, чтобы выйти из режима «Развернуть»."/>
+    <label commandName="lclzInsert" devLabel="Insert" translation="Вставить"/>
+    <label commandName="lclzInspect" devLabel="Inspect" translation="Проверять"/>
+    <label commandName="lclzMODIFY" devLabel="MODIFY" translation="ИЗМЕНЯТЬ"/>
+    <label commandName="lclzModify" devLabel="Modify" translation="Изменять"/>
+    <label commandName="lclzPattern" devLabel="Pattern" translation="Множество"/>
+    <label commandName="lclzPolygon" devLabel="Polygon" translation="Полигон"/>
+    <label commandName="lclzProjectInclude" devLabel="Project / Include" translation="Проект/Включить"/>
+    <label commandName="lclzRectangle" devLabel="Rectangle" translation="Прямоугольник"/>
+    <label commandName="lclzSFlatPatternDXFTipsAndTricksDesc" devLabel="Enable Convert Splines to Polylines if your laser cutting machine does not support splines. The tolerance value specifies the maximum allowable deviation between the converted polylines and the original splines." translation="Включите «Преобразовать сплайны в полилинии», если ваш станок для лазерной резки не поддерживает сплайны. Значение допуска определяет максимально допустимое отклонение между преобразованными полилиниями и исходными сплайнами."/>
+    <label commandName="lclzSelect" devLabel="Select" translation="Выбрать"/>
+    <label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Приоритет выбора"/>
+    <label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Инструменты выделения"/>
+    <label commandName="lclzSheetMetalBendCmd1" devLabel="Bends a sheet metal body along the selected line." translation="Сгибает тело листовой конструкции по выбранной линии."/>
+    <label commandName="lclzSheetMetalBendCmd2" devLabel="Draw a line over a sheet metal body and select both objects to create a bend." translation="Нарисуйте линию на теле из листового металла и выберите оба объекта, чтобы создать изгиб."/>
+    <label commandName="lclzSheetMetalBendTipsAndTricksDesc" devLabel="Use the Bend Line Position to control whether the bend line defines the centerline, start, or end of the bend. Check the Override Rules checkbox to override the value of bend radius and the bend relief options." translation="Используйте параметр «Положение линии сгиба», чтобы указать, определяет ли линия сгиба осевую линию, начало или конец сгиба. Установите флажок «Правила переопределения», чтобы переопределить значение радиуса сгиба и параметры подреза для сгиба."/>
+    <label commandName="lclzSheetMetalBendTipsAndTricksTips" devLabel="Draw a straight line over a sheet metal body, then select the face and the sketched line to create a bend." translation="Нарисуйте прямую линию на теле из листового металла, затем выберите грань и нарисованную линию, чтобы создать изгиб."/>
+    <label commandName="lclzSheetMetalBendTipsAndTricksTitle" devLabel="Bend Information" translation="Свернуть информацию"/>
+    <label commandName="lclzSheetMetalFlatPatternExitPanel" devLabel="Finish Flat Pattern" translation="Завершение разворачивания листового металла"/>
+    <label commandName="lclzSheetMetalFlatPatternExport" devLabel="Export" translation="Экспорт"/>
+    <label commandName="lclzSheetMetalFlatPatternTipsAndTricksDesc" devLabel="The flanges are unfolded based on the K Factor in the sheet metal rule." translation="Фланцы расширяются на основе коэффициента К в правиле обработки листового металла."/>
+    <label commandName="lclzSheetMetalFlatPatternTipsAndTricksTips" devLabel="Select the face to position on the XY plane. All flanges are unfolded from that face." translation="Выберите грань для размещения на плоскости XY. Все фланцы будут изогнуты от этой грани."/>
+    <label commandName="lclzSheetMetalFlatPatternTipsAndTricksTitle" devLabel="Flat Pattern Information" translation="О развертке листового металла"/>
+    <label commandName="lclzSheetMetalRipTipsAndTricksDesc" devLabel="Use Rip to modify a Lofted Flange to create an open flange that you can then Unfold or create a Flat Pattern from." translation="Используйте команду «Разрыв», чтобы изменить выдавленный фланец, чтобы создать открытый фланец, из которого затем можно развернуть или создать развертку."/>
+    <label commandName="lclzSheetMetalRipTipsAndTricksTips" devLabel="If you have a face or edge selected and then create a Rip feature, the dialog will detect those selections and auto-select them." translation="Если вы выбрали грань или ребро, а затем создали элемент «Разрыв», диалоговое окно обнаружит эти выборки и выберет их автоматически."/>
+    <label commandName="lclzSheetMetalRipTipsAndTricksTitle" devLabel="Rip Information" translation="Информация о разрезе"/>
+    <label commandName="lclzSheetMetalRules1" devLabel="Rules control the thickness, bend radius, reliefs, and other settings related to sheet metal design." translation="Правила управляют толщиной, радиусом изгиба, подрезами и другими параметрами, связанными с проектированием листового металла."/>
+    <label commandName="lclzSheetMetalRules2" devLabel="Create and edit rules in the active document to change your designs. Save rules to the library to make them accessible in other designs." translation="Создавайте и редактируйте правила в активном документе, чтобы изменить свои проекты. Сохраните свои правила в библиотеке, чтобы сделать их доступными в других проектах."/>
+    <label commandName="lclzSheetMetalRulesTipsAndTricksDesc" devLabel="Rules 'In this design' are local to the active document. Rules in the 'Library' are saved in the cloud." translation="Правила в разделе «В этом проекте» — это локальные правила в активном документе. Правила из раздела «Библиотека» сохраняются в облаке."/>
+    <label commandName="lclzSheetMetalRulesTipsAndTricksTips" devLabel="Select a rule and click 'Edit Rule' to change values. Right-click on the rule name to duplicate, set default, or delete a rule." translation="Выберите правило и нажмите кнопку «Изменить правило», чтобы изменить значения. Щелкните правой кнопкой мыши имя правила, чтобы дублировать его, установить по умолчанию или удалить."/>
+    <label commandName="lclzSheetMetalRulesTipsAndTricksTitle" devLabel="Rules Information" translation="Информация о правилах"/>
+    <label commandName="lclzSheetmetalUnfoldTipsAndTricksDesc" devLabel="Use Unfold to create features across multiple flanges. Use Refold to put flanges back to their previously folded state." translation="Используя команду «Сгладить», вы можете создавать элементы на нескольких фланцах. С помощью команды «Снова согнуть» можно вернуть фланцы в предыдущее состояние сгиба."/>
+    <label commandName="lclzSheetmetalUnfoldTipsAndTricksTips" devLabel="Select a stationary face to remain fixed then select the bends to unfold or choose 'Unfold all bends'." translation="Выберите неподвижную поверхность, которую вы хотите оставить неподвижной, а затем выберите сгибы для сгиба или параметр «Сгибать все сгибы»."/>
+    <label commandName="lclzSheetmetalUnfoldTipsAndTricksTitle" devLabel="Unfold Information" translation="Развернуть - информация"/>
+    <label commandName="lclzSheetmetalWorkspaceTitle" devLabel="Creates sheet metal designs. Use these commands to set rules, create sheet metal bodies, and produce manufacturing data." translation="Создает проекты конструкций из листового металла. Используя эти команды, вы можете устанавливать правила, создавать тела из листового металла и данные изготовления."/>
+    <label commandName="lclzSketchChamfer" devLabel="Chamfer" translation="Фаза"/>
+    <label commandName="lclzSketchMeshMenu" devLabel="Mesh" translation="Сеть"/>
+    <label commandName="lclzSketchTab" devLabel="SKETCH" translation="ЭСКИЗ"/>
+    <label commandName="lclzSlot" devLabel="Slot" translation="Слот"/>
+    <label commandName="lclzStopSketchTT" devLabel="Finish Sketch" translation="Завершить эскиз"/>
+    <label commandName="lclzSurface" devLabel="Create" translation="Создать"/>
+    <label commandName="losingBendLines" devLabel="Bend lines will be lost" translation="Линии изгиба потеряются."/>
+    <label commandName="pInputBendFaces" devLabel="Select bends to unfold" translation="Выберите сгибы, которые нужно согнуть"/>
+    <label commandName="pInputStatinaryEntity" devLabel="Select stationary entity" translation="Выберите стационарный предмет"/>
+    <label commandName="smAllowBendRelief" devLabel="Bend Relief On/Off" translation="Подрез для сгибания/сгибания"/>
+    <label commandName="smBendAngle" devLabel="Bend Angle" translation="УГОЛ ИЗГИБА"/>
+    <label commandName="smBendAngleFlip" devLabel="Flip Bend" translation="Перевернуть складку"/>
+    <label commandName="smBendLinePosition" devLabel="Bend Line Position" translation="Расположение линии сгиба"/>
+    <label commandName="BendRowGroupName" devLabel="Bend Line %1%" translation="Линия сгиба %1%" />
+    <label commandName="CUT_PASTE_GROUP_WITH_DEP_SMFEATURES_NOTSUPPORTED_TITLE" devLabel="Cannot move group in Browser" translation="Невозможно переместить группу в браузере" />
+    <label commandName="CUT_PASTE_SKETCH_WITH_DEP_SMFEATURES_NOTSUPPORTED" devLabel="Sketches with dependent sheet metal features cannot be moved in the Browser or moved to a group." translation="Эскизы с зависимыми элементами листового металла нельзя перемещать в браузере или перемещать в группу." />
+    <label commandName="CUT_PASTE_SKETCH_WITH_DEP_SMFEATURES_NOTSUPPORTED_TITLE" devLabel="Cannot move sketch in Browser" translation="Невозможно переместить эскиз в браузере" />
+    <label commandName="ChangingDerivedRuleFeatureFailure" devLabel="The original rule was derived from another design. Changing the rule will not affect the bodies that were derived with the rule. It will only affect new Sheet Metal bodies. &#10;Some features cannot be calculated after the Rule change.  Revert the Rule change or delete the failed feature(s)." translation="Исходное правило было получено из другого проекта. Изменение правила не повлияет на тела, которые были получены с помощью этого правила. Оно повлияет только на новые тела листового металла. &#10;Некоторые элементы не могут быть вычислены после изменения правила. Отмените изменение правила или удалите неудавшиеся элементы." />
+    <label commandName="CmMKS" devLabel="Centimeter" translation="Сантиметр" />
+    <label commandName="EditLoftedFlangeTitle" devLabel="Edit Lofted Flange" translation="Редактировать loft-бортик" />
+    <label commandName="FlatPatternName" devLabel="Flat Pattern Name" translation="Имя развертки" />
+    <label commandName="HectometerMetric" devLabel="Hectometer" translation="Гектометр" />
+    <label commandName="Imperial" devLabel="Foot" translation="Фут" />
+    <label commandName="InchImperial" devLabel="Inch" translation="Дюйм" />
+    <label commandName="IncludeCenterLine" devLabel="Center Lines" translation="Осевые линии" />
+    <label commandName="IncludeExtentLine" devLabel="Extent Lines" translation="Граничные линии" />
+    <label commandName="MMKS" devLabel="Meter" translation="Метр" />
+    <label commandName="MicronMetric" devLabel="Micron" translation="Микрон" />
+    <label commandName="MilImperial" devLabel="Mil" translation="Мил" />
+    <label commandName="MileImperial" devLabel="Mile" translation="Мили" />
+    <label commandName="MmMKS" devLabel="Millimeter" translation="Миллиметр" />
+    <label commandName="OverrideBendReliefGroupDesc" devLabel="Lets you override the relief shape, width, depth, and remnant values of bends for the new flange.&#10;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Позволяет переопределить форму рельефа, ширину, глубину и значения остатка для изгибов нового фланца.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значений, определенных в правиле листового металла." />
+    <label commandName="OverrideOptionGroupBendOverrideDesc" devLabel="Lets you override the bend radius value for the new flange.&#10;Check to apply overrides. Uncheck to restore the value defined in the Sheet Metal Rule." translation="Позволяет переопределить значение радиуса изгиба для нового фланца.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значения, определенного в правиле листового металла." />
+    <label commandName="OverrideRulesOptionInputDesc" devLabel="Lets you override specific setting values for the new flange.&#10;Check to apply overrides. Uncheck to restore all setting values to those defined in the Sheet Metal Rule." translation="Позволяет переопределить определенные значения настроек для нового фланца.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления всех значений настроек до тех, что определены в правиле листового металла." />
+    <label commandName="OverrideThreeBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 3 bends intersect.&#10;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Позволяет переопределить форму рельефа, размер и размещение в углах, где пересекаются 3 изгиба.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значений, определенных в правиле листового металла." />
+    <label commandName="OverrideTwoBendCornerGroupDesc" devLabel="Lets you override the relief shape, size, and placement at corners where 2 bends intersect.&#10;Check to apply overrides. Uncheck to restore the values defined in the Sheet Metal Rule." translation="Позволяет переопределить форму рельефа, размер и размещение в углах, где пересекаются 2 изгиба.&#10;Установите флажок для применения переопределений. Снимите флажок для восстановления значений, определенных в правиле листового металла." />
+    <label commandName="SplineToPolyline" devLabel="Splines to Polylines" translation="Сплайны в полилинии" />
+    <label commandName="SymmetricEdgeRowGroupName" devLabel="Edge %1% (Symmetric)" translation="Кромка %1% (Симметричная)" />
+    <label commandName="TwoOffsetEdgeRowGroupName" devLabel="Edge %1% (Two Offsets)" translation="Кромка %1% (Два смещения)" />
+    <label commandName="TwoSideEdgeRowGroupName" devLabel="Edge %1% (Two Sides)" translation="Кромка %1% (Две стороны)" />
+    <label commandName="UnitType" devLabel="Units" translation="Единицы измерения" />
+    <label commandName="VisibleFPGeom" devLabel="Visible Geometry" translation="Видимая геометрия" />
+    <label commandName="YardImperial" devLabel="Yard" translation="Ярд" />
+    <label commandName="lclzAutomatePanelSketch" devLabel="AUTOMATE" translation="АВТОМАТИЗИРОВАТЬ" />
+    <label commandName="lclzNewConstruction" devLabel="Construct (New)" translation="Конструкция (Новая)" />
+    <label commandName="lclzSheetmetalWorkspaceName" devLabel="Sheetmetal Workspace" translation="Рабочее пространство листового металла" />
+    <label commandName="removeFaceSelection" devLabel="This will also clear all bend line selections. &#10; Do you want to continue?" translation="Это также очистит все выделения линий сгиба. &#10; Вы хотите продолжить?" />
+    <label commandName="CornerEdge1Selection" devLabel="Edge 1" translation="Ребро 1" />
+    <label commandName="CornerEdge1SelectionDesc" devLabel="Select the first sheet metal edge for corner closure." translation="Выберите первое ребро листового металла для углового замыкания." />
+    <label commandName="CornerEdge2Selection" devLabel="Edge 2" translation="Ребро 2" />
+    <label commandName="CornerEdge2SelectionDesc" devLabel="Select the second sheet metal edge for corner closure." translation="Выберите второе ребро листового металла для углового замыкания." />
+    <label commandName="CornerWidthExtents" devLabel="Width Extents" translation="Границы ширины" />
+    <label commandName="CornerWidthExtentsDesc" devLabel="Select corner width extents type." translation="Выберите тип границ ширины угла." />
+    <label commandName="Distance" devLabel="Distance" translation="Расстояние" />
+    <label commandName="DistanceTooltip" devLabel="Extrudes to a distance that you specify." translation="Выдавливает на указанное вами расстояние." />
+    <label commandName="DoubleHemDesc" devLabel="Create double hem." translation="Создать двойной подгиб." />
+    <label commandName="DoubleHemGap" devLabel="Gap" translation="Зазор" />
+    <label commandName="DoubleHemGapDesc" devLabel="Specify the gap of your double hem." translation="Укажите зазор вашего двойного подгиба." />
+    <label commandName="DoubleHemLength" devLabel="Length" translation="Длина" />
+    <label commandName="DoubleHemLengthDesc" devLabel="Lets you specify the length of your double hem." translation="Позволяет указать длину вашего двойного подгиба." />
+    <label commandName="DoubleHemSetback" devLabel="Setback" translation="Отступ" />
+    <label commandName="DoubleHemSetbackDesc" devLabel="Lets you specify the setback of your double hem." translation="Позволяет указать отступ вашего двойного подгиба." />
+    <label commandName="DoubleHemType" devLabel="Double" translation="Двойной" />
+    <label commandName="EdgeExtentsType" devLabel="Extent Type" translation="Тип протяженности" />
+    <label commandName="EditFlangeTitle" devLabel="Edit Flange" translation="Редактировать фланец" />
+    <label commandName="EditHemFlangeTitle" devLabel="Edit Hem" translation="Редактировать подгиб" />
+    <label commandName="FlangeHemPreset" devLabel="Presets" translation="Пресеты" />
+    <label commandName="FlangeTitle" devLabel="Flange" translation="Фланец" />
+    <label commandName="FlatHemDesc" devLabel="Create flat hem." translation="Создать плоский подгиб." />
+    <label commandName="FlatHemLength" devLabel="Length" translation="Длина" />
+    <label commandName="FlatHemLengthDesc" devLabel="Lets you specify the length of your flat hem." translation="Позволяет указать длину вашего плоского подгиба." />
+    <label commandName="FlatHemType" devLabel="Flat" translation="Плоский" />
+    <label commandName="FusionCornerEdit" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="FusionMultiBodyMerge" devLabel="Multi body merge" translation="Слияние нескольких тел" />
+    <label commandName="FusionMultiBodyMergeEdit" devLabel="Edit Feature" translation="Редактировать элемент" />
+    <label commandName="FusionSelectExtrudeToObject" devLabel="Select face, workplane or workpoint to extend to" translation="Выберите грань, рабочую плоскость или рабочую точку для протягивания" />
+    <label commandName="FusionSheetMetalFlange" devLabel="Flange (Base/Edge/Contour)" translation="Фланец (Базовый/Кромочный/Контурный)" />
+    <label commandName="FusionSheetMetalHemFlange" devLabel="Hem" translation="Подгиб" />
+    <label commandName="FusionSheetMetalLoftedFlange" devLabel="Lofted Flange" translation="Лофт-фланец" />
+    <label commandName="HemBendPositionOption" devLabel="Bend Position" translation="Позиция изгиба" />
+    <label commandName="HemBendPositionOptionDesc" devLabel="Select hem bend position." translation="Выберите позицию изгиба подгиба." />
+    <label commandName="HemFlangeInfo" devLabel="Hem" translation="Подгиб" />
+    <label commandName="HemFlangeInputSels" devLabel="Edges" translation="Ребра" />
+    <label commandName="HemFlangeInputSelsDesc" devLabel="Select sheet metal edges to use for hem flange profiles." translation="Выберите ребра листового металла для использования в профилях подгиба." />
+    <label commandName="HemFlangeTypeDesc" devLabel="Folds a sheet metal edge back onto itself." translation="Загибает край листового металла обратно на себя." />
+    <label commandName="HemType" devLabel="Type" translation="Тип" />
+    <label commandName="HemTypeDesc" devLabel="Select hem type." translation="Выберите тип подгиба." />
+    <label commandName="LoftedFlangeTypeDesc" devLabel="Creates a complex sheet metal shape." translation="Создает сложную форму листового металла." />
+    <label commandName="OpenHemDesc" devLabel="Create open hem." translation="Создать открытый подгиб." />
+    <label commandName="OpenHemGap" devLabel="Gap" translation="Зазор" />
+    <label commandName="OpenHemGapDesc" devLabel="Specify the gap of your open hem." translation="Укажите зазор вашего открытого подгиба." />
+    <label commandName="OpenHemLength" devLabel="Length" translation="Длина" />
+    <label commandName="OpenHemLengthDesc" devLabel="Lets you specify the length of your open hem." translation="Позволяет указать длину вашего открытого подгиба." />
+    <label commandName="OpenHemType" devLabel="Open" translation="Открытый" />
+    <label commandName="PartExtComponentTypeDTT" devLabel="Creates a new Sheet Metal in a new Part Design and inserts it as an external component into %1%" translation="Создает новый Листовой металл в новом Проекте детали и вставляет его как внешний компонент в %1%" />
+    <label commandName="RolledHemAngle" devLabel="Angle" translation="Угол" />
+    <label commandName="RolledHemAngleDesc" devLabel="Lets you specify the angle of your rolled hem." translation="Позволяет указать угол вашего свернутого подгиба." />
+    <label commandName="RolledHemDesc" devLabel="Create rolled hem." translation="Создать свернутый подгиб." />
+    <label commandName="RolledHemRadius" devLabel="Radius" translation="Радиус" />
+    <label commandName="RolledHemRadiusDesc" devLabel="Lets you specify the radius of your rolled hem." translation="Позволяет указать радиус вашего свернутого подгиба." />
+    <label commandName="RolledHemType" devLabel="Rolled" translation="Свернутый" />
+    <label commandName="RopeHemDesc" devLabel="Create rope hem." translation="Создать веревочный подгиб." />
+    <label commandName="RopeHemGap" devLabel="Gap" translation="Зазор" />
+    <label commandName="RopeHemGapDesc" devLabel="Specify the gap of your rope hem." translation="Укажите зазор вашего веревочного подгиба." />
+    <label commandName="RopeHemLength" devLabel="Length" translation="Длина" />
+    <label commandName="RopeHemLengthDesc" devLabel="Lets you specify the length of your rope hem." translation="Позволяет указать длину вашего веревочного подгиба." />
+    <label commandName="RopeHemRadius" devLabel="Radius" translation="Радиус" />
+    <label commandName="RopeHemRadiusDesc" devLabel="Lets you specify the radius of your rope hem." translation="Позволяет указать радиус вашего веревочного подгиба." />
+    <label commandName="RopeHemType" devLabel="Rope" translation="Веревочный" />
+    <label commandName="StandardFlangeInfo" devLabel="Flange (Base/Edge/Contour)" translation="Фланец (Базовый/Кромочный/Контурный)" />
+    <label commandName="StandardFlangeTypeDesc" devLabel="Creates a flat or bent sheet metal flange." translation="Создает плоский или изогнутый фланец листового металла." />
+    <label commandName="TeardropHemDesc" devLabel="Create teardrop hem." translation="Создать каплевидный подгиб." />
+    <label commandName="TeardropHemGap" devLabel="Gap" translation="Зазор" />
+    <label commandName="TeardropHemGapDesc" devLabel="Specify the gap of your teardrop hem." translation="Укажите зазор вашего каплевидного подгиба." />
+    <label commandName="TeardropHemLength" devLabel="Length" translation="Длина" />
+    <label commandName="TeardropHemLengthDesc" devLabel="Lets you specify the length of your teardrop hem." translation="Позволяет указать длину вашего каплевидного подгиба." />
+    <label commandName="TeardropHemRadius" devLabel="Radius" translation="Радиус" />
+    <label commandName="TeardropHemRadiusDesc" devLabel="Lets you specify the radius of your teardrop hem." translation="Позволяет указать радиус вашего каплевидного подгиба." />
+    <label commandName="TeardropHemType" devLabel="Teardrop" translation="Каплевидный" />
+    <label commandName="ToObject" devLabel="To Object" translation="До объекта" />
+    <label commandName="ToObjectOffsetInput" devLabel="Offset" translation="Смещение" />
+    <label commandName="ToObjectOffsetInputDesc" devLabel="Specify distance to offset extrusion from selected object." translation="Укажите расстояние для смещения выдавливания от выбранного объекта." />
+    <label commandName="ToObjectSelectInfo" devLabel="Object" translation="Объект" />
+    <label commandName="ToObjectSelectInfoDesc" devLabel="Select a body, face, or construction object to extrude to." translation="Выберите тело, грань или строительный объект для выдавливания." />
+    <label commandName="ToObjectTooltip" devLabel="Extrudes to a body, face, or plane that you select." translation="Выдавливает до выбранного тела, грани или плоскости." />
+    <label commandName="lclzFlatPatternDXFExportCmd1" devLabel="Exports a sheet metal Flat Pattern to a DXF file." translation="Экспортирует развертку листового металла в файл DXF." />
+    <label commandName="lclzSheetMetalFlange1" devLabel="Use different flange types to create various sheet metal forms:" translation="Используйте различные типы фланцев для создания различных форм листового металла:" />
+    <label commandName="lclzSheetMetalFlange2" devLabel="&amp;nbsp; • &amp;nbsp;Base Flange creates flat sheet metal face." translation="&amp;nbsp; • &amp;nbsp;Базовый фланец создает плоскую грань листового металла." />
+    <label commandName="lclzSheetMetalHem2" devLabel="Folds sheet metal edge back onto itself. You can create the following hems: Open, Flat, Double, Rolled, Teardrop, and Rope." translation="Загибает край листового металла обратно на себя. Вы можете создавать следующие подгибы: Открытый, Плоский, Двойной, Свернутый, Каплевидный и Веревочный." />
+    <label commandName="lclzSheetMetalLoft2" devLabel="Creates complex sheet metal shapes between two curves. Commonly used in designing ventilation systems." translation="Создает сложные формы листового металла между двумя кривыми. Обычно используется при проектировании систем вентиляции." />
+</Resource>

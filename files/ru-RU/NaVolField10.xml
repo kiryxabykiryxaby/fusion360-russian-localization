@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AVKBodySelectionCategory" devLabel="AVKBodies" translation="" />
+	<label commandName="AVKMeshBodySelectionCategory" devLabel="Bodies" translation="" />
+	<label commandName="EmptyBooleanVolFieldToMesh" devLabel="Attempt to boolean both the meshes failed. Create Mesh aborted" translation="" />
+	<label commandName="EmptyLatticeVolFieldToMesh" devLabel="Attempt to create an lattice mesh failed. Create Mesh aborted" translation="" />
+	<label commandName="EmptyPartVolFieldToMesh" devLabel="Attempt to create body mesh failed. Create Mesh aborted" translation="" />
+	<label commandName="EmptyVolFieldToMesh" devLabel="Attempt to create an empty mesh. Create Mesh aborted" translation="" />
+	<label commandName="FailedVolFieldAssignRequest" devLabel="Failed to find correct graph node" translation="" />
+	<label commandName="FailedVolFieldCreateRequest" devLabel="could not add or find the volumetric group" translation="" />
+	<label commandName="FailedVolFieldCreateRequestEntity" devLabel="could not find a component for volumetric data" translation="" />
+	<label commandName="FailedVolFieldCreatelatticeRequestEntity" devLabel="could not add or find the volumetric data" translation="" />
+	<label commandName="FailedVolFieldCreatelatticeRequestNode" devLabel="Failed to find correct graph nodes" translation="" />
+	<label commandName="FailedVolFieldCreatelatticeRequestRoot" devLabel="could not add or find the volumetric root" translation="" />
+	<label commandName="FailedVolFieldTextureRequestEntity" devLabel="could not add or find the volumetric data" translation="" />
+	<label commandName="FailedVolFieldTextureRequestNode" devLabel="Failed to find correct graph nodes" translation="" />
+	<label commandName="FailedVolFieldTextureRequestRoot" devLabel="could not add or find the volumetric root" translation="" />
+	<label commandName="FailedVolFieldToMeshRequest" devLabel="could not add or find the volumetric group" translation="" />
+	<label commandName="FailedVolFieldToMeshRequestEntity" devLabel="could not find a component with volumetric data" translation="" />
+	<label commandName="InterruptedVolFieldToMeshRequest" devLabel="Create Mesh was interrupted" translation="" />
+	<label commandName="LatticeDefaultUserName" devLabel="Volumetric Lattice" translation="" />
+	<label commandName="NAVKRootSelectionId" devLabel="VolFieldRootSelection" translation="" />
+	<label commandName="NAVKVRepSelectionId" devLabel="VolFieldSelection" translation="" />
+	<label commandName="VolFieldToMeshProgress" devLabel="Create Mesh" translation="" />
+</Resource>

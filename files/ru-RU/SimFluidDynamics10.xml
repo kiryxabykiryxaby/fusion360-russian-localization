@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="SimAmbientTemperatureHigherThanCritical" devLabel="Warning: The ambient temperature is higher than the temperature threshold." translation="" />
+	<label commandName="SimAmbientTemperatureName" devLabel="Ambient Temperature" translation="" />
+	<label commandName="SimAmbientTemperatureValue" devLabel="Value" translation="" />
+	<label commandName="SimCallAmbientTemperaturesAttribute" devLabel="Click here to select Ambient Temperature." translation="" />
+	<label commandName="SimCallCriticalTemperaturesAttribute" devLabel="Click here to set Temperature thresholds." translation="" />
+	<label commandName="SimCallFDInternalHeatAttribute" devLabel="Click here to select 'Thermal Load'." translation="" />
+	<label commandName="SimCallFanAttribute" devLabel="Click here to select 'Fan'." translation="" />
+	<label commandName="SimCallShowAttributesDlg" devLabel="Click here to inspect all loads in this case." translation="" />
+	<label commandName="SimCaseIsMissing" devLabel="Simulation Study is missing" translation="" />
+	<label commandName="SimCaseNameFluidDynamics" devLabel="Study %1% - Electronics Cooling" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimCriticalTemperatureInitialTemperatureValue" devLabel="InitialTemperatureValue" translation="" />
+	<label commandName="SimCriticalTemperatureName" devLabel="Thresholds" translation="" />
+	<label commandName="SimCriticalTemperatureValue" devLabel="Value" translation="" />
+	<label commandName="SimFDHeatAndFanAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the fan bodies %1%%2%." translation="" />
+	<label commandName="SimFDHeatAndHeatSinkAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the heat sink bodies %1%%2%." translation="" />
+	<label commandName="SimFDHeatSinkAndFanAssignedToSamePart" devLabel="Cannot solve: A fan has been assigned to the heat sink bodies %1%%2%." translation="" />
+	<label commandName="SimFDMultipleFansAssignedToSamePart" devLabel="Cannot solve: Multiple fans had been assigned to %1%%2%." translation="" />
+	<label commandName="SimFDMultipleHeatSinksAssignedToSamePart" devLabel="Cannot solve: Multiple heat sinks had been assigned to %1%%2%." translation="" />
+	<label commandName="SimFailedToCreaterCriticalTemperature" devLabel="Failed to create the temperature threshold" translation="" />
+	<label commandName="SimFanAttributeName" devLabel="Fan" translation="" />
+	<label commandName="SimFluidDynamics" devLabel="Electronics Cooling" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsAnalysisType" devLabel="Analysis Type" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxMin" devLabel="Bounding Box Extension Minimal Voxel Count" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxPercent" devLabel="Bounding Box Extension Percentage" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxType" devLabel="Bounding Box Extension Type" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsNumberOfIterations" devLabel="Number of Iterations" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsResolution" devLabel="Resolution" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsResolutionType" devLabel="Resolution Type" translation="" />
+	<label commandName="SimFluidDynamicsGeneralSettingsUseGPU" devLabel="Use GPU" translation="" />
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="" />
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="" />
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="" />
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="" />
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="" />
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="" />
+	<label commandName="SimGeometrySimplifierFlag" devLabel="Value" translation="" />
+	<label commandName="SimHeatSinkAttributeName" devLabel="Heat Sink" translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimInternalHeatAttributeNegative" devLabel="Cannot solve: Heat loads must be positive%1%." translation="" />
+	<label commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="" />
+	<label commandName="SimLoadCaseString" devLabel=" in &quot;%1%&quot;" translation="" />
+	<label commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="" />
+	<label commandName="SimNoCriticalTemperaturesDefined" devLabel="Warning: No Temperature thresholds are listed. The Threshold result cannot be calculated without Temperature threshold values." translation="" />
+	<label commandName="SimNoFDInternalHeatAttribute" devLabel="Cannot solve: There has to be a Heat load assigned %1%." translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimSelectionIsMissing" devLabel="Missing selection" translation="" />
+	<label commandName="SimSelectionReference" devLabel="Selection Reference" translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+</Resource>

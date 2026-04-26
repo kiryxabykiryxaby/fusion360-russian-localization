@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportLMVError" devLabel="Autodesk Translation Services failed to translate the current document to svf file!" translation="" />
+	<label commandName="LMVFileFilterDescription" devLabel="LMV Files (*.svf)" translation="" />
+</Resource>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="All" devLabel="All" translation="Насквозь"/>
+    <label commandName="AllTooltip" devLabel="Extrudes through all visible bodies." translation="Выдавливается сквозь все видимые твердые тела."/>
+    <label commandName="AutomaticOffset" devLabel="Automatic" translation="Автоматически"/>
+    <label commandName="BREPConversionFailed" devLabel="T-Spline conversion failed" translation="Преобразование Т-сплайна не удалось"/>
+    <label commandName="BooleanTypeOperation" devLabel="Operation" translation="Операция"/>
+    <label commandName="CTCTangentProgationFailed" devLabel="Cannot compute Tangent Chain. Some geometry in the tangent chain is already selected in other selection set rows. Adjust selection sets before enabling Tangent Chain. " translation="Невозможно вычислить касательную цепь. Часть геометрии в цепочке касательных уже выбрана в других строках набора объектов. Прежде чем включать касательную цепочку, сопоставьте наборы объектов."/>
+    <label commandName="ChamferEdges0" devLabel="%1% Edge" translation="%1% грань"/>
+    <label commandName="ChamferEdgesMultiple" devLabel="%1% Edges" translation="Грани: %1%"/>
+    <label commandName="ChamferFirstDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="ChamferRowAngleIcon" devLabel="ChamferRowAngleIcon" translation="ФаскаРядУголЗначок"/>
+    <label commandName="ChamferRowAngleInput" devLabel="Angle" translation="Угол"/>
+    <label commandName="ChamferRowDistanceOneIcon" devLabel="ChamferRowDistanceOneIcon" translation="ФаскаРядРасстояниеОдинЗнак"/>
+    <label commandName="ChamferRowDistanceOneInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="ChamferRowDistanceTwoIcon" devLabel="ChamferRowDistanceTwoIcon" translation="ФаскаРядРасстояниеДваЗнака"/>
+    <label commandName="ChamferRowDistanceTwoInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="ChamferRowLabel" devLabel="ChamferRowLabel" translation="ФаскаСтрокаМетка"/>
+    <label commandName="ContinueOrRevert" devLabel="Do you want to capture the current position of moved components or revert components to their previous positions?" translation="Вы хотите зафиксировать текущее положение перемещенных компонентов или восстановить предыдущие положения компонентов?"/>
+    <label commandName="ContinueWithRevert" devLabel="Revert Position" translation="Восстановить положение"/>
+    <label commandName="ContinueWithSnapshot" devLabel="Capture Position" translation="Захват положения"/>
+    <label commandName="CutBody" devLabel="Body Participating In Cut" translation="Тело, участвующее в резке"/>
+    <label commandName="CutComponent" devLabel="Component Participating In Cut" translation="Компонент, участвующий в резке"/>
+    <label commandName="CutType" devLabel="Cut" translation="Вырезать"/>
+    <label commandName="CutTypeToolTip" devLabel="Cuts an area out of an existing body." translation="Вырезает область из существующего тела."/>
+    <label commandName="DirectionType" devLabel="Direction" translation="Направление"/>
+    <label commandName="Distance" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="DistanceFieldShell" devLabel="Rounded Shell" translation="Закругленная оболочка"/>
+    <label commandName="DistanceFieldShellToolTip" devLabel="Creates rounded offset corners. Use for complex geometry to create a full or partial result that you can modify with surface tools." translation="Создает закругленные смещенные углы. Используйте эту опцию для сложной геометрии, чтобы получить полный или частичный результат, который можно изменить с помощью инструментов поверхности."/>
+    <label commandName="DistanceTooltip" devLabel="Extrudes to a distance that you specify." translation="Выдавить на указанное расстояние."/>
+    <label commandName="DynamicControlID" devLabel="DynamicControlID" translation="Идентификатор динамического элемента управления"/>
+    <label commandName="Edit" devLabel="Edit" translation="Редактировать"/>
+    <label commandName="ExtentsType2" devLabel="Extent Type" translation="Тип диапазона"/>
+    <label commandName="Extrude" devLabel="Extrude" translation="Выдавить"/>
+    <label commandName="ExtrudeDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="ExtrudeDistanceInputDesc" devLabel="Specify distance to extrude." translation="Укажите расстояние выдавливания."/>
+    <label commandName="ExtrudeProfileInput" devLabel="Profiles" translation="Профили"/>
+    <label commandName="ExtrudeProfileInputDesc" devLabel="Select coplanar sketch profiles or faces to extrude." translation="Выберите копланарные профили или поверхности эскиза для выдавливания."/>
+    <label commandName="ExtrudeSide1TaperAngleInput" devLabel="Taper Angle" translation="Угол сужения"/>
+    <label commandName="ExtrudeSide1TaperAngleInputDesc" devLabel="Specify angle to taper extrusion." translation="Укажите угол конического выдавливания."/>
+    <label commandName="ExtrudeSide2TaperAngleInput" devLabel="Taper Angle" translation="Угол сужения"/>
+    <label commandName="ExtrudeSide2TaperAngleInputDesc" devLabel="Specify angle to taper extrusion." translation="Укажите угол конического выдавливания."/>
+    <label commandName="ExtrudeTaperAngleInput" devLabel="Taper Angle" translation="Угол сужения"/>
+    <label commandName="ExtrudeTaperAngleInputDesc" devLabel="Specify angle to taper extrusion." translation="Укажите угол конического выдавливания."/>
+    <label commandName="ExtrudeTypeDesc" devLabel="Extrudes the entire area within selected closed profiles." translation="Вытягивает всю область внутри выбранных замкнутых профилей."/>
+    <label commandName="ExtrudeTypeInfo" devLabel="Extrude" translation="Выдавить"/>
+    <label commandName="ExtrudeTypeLabel" devLabel="Type" translation="Тип"/>
+    <label commandName="FaceEdges0" devLabel="1 Face" translation="1 поверхность"/>
+    <label commandName="FaceEdgesMultiple" devLabel="%1% Faces" translation="Поверхностей: %1%"/>
+    <label commandName="FeatureEdges0" devLabel="1 Feature" translation="1 Деталь"/>
+    <label commandName="FeatureEdgesMultiple" devLabel="%1% Features" translation="Детали: %1%"/>
+    <label commandName="FlipDirection" devLabel="Flip" translation="Повернуть"/>
+    <label commandName="FlipDirectionTooltip" devLabel="Flips the extrusion over the selected profile plane." translation="Отменяет выдавливание на выбранной плоскости профиля."/>
+    <label commandName="FromObjectStart" devLabel="Object" translation="От объекта"/>
+    <label commandName="FromObjectStartTooltip" devLabel="Starts extrusion from a face or plane that you select." translation="Запускает выдавливание из выбранной грани или плоскости."/>
+    <label commandName="FusionActivateLocalCompCmd" devLabel="Activate" translation="Активировать"/>
+    <label commandName="FusionChamfer" devLabel="Chamfer" translation="Фаска"/>
+    <label commandName="FusionCmdModifyDistanceSelections3" devLabel="Specify type, direction, thickness, or hold Command to modify selections" translation="Укажите тип, направление, толщину или удерживайте нажатой клавишу Command, чтобы изменить выбор."/>
+    <label commandName="FusionComputeAll" devLabel="Compute All" translation="Рассчитайть все"/>
+    <label commandName="FusionCtrlModifyDistanceSelections3" devLabel="Specify type, direction, thickness, or hold Ctrl to modify selections" translation="Укажите тип, направление, толщину или удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+    <label commandName="FusionExtrudeEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionFeatureEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionMacModifySelectExtrude" devLabel="Hold Command to modify selection" translation="Удерживайте клавишу Command, чтобы изменить свой выбор."/>
+    <label commandName="FusionModifyDistanceSelections3" devLabel="Select a body to shell or faces to remove." translation="Выберите твердое тело, чтобы создать оболочку или поверхности для удаления."/>
+    <label commandName="FusionOffsetFaces" devLabel="Offset Face" translation="Передвинуть поверхность"/>
+    <label commandName="FusionOffsetFacesEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionSelectDistanceExtrude" devLabel="Specify distance and taper angle" translation="Укажите расстояние и угол конуса"/>
+    <label commandName="FusionSelectDistanceThinExtrude" devLabel="Specify wall thickness, distance, and taper angle" translation="Определите толщину стенки, расстояние и угол конуса."/>
+    <label commandName="FusionSelectExtrudeToObject" devLabel="Select body, face, plane, or vertex to extrude to" translation="Выберите твердое тело, грань, плоскость или вершину для выдавливания."/>
+    <label commandName="FusionSelectFaceForOffset" devLabel="Select face(s) to offset" translation="Выберите грани для смещения"/>
+    <label commandName="FusionSelectFaceShell" devLabel="Select faces to remove or body to shell" translation="Выберите грани для удаления или твердое тело, чтобы создать оболочку."/>
+    <label commandName="FusionSelectProfileExtrude" devLabel="Select sketch profiles or planar faces to extrude" translation="Выберите профили эскиза или плоские поверхности для выдавливания."/>
+    <label commandName="FusionSelectSketchProfileExtrude" devLabel="Select sketch profiles, sketch curves or planar faces to extrude" translation="Выберите профили эскиза, кривые эскиза или плоские поверхности для выдавливания."/>
+    <label commandName="FusionShellBody" devLabel="Shell" translation="Оболочка"/>
+    <label commandName="FusionStatusHandlerASMMissesProcess" devLabel="Rail misses the profile" translation="Направляющая не содержит профиля"/>
+    <label commandName="FusionStatusHandlerASMPointProcess" devLabel="self-intersection or bad geometry" translation="самопересечение или неправильная геометрия"/>
+    <label commandName="FusionStatusHandlerASMSmoothProcess" devLabel="Rail is not smooth" translation="направляющая не ровная"/>
+    <label commandName="FusionSurfaceExtrudeEdit" devLabel="Edit Feature " translation="Редактировать элемент"/>
+    <label commandName="FusionWinModifySelectExtrude" devLabel="Hold Ctrl to modify selection" translation="Удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+    <label commandName="HalfLength" devLabel="Half Length" translation="Половина длины"/>
+    <label commandName="HalfLengthTooltip" devLabel="Extrudes the specified distance to each side." translation="Расширяет указанное расстояние в каждую сторону."/>
+    <label commandName="HoleDepthInput" devLabel="Depth" translation="Глубина"/>
+    <label commandName="HoleDiameterInput" devLabel="Diameter" translation="Диаметр"/>
+    <label commandName="Incorrect_Sketch_Profile_normal" devLabel="The profile normal is reversed. It'll cause extrude direction flip. Try compute-all to recover before creating extrude." translation="Нормаль профиля инвертируется. Это изменит направление выдавливания. Постарайтесь все просчитать, чтобы исправить ошибку, прежде чем создавать выдавливание."/>
+    <label commandName="InputShellType" devLabel="Shell Type" translation="Тип оболочки"/>
+    <label commandName="IntersectType" devLabel="Intersect" translation="Пересечения"/>
+    <label commandName="IntersectTypeToolTip" devLabel="Creates a body at the intersection of an existing body and the new body." translation="Создает тело на пересечении существующего тела и нового тела."/>
+    <label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Создаваемый объект не виден. Переключите видимость в браузере."/>
+    <label commandName="JoinType" devLabel="Join" translation="Создать"/>
+    <label commandName="JoinTypeToolTip" devLabel="Combines the new body with an existing body." translation="Создает комбинацию нового тела с существующим телом."/>
+    <label commandName="LegacyShell" devLabel="Sharp Shell" translation="Острая оболочка"/>
+    <label commandName="LegacyShellToolTip" devLabel="Creates sharp offset corners." translation="Создает острые смещенные углы."/>
+    <label commandName="LoftChainingOption" devLabel="Chaining" translation="Привязка"/>
+    <label commandName="LoftChainingOptionDesc" devLabel="Automatically select connected geometry." translation="Автоматический выбор связанной геометрии."/>
+    <label commandName="MatchShape2" devLabel="Extend" translation="Продлить"/>
+    <label commandName="MaxSolutionTooltip" devLabel="Extrudes all the way through the selected body." translation="Создает выдавливание через все выбранное твердое тело."/>
+    <label commandName="MissingExtrudeProfile" devLabel="missing profiles" translation="нет профилей"/>
+    <label commandName="MissingOffsetFaces" devLabel="missing faces" translation="отсутствие поверхности"/>
+    <label commandName="MissingShellFaces" devLabel="missing faces/body" translation="нет поверхности/тела"/>
+    <label commandName="ModifyExistingOffset" devLabel="Modify Existing Feature" translation="Изменить существующий элемент"/>
+    <label commandName="NewBodyInNewCompType" devLabel="New Component" translation="Новый компонент"/>
+    <label commandName="NewBodyInNewCompTypeToolTip" devLabel="Creates a new body in the new component." translation="Создает новое тело в новом компоненте."/>
+    <label commandName="NewBodyType" devLabel="New Body" translation="Новое Тело"/>
+    <label commandName="NewBodyTypeToolTip" devLabel="Creates a new body in the active component." translation="Создает новое тело в активном компоненте."/>
+    <label commandName="NewTSplineBodyType" devLabel="New Body" translation="Новое Тело"/>
+    <label commandName="NewTSplineBodyTypeToolTip" devLabel="Creates a new body in the active component." translation="Создает новое тело в активном компоненте."/>
+    <label commandName="OffsetFacesDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="OffsetFacesFacesInput" devLabel="Faces" translation="Поверхности"/>
+    <label commandName="OffsetPlaneStart" devLabel="Offset" translation="Со смещением"/>
+    <label commandName="OffsetPlaneStartTooltip" devLabel="Starts extrusion a specified offset distance from the profile plane." translation="Запускает развертку на указанном расстоянии смещения от плоскости профиля."/>
+    <label commandName="OffsetType" devLabel="Offset Type" translation="Тип смещения"/>
+    <label commandName="OneSide" devLabel="One Side" translation="В одну сторону"/>
+    <label commandName="OneSideTooltip" devLabel="Creates an extrusion on one side of the profile plane." translation="Создает выдавливание на одной стороне плоскости профиля."/>
+    <label commandName="PositionDlgTitle" devLabel="Capture or revert component positions" translation="Зарегистрируйте или восстановите расположение компонентов"/>
+    <label commandName="PrimitivePlacementInput" devLabel="Placement" translation="Назначение"/>
+    <label commandName="ProfilePlaneStart" devLabel="Profile Plane" translation="От плоскости"/>
+    <label commandName="ProfilePlaneStartTooltip" devLabel="Starts extrusion from the profile plane." translation="Запускает выдавливание из плоскости профиля."/>
+    <label commandName="ProfileStartType" devLabel="Start" translation="Начало"/>
+    <label commandName="ReblendRadiusInput" devLabel="Radius" translation="Радиус"/>
+    <label commandName="RevolveAlongAngleInput" devLabel="Angle" translation="Угол"/>
+    <label commandName="RotateLocalXInput" devLabel="'X' Rotation" translation="Вращение по оси «X»"/>
+    <label commandName="RotateLocalYInput" devLabel="'Y' Rotation" translation="Вращение по оси «Y»"/>
+    <label commandName="RotateLocalZInput" devLabel="'Z' Rotation" translation="Вращение по оси «Z»."/>
+    <label commandName="SelectStartFromObject" devLabel="Select face, plane, or vertex to extrude from" translation="Выберите грань, плоскость или вершину для выдавливания."/>
+    <label commandName="ShellBodyFacesInput" devLabel="Faces/Body" translation="Поверхности/Тела"/>
+    <label commandName="ShellBodyThicknessInsideInput" devLabel="Inside Thickness" translation="Внутренняя толщина"/>
+    <label commandName="ShellBodyThicknessInsideInputDesc" devLabel="Specify thickness for inside direction" translation="Укажите толщину для внутреннего направления"/>
+    <label commandName="ShellBodyThicknessOutsideInput" devLabel="Outside Thickness" translation="Внешняя толщина"/>
+    <label commandName="ShellBodyThicknessOutsideInputDesc" devLabel="Specify thickness for outside direction" translation="Укажите толщину для внешнего направления"/>
+    <label commandName="ShellBothDirection" devLabel="Both" translation="В две стороны"/>
+    <label commandName="ShellDirection" devLabel="Direction" translation="Направление"/>
+    <label commandName="ShellInsideDirection" devLabel="Inside" translation="Внутри"/>
+    <label commandName="ShellOutsideDirection" devLabel="Outside" translation="Снаружи"/>
+    <label commandName="ShellTangentOptionInput" devLabel="Tangent Chain" translation="Касательная цепь"/>
+    <label commandName="Side1ExtentsType" devLabel="Extent Type" translation="Тип диапазона"/>
+    <label commandName="Side1ExtrudeDistanceInput" devLabel="Distance" translation="Расстояние"/>
+    <label commandName="Side1ExtrudeDistanceInputDesc" devLabel="Extrudes to a distance that you specify." translation="Распространяется на указанное расстояние."/>
+    <label commandName="Side1Group" devLabel="Side 1" translation="Страница 1"/>
+    <label commandName="Side1MatchShape" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="Side1SolutionType" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="Side1ThinExtrudeWallLocation" devLabel="Wall Location" translation="Расположение стены"/>
+    <label commandName="Side1ThinExtrudeWallThickness" devLabel="Wall Thickness" translation="толщина стен"/>
+    <label commandName="Side1ThinExtrudeWallThicknessDesc" devLabel="Specify wall thickness for thin extrusion." translation="Укажите стенку для выдавливания."/>
+    <label commandName="Side1ToObjectOffsetInput" devLabel="Offset" translation="Сместить"/>
+    <label commandName="Side1ToObjectOffsetInputDesc" devLabel="Extrudes to a body, face, or plane that you select." translation="Создает выдавливание выбранного твердого тела, поверхности или плоскости."/>
+    <label commandName="Side1ToObjectSelectInfo" devLabel="Object" translation="Объект"/>
+    <label commandName="Side1ToObjectSelectInfoDesc" devLabel="Select a body, face, or construction object to extrude to." translation="Выберите твердое тело, поверхность или объект конструкции для выдавливания."/>
+    <label commandName="Side2ExtentsType" devLabel="Extent Type" translation="Тип диапазона"/>
+    <label commandName="Side2Group" devLabel="Side 2" translation="Сторона 2"/>
+    <label commandName="Side2MatchShape" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="Side2SolutionType" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="Side2ThinExtrudeWallLocation" devLabel="Wall Location" translation="Расположение стенки"/>
+    <label commandName="Side2ThinExtrudeWallThickness" devLabel="Wall Thickness" translation="толщина стенки"/>
+    <label commandName="Side2ThinExtrudeWallThicknessDesc" devLabel="Specify wall thickness for thin extrusion." translation="Укажите стеныки для выдавливания."/>
+    <label commandName="Side2ToObjectOffsetInput" devLabel="Offset" translation="Сместить"/>
+    <label commandName="Side2ToObjectSelectInfo" devLabel="Object" translation="Объект"/>
+    <label commandName="Side2ToObjectSelectInfoDesc" devLabel="Select a body, face, or construction object to extrude to." translation="Выберите твердое тело, поверхность или объект конструкции для выдавливания."/>
+    <label commandName="SolutionType" devLabel="Extend" translation="Удлинить"/>
+    <label commandName="SphereDiameter" devLabel="Diameter" translation="Диаметр"/>
+    <label commandName="SurfaceExtrude" devLabel="Extrude" translation="Выдавить"/>
+    <label commandName="Symmetric" devLabel="Symmetric" translation="Симметрично"/>
+    <label commandName="SymmetricDistanceMeasurementType" devLabel="Measurement" translation="Меры измерения"/>
+    <label commandName="SymmetricTooltip" devLabel="Creates identical extrusions on each side of the profile plane." translation="Создает одинаковые сдвиги на каждой стороне плоскости профиля."/>
+    <label commandName="TSplinePipeEditEntityModify" devLabel="Modifying this sketch, edge or component will dissolve the Sculpt Pipe feature.  Undo to maintain Sculpt Pipe feature." translation="Изменение этого эскиза, кромки или компонента приведет к разнесению элемента «Резьба — Труба». Отмените, чтобы сохранить Скульптура — Труба."/>
+    <label commandName="TSplineSurfaceCreatedByPipe1" devLabel="Modifying the selected entity will dissolve the Sculpt Pipe feature.  Cancel to maintain Sculpt Pipe feature." translation="Изменение выбранного элемента развернет элемент Скульптура — Труба. Отмените, чтобы сохранить предмет «Скульптура — Труба»."/>
+    <label commandName="TSplineSurfaceCreatedByPipe2" devLabel="Deleting the selected entity will dissolve the Sculpt Pipe feature.  Undo to maintain Sculpt Pipe feature." translation="Удаление выбранного элемента развернет элемент Скульптура - Труба. Отмените, чтобы сохранить Скульптура — Труба."/>
+    <label commandName="ThinExtrudeTypeDesc" devLabel="Extrudes a thin wall along selected open or closed profiles." translation="Создает прямое продолжение тонкой стены вдоль выбранных открытых или закрытых профилей."/>
+    <label commandName="ThinExtrudeTypeInfo" devLabel="Thin Extrude" translation="Тонкая прямая экструзия"/>
+    <label commandName="ThinExtrudeWallLocation" devLabel="Wall Location" translation="Расположение стенки"/>
+    <label commandName="ThinExtrudeWallLocationCenter" devLabel="Center" translation="Центр"/>
+    <label commandName="ThinExtrudeWallLocationCenterDesc" devLabel="Centers the extrusion on the profile." translation="Центрирует выдавливание на профиле."/>
+    <label commandName="ThinExtrudeWallLocationSide1" devLabel="Side 1" translation="Сторона 1"/>
+    <label commandName="ThinExtrudeWallLocationSide1Desc" devLabel="Offsets extrusion to one side of the profile." translation="Смещает выдавливание к одной стороне профиля."/>
+    <label commandName="ThinExtrudeWallLocationSide2" devLabel="Side 2" translation="Сторона 2"/>
+    <label commandName="ThinExtrudeWallLocationSide2Desc" devLabel="Offsets extrusion to one side of the profile." translation="Смещает выдавливание к одной стороне профиля."/>
+    <label commandName="ThinExtrudeWallThickness" devLabel="Wall Thickness" translation="толщина стенок"/>
+    <label commandName="ThinExtrudeWallThicknessDesc" devLabel="Specify wall thickness for thin extrusion." translation="Укажите толщину стенки для выдавливания."/>
+    <label commandName="ThroughBody" devLabel="Through Body" translation="Через тело"/>
+    <label commandName="ToAdjacentFaces" devLabel="To Adjacent Faces" translation="До поверхности"/>
+    <label commandName="ToAdjacentFacesTooltip" devLabel="Extrudes up to the selected face and any adjacent faces." translation="Создает выдавливание выбранной поверхности и всех прилегающих поверхностей."/>
+    <label commandName="ToBody" devLabel="To Body" translation="До тела"/>
+    <label commandName="ToBodyTooltip" devLabel="Extrudes up to the faces of the selected body." translation="Создает выдавливание на поверхность выбранного твердого тела."/>
+    <label commandName="ToNext" devLabel="To Next" translation="До следующего"/>
+    <label commandName="ToObject" devLabel="To Object" translation="До объекта"/>
+    <label commandName="ToObjectOffsetInput" devLabel="Offset" translation="Сместить"/>
+    <label commandName="ToObjectOffsetInputDesc" devLabel="Specify distance to offset extrusion from selected object." translation="Укажите расстояние для смещения вытягивания от выбранного объекта."/>
+    <label commandName="ToObjectTooltip" devLabel="Extrudes to a body, face, or plane that you select." translation="Создает выдавливание выбранного твердого тела, поверхности или плоскости."/>
+    <label commandName="ToSelectedFace" devLabel="To Selected Face" translation="До выбранной поверхности"/>
+    <label commandName="ToSelectedFaceTooltip" devLabel="Extrudes up to the selected face only." translation="Создает выдавливание только до выбранной плоскости."/>
+    <label commandName="TwoSides" devLabel="Two Sides" translation="В две стороны"/>
+    <label commandName="TwoSidesTooltip" devLabel="Creates a unique extrusion on each side of the profile plane." translation="Создает уникальную вытяжку на каждой стороне плоскости профиля."/>
+    <label commandName="WholeLength" devLabel="Whole Length" translation="На всю длинну"/>
+    <label commandName="WholeLengthTooltip" devLabel="Extrudes half the specified distance to each side." translation="Создает развертку на половину указанного расстояния в каждую сторону."/>
+    <label commandName="angleDistanceColumnTooltip" devLabel="Specify angle value." translation="Укажите значение угла."/>
+    <label commandName="boxLengthInput" devLabel="Length" translation="Длина"/>
+    <label commandName="boxWidthInput" devLabel="Width" translation="Ширина"/>
+    <label commandName="chamferAddTCI" devLabel="Add" translation="Добавлять"/>
+    <label commandName="chamferAddTableTooltip" devLabel="Add selection set." translation="Добавьте набор выбора."/>
+    <label commandName="chamferAngleDistanceSelection" devLabel="Distance and Angle" translation="Расстояние и угол"/>
+    <label commandName="chamferAngleDistanceTooltip" devLabel="Bevels edges based on a single distance and an angle." translation="Скашивает края на основе одного расстояния и угла."/>
+    <label commandName="chamferBlendSelection" devLabel="Blend" translation="Соеденить"/>
+    <label commandName="chamferBlendTooltip" devLabel="Blends beveled edges into adjacent faces." translation="Соединяет скошенные края с соседними поверхностями."/>
+    <label commandName="chamferCornerTypeSelection" devLabel="Corner Type" translation="Угловой тип"/>
+    <label commandName="chamferCtrlMacModifyDistanceSelections" devLabel="Hold Command to modify selection" translation="Удерживайте клавишу Command, чтобы изменить свой выбор."/>
+    <label commandName="chamferCtrlWinModifyDistanceSelections" devLabel="Hold Ctrl to modify selection" translation="Удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+    <label commandName="chamferDMEdges" devLabel="Edges/Faces" translation="Грани/Плоскости"/>
+    <label commandName="chamferDefaultCursorPrompt" devLabel="Select edges, faces, or features to chamfer" translation="Выберите кромки, поверхности или элементы для снятия фаски"/>
+    <label commandName="chamferEdgesFacesSelectionCursorPrompt" devLabel="Select edges or faces to chamfer" translation="Выберите кромки или поверхности для снятия фаски"/>
+    <label commandName="chamferEqualDistanceColumnTooltip" devLabel="Distance value is equal." translation="Значение расстояния равно."/>
+    <label commandName="chamferEqualDistanceSelection" devLabel="Equal Distance" translation="Равное расстояние"/>
+    <label commandName="chamferEqualDistanceTooltip" devLabel="Bevels edges based on an equal distance to each side." translation="Края обрезаются по диагонали на равном расстоянии с каждой стороны."/>
+    <label commandName="chamferFlipSelection" devLabel="Flip" translation="Повенуть"/>
+    <label commandName="chamferFlipTooltip" devLabel="Flips first and second sides of chamfer." translation="Инвертирует первую и вторую стороны фаски."/>
+    <label commandName="chamferMiterSelection" devLabel="Miter" translation="Угловое соединение"/>
+    <label commandName="chamferMiterTooltip" devLabel="Merges beveled edges into a mitered corner point." translation="Объединяет скошенные кромки в угловую точку соединения."/>
+    <label commandName="chamferPMEdges" devLabel="Edges/Faces/Features" translation="Грани/поверхности/элементы"/>
+    <label commandName="chamferRemoveTCI" devLabel="Remove" translation="Стереть"/>
+    <label commandName="chamferRemoveTableTooltip" devLabel="Remove selection set." translation="Удалить набор выбора."/>
+    <label commandName="chamferRowSelection" devLabel="Selection Set" translation="Набор выбора"/>
+    <label commandName="chamferSelection" devLabel="Chamfer" translation="Фаска"/>
+    <label commandName="chamferSelectionTable" devLabel="SelectionChamferTable" translation="Таблица выбора фасок"/>
+    <label commandName="chamferSpecifyAngleDistance" devLabel="Specify chamfer distance and angle" translation="Укажите расстояние и угол фаски"/>
+    <label commandName="chamferSpecifyDistance" devLabel="Specify chamfer distance" translation="Введите расстояние васки"/>
+    <label commandName="chamferSpecifyTwoDistance" devLabel="Specify chamfer distances" translation="Определить расстояния фаски"/>
+    <label commandName="chamferStringDMEdges" devLabel="Select edges or faces to create chamfers." translation="Выберите ребра или грани для создания фасок."/>
+    <label commandName="chamferStringPMEdges" devLabel="Select edges, faces, or features to create chamfers." translation="Выберите кромки, грани или элементы для создания фасок."/>
+    <label commandName="chamferTangentSelection" devLabel="Tangent Chain" translation="Касательная цепь"/>
+    <label commandName="chamferTangentTooltip" devLabel="Automatically select tangent geometry." translation="Автоматический выбор касательной геометрии."/>
+    <label commandName="chamferTooltip" devLabel="Creates a chamfer to join beveled edges at the corner." translation="Создает фаску для соединения диагональных кромок в углу."/>
+    <label commandName="chamferTwoDistanceColumnTooltip" devLabel="Specify second distance value." translation="Укажите значение второго расстояния."/>
+    <label commandName="chamferTwoDistanceSelection" devLabel="Two Distance" translation="Два значения"/>
+    <label commandName="chamferTwoDistanceTooltip" devLabel="Bevels edges based on a different distance to each side." translation="Он обрезает края по диагонали на разном расстоянии с каждой стороны."/>
+    <label commandName="chamferTypeSelection" devLabel="Type" translation="Тип"/>
+    <label commandName="cutCheckBoxes" devLabel="Check Boxes for Participants" translation="метки пользователя"/>
+    <label commandName="cutParticipantTable" devLabel="Cut Participant Table" translation="Вырезать метки пользователя"/>
+    <label commandName="cutTableGroup" devLabel="Objects To Cut" translation="Объекты, которые нужно вырезать"/>
+    <label commandName="cylinderDiameterInput" devLabel="Diameter" translation="Диаметр"/>
+    <label commandName="distanceOneColumnSelection" devLabel="Specify distance value." translation="Укажите значение расстояния."/>
+    <label commandName="infoChamferRowAngleIcon" devLabel="infoChamferAngleIcon%1%" translation="Информация — значок фазового угла %1%"/>
+    <label commandName="infoChamferRowAngleInput" devLabel="infoChamferAngleInput%1%" translation="Информация — вход фазового угла %1%"/>
+    <label commandName="infoChamferRowDistanceOneIcon" devLabel="infoChamferDistanceOneIcon%1%" translation="Информация — значок расстояния первой фазы %1%"/>
+    <label commandName="infoChamferRowDistanceOneInput" devLabel="infoChamferDistanceOneInput%1%" translation="Информация — ввод первого фазового расстояния %1%"/>
+    <label commandName="infoChamferRowDistanceTwoIcon" devLabel="infoChamferDistanceTwoIcon%1%" translation="Информация — значок второго фазового расстояния %1%"/>
+    <label commandName="infoChamferRowDistanceTwoInput" devLabel="infoChamferDistanceTwoInput%1%" translation="Информация — ввод второго фазового расстояния %1%"/>
+    <label commandName="infoChamferRowLabel" devLabel="infoChamferTableRowLabel%1%" translation="Информация — метка строки таблицы фаз %1%"/>
+    <label commandName="lclShellTangentChainToolTip" devLabel="Automatically select tangent geometry" translation="Автоматически выбирать касательную геометрию"/>
+    <label commandName="lczlExpression" devLabel="Expression: " translation="Выражение:"/>
+    <label commandName="lczlParameterName" devLabel="Parameter: " translation="Параметр:"/>
+    <label commandName="lczlValue" devLabel="Value: " translation="Значение:"/>
+    <label commandName="primitiveHeightInput" devLabel="Height" translation="Высота"/>
+    <label commandName="profileStartFromObjectSelectInfo" devLabel="Object" translation="Объект"/>
+    <label commandName="profileStartFromObjectSelectInfoDesc" devLabel="Select a face or plane to start extrusion from." translation="Выберите грань или плоскость, с которой нужно начать выдавливание."/>
+    <label commandName="profileStartOffsetDesc" devLabel="Specify distance to offset extrusion from profile plane." translation="Укажите расстояние для смещения вытягивания от плоскости профиля."/>
+    <label commandName="profileStartOffsetoffset" devLabel="Offset" translation="Оффсет"/>
+    <label commandName="toObjectSelectInfo" devLabel="Object" translation="Объект"/>
+    <label commandName="toObjectSelectInfoDesc" devLabel="Select a body, face, or construction object to extrude to." translation="Выберите тело, поверхность или объект конструкции для выдавливания."/>
+    <label commandName="AddNewOffset" devLabel="New Offset" translation="Новое смещение" />
+    <label commandName="ConfigAllDisplayNameKey" devLabel="All" translation="Все" />
+    <label commandName="ConfigFlyParamDetailTooltip" devLabel="Check to configure %1%.&lt;br /&gt;&lt;br /&gt;" translation="Отметьте, чтобы настроить %1%.&lt;br /&gt;&lt;br /&gt;" />
+    <label commandName="ConfigFlyParamDetailTooltipExpr" devLabel="Expression: %1%&lt;br /&gt;" translation="Выражение: %1%&lt;br /&gt;" />
+    <label commandName="ConfigFlyParamDetailTooltipUserName" devLabel="Parameter: %1%&lt;br /&gt;" translation="Параметр: %1%&lt;br /&gt;" />
+    <label commandName="ConfigFlyParamDetailTooltipValue" devLabel="Value: %1%&lt;br /&gt;" translation="Значение: %1%&lt;br /&gt;" />
+    <label commandName="ConfigSuppressionDisplayNameKey" devLabel="Suppression" translation="Подавление" />
+    <label commandName="ConfigurationsRestrictedMessage" devLabel="Create and manage multiple design variations so that you can improve your design efficiency." translation="Создавайте и управляйте несколькими вариантами конструкции, чтобы повысить эффективность проектирования." />
+    <label commandName="ConfigurationsRestrictedTitle" devLabel="Configurations" translation="Конфигурации" />
+    <label commandName="ConvertToPMDesign" devLabel="Change to Parametric Modeling" translation="Переключиться на параметрическое моделирование" />
+    <label commandName="ConvertToPMDesignCmdDef" devLabel="Convert to Parametric Modeling desgin" translation="Преобразовать в параметрическую модель" />
+    <label commandName="ConvertToPMDesignCmdTooltip" devLabel="&lt;b&gt;Change to Parametric Modeling Mode&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Changes the modeling mode for the design:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Parametric:&lt;/b&gt; Captures parameters and features in the timeline as you create your design.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Direct:&lt;/b&gt; Deletes all parameters and features in the timeline and lets you edit the design more quickly.&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Current mode: Direct&lt;/b&gt;" translation="&lt;b&gt;Переключиться на режим параметрического моделирования&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Изменяет режим моделирования для проекта:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Параметрический:&lt;/b&gt; Фиксирует параметры и элементы в шкале времени по мере создания проекта.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Прямой:&lt;/b&gt; Удаляет все параметры и элементы из шкалы времени, позволяя редактировать проект быстрее.&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Текущий режим: Прямой&lt;/b&gt;" />
+    <label commandName="DisableConfigureTab" devLabel="Configure (unavailable) " translation="Настройка (недоступно)" />
+    <label commandName="DisableConfigureTabReason" devLabel="The Configure tab is unavailable because there are no aspects to configure in the current context. " translation="Вкладка 'Настройка' недоступна, так как в текущем контексте нет аспектов для настройки." />
+    <label commandName="EmptyIDConfigOnFlyRequestHelper" devLabel="Unable to configure" translation="Невозможно настроить" />
+    <label commandName="FeatureAspectTooltipCof" devLabel="Check to configure %1%." translation="Отметьте, чтобы настроить %1%." />
+    <label commandName="FeatureAspectValueTooltipCof" devLabel="Value" translation="Значение" />
+    <label commandName="RevertMovesPrompt" devLabel="Some component positions have changed.&#10;&#10;" translation="Позиции некоторых компонентов были изменены.&#10;&#10;" />
+    <label commandName="blockDrivenAspectTooltipCof" devLabel="%1% is configured as it is dependent on %2%." translation="%1% настроен, так как зависит от %2%." />
+    <label commandName="dConfigConfigureTab" devLabel="Configure" translation="Настроить" />
+    <label commandName="dConfigFeatureTab" devLabel="Feature" translation="Элемент" />
+    <label commandName="dConfigTabBar" devLabel="Design Configure Tabbar" translation="Панель вкладок конфигурации проекта" />
+    <label commandName="disOneInput" devLabel="Distance 1" translation="Расстояние 1" />
+    <label commandName="disTwoInput" devLabel="Distance 2" translation="Расстояние 2" />
+</Resource>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="PropCloudPlugin_write" devLabel="Failed to write the property." translation="" />
+</Resource>

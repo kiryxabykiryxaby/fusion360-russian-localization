@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	 <label commandName="RefreshAndDirectOODXRefMessage" devLabel="The component has out of date references. &#10;Refresh to consume the latest change or version." translation="Компонент содержит устаревшие ссылки. &#10;Обновите, чтобы применить последние изменения или версию." />
+    <label commandName="RefreshAndIndirectOODXRefMessage" devLabel="The component has out of date references. &#10;Use &lt;b&gt;Refresh&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the child component in its own tab." translation="Компонент содержит устаревшие ссылки. &#10;Используйте &lt;b&gt;Обновить&lt;/b&gt; на &lt;b&gt;Панели приложения&lt;/b&gt; &#10;или откройте дочерний компонент в отдельной вкладке." />
+    <label commandName="MidplaneMate" devLabel=" (Center)" translation=" (По центру)" />
+    <label commandName="OOSPcbCompMessage1" devLabel="PCB 3D out of sync with PCB 2D. &#10;To update, use Get Latest in the Design workspace." translation="3D модель PCB не синхронизирована с 2D проектом. &#10;Для обновления используйте Получить последнюю версию в рабочем пространстве Дизайн." />
+    <label commandName="AlignMate" devLabel=" (Align)" translation=" (Выравнивание)" />
+    <label commandName="AlignmentsBrowserLabel" devLabel="Object Pairs" translation="Пары объектов" />
+    <label commandName="AngleMate" devLabel=" (Angle)" translation=" (Угол)" />
+    <label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="Внешний видКЭ" />
+    <label commandName="AppearanceStr" devLabel="Appearance" translation="Внешний вид" />
+    <label commandName="BodiesBrowserLabel" devLabel="Bodies" translation="Тела" />
+    <label commandName="BrokenContextMessage" devLabel="The component has child reference errors. &#10;Open the child component in its own tab, then &#10; right-click the errors to fix them." translation="В компоненте есть ошибки дочерних ссылок. &#10;Откройте дочерний компонент в его собственной вкладке, затем &#10; щелкните правой кнопкой мыши по ошибкам, чтобы исправить их." />
+    <label commandName="BrokenContextRootMessage" devLabel="The design contains one or more errors. &#10;Expand browser nodes to locate errors, then right-click &#10;to resolve errors or open components in their own tab first." translation="Проект содержит одну или несколько ошибок. &#10;Разверните узлы браузера, чтобы найти ошибки, затем щелкните правой кнопкой мыши &#10;для их устранения или сначала откройте компоненты в их собственных вкладках." />
+    <label commandName="BrowserConstructionLabel" devLabel="Construction" translation="Вспомогательные элементы" />
+    <label commandName="BrowserSelectionGroupsLabel" devLabel="Selection Sets" translation="Наборы выделения" />
+    <label commandName="CBRevisionMilestone_ccy" devLabel="Revision" translation="Ревизия" />
+    <label commandName="ComponentInstanceSelectTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is grounded to %3%." translation="%1%&lt;br&gt;&lt;br&gt;%2% закреплен на %3%." />
+    <label commandName="ComponentInstanceUnselectTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is grounded to %3%. &lt;br&gt;&lt;br&gt;%4% is Unselectable." translation="%1%&lt;br&gt;&lt;br&gt;%2% закреплен на %3%. &lt;br&gt;&lt;br&gt;%4% недоступен для выбора." />
+    <label commandName="ComponentInstanceUnselectTooltipInfo" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is Unselectable." translation="%1%&lt;br&gt;&lt;br&gt;%2% недоступен для выбора." />
+    <label commandName="ContactSetsLabelAll" devLabel="Contact: all" translation="Контакт: все" />
+    <label commandName="ContactSetsLabelNone" devLabel="Contact: off" translation="Контакт: выкл" />
+    <label commandName="ContactSetsLabelSets" devLabel="Contact: sets" translation="Контакт: наборы" />
+    <label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+    <label commandName="DirectOODXRefMessage" devLabel="The component has out of date references. &#10;To update, use Get Latest in the Design workspace." translation="Компонент содержит устаревшие ссылки. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="DisableAllContactCmdTooltip" devLabel="No contact" translation="Нет контакта" />
+    <label commandName="DisabledBulbInXrefdDoc" devLabel="Visibility cannot be changed." translation="Видимость не может быть изменена." />
+    <label commandName="EditJointDOFLimitsCmdTooltip" devLabel="Edit Motion Limits&lt;br&gt;&lt;br&gt;Lets you enable, disable, and edit the motion limits associated with this joint." translation="Редактировать пределы движения&lt;br&gt;&lt;br&gt;Позволяет включить, отключить и редактировать пределы движения, связанные с этим соединением." />
+    <label commandName="EnableAllContactCmdTooltip" devLabel="All bodies contact" translation="Контакт всех тел" />
+    <label commandName="EnableContactSetsCmdTooltip" devLabel="Contact within sets" translation="Контакт внутри наборов" />
+    <label commandName="IndirectOODXRefMessage" devLabel="The component has out of date references. &#10;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the child component in its own tab." translation="Компонент содержит устаревшие ссылки. &#10;Используйте 'Получить все последние версии' на 'Панели приложения' &#10;или откройте дочерний компонент в его собственной вкладке." />
+    <label commandName="JointOriginsBrowserLabel" devLabel="Joint Origins" translation="Начала соединений" />
+    <label commandName="JointsBrowserLabel" devLabel="Joints" translation="Соединения" />
+    <label commandName="LockJointDOFCmdTooltip" devLabel="Lock Motion &lt;br&gt;&lt;br&gt;Locks this degree of motion and prevents it from moving until you unlock it." translation="Заблокировать движение &lt;br&gt;&lt;br&gt;Блокирует эту степень свободы и предотвращает её движение до разблокировки." />
+    <label commandName="MDVersionMilestone_ccy" devLabel="Version" translation="Версия" />
+    <label commandName="MatesBrowserLabel" devLabel="Constraints" translation="Связи" />
+    <label commandName="MissingChildXRef" devLabel="Nested unresolved components &#10;Expand to resolve components nested in this assembly." translation="Вложенные неразрешенные компоненты &#10;Разверните для разрешения компонентов, вложенных в эту сборку." />
+    <label commandName="MissingDerivedBrowserTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Неразрешенный компонент.&lt;br&gt;%1%" />
+    <label commandName="MotionStudiesBrowserLabel" devLabel="Motion Studies" translation="Исследования движения" />
+    <label commandName="NamedViews" devLabel="Named Views" translation="Вид" />
+    <label commandName="OODCompMessage1" devLabel="The Component is out of date. &#10;To update, use Get Latest in the Design workspace." translation="Компонент устарел. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="OODReferencesMessage" devLabel="The design contains one or more out-of-date references &#10;Use Get All Latest or expand browser nodes to update objects individually." translation="Проект содержит одну или несколько устаревших ссылок &#10;Используйте 'Получить все последние версии' или разверните узлы браузера для индивидуального обновления объектов." />
+    <label commandName="OOSCompMessage1" devLabel="The component has out-of-date assembly contexts. &#10;Use &lt;b&gt;Get All Latest&lt;/b&gt; in the &lt;b&gt;Application Bar&lt;/b&gt; &#10;or open the parent component in its own tab." translation="Компонент содержит устаревшие контексты сборки. &#10;Используйте 'Получить все последние версии' на 'Панели приложения' &#10;или откройте родительский компонент в его собственной вкладке." />
+    <label commandName="OOSCompMessageRoot" devLabel="The design contains one or more out-of-date references &#10;Use Get All Latest or expand browser nodes to update objects individually." translation="Проект содержит одну или несколько устаревших ссылок &#10;Используйте 'Получить все последние версии' или разверните узлы браузера для индивидуального обновления объектов." />
+    <label commandName="ObsoleteConfigMessage" devLabel="Configuration Deleted &#10;Expand to see one or more Configured Components whose Configurations have been deleted from their Configured Design." translation="Конфигурация удалена &#10;Разверните, чтобы увидеть один или более сконфигурированных компонентов, чьи конфигурации были удалены из их сконфигурированного проекта." />
+    <label commandName="ObsoleteConfigurationTooltip" devLabel="Configuration Deleted&#10;This Configuration has been deleted from the Configured Design.&#10;If you switch or delete this Configured Component, you cannot reference this one again later." translation="Конфигурация удалена&#10;Эта конфигурация была удалена из сконфигурированного проекта.&#10;Если вы переключите или удалите этот сконфигурированный компонент, вы не сможете ссылаться на него снова." />
+    <label commandName="OverrideVisibilityInXrefdDoc" devLabel="Visibility Overriden in %1%" translation="Видимость переопределена в %1%" />
+    <label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Физический материал" />
+    <label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Правило пластика" />
+    <label commandName="PropertiesStr" devLabel="Properties" translation="Свойства" />
+    <label commandName="RelationshipsBrowserLabel" devLabel="Relationships" translation="Отношения" />
+    <label commandName="ReloadAndOODxRefsMessage" devLabel="New version of this design is available and it has out of date external references. &#10;To update, use Get Latest in the Design workspace." translation="Доступна новая версия этого проекта, и она содержит устаревшие внешние ссылки. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="ReloadAndOODxRefsMessage_ccy" devLabel="New change to this design is available and it has out of date external references. &#10;To update, use Get Latest in the Design workspace." translation="Доступно новое изменение для этого проекта, и оно содержит устаревшие внешние ссылки. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="ReloadMessage" devLabel="New version of this design is available. &#10;To update, use Get Latest in the Design workspace." translation="Доступна новая версия этого проекта. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="ReloadMessage_ccy" devLabel="A new change to this design is available. &#10;To update, use Get Latest in the Design workspace." translation="Доступно новое изменение для этого проекта. &#10;Для обновления используйте 'Получить последнюю версию' в рабочей области 'Дизайн'." />
+    <label commandName="ReturningChildXRef" devLabel="Nested unresolved components &#10;Expand to view the status of unresolved components nested in this assembly." translation="Вложенные неразрешенные компоненты &#10;Разверните для просмотра статуса неразрешенных компонентов, вложенных в эту сборку." />
+    <label commandName="RigidGroupsBrowserLabel" devLabel="Rigid Groups" translation="Жесткие группы" />
+    <label commandName="SelectSelectionGroupCmdTooltip" devLabel="Select" translation="Выделить" />
+    <label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Вставить" />
+    <label commandName="SheetBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% недоступен для выбора.&lt;br&gt;&lt;br&gt;Щелкните правой кнопкой мыши &gt; 'Доступный для выбора', чтобы включить выделение." />
+    <label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Правило листового металла" />
+    <label commandName="SketchesBrowserLabel" devLabel="Sketches" translation="Эскизы" />
+    <label commandName="SolidBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% недоступен для выбора.&lt;br&gt;&lt;br&gt;Щелкните правой кнопкой мыши &gt; 'Доступный для выбора', чтобы включить выделение." />
+    <label commandName="SuppressContactSetCmdTooltip" devLabel="Suppress contact set" translation="Подавить набор контактов" />
+    <label commandName="SurfaceBodyUnselectTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% недоступен для выбора.&lt;br&gt;&lt;br&gt;Щелкните правой кнопкой мыши &gt; 'Доступный для выбора', чтобы включить выделение." />
+    <label commandName="TangentRelationshipsBrowserLabel" devLabel="Tangent Relationships" translation="Касательные отношения" />
+    <label commandName="UnlockJointDOFCmdTooltip" devLabel="Unlock Motion &lt;br&gt;&lt;br&gt;Unlock this degree of motion to move it." translation="Разблокировать движение &lt;br&gt;&lt;br&gt;Разблокируйте эту степень свободы, чтобы переместить её." />
+    <label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Не сохранено)" />
+    <label commandName="UnselectableFolderTooltip" devLabel="Bodies is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="Тела недоступны для выбора.&lt;br&gt;&lt;br&gt;Щелкните правой кнопкой мыши &gt; 'Доступный для выбора', чтобы включить выделение." />
+    <label commandName="UnsuppressContactSetCmdTooltip" devLabel="Unsuppress contact set" translation="Восстановить набор контактов" />
+    <label commandName="UpdateSelectionGroupCmdTooltip" devLabel="Update" translation="Обновить" />
+    <label commandName="VisibilityStr" devLabel="Visibility" translation="Видимость" />
+    <label commandName="XRefMissingTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Неразрешенный компонент.&lt;br&gt;%1%" />
+    <label commandName="XRefUnresolvedTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Неразрешенный компонент.&lt;br&gt;%1%" />
+    <label commandName="CBHistoricalRevisionMilestone_ccy" devLabel="There are more changes past this Revision" translation="После этой ревизии есть дополнительные изменения" />
+    <label commandName="MSHistoricalMilestone_ccy" devLabel="There are more changes past this version" translation="После этой версии есть дополнительные изменения" />
+</Resource>

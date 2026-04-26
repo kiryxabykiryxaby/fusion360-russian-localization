@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="NON_SM_ENTITIES_FOUND" devLabel="Failed to identify sheet metal faces for some edges. Ensure the body is a valid sheet metal body that keeps opposite faces separate." translation="" />
+	<label commandName="NoStationaryEntity" devLabel="Invalid Stationary Reference for Unfolding." translation="" />
+	<label commandName="RefoldComputeError" devLabel="Failed to get Entity History." translation="" />
+	<label commandName="SM_COMPUTE_FLANGE_PROFILE" devLabel="Failed to compute the Flange profile." translation="" />
+	<label commandName="SM_FLANGE_ANGLE_INVALID" devLabel="Can't create Flange because of a problem with the bend angle. Adjust parameters, then try again." translation="" />
+	<label commandName="SM_FLANGE_ANGLE_TOO_SMALL" devLabel="Can't create Flange. Bend angle is too small. Adjust parameters, then try again." translation="" />
+	<label commandName="SM_FLANGE_CFLANGE_BEND_FAILED" devLabel="One or more parameters are invalid. Try increasing flange height." translation="" />
+	<label commandName="SM_FLANGE_INTERSECTION_DETECTED" devLabel="The flange is intersecting the body. Creating this flange will probably result in the body being unable to unfold or flatten." translation="" />
+	<label commandName="SM_FLANGE_INVALID_CONDITIONS" devLabel="Can't create Flange. Check the body and bend parameters, then try again." translation="" />
+	<label commandName="SM_GENERIC_FAILURE" devLabel="Can't complete Sheet Metal operation due to an internal error. Check the body and bend parameters, then try again." translation="" />
+	<label commandName="SM_MODELING_ERROR" devLabel="Can't complete Sheet Metal operation due to a model error. Check the body, then try again." translation="" />
+	<label commandName="SM_MODELING_EXCEPTION" devLabel="Can't complete Sheet Metal operation due to a model error. Check the body, then try again." translation="" />
+	<label commandName="SM_NO_VALID_EDGE" devLabel="Can't create Flange. Could not find valid edge. Check the body, then try again." translation="" />
+	<label commandName="SM_SWEEP_RELATED" devLabel="Can't complete Sheet Metal operation due to an internal error. Check the body and bend parameters, then try again." translation="" />
+	<label commandName="SM_TRIM_EXTEND_FAILED" devLabel="Cannot create flange because the angle is too sharp.&#10;Adjust the Angle value to create a bend that is less extreme." translation="" />
+	<label commandName="SM_UNFOLDER_RELATED" devLabel="Can't successfully process relief geometry. Check the body and parameters, then try again." translation="" />
+	<label commandName="SM_UNFOLD_NON_MANIFOLD_EDGE" devLabel="Can't unfold. Part is not a valid Sheet Metal body. Ensure thickness is uniform. Ensure flanges do not self-intersect the body. Remove tear relief corners." translation="" />
+	<label commandName="SM_UNFOLD_RELATED1" devLabel="Can't complete Sheet Metal operation due to a model error. Check the body, then try again." translation="" />
+	<label commandName="SM_UNFOLD_RELATED2" devLabel="Can't complete Sheet Metal operation because of a problem with thickness. Adjust parameters, then try again." translation="" />
+	<label commandName="SM_UNFOLD_RELATED3" devLabel="Can't complete Sheet Metal operation due to an internal error. Check the body and bend parameters, then try again." translation="" />
+	<label commandName="SM_USER_INTERRUPT" devLabel="Sheet Metal operation was interrupted before it could be completed. Try again later." translation="" />
+</Resource>

@@ -1,0 +1,21 @@
+<div id="edgeInnerCorners_xoxx_2924745297"><p>Определяет, что делать, когда инструмент встречает внутренние углы, которые он не может обработать из-за своей геометрии.</p>
+<p><b>Не снимать заусенцы (Do not deburr)</b> - Перемещает инструмент к следующему ребру внутреннего угла, когда он больше не может обрабатывать текущее ребро. В результате на некоторых внутренних углах остаются заусенцы. Используйте эту опцию, чтобы отдать приоритет более короткому времени цикла над удалением заусенцев с большего количества внутренних углов.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Недоступный угол</b></p></center></td>
+<td><center><p><b>Заусенцы на внутренних углах</b></p></center></td>
+</tr></table>
+<p><b>Резать кончиком инструмента (Cut with tip of tool)</b> - Пытается обработать большую часть внутреннего угла, используя больше кончика инструмента. Это удаляет как можно больше материала с внутренних углов.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Резка кончиком инструмента</b></p></center></td>
+<td><center><p><b>Внутренние углы без заусенцев</b></p></center></td>
+</tr></table>
+<p><b>Примечание</b>: Для использования функции <b>Резание в фиксированной точке инструмента (Cut at Fixed Point on Tool)</b> необходимо выбрать <b>Не снимать заусенцы (Do not deburr)</b>.</p>
+</div>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="3MFFileFilterDescription" devLabel="3MF Files (*.3mf)" translation="" />
+	<label commandName="CollectComponentsForExport3MFError" devLabel="Autodesk Translation Services failed to translate the current document to 3mf file!" translation="" />
+</Resource>

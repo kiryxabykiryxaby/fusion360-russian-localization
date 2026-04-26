@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DeleteSMRequestFailed" devLabel="Delete Simulation Model request failed" translation="" />
+	<label commandName="SimCaseCopyFailed" devLabel="An error occurred during Simulation Study copy operation." translation="" />
+	<label commandName="SimCaseCopyNoConfig" devLabel="An error occurred, the source Model is not associated with a configuration." translation="" />
+	<label commandName="SimCaseCopySameConfig" devLabel="Warning, the same configuration was specified." translation="" />
+</Resource>

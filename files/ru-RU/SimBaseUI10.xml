@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="GenericWarningDialogContinue" devLabel="Continue" translation="Продолжить" />
+	<label commandName="GenericWarningDialogDoNotShowAgain" devLabel="Do not show me this message again" translation="Не показывать это сообщение снова" />
+	<label commandName="SimActivateCmd" devLabel="Activate object" translation="Активировать объект" />
+	<label commandName="SimApply" devLabel="Apply" translation="Применить" />
+	<label commandName="SimBack" devLabel="Back" translation="Назад" />
+	<label commandName="SimButtonCancel" devLabel="Cancel" translation="Отмена" />
+	<label commandName="SimButtonOK" devLabel="OK" translation="ОК" />
+	<label commandName="SimChangeUnits" devLabel="Change Unit Set" translation="Изменить набор единиц" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+	<label commandName="SimCustom" devLabel="(Copy) " translation="(Копия) " />
+	<label commandName="SimDefaultSelectionInputText" devLabel="Select" translation="Выбрать" />
+	<label commandName="SimDoubleClickCmdDef" devLabel="Edit object via doubleclick" translation="Редактировать объект двойным щелчком" />
+	<label commandName="SimDragInput" devLabel="DragInput" translation="Перетаскивание" />
+	<label commandName="SimDragSelectionInput" devLabel="Selection" translation="Выбор" />
+	<label commandName="SimEditCmd" devLabel="Edit object" translation="Редактировать объект" />
+	<label commandName="SimHelp" devLabel="Help" translation="Помощь" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)" />
+	<label commandName="SimNewUnitEdit" devLabel="(Only for debug ) New Unit Set" translation="(Только для отладки) Новый набор единиц" />
+	<label commandName="SimNext" devLabel="Next" translation="Далее" />
+	<label commandName="SimOverrideUnitsCommandInputImplHUDList" devLabel="Units" translation="Единицы измерения" />
+	<label commandName="SimProperties" devLabel="Properties" translation="Свойства" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)" />
+	<label commandName="SimSceneDrag" devLabel="SceneDrag" translation="Перетаскивание сцены" />
+	<label commandName="SimSelectBodiesLocationText" devLabel="Bodies" translation="Тела" />
+	<label commandName="SimSelectBodyLocationText" devLabel="Body" translation="Тело" />
+	<label commandName="SimSelectEdgeLocationText" devLabel="Edge" translation="Ребро" />
+	<label commandName="SimSelectEdgesLocationText" devLabel="Edges" translation="Рёбра" />
+	<label commandName="SimSelectFaceLocationText" devLabel="Face" translation="Грань" />
+	<label commandName="SimSelectFacesLocationText" devLabel="Faces" translation="Грани" />
+	<label commandName="SimSelectSelectionsLocationText" devLabel="Selected" translation="Выбранные" />
+	<label commandName="SimSelectVertexLocationText" devLabel="Vertex" translation="Вершина" />
+	<label commandName="SimSelectVerticesLocationText" devLabel="Vertices" translation="Вершины" />
+	<label commandName="SimUnitBox" devLabel="Corresponding Units" translation="Соответствующие единицы" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+	<label commandName="SimUnitSetName" devLabel="Default Unit Set" translation="Набор единиц по умолчанию" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+	<label commandName="SimUnitsTitle" devLabel="Units Settings" translation="Настройки единиц измерения" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+	<label commandName="SimUnsuppressAllCmd" devLabel="Unsuppress All Children" translation="Включить все дочерние элементы" />
+	<label commandName="SimVisibilityToggleCmd" devLabel="Show/Hide" translation="Показать/Скрыть" />
+</Resource>

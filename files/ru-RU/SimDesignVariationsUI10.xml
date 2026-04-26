@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CopyGenWorkingModelWithSimCases" devLabel="Clone Generative Model" translation="" />
+	<label commandName="CopyStudyCmdAllConfigurations" devLabel="All Configurations" translation="" />
+	<label commandName="CopyStudyCmdAllModels" devLabel="All Models" translation="" />
+	<label commandName="CopyStudyCmdAllStudies" devLabel="All Studies" translation="" />
+	<label commandName="CopyStudyCmdCopyStudyFromCommandInputGroup" devLabel="Copy study from" translation="" />
+	<label commandName="CopyStudyCmdCopyStudyToCommandInputGroup" devLabel="Copy study to" translation="" />
+	<label commandName="CopyWorkingModelWithSimCases" devLabel="Clone Simulation Model" translation="" />
+	<label commandName="CreateGenerativeModel" devLabel="New Generative Model" translation="" />
+	<label commandName="CreateSimulationModel" devLabel="New Simulation Model" translation="" />
+	<label commandName="DeleteAllGenerativeWMWarningMessage" devLabel="Are you sure you want to delete this Generative Model and and its associated studies and results? Deleting the only Generative Model in the Generative workspace will return you to the Design Workspace." translation="" />
+	<label commandName="DeleteAllSimulationWMWarningMessage" devLabel="Are you sure you want to delete this Simulation Model, and its associated studies and results? Deleting the only Simulation Model in the Simulation workspace returns you to the Design workspace." translation="" />
+	<label commandName="DeleteAllWMModel" devLabel="Delete Model?" translation="" />
+	<label commandName="DeleteAllWMWarningMessage" devLabel="Are you sure you want to delete this Model, and its associated studies and results? Deleting the only Model will return you to the Design Workspace." translation="" />
+	<label commandName="DeleteGenModel" devLabel="Delete Generative Model?" translation="" />
+	<label commandName="DeleteGenerativeModelWithSimCases" devLabel="Delete Generative Model" translation="" />
+	<label commandName="DeleteGenerativeWMWarningMessage" devLabel="Are you sure you want to delete this Generative Model, and its associated studies and results?" translation="" />
+	<label commandName="DeleteSelectionGroupCmd" devLabel="Delete" translation="" />
+	<label commandName="DeleteSimModel" devLabel="Delete Simulation Model?" translation="" />
+	<label commandName="DeleteSimulationModelWithSimCases" devLabel="Delete Simulation Model" translation="" />
+	<label commandName="DeleteSimulationWMWarningMessage" devLabel="Are you sure you want to delete this Simulation Model, and its associated studies and results?" translation="" />
+	<label commandName="DeleteWMWarningMessage" devLabel="Are you sure you want to delete this Model, and its associated studies and results?" translation="" />
+	<label commandName="EditModelCommand" devLabel="Edit Model" translation="" />
+	<label commandName="EditModelFluidsCommand" devLabel="Edit Model" translation="" />
+	<label commandName="EditModelSelectPanel" devLabel="Select" translation="" />
+	<label commandName="GenCopyStudyCmd" devLabel="Copy Study" translation="" />
+	<label commandName="GenCopyStudyCommandTipsAndTricksTips" devLabel="Copy study." translation="" />
+	<label commandName="GenCopyStudyCommandTipsAndTricksTitle" devLabel="Copy Study Information" translation="" />
+	<label commandName="GenCopyStudyDesc1" devLabel="Copy study." translation="" />
+	<label commandName="GenCopyStudyDesc2" devLabel="Copy study." translation="" />
+	<label commandName="GenEditModelDesc1" devLabel="Edits a generative model." translation="" />
+	<label commandName="GenEditModelDesc2" devLabel="It enables you to create bodies to represent preserve, obstacle, and starting shape geometries in a design problem. You don’t have to create them in the original design." translation="" />
+	<label commandName="GenEditModelFluidsDesc1" devLabel="Edits a generative model." translation="" />
+	<label commandName="GenEditModelFluidsDesc2" devLabel="It enables you to create bodies to represent preserve, obstacle, and starting shape geometries in a design problem. You don’t have to create them in the original design." translation="" />
+	<label commandName="GenerativeModelName" devLabel="Generative Model" translation="" />
+	<label commandName="InvalidAssetSelectedForDeletion" devLabel="No valid model selected for deletion." translation="" />
+	<label commandName="SimActivateConfigRowCommand" devLabel="Activate Config" translation="" />
+	<label commandName="SimActivateSimCaseForWorkingModel" devLabel="Activate" translation="" />
+	<label commandName="SimCopyStudyCmd" devLabel="Copy Study" translation="" />
+	<label commandName="SimCopyStudyCommandTipsAndTricksTips" devLabel="Copy study." translation="" />
+	<label commandName="SimCopyStudyCommandTipsAndTricksTitle" devLabel="Copy Study Information" translation="" />
+	<label commandName="SimCopyStudyDesc1" devLabel="Copy study." translation="" />
+	<label commandName="SimCopyStudyDesc2" devLabel="Copy study." translation="" />
+	<label commandName="SimNOI" devLabel="Not implemented" translation="" />
+	<label commandName="SimSelectPanel" devLabel="Select" translation="" />
+	<label commandName="SimSketchInspectPanel" devLabel="Inspect" translation="" />
+	<label commandName="SimStudies" devLabel="Simulations" translation="" />
+	<label commandName="SimplifySelectPanel" devLabel="Select" translation="" />
+	<label commandName="SimulationModelName" devLabel="Simulation Model" translation="" />
+	<label commandName="SwitchToSimplifyCommand" devLabel="Simplify" translation="" />
+	<label commandName="SwitchToSimplifyModelText1" devLabel="Removes detailed features that are unnecessary for simulations without affecting your production geometry." translation="" />
+	<label commandName="SwitchToSimplifyModelText2" devLabel="Select Finish Simplify to exit out of the mode." translation="" />
+	<label commandName="XRefOutOfDateParentIconMessage" devLabel="The Component is out of date. Update to the latest version using Get Latest in the Design workspace." translation="" />
+	<label commandName="lclzArc" devLabel="Arc" translation="" />
+	<label commandName="lclzCONSTRAINTS" devLabel="CONSTRAINTS" translation="" />
+	<label commandName="lclzCREATE" devLabel="CREATE" translation="" />
+	<label commandName="lclzCircle" devLabel="Circle" translation="" />
+	<label commandName="lclzConstruction" devLabel="Construct" translation="" />
+	<label commandName="lclzCreate" devLabel="CREATE" translation="" />
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="" />
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="" />
+	<label commandName="lclzFilePanel" devLabel="File" translation="" />
+	<label commandName="lclzFinishEditModelPanel" devLabel="Finish Edit Model" translation="" />
+	<label commandName="lclzFinishSimplifyPanel" devLabel="Finish Simplify" translation="" />
+	<label commandName="lclzGenSketchTab" devLabel="SKETCH" translation="" />
+	<label commandName="lclzGenSolidTab" devLabel="EDIT MODEL SOLID" translation="" />
+	<label commandName="lclzGenSurfaceTab" devLabel="EDIT MODEL SURFACE" translation="" />
+	<label commandName="lclzIdealizeTab" devLabel="IDEALIZE" translation="" />
+	<label commandName="lclzInsert" devLabel="Insert" translation="" />
+	<label commandName="lclzMODIFY" devLabel="MODIFY" translation="" />
+	<label commandName="lclzModify" devLabel="Modify" translation="" />
+	<label commandName="lclzMoreSolids" devLabel="More Solids" translation="" />
+	<label commandName="lclzMoreSurfaces" devLabel="More Surfaces" translation="" />
+	<label commandName="lclzPattern" devLabel="Pattern" translation="" />
+	<label commandName="lclzPolygon" devLabel="Polygon" translation="" />
+	<label commandName="lclzProjectInclude" devLabel="Project / Include" translation="" />
+	<label commandName="lclzRectangle" devLabel="Rectangle" translation="" />
+	<label commandName="lclzReturn" devLabel="Return" translation="" />
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="" />
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="" />
+	<label commandName="lclzShells" devLabel="SHELLS" translation="" />
+	<label commandName="lclzSimSolidTab" devLabel="SIMPLIFY SOLID" translation="" />
+	<label commandName="lclzSimSurfaceTab" devLabel="SIMPLIFY SURFACE" translation="" />
+	<label commandName="lclzSimToolsTab" devLabel="TOOLS" translation="" />
+	<label commandName="lclzSketchMeshMenu" devLabel="Mesh" translation="" />
+	<label commandName="lclzSketchTab" devLabel="SKETCH" translation="" />
+	<label commandName="lclzSlot" devLabel="Slot" translation="" />
+	<label commandName="lclzSpline" devLabel="Spline" translation="" />
+	<label commandName="lclzSplit" devLabel="Split" translation="" />
+	<label commandName="lclzStopSketchTT" devLabel="Finish Sketch" translation="" />
+	<label commandName="lclzSurface" devLabel="Create" translation="" />
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="" />
+</Resource>

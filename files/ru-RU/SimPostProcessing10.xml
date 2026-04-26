@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+    <label commandName="SaturnConsolidatedXmlResultProviderBadMaterialMapId" devLabel="Unable to parse material map id (%1%)" translation="Не удается разобрать идентификатор карты материалов (%1%)" />
+    <label commandName="SaturnConsolidatedXmlResultProviderDataParse" devLabel="Unable to parse data value (%1%)" translation="Не удается разобрать значение данных (%1%)" />
+    <label commandName="SaturnConsolidatedXmlResultProviderIntegerDefault" devLabel="Unknown (%1%)" translation="Неизвестно (%1%)" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingJobName" devLabel="Missing root 'jobName' child!" translation="Отсутствует корневой элемент 'jobName'!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingJobNameId" devLabel="Missing &lt;jobName&gt; 'id' attribute!" translation="Отсутствует атрибут 'id' в элементе &lt;jobName&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunId" devLabel="Missing &lt;run&gt; 'id' attribute in Pareto set!" translation="Отсутствует атрибут 'id' в элементе &lt;run&gt; набора Pareto!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunStatus" devLabel="Missing &lt;run&gt; 'status' child in Pareto set!" translation="Отсутствует элемент 'status' в элементе &lt;run&gt; набора Pareto!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunId" devLabel="Missing &lt;run&gt; 'id' attribute!" translation="Отсутствует атрибут 'id' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityIds" devLabel="Missing &lt;run&gt; 'quality_ids' child!" translation="Отсутствует элемент 'quality_ids' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityValues" devLabel="Missing &lt;run&gt; 'quality_values' child!" translation="Отсутствует элемент 'quality_values' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunSequence" devLabel="Missing &lt;run&gt; 'print_sequence' child!" translation="Отсутствует элемент 'print_sequence' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunStatus" devLabel="Missing &lt;run&gt; 'status' child!" translation="Отсутствует элемент 'status' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingRunVariables" devLabel="Missing &lt;run&gt; 'variables' child!" translation="Отсутствует элемент 'variables' в элементе &lt;run&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingStepId" devLabel="Missing &lt;step&gt; 'id' attribute!" translation="Отсутствует атрибут 'id' в элементе &lt;step&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderMissingTechniqueId" devLabel="Missing &lt;technique&gt; 'id' attribute!" translation="Отсутствует атрибут 'id' в элементе &lt;technique&gt;!" />
+    <label commandName="SaturnConsolidatedXmlResultProviderOrderParse" devLabel="Unable to parse order value (%1%)" translation="Не удается разобрать значение заказа (%1%)" />
+    <label commandName="SaturnConsolidatedXmlResultProviderOrderSize" devLabel="Unexpected number of values found (%1%/%2%)" translation="Неверное количество найденных значений (%1%/%2%)" />
+    <label commandName="SaturnConsolidatedXmlResultProviderUnknownParetoRun" devLabel="Pareto set identifying an unknown run!" translation="Набор Pareto идентифицирует неизвестный запуск!" />
+    <label commandName="SimAutomaticallyShowResultRecommendationsDialogToolTip" devLabel="Should result recommendations be displayed immediately after a solve successfully completes" translation="Должны ли рекомендации по результатам отображаться сразу после успешного завершения решения" />
+    <label commandName="SimAutomaticallyShowResultRecommendationsDialogUserName" devLabel="Automatically Show Result Recommendations" translation="Автоматически показывать рекомендации по результатам" />
+    <label commandName="SimClippinPlaneName" devLabel="Slice Plane" translation="Плоскость сечения" />
+    <label commandName="SimClippingPlaneCreationFailed" devLabel="Failed to create clipping plane." translation="Не удалось создать плоскость сечения." />
+    <label commandName="SimClippingPlaneSelectionCategory" devLabel="Simulation Slice Planes" translation="Плоскости сечения симуляции" />
+    <label commandName="SimClippingPlaneSelectionName" devLabel="Slice Plane" translation="Плоскость сечения" />
+    <label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+    <label commandName="SimElements" devLabel="Elements:" translation="Элементы:" />
+    <label commandName="SimFail2ChangeUnits" devLabel="Failed to change result type units." translation="Не удалось изменить единицы типа результата." />
+    <label commandName="SimFail2ChangeUnitsIncompatible" devLabel="Units [%1%] are incompatible with current result." translation="Единицы [%1%] несовместимы с текущим результатом." />
+    <label commandName="SimFail2ChangeUnitsWrongFormat" devLabel="Unable to parse units [%1%]." translation="Не удалось разобрать единицы [%1%]." />
+    <label commandName="SimFailSetResultType" devLabel="Failed to activate desired result type." translation="Не удалось активировать нужный тип результата." />
+    <label commandName="SimFailUnableToReadMeshDBBlobData" devLabel="Fail: Unable to read SimMeshDB blob data." translation="Ошибка: не удалось прочитать данные SimMeshDB." />
+    <label commandName="SimFailUnableToReadMeshFragmentBlobData" devLabel="Fail: Unable to read mesh fragment blob data." translation="Ошибка: не удалось прочитать данные фрагмента сетки." />
+    <label commandName="SimFailUnableToWriteMeshDBBlobData" devLabel="Fail: Unable to write SimMeshDB blob data." translation="Ошибка: не удалось записать данные SimMeshDB." />
+    <label commandName="SimFailUnableToWriteMeshFragmentBlobData" devLabel="Fail: Unable to write mesh fragment blob data." translation="Ошибка: не удалось записать данные фрагмента сетки." />
+    <label commandName="SimFailUnableToWriteValuesFragmentBlobData" devLabel="Fail: Unable to write values fragment blob data." translation="Ошибка: не удалось записать данные фрагмента значений." />
+    <label commandName="SimFailedToChangePlotSettings" devLabel="Failed to change plot settings." translation="Не удалось изменить настройки графика." />
+    <label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="США (дюймы)" />
+    <label commandName="SimMaxValueLabelFmt" devLabel="%1%%2% %3%Max." translation="%1%%2% %3%Макс." />
+    <label commandName="SimMinMaxProbeValueNotAvailable" devLabel="Not Available" translation="Недоступно" />
+    <label commandName="SimMinMaxProbesNoValue" devLabel="No Data" translation="Нет данных" />
+    <label commandName="SimMinMaxProbesReqError" devLabel="Failed to create Min/Max." translation="Не удалось создать Min/Max." />
+    <label commandName="SimMinMaxProbesTextMax" devLabel="Max" translation="Макс" />
+    <label commandName="SimMinMaxProbesTextMin" devLabel="Min" translation="Мин" />
+    <label commandName="SimMinValueLabelFmt" devLabel="%1%%2% %3%Min." translation="%1%%2% %3%Мин." />
+    <label commandName="SimMissingMeshPreviewDataContainers" devLabel="Mesh data containers are not present. This study is not ready to manage mesh data." translation="Контейнеры данных сетки отсутствуют. Это исследование не готово управлять данными сетки." />
+    <label commandName="SimMissingMeshPreviewManifest" devLabel="meshManifest.xml for preview is missing." translation="Отсутствует файл meshManifest.xml для предварительного просмотра." />
+    <label commandName="SimMissingPreviewMeshDBs" devLabel="Missing mesh dbs." translation="Отсутствуют базы данных сетки." />
+    <label commandName="SimMissingResultsLegendSettings" devLabel="Fail: missing ResultsLegend settings." translation="Ошибка: отсутствуют настройки ResultsLegend." />
+    <label commandName="SimNodes" devLabel="Nodes:" translation="Узлы:" />
+    <label commandName="SimOptimizationCreateBookmarkFailed" devLabel="Failed to create optimization bookmark." translation="Не удалось создать закладку оптимизации." />
+    <label commandName="SimOptimizationResultBookmarkName" devLabel="Config" translation="Конфигурация" />
+    <label commandName="SimOptimizationResultRefSelectionName" devLabel="Optimization Configuration" translation="Конфигурация оптимизации" />
+    <label commandName="SimPointProbeCreationFailed" devLabel="Failed to create a Point Probe." translation="Не удалось создать точечный зонд." />
+    <label commandName="SimPointProbeValueMissingData" devLabel="Missing Data" translation="Отсутствуют данные" />
+    <label commandName="SimPointProbeValueNotAvailable" devLabel="Not Available" translation="Недоступно" />
+    <label commandName="SimPreviewUnknownException" devLabel="An unidentified critical error occurred during preview generation" translation="Произошла неопознанная критическая ошибка при генерации предварительного просмотра" />
+    <label commandName="SimProbeCreationFailed" devLabel="Failed to create probe." translation="Не удалось создать зонд." />
+    <label commandName="SimProbeSelection" devLabel="Probes " translation="Зонды " />
+    <label commandName="SimPromoteTOMeshReq" devLabel="Invalid output folder" translation="Неверная папка для вывода" />
+    <label commandName="SimPromoteTOMeshReq1" devLabel="Invalid output file name" translation="Неверное имя файла для вывода" />
+    <label commandName="SimResultOptionsGroupToolTip" devLabel="Preferences controlling Simulation Results behavior" translation="Настройки, управляющие поведением результатов симуляции" />
+    <label commandName="SimResultOptionsGroupUserName" devLabel="Simulation Results" translation="Результаты симуляции" />
+    <label commandName="SimResultProbeCreateReqError" devLabel="Failed to create Query Result." translation="Не удалось создать результат запроса." />
+    <label commandName="SimResultProbeDeleteReqWarning" devLabel="Failed to delete Query Result." translation="Не удалось удалить результат запроса." />
+    <label commandName="SimResultProbeSelection" devLabel="Probe" translation="Зонд" />
+    <label commandName="SimResultProbeTolerance" devLabel="Tolerance" translation="Допуск" />
+    <label commandName="SimResultsAreInProgress" devLabel="Results are being processed at this moment. Please wait." translation="Результаты обрабатываются в данный момент. Пожалуйста, подождите." />
+    <label commandName="SimResultsLegendConfiguration_BarBig" devLabel="Bar - Big" translation="Бар - Большой" />
+    <label commandName="SimResultsLegendConfiguration_BarNormal" devLabel="Bar - Normal" translation="Бар - Нормальный" />
+    <label commandName="SimResultsLegendConfiguration_BarSmall" devLabel="Bar - Small" translation="Бар - Малый" />
+    <label commandName="SimResultsLegendConfiguration_Quarter" devLabel="Quarter" translation="Четверть" />
+    <label commandName="SimResultsLegendConfiguration_WreathBig" devLabel="Wreath - Big" translation="Венок - Большой" />
+    <label commandName="SimResultsLegendConfiguration_WreathNormal" devLabel="Wreath - Normal" translation="Венок - Нормальный" />
+    <label commandName="SimResultsLegendConfiguration_WreathSmall" devLabel="Wreath - Small" translation="Венок - Малый" />
+    <label commandName="SimSFMaxValueLabelFmt" devLabel="%1%Max: %2%%3%" translation="%1%Макс: %2%%3%" />
+    <label commandName="SimSFMinValueLabelFmt" devLabel="%1%Min: %2%%3%" translation="%1%Мин: %2%%3%" />
+    <label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательская" />
+    <label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая (СИ)" />
+    <label commandName="SimSceneMeshCompSelectionCategory" devLabel="Mesh" translation="Сетка" />
+    <label commandName="SimSceneMeshCompSelectionTypeName" devLabel="Mesh Component" translation="Компонент сетки" />
+    <label commandName="SimSceneMeshCompSelectionUserName" devLabel="Mesh of %1%" translation="Сетка %1%" />
+    <label commandName="SimSceneMeshCompSelectionUserNamePlural" devLabel="Meshed Bodies" translation="Сеточные тела" />
+    <label commandName="SimSceneMeshContainerSelectionCategory" devLabel="Simulation Scene Mesh" translation="Сцена сетки симуляции" />
+    <label commandName="SimSceneMeshContainerSelectionName" devLabel="Scene Mesh Container" translation="Контейнер сцены сетки" />
+    <label commandName="SimSceneResultProbePointSelectionCategory" devLabel="Probe Point Simulation Labels" translation="Метки точек зондов симуляции" />
+    <label commandName="SimSceneResultProbeSelectionCategory" devLabel="Simulation Labels" translation="Метки симуляции" />
+    <label commandName="SimStoreCriticalPointsLimitReqUnableToStore" devLabel="Unable to save Critical Points limit value." translation="Не удалось сохранить значение предела критических точек." />
+    <label commandName="SimTargetLabel" devLabel="Target" translation="Цель" />
+    <label commandName="SimThreshold" devLabel="Threshold:" translation="Порог:" />
+    <label commandName="SimTopologyOptimizationApproxRetainedMass" devLabel="Approx. Mass:" translation="Приблизительная масса:" />
+    <label commandName="SimTopologyOptimizationMassRatio" devLabel="Mass Ratio:" translation="Соотношение массы:" />
+    <label commandName="SimUnableToReadValuesFragmentData" devLabel="Unable to read values fragment data." translation="Не удалось прочитать данные фрагмента значений." />
+    <label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="Неожиданная ошибка." />
+    <label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+    <label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+    <label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+    <label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+    <label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+    <label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+    <label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+    <label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+    <label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+    <label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+    <label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+    <label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+    <label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+    <label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+    <label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+    <label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+    <label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+    <label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+    <label commandName="SimUnknownOptimizationResultAddError" devLabel="Unknown error adding optimization results" translation="Неизвестная ошибка при добавлении результатов оптимизации" />
+    <label commandName="SimUnknownOptimizationResultSetupError" devLabel="Unknown error setting up optimization results" translation="Неизвестная ошибка при настройке результатов оптимизации" />
+    <label commandName="VisibleMeshEmptyMeshes" devLabel="Results are not available. Please recompute." translation="Результаты недоступны. Пожалуйста, пересчитайте." />
+    <label commandName="VisibleMeshNoLegendSettings" devLabel="Internal error - no legend settings found" translation="Внутренняя ошибка - не найдены настройки легенды" />
+    <label commandName="VisibleMeshNoMesh" devLabel="There's no result mesh to promote" translation="Нет сетки результатов для продвижения" />
+    <label commandName="VisibleMeshNoPresentation" devLabel="Internal error - No presentation given" translation="Внутренняя ошибка - не предоставлена презентация" />
+    <label commandName="VisibleMeshUnableToCache" devLabel="Unable to cache visible mesh" translation="Не удалось кэшировать видимую сетку" />
+    <label commandName="BrowserClippingPlanesLabel" devLabel="Slice Planes" translation="Секущие плоскости" />
+    <label commandName="BrowserMeshLabel" devLabel="Mesh" translation="Сетка" />
+    <label commandName="BrowserResultsLabel" devLabel="Results" translation="Результаты" />
+    <label commandName="SimMaxLabelColon" devLabel="Max:" translation="Макс:" />
+    <label commandName="SimMinLabelColon" devLabel="Min:" translation="Мин:" />
+	<label commandName="SimMeshFragmentBlobFileDoesntExist" devLabel="The mesh fragment blob file doesn't exist." translation="Файл фрагмента сетки не существует." />
+    <label commandName="SimValuesFragmentBlobFileDoesntExist" devLabel="The values fragment blob file doesn't exist." translation="Файл фрагмента значений не существует." />
+</Resource>

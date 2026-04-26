@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AdskSimPkgFileFilterDescription" devLabel="Autodesk Simulation Package Files (*.adsksimpkg)" translation="Файлы пакетов Autodesk Simulation (*.adsksimpkg)" />
+    <label commandName="SimTranslatorPackageUnrecognizedOptions" devLabel="Unrecognized options class -- how did you do this?" translation="Нераспознанный класс опций -- как вы это сделали?" />
+</Resource>

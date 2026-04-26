@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AddNewVersionFailed" devLabel="%1% did not successfully create a new version because the original source has been deleted from your cloud storage. Please do a Save As to create a new item." translation="" />
+	<label commandName="AddNewVersionFailed1" devLabel="%1% did not successfully create a new version." translation="" />
+	<label commandName="AddNewVersionFailed2" devLabel="%1% could not be saved. This occurs when you have lost access to the project. Please contact the project moderator for assistance." translation="" />
+	<label commandName="AddNewVersionFailed3" devLabel="%1% could not be uploaded to the cloud. One or more of the referenced files has too many incoming relationships. As a workaround, create new versions of the referenced file(s), and perform Get All Latest on the parent file before saving it" translation="" />
+	<label commandName="CONVERTTOFUSION_EXPORT_ERROR" devLabel="Convert to fusion failed, please retry later." translation="" />
+	<label commandName="CONVERTTOFUSION_MAXATTEMPTS" devLabel="Convert to fusion failed, please retry later." translation="" />
+	<label commandName="CONVERTTOFUSION_NOTAUTH" devLabel="Could not get authorization for A630 convert, aborting." translation="" />
+	<label commandName="CONVERT_TO_FUSION" devLabel="Max attempts exceeded for A630 file conversion, aborting" translation="" />
+	<label commandName="CONVERT_TO_FUSION2" devLabel="Max attempts with no progress" translation="" />
+	<label commandName="CONVERT_TO_FUSION_NO_ERROR_2" devLabel="Convert to fusion failed. No error message to report for A630 file conversion, aborting" translation="" />
+	<label commandName="CONVERT_TO_FUSION_WITH_ERROR" devLabel="Convert to fusion failed, see log for details." translation="" />
+	<label commandName="CONVERT_TO_FUSION_WITH_NO_ERROR" devLabel="Convert to fusion failed. See log for details" translation="" />
+	<label commandName="ContactSupport" devLabel="Contact support" translation="" />
+	<label commandName="ContentNotAvailableError1" devLabel="&quot;%1% v%2%&quot; is currently unavailable to download.&lt;br&gt;You saved the design, but your upload may not have finished.&lt;br&gt;If you saved the design from a different computer, the version you saved will finish uploading when you open Fusion and connect to the internet on that computer." translation="" />
+	<label commandName="ContentNotAvailableError2" devLabel="&quot;%1% v%2%&quot; is currently unavailable to download.&lt;br&gt;%3% saved the design, but their upload may not have finished.&lt;br&gt;If %3% closed Fusion, the version they saved will finish uploading when they open Fusion and connect to the internet on the same computer." translation="" />
+	<label commandName="ContentNotAvailableTitle" devLabel="Design not yet available" translation="" />
+	<label commandName="CouldNotOpen1" devLabel="Could not open unsupported type of document. You may need to install Simulation, CAM" translation="" />
+	<label commandName="CouldNotOpen2" devLabel="Could not open unsupported type of document. You may need to install Simulation, CAM" translation="" />
+	<label commandName="DeleteReferencedFileMessage" devLabel="The deleted file is referenced by other file. &#10; Please remove the references from the referencing file." translation="" />
+	<label commandName="DocumentInitialLabel" devLabel="Item created" translation="" />
+	<label commandName="ExportFailedMsg" devLabel="Export of %1% failed.&lt;br&gt;Report the failure and try again." translation="" />
+	<label commandName="ExportFailedTitle" devLabel="Export failed" translation="" />
+	<label commandName="ExportStartedMsg" devLabel="Export of %1% started.&lt;br&gt;This may take several minutes. We will notify you when it is complete." translation="" />
+	<label commandName="ExportStartedTitle" devLabel="Export started" translation="" />
+	<label commandName="MILESTONE_CREATE_FAILED" devLabel="Could not create milestone, please try again." translation="" />
+	<label commandName="MILESTONE_HAS_EXISTED" devLabel="Milestone already exists." translation="" />
+	<label commandName="MILESTONE_UPDATE_FAILED" devLabel="Could not update milestone, please try again." translation="" />
+	<label commandName="OSSSERVICE403" devLabel="%1% could not be uploaded because access to the &quot;%2%&quot;project was denied. Please contact the project moderator for assistance." translation="" />
+	<label commandName="OSSSERVICE403_DEFAULT" devLabel="Failed to upload %1% to project &quot;%2%&quot;." translation="" />
+	<label commandName="OSSSERVICE403_FOLDER_PERMISSIONS" devLabel="%1% could not be uploaded to project &quot;%2%&quot; because of insufficient permissions. Please contact the project moderator for assistance." translation="" />
+	<label commandName="PLM360DownloadFileFailedDetails1" devLabel=" No content found, and no other versions were available either" translation="" />
+	<label commandName="PLM360DownloadFileFailedDetails2" devLabel=" No content found, but other versions were available" translation="" />
+	<label commandName="PLM360DownloadFileFailedDetails3" devLabel=" Certain referenced files were missing" translation="" />
+	<label commandName="PLM360DownloadFilesFailed" devLabel="Failed to download %1% referenced documents." translation="" />
+	<label commandName="PLM360DownloadedFileFailed" devLabel="Failed to download a referenced document." translation="" />
+	<label commandName="PLM360InvalidFileName" devLabel="File doesn't exist." translation="" />
+	<label commandName="PLM360OriginalFileNotExist" devLabel="Upload error because the original file doesn't exist." translation="" />
+	<label commandName="ReferencedFileDeleted" devLabel="Error uploading %1%. Referenced file %2% was found to be deleted on the cloud. Cloud references will not be created to the deleted file!" translation="" />
+	<label commandName="TeamTechPreviewService::savePreferences:text" devLabel="Your selected team preview features status were not saved to server correctly. Please try it again later." translation="" />
+	<label commandName="TeamTechPreviewService::savePreferences:title" devLabel="Preview features status" translation="" />
+	<label commandName="TechPreviewFunctionalityGroupName" devLabel="Preview" translation="" />
+	<label commandName="TechPreviewFunctionalityIndividual" devLabel="Individual" translation="" />
+	<label commandName="ThumbnailGenerationError" devLabel="Thumbnail generation has failed" translation="" />
+	<label commandName="ThumbnailGenerationProgressError" devLabel="Thumbnail generation is in progress" translation="" />
+	<label commandName="ThumbnailNotGeneratedError" devLabel="No thumbnail is generated" translation="" />
+	<label commandName="UnableToDownloadFile" devLabel="Unable to download file" translation="" />
+	<label commandName="UnableToDownloadFile_GenericException" devLabel="Unable to download file version %1%. Generic exception: %2%" translation="" />
+	<label commandName="UnableToGetInformation" devLabel="Unknown error trying to get file version information" translation="" />
+	<label commandName="UploadCompleteTitle" devLabel="Upload complete" translation="" />
+	<label commandName="UploadContactSupport" devLabel="Contact support" translation="" />
+	<label commandName="UploadFailedMsg" devLabel="Upload of %1% failed.&lt;br&gt;Report the failure and try again." translation="" />
+	<label commandName="UploadFailedTitle" devLabel="Upload failed" translation="" />
+	<label commandName="WIPCloudFileStore::RequestAccess:text" devLabel="Your request to join %1% has been automatically approved, because it is an Open project.&lt;br&gt;You must close and reopen the design to resolve components." translation="" />
+	<label commandName="WIPCloudFileStore::RequestAccess:text2" devLabel="A request to access %1% Project has been sent to the project administrator.&lt;br&gt;Once you are granted access, you will receive a confirmation email." translation="" />
+	<label commandName="WIPCloudFileStore::RequestAccess:text3" devLabel="Requests to access %1% Projects have been sent to the project administrators.&lt;br&gt;Once you are granted access, you will receive confirmation emails." translation="" />
+	<label commandName="WIPCloudFileStore::RequestAccess:title" devLabel="Project joined" translation="" />
+	<label commandName="WIPCloudFileStore::RequestAccess:title2" devLabel="Project access requested" translation="" />
+	<label commandName="WIPCloudFileStore::goOnline:subtitle" devLabel="Fusion is going offline" translation="" />
+	<label commandName="WIPCloudFileStore::goOnline:text" devLabel="Fusion could not get required information from our servers. Fusion will automatically return to online mode once this information is retrieved." translation="" />
+	<label commandName="WIPCloudFileStore::goOnline:title" devLabel="Communications breakdown" translation="" />
+	<label commandName="WIPSERVICE" devLabel="Could not translate file. Please try to upload again later." translation="" />
+	<label commandName="WIPSERVICE403" devLabel="%1% could not be uploaded because access was denied. This occurs when you have lost access to this location. Please contact the project moderator for assistance." translation="" />
+	<label commandName="WIPSERVICE404" devLabel="Upload failed due to unavailable references. This occurs when the document you are uploading contains references to documents that do not exist on the Cloud" translation="" />
+	<label commandName="WIPSERVICESAMPLES403" devLabel="Upload failed because you were trying to upload to a Samples folder" translation="" />
+	<label commandName="WIPTRANSLATESTEP_NOTAUTHORIZED" devLabel="Could not get authorization for A630 file conversion, aborting" translation="" />
+	<label commandName="WIP_POSTNOTIFICATION_TRANSLATION_FAILED" devLabel="The file failed translation. The file may be corrupt or invalid." translation="" />
+	<label commandName="WIP_POSTPROCESSING_MAXTIME" devLabel="The file failed to finish post upload processing, and exceeded the max time out of 1 hour. Try uploading the file again later" translation="" />
+	<label commandName="addFileFailed" devLabel="Could not create a new file." translation="" />
+	<label commandName="addVersionFailed" devLabel="Could not create a new version of the file." translation="" />
+	<label commandName="copyJobCompleteHeading" devLabel="Copy Complete" translation="" />
+	<label commandName="copyJobCompleteMessage" devLabel="%1% and %2% related %3% finished at %4%." translation="" />
+	<label commandName="copyJobCompleteMessageNew" devLabel="%1% and related data finished copying at %2%." translation="" />
+	<label commandName="copyJobFailedHeading" devLabel="Copy Failed" translation="" />
+	<label commandName="copyJobFailedMessage" devLabel="Copy of %1% and %2% related %3% failed at %4%. Please try again." translation="" />
+	<label commandName="copyJobFailedMessageEntityDeleted" devLabel="Copy of %1% and %2% related %3% failed at %4%. &#09;&#09;&#09;The design or drawing was moved or deleted. Verify that you have access to the design and drawings, then try again." translation="" />
+	<label commandName="copyJobFailedMessageEntityDeletedNew" devLabel="Copy of %1% and related data failed at %2%. &#09;&#09;&#09;The design or related data was moved or deleted. Verify that you have access to the design and related data, then try again." translation="" />
+	<label commandName="copyJobFailedMessageEntityUpdated" devLabel="Copy of %1% and %2% related %3% failed at %4% because a newer &#09;&#09;&#09;&#09;&#09;&#09;version of design or drawing was saved before the copy started. Try again." translation="" />
+	<label commandName="copyJobFailedMessageEntityUpdatedNew" devLabel="Copy of %1% and related data failed at %2% because a newer &#09;&#09;&#09;&#09;&#09;&#09;version of design or related data was saved before the copy started. Try again." translation="" />
+	<label commandName="copyJobFailedMessageNew" devLabel="Copy of %1% and related data failed at %2%. Please try again." translation="" />
+	<label commandName="copyJobMultipleDrawings" devLabel="drawings" translation="" />
+	<label commandName="copyJobSingleDrawing" devLabel="drawing" translation="" />
+	<label commandName="copyJobStartHeading" devLabel="Copy Started" translation="" />
+	<label commandName="copyJobStartMessage" devLabel="Copy of %1% and %2% related %3% started at %4%. This may take several minutes. We will notify you when it is complete or if it fails." translation="" />
+	<label commandName="copyJobStartMessageAPI" devLabel="Copy of %1% and related drawings started at %2%. This may take several minutes. We will notify you when it is complete or if it fails." translation="" />
+	<label commandName="copyJobStartMessageNew" devLabel="Copy of %1% and related data started at %2%. This may take several minutes. We will notify you when it is complete." translation="" />
+	<label commandName="openLinkText" devLabel="Open design" translation="" />
+	<label commandName="project_transfer_fixed_message" devLabel="Moving Project..." translation="" />
+	<label commandName="project_transfer_message" devLabel="Move %1% to %2%" translation="" />
+	<label commandName="reqestaccesssERROR" devLabel="Failed to send your request!" translation="" />
+	<label commandName="uploadCompleteheading" devLabel="Upload complete" translation="" />
+	<label commandName="uploadFinishedNotification" devLabel="%1% has finished uploading to %2% " translation="" />
+</Resource>

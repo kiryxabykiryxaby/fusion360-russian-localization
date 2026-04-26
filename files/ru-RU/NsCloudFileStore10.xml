@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CFSErrorMessageTitle" devLabel="Fusion Team Error Message" translation="" />
+	<label commandName="CloudFileExceptionUpload2" devLabel="[CFSUploader] Unknown exception when uploading file %1%. Please ensure network connectivity." translation="" />
+	<label commandName="CloudFileStoreAutoSaveDescription" devLabel="Auto save." translation="" />
+	<label commandName="CloudFileStoreCloseSaveDescription" devLabel="Save on Close." translation="" />
+	<label commandName="SaveFailedToastHeading" devLabel="Cloud save failed" translation="" />
+	<label commandName="SaveFailedToastLinkText" devLabel="Open design" translation="" />
+	<label commandName="SaveFailedToastMessage" devLabel="&lt;br&gt;%1% failed to save to the cloud.&lt;br&gt;Your changes are still in the local cache. Open and try to save them again." translation="" />
+	<label commandName="Tooltip_CurrentlyReservedBy" devLabel="Currently reserved by %1%" translation="" />
+	<label commandName="UploadStalledHeading" devLabel="Upload delayed" translation="" />
+	<label commandName="UploadStalledNotification" devLabel="%1% upload started on %2% but has not completed. Open Job Status to view the job." translation="" />
+	<label commandName="UploaderThread::Upload failed" devLabel="Upload failed. Original File: %1%" translation="" />
+	<label commandName="UploaderThread::std::exception" devLabel="[CFSUploader] Exception %1% when uploading file %2%. Please ensure network connectivity." translation="" />
+	<label commandName="UserNotAuthenticated" devLabel="Upload queued attachment %1% error, user isn't authenticated by Autodesk 360, please login to Autodesk 360 first." translation="" />
+	<label commandName="WaitMessageForQueuedFile" devLabel="Waiting for %1% to complete" translation="" />
+	<label commandName="filenotexist" devLabel="Could not import document. The specified file (%1%) does not exist." translation="" />
+	<label commandName="jobManagerReserving" devLabel="Waiting to reserve" translation="" />
+	<label commandName="multipleUploadStalledHeading" devLabel="Multiple uploads delayed" translation="" />
+	<label commandName="multipleUploadStalledNotification" devLabel="%1% design uploads have not completed. Open Job Status to view the jobs." translation="" />
+	<label commandName="openJobStatusLink" devLabel="View Job Status" translation="" />
+	<label commandName="progress manager reimport text" devLabel="Uploading %1% to %2%" translation="" />
+	<label commandName="uploadAbortedReservationFailed" devLabel="&quot;%1%&quot; could not be uploaded. This occurs when you have lost access to the project or your permissions for a folder have changed. Please contact the project moderator for assistance." translation="" />
+	<label commandName="uploadAddQueueFailed" devLabel="Failed to add specified file to the upload queue: %1%" translation="" />
+	<label commandName="uploadAlreadyExists" devLabel="Specified file already exists in the upload queue: %1%" translation="" />
+	<label commandName="uploadFileDoesNotExist" devLabel="Specified file does not exist: %1%" translation="" />
+	<label commandName="uploadPIMAlreadyExists" devLabel="Specified PIM data file already exists in the upload queue: %1%" translation="" />
+	<label commandName="userNotAuthenticated" devLabel="User is not authenticated. Could not queue file %1% for upload." translation="" />
+</Resource>

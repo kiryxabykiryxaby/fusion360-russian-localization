@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CFDImportSatToMat" devLabel="CFD ImportSatToMat" translation="" />
+	<label commandName="CFDLoadLibrary" devLabel="Load CFD Library" translation="" />
+	<label commandName="GetProcAddressCFDProdInfo" devLabel="Unable to Set Fusion Product Information" translation="" />
+	<label commandName="GetProcAddressMoldflowProdInfo" devLabel="Unable to Set Fusion Product Information" translation="" />
+	<label commandName="MoldflowLoadLibrary" devLabel="Load Moldflow Library" translation="" />
+	<label commandName="PushFusionToCFD" devLabel="Unable to push data from Fusion to CFD." translation="" />
+	<label commandName="PushFusionToCFDBusy" devLabel="Unable to push data from Fusion to CFD. CFD application may be busy." translation="" />
+	<label commandName="PushFusionToCFDMat" devLabel="Unable to push data from Fusion to CFD." translation="" />
+	<label commandName="PushFusionToCFDPlugin" devLabel="Unable to communicate with Fusion to CFD plugin." translation="" />
+	<label commandName="PushFusionToMoldflow" devLabel="Unable to push data from Fusion to Moldflow." translation="" />
+	<label commandName="PushFusionToMoldflowBusy" devLabel="Unable to push data from Fusion to Moldflow. Moldflow application may be busy." translation="" />
+	<label commandName="PushFusionToMoldflowPlugin" devLabel="Unable to communicate with Fusion to Moldflow plugin." translation="" />
+	<label commandName="PushFusionToMoldflowSetPath" devLabel="Unable to push data from Fusion to Moldflow." translation="" />
+	<label commandName="WinAPIFailed" devLabel="Windows API %s failed with error %d: %s" translation="" />
+</Resource>

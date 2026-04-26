@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportSatError" devLabel="Autodesk Translation Services failed to translate the current document to sat file!" translation="" />
+	<label commandName="CollectComponentsForExportSatError_InvalidVersion " devLabel="Invalid SAT version: Autodesk Translation Services failed because you tried to export file with SAT extension in wrong format! Change sat version to SAT7 format or file extenstion to SMT" translation="" />
+	<label commandName="CreateComponentFromBodyError" devLabel="Create Component From Body failed:  invalid input" translation="" />
+	<label commandName="CreateComponentsByImportSatError" devLabel="Autodesk Translation Services failed to translate the sat file, please make sure the sat file isn't corrupt!" translation="" />
+	<label commandName="CreateComponentsByOpenSatError" devLabel="Autodesk Translation Services failed to translate the sat file, please make sure the sat file isn't corrupt!" translation="" />
+	<label commandName="SATFileFilterDescription" devLabel="SAT Files (*.sat);;SMT Files (*.smt)" translation="" />
+</Resource>

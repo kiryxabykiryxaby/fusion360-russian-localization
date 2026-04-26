@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+    <label commandName="CannotChangeCVSpline" devLabel="Can not open/close CV spline" translation="Невозможно открыть/закрыть CV сплайн" />
+    <label commandName="CannotChangeDimOnFixedGeom" devLabel="&#10;Cannot change the dimension of a fixed geometry&#10;" translation="Невозможно изменить размер фиксированной геометрии" />
+    <label commandName="CircularPattern" devLabel="Circular Pattern" translation="Круговой паттерн" />
+    <label commandName="CircularPatternConstraintSelectionId" devLabel="Circular Pattern Constraint" translation="Ограничение кругового паттерна" />
+    <label commandName="Coincident" devLabel="Coincident" translation="Совпадение" />
+    <label commandName="CoincidentConstraintSelectionId" devLabel="Coincident Constraint" translation="Ограничение совпадения" />
+    <label commandName="Collinear" devLabel="Collinear" translation="Коллинеарный" />
+    <label commandName="CollinearConstraintSelectionId" devLabel="Collinear Constraint" translation="Ограничение коллинеарности" />
+    <label commandName="Concentric" devLabel="Concentric" translation="Концентрический" />
+    <label commandName="ConcentricConstraintSelectionId" devLabel="Concentric Constraint" translation="Ограничение концентричности" />
+    <label commandName="CurvatureConstraintSelectionId" devLabel="Curvature Constraint" translation="Ограничение кривизны" />
+    <label commandName="CurveError" devLabel="One selected curve is degenerated!" translation="Одна из выбранных кривых дегенерирована!" />
+    <label commandName="EllipseArcInvalidArgumentError" devLabel="Invalid argument." translation="Неверный аргумент." />
+    <label commandName="EllipseArcInvalidEndPointsError" devLabel="Invalid endpoints." translation="Неверные конечные точки." />
+    <label commandName="EllipseOffsetInvalidWarning" devLabel="Could not offset ellipse." translation="Не удалось создать смещение эллипса." />
+    <label commandName="Equal" devLabel="Equal" translation="Равный" />
+    <label commandName="EqualConstraintSelectionId" devLabel="Equal Constraint" translation="Ограничение равенства" />
+    <label commandName="ExtendConicCurveError" devLabel="Extend conic curve error!" translation="Ошибка расширения конической кривой!" />
+    <label commandName="ExtendSplineError" devLabel="Extend spline error!" translation="Ошибка расширения сплайна!" />
+    <label commandName="FIT_CURVES_TO_SECTION_ADD_CONSTRAINT_FAIL" devLabel="Failed to add tangent sketch constraint." translation="Не удалось добавить ограничение касательной эскиза." />
+    <label commandName="FIT_CURVES_TO_SECTION_BAD_INPUTS" devLabel="Failed to process inputs to fit curve to section." translation="Не удалось обработать входные данные для подгонки кривой к сечению." />
+    <label commandName="FIT_CURVES_TO_SECTION_ERROR_NO_CURVES" devLabel="Failed to fit curve to section." translation="Не удалось подогнать кривую к сечению." />
+    <label commandName="FIT_CURVES_TO_SECTION_LIN_OR_DEG_ARC_FIT" devLabel="Include more points to fit an arc." translation="Добавьте больше точек для подгонки дуги." />
+    <label commandName="FIT_CURVES_TO_SECTION_NO_SKETCH" devLabel="Include more points to fit an arc." translation="Добавьте больше точек для подгонки дуги." />
+    <label commandName="FailedToSolve" devLabel="Failed to solve." translation="Не удалось решить." />
+    <label commandName="FitPointError" devLabel="Fit point index wrong!" translation="Неверный индекс точки подгонки!" />
+    <label commandName="Fixed" devLabel="Fixed" translation="Зафиксировано" />
+    <label commandName="FixedConstraintSelectionId" devLabel="Fixed Constraint" translation="Ограничение фиксации" />
+    <label commandName="Horizontal" devLabel="Horizontal" translation="Горизонтальный" />
+    <label commandName="HorizontalConstraintSelectionId" devLabel="Horizontal Constraint" translation="Ограничение горизонтальности" />
+    <label commandName="InactiveMidPointSelectionId" devLabel="InactiveMidPoint" translation="Неактивная середина" />
+    <label commandName="InactiveMidPointSelectionsId" devLabel="InactiveMidPoints" translation="Неактивные середины" />
+    <label commandName="InactiveTangentSelectionId" devLabel="Inactive Tangent Handle" translation="Неактивная касательная" />
+    <label commandName="InactiveTangentSelectionsId" devLabel="InactiveTangents" translation="Неактивные касательные" />
+    <label commandName="InactiveTextGripSelectionId" devLabel="Text Frame Snap Point" translation="Точка привязки текстового фрейма" />
+    <label commandName="InactiveTextGripSelectionsId" devLabel="Text Frame Snap Points" translation="Точки привязки текстового фрейма" />
+    <label commandName="InputAxisError" devLabel="Input major axis error!" translation="Ошибка главной оси ввода!" />
+    <label commandName="InvalidSplineforcontrolframe" devLabel="Control Frame could not be displayed as selected sketch curve do not support control frame." translation="Контрольная рамка не может быть отображена, так как выбранная эскизная кривая не поддерживает контрольную рамку." />
+    <label commandName="InvalidSplinesNoCFMultiselection" devLabel="Control Frames could not be displayed as all the selected sketch curves don't support control frame." translation="Контрольные рамки не могут быть отображены, так как все выбранные эскизные кривые не поддерживают контрольную рамку." />
+    <label commandName="InvalidSplinesforcontrolframeMultiselection" devLabel="Control Frames could not be displayed for some selected sketch curves as they don't support control frame." translation="Контрольные рамки не могут быть отображены для некоторых выбранных эскизных кривых, так как они не поддерживают контрольную рамку." />
+    <label commandName="LineMidPoint" devLabel="Mid Point" translation="Середина линии" />
+    <label commandName="MeshPlanarSectionDefaultUserName" devLabel="MeshSection" translation="Секция сетки" />
+    <label commandName="MeshPlanarSectionSelectionId" devLabel="MeshPlanarSection" translation="Секция сетки" />
+    <label commandName="MeshPlanarSectionSelectionsId" devLabel="MeshPlanarSections" translation="Секции сетки" />
+    <label commandName="MidpointConstraintSelectionId" devLabel="Midpoint Constraint" translation="Ограничение середины" />
+    <label commandName="NO_VADIL_SKETCH" devLabel="No valid sketch found!" translation="Эскиз не найден!" />
+    <label commandName="NoPathSelected" devLabel="Please select path curve" translation="Пожалуйста, выберите кривую пути" />
+    <label commandName="NoTextProfileWarning" devLabel="Could not retrieve the profiles of the selected text!" translation="Не удалось получить профили выбранного текста!" />
+    <label commandName="NonPlanarCurve" devLabel="Please select planar curve" translation="Пожалуйста, выберите планарную кривую" />
+    <label commandName="OffsetConstraintSelectionId" devLabel="Offset Constraint" translation="Ограничение смещения" />
+    <label commandName="OffsetSketchNoGeomError" devLabel="The sketch offset created no geometry. Modify the offset dimension or verify the changes are correct." translation="Смещение эскиза не создало геометрию. Измените размер смещения или проверьте правильность изменений." />
+    <label commandName="PROFILE_BUILD_ERROR_ILLEGALCURVES" devLabel="Some sketch curves cannot be converted to profile edges." translation="Некоторые эскизные кривые не могут быть преобразованы в кромки профиля." />
+    <label commandName="PROFILE_BUILD_FAILTOGENPROFILE" devLabel="Failed to generate profile as, curves do not precisely overlap." translation="Не удалось создать профиль, так как кривые не точно перекрываются." />
+    <label commandName="Parallel" devLabel="Parallel" translation="Параллельный" />
+    <label commandName="ParallelConstraintSelectionId" devLabel="Parallel Constraint" translation="Ограничение параллельности" />
+    <label commandName="ParametricSketchCurveSelectionCategory" devLabel="Parametric Sketch Curves" translation="Параметрические эскизные кривые" />
+    <label commandName="Perpendicular" devLabel="Perpendicular" translation="Перпендикулярный" />
+    <label commandName="PerpendicularConstraintSelectionId" devLabel="Perpendicular Constraint" translation="Ограничение перпендикулярности" />
+    <label commandName="Polygon" devLabel="Polygon" translation="Многоугольник" />
+    <label commandName="PolygonConstraintSelectionId" devLabel="Polygon Constraint" translation="Ограничение многоугольника" />
+    <label commandName="ProfileCategory" devLabel="Sketch Profiles" translation="Эскизные профили" />
+    <label commandName="ProfileSelectionId" devLabel="Profile" translation="Профиль" />
+    <label commandName="ProfilebuildError_TrimStageTwo" devLabel="profile trim failed in stage two" translation="Ошибка обрезки профиля на стадии два" />
+    <label commandName="ProfilesSelectionId" devLabel="Profiles" translation="Профили" />
+    <label commandName="RectangularPattern" devLabel="Rectangular Pattern" translation="Прямоугольный паттерн" />
+    <label commandName="RectangularPatternConstraintSelectionId" devLabel="Rectangular Pattern Constraint" translation="Ограничение прямоугольного паттерна" />
+    <label commandName="SharedPointCoincidentSelectionId" devLabel="Coincident Constraint" translation="Ограничение совпадения" />
+    <label commandName="SharedPointCoincidentSelectionsId" devLabel="Coincident Constraints" translation="Ограничения совпадения" />
+    <label commandName="SketchConicCurveSelectionID" devLabel="Sketch Conic Curve" translation="Эскизная коническая кривая" />
+    <label commandName="SketchConstraintCategory" devLabel="Sketch Geometry Constraint" translation="Ограничение геометрии эскиза" />
+    <label commandName="SketchConstraintHasSameConstraint" devLabel="Constraint has already been applied to the selected sketch object." translation="Ограничение уже применено к выбранному эскизному объекту." />
+    <label commandName="SketchDimensionSelectionId" devLabel="Sketch Dimension" translation="Размер эскиза" />
+    <label commandName="SketchDimensionSelectionsId" devLabel="Sketch Dimensions" translation="Размеры эскиза" />
+    <label commandName="SketchGeomConstSelectionsId" devLabel="Sketch Geometry Constraints" translation="Ограничения геометрии эскиза" />
+    <label commandName="SketchGeometryConstraintSelectionId" devLabel="Sketch Geometry Constraint" translation="Ограничение геометрии эскиза" />
+    <label commandName="SketchInvisibleProjectGeometries" devLabel="The Projected Geometries you have just created is not visible. Please toggle Show Project Geometries option in sketch palette." translation="Проецируемые геометрии, которые вы только что создали, не видны. Пожалуйста, включите отображение проецируемых геометрий в палитре эскиза." />
+    <label commandName="SketchProjectedGeomSelectionId" devLabel="SketchProjectedGeom" translation="Проецируемая геометрия эскиза" />
+    <label commandName="SketchProjectedGeomSelectionsId" devLabel="SketchProjectedGeoms" translation="Проецируемые геометрии эскиза" />
+    <label commandName="Smooth" devLabel="Smooth" translation="Гладкий" />
+    <label commandName="Symmetric" devLabel="Symmetric" translation="Симметричный" />
+    <label commandName="SymmetryConstraintSelectionId" devLabel="Symmetry Constraint" translation="Ограничение симметрии" />
+    <label commandName="Tangent" devLabel="Tangent" translation="Касательная" />
+    <label commandName="TangentConstraintSelectionId" devLabel="Tangent Constraint" translation="Ограничение касательной" />
+    <label commandName="TangentExists" devLabel="Tangent already exists on selected fit point" translation="Касательная уже существует на выбранной точке подгонки" />
+    <label commandName="TextFrameConstraintSelectionId" devLabel="Text Frame Constraint" translation="Ограничение текстового фрейма" />
+    <label commandName="TooFewFitPoints" devLabel="A close spline must at least have 3 fit points" translation="Закрытый сплайн должен иметь хотя бы 3 точки подгонки" />
+    <label commandName="Vertical" devLabel="Vertical" translation="Вертикальный" />
+    <label commandName="VerticalConstraintSelectionId" devLabel="Vertical Constraint" translation="Ограничение вертикальности" />
+    <label commandName="lclzSketchError" devLabel="Invalid sketch curve" translation="Неверная эскизная кривая" />
+    <label commandName="CircularPatternConfig" devLabel="Circular Pattern" translation="Круговой массив" />
+    <label commandName="ConicCurveConfig" devLabel="Conic Curve" translation="Коническая кривая" />
+    <label commandName="PleaseDeleteConstraints" devLabel="&lt;br&gt;Please delete or modify one of the following constraints/dimensions&lt;br&gt;" translation="&lt;br&gt;Удалите или измените одно из следующих ограничений/размеров&lt;br&gt;" />
+    <label commandName="RectangularPatternConfig" devLabel="Rectangular Pattern" translation="Прямоугольный массив" />
+    <label commandName="SketchConstraintInvalidSelection" devLabel="invalid geometries." translation="недопустимые геометрии." />
+    <label commandName="SketchCreatePolygonConstraintError" devLabel="Cannot apply Polygon constraint. The geometry you selected is not a regular polygon. The lines should be the same length, the interior angles equal, and the vertices coincident.&#10;Edit the geometry length, orientation, or placement and then try again. " translation="Невозможно применить ограничение &quot;Многоугольник&quot;. Выбранная геометрия не является правильным многоугольником. Линии должны быть одинаковой длины, внутренние углы равны, а вершины совпадают.&#10;Отредактируйте длину, ориентацию или расположение геометрии и повторите попытку." />
+    <label commandName="TextConfig" devLabel="Text" translation="Текст" />
+    <label commandName="TextOnPathConfig" devLabel="Text (On Path)" translation="Текст (по контуру)" />
+</Resource>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="BoundedPointOnPathCommandInput" devLabel="LoftBoundedPOPInput" translation="" />
+	<label commandName="ChainSelectionId" devLabel="Chain" translation="Цепочки" />
+	<label commandName="ExtrudeExtentAll" devLabel="(All)" translation="Все" />
+	<label commandName="ExtrudeExtentTo" devLabel="(To)" translation="К" />
+	<label commandName="ExtrudeExtentToNext" devLabel="(To Next)" translation="К следующему" />
+	<label commandName="LoftProfilePOPCommandInput" devLabel="LoftProfilePOPInput" translation="" />
+	<label commandName="RevolveExtentFull" devLabel="(Full)" translation="Полный" />
+	<label commandName="RevolveExtentTo" devLabel="(To)" translation="К" />
+	<label commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="Показать/Скрыть" />
+	<label commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="Некоторые рабочие функции, которые вы пытаетесь сделать видимыми, в настоящее время отключены в параметрах видимости объекта в настройках дисплея. Они останутся невидимыми, если не установлены в параметрах видимости объекта." />
+</Resource>

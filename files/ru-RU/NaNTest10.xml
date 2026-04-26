@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Parse Message" devLabel="Unknown message type." translation="" />
+	<label commandName="UnknownStatusMessageType" devLabel="Unknown status message type." translation="" />
+	<label commandName="WARNING" devLabel="Client is outdated and may not support newer unit test options." translation="" />
+	<label commandName="run case error" devLabel="Cannot find script file." translation="" />
+</Resource>

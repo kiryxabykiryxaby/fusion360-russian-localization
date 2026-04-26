@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="EagleFileFilterDescription" devLabel="EAGLE Schematic Files (*.sch);;EAGLE Board Files (*.brd);;EAGLE Libraries Files (*.lbr)" translation="" />
+	<label commandName="EagleFileLoadFailurePrompt" devLabel=" has errors and cannot be opened. Close the empty design file without saving and continue working." translation="" />
+</Resource>

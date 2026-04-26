@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DownloadManager::downLoadFinished:text" devLabel="After several attempts, Fusion could not download a file for the offline cache. Fusion will not make any further attempts to download this file. See the log file for details." translation="После нескольких попыток Fusion не смог загрузить файл для оффлайн-кэша. Fusion больше не будет пытаться загрузить этот файл. Подробности см. в лог-файле." />
+	<label commandName="DownloadManager::downLoadFinished:title" devLabel="Download failed" translation="Ошибка загрузки" />
+	<label commandName="DownloadManager::downLoadFinishede:subtitle" devLabel="A file failed to download" translation="Не удалось загрузить файл" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCache:subtitle" devLabel="Unable to download" translation="Невозможно загрузить" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCache:title" devLabel="Add to offline cache failed" translation="Не удалось добавить в оффлайн-кэш" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCacheDesign" devLabel="This design contains %1% reference(s) that cannot be accessed (i.e. references in a project you do not have access to, or in a project that has been archived). You need access to the projects containing these references." translation="Этот проект содержит %1% ссылку(и), к которой(ым) нет доступа (например, ссылки на проект, к которому у вас нет доступа, или на проект, который был заархивирован). Вам необходим доступ к проектам, содержащим эти ссылки." />
+	<label commandName="DownloadPreprocessor::blockDownloadForCacheFolder" devLabel="%1% design(s) contain some reference(s) that cannot be accessed (i.e. references in a project you do not have access to, or in a project that has been archived). You need access to the projects containing these references." translation="%1% проект(ы) содержат ссылки, к которым нет доступа (например, ссылки на проект, к которому у вас нет доступа, или на проект, который был заархивирован). Вам необходим доступ к проектам, содержащим эти ссылки." />
+</Resource>

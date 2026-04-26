@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+    <label commandName="ActivateEnvironmentCommand" devLabel="Workspace" translation="Рабочая область" />
+    <label commandName="CanNotSaveDesignDRSReadOnly" devLabel="The &lt;b&gt;%1%&lt;/b&gt; is currently read-only for you.&lt;br&gt;&lt;/br&gt;This feature requires saving of the &lt;b&gt;%2%&lt;/b&gt; and you cannot save any changes until you make the &lt;b&gt;%1%&lt;/b&gt; savable again.&lt;br&gt;&lt;/br&gt; &lt;br&gt; %3%Learn More&lt;/a&gt;" translation="&lt;b&gt;%1%&lt;/b&gt; в настоящее время доступен только для чтения.&lt;br&gt;&lt;/br&gt;Эта функция требует сохранения &lt;b&gt;%2%&lt;/b&gt;, и вы не можете сохранить изменения, пока не сделаете &lt;b&gt;%1%&lt;/b&gt; снова доступным для сохранения.&lt;br&gt;&lt;/br&gt; &lt;br&gt; %3%Узнать больше&lt;/a&gt;" />
+    <label commandName="CanSaveErrorNoReservation" devLabel="%1% is editing this design.  The feature you are trying to use is disabled because it requires saving the design, and saving is prevented while another person is editing.&lt;br&gt;&lt;/br&gt; &lt;br&gt; %2%Learn More&lt;/a&gt;" translation="%1% редактирует этот проект. Функция, которую вы пытаетесь использовать, отключена, так как требует сохранения проекта, а сохранение невозможно, пока другой пользователь редактирует его.&lt;br&gt;&lt;/br&gt; &lt;br&gt; %2%Узнать больше&lt;/a&gt;" />
+    <label commandName="CanSaveErrorReadOnlyChild" devLabel="The feature you are trying to use is disabled because it requires saving the design, and saving is prevented as &quot;%1%&quot; is read-only." translation="Функция, которую вы пытаетесь использовать, отключена, так как требует сохранения проекта, а сохранение невозможно, так как &quot;%1%&quot; доступен только для чтения." />
+    <label commandName="Cancel" devLabel="Cancel" translation="Отмена" />
+    <label commandName="CancelCommand" devLabel="Cancel" translation="Отмена" />
+    <label commandName="CannotExportElectronicsDesignSample" devLabel="This electronics design is a sample file. It's not supported to export." translation="Этот электронный проект является примером файла. Экспорт не поддерживается." />
+    <label commandName="ClearAllAlertsCommand" devLabel="Clear all Alerts" translation="Очистить все уведомления" />
+    <label commandName="ClearAllAlertsCommandDesc" devLabel="Clear all Alerts." translation="Очистить все уведомления." />
+    <label commandName="CloseDocumentCommand" devLabel="Close" translation="Закрыть" />
+    <label commandName="CommitCommand" devLabel="OK" translation="ОК" />
+    <label commandName="DisableReadOnlyCmd" devLabel="Read-Only For Me" translation="Только для чтения" />
+    <label commandName="DocUtilsDefaultReservationUserName" devLabel="Another person" translation="Другой пользователь" />
+    <label commandName="EmptyHubUrl" devLabel="Hub url is empty" translation="URL-адрес Hub пуст" />
+    <label commandName="ExportActiveConfigurationFailed" devLabel="Could not export active configuration to the location: %1%." translation="Не удалось экспортировать активную конфигурацию в расположение: %1%." />
+    <label commandName="ExportCancelConvertedCD" devLabel="Cancel" translation="Отмена" />
+    <label commandName="ExportCaption" devLabel="Export" translation="Экспорт" />
+    <label commandName="ExportCmd_3MF" devLabel="3MF Files" translation="Файлы 3MF" />
+    <label commandName="ExportCmd_Archive" devLabel="Autodesk Fusion Archive Files" translation="Архивные файлы Autodesk Fusion" />
+    <label commandName="ExportCmd_DWG" devLabel="DWG Files" translation="Файлы DWG" />
+    <label commandName="ExportCmd_DXF" devLabel="DXF Files" translation="Файлы DXF" />
+    <label commandName="ExportCmd_FBX" devLabel="FBX Files" translation="Файлы FBX" />
+    <label commandName="ExportCmd_OBJ" devLabel="OBJ Files" translation="Файлы OBJ" />
+    <label commandName="ExportCmd_SKP" devLabel="SketchUp Files" translation="Файлы SketchUp" />
+    <label commandName="ExportCmd_STL" devLabel="STL Files" translation="Файлы STL" />
+    <label commandName="ExportCommand" devLabel="Export..." translation="Экспорт..." />
+    <label commandName="ExportCommand_SaveDescription" devLabel="Save for export" translation="Сохранить для экспорта" />
+    <label commandName="ExportConvertedCDNeedsSave" devLabel="Cannot export &lt;b&gt;%1%&lt;/b&gt; because it contains unsaved &lt;b&gt;Configuration&lt;/b&gt; data.&lt;p&gt;&lt;p&gt;&lt;b&gt;Save&lt;/b&gt; your changes, then try to export again." translation="Невозможно экспортировать &lt;b&gt;%1%&lt;/b&gt;, так как он содержит несохраненные данные &lt;b&gt;Конфигурации&lt;/b&gt;.&lt;p&gt;&lt;p&gt;&lt;b&gt;Сохраните&lt;/b&gt; изменения, затем попробуйте экспортировать снова." />
+    <label commandName="ExportNotAllowedForAssemblies2" devLabel="Export to an Archive (f3z) file is not supported for distributed designs" translation="Экспорт в архивный файл (f3z) не поддерживается для распределенных проектов" />
+    <label commandName="ExportSaveConvertedCD" devLabel="Save" translation="Сохранить" />
+    <label commandName="ExportSaveUncovertedCD" devLabel="Cannot export unsaved Configuration data" translation="Невозможно экспортировать несохраненные данные конфигурации" />
+    <label commandName="FolderIsNotAccessible" devLabel="The selected folder: &quot;%1%&quot; is not accessible." translation="Выбранная папка: &quot;%1%&quot; недоступна." />
+    <label commandName="NoMatchedTranslator" devLabel="No matched translator is found with the suffix of file name: &quot;%1%&quot;" translation="Не найден подходящий переводчик для файла с расширением: &quot;%1%&quot;" />
+    <label commandName="NotExportTSpline" devLabel="T-Spline bodies must be converted to be included in the exported document. Cancel and use the Convert command to include any T-Spline bodies." translation="T-Spline тела должны быть преобразованы для включения в экспортируемый документ. Отмените и используйте команду Преобразовать, чтобы включить любые T-Spline тела." />
+    <label commandName="NullArg" devLabel="Document session argument missing." translation="Отсутствует аргумент сессии документа." />
+    <label commandName="NullAsset" devLabel="Asset to export not found." translation="Ресурс для экспорта не найден." />
+    <label commandName="NullDoc" devLabel="Document to export not found." translation="Документ для экспорта не найден." />
+    <label commandName="NullSession" devLabel="Document session for export not found." translation="Сессия документа для экспорта не найдена." />
+    <label commandName="OK" devLabel="OK" translation="ОК" />
+    <label commandName="OpenCommandNew" devLabel="Open" translation="Открыть" />
+    <label commandName="OpenCommandNoAssetSession" devLabel="AssetSession does not exist" translation="Сессия ресурса не существует" />
+    <label commandName="OpenCommandNoDoc" devLabel="DOC not opened" translation="Документ не открыт" />
+    <label commandName="OpenCommandNotActivated" devLabel="activateDocument failed" translation="Не удалось активировать документ" />
+    <label commandName="OpenCommandUnresolvedComps" devLabel="unresolved components" translation="неразрешенные компоненты" />
+    <label commandName="OpenDocumentCommand" devLabel="Open..." translation="Открыть..." />
+    <label commandName="RedoCommand" devLabel="Redo" translation="Повторить" />
+    <label commandName="RedoCommandDesc" devLabel="Redo" translation="Повторить" />
+    <label commandName="RedoDropDown" devLabel="Redo Multiple" translation="Повторить несколько" />
+    <label commandName="SelectBodyPriorityCommand" devLabel="Select Body Priority" translation="Выбрать приоритет тела" />
+    <label commandName="SelectCommand" devLabel="Select" translation="Выбрать" />
+    <label commandName="SelectComponentPriorityCommand" devLabel="Select Component Priority" translation="Выбрать приоритет компонента" />
+    <label commandName="SelectEdgePriorityCommand" devLabel="Select Edge Priority" translation="Выбрать приоритет ребра" />
+    <label commandName="SelectFacePriorityCommand" devLabel="Select Face Priority" translation="Выбрать приоритет грани" />
+    <label commandName="SelectTSplineBodyPriorityCommand" devLabel="Select Body Priority" translation="Выбрать приоритет тела" />
+    <label commandName="SelectTSplineEdgePriorityCommand" devLabel="Select Edge Priority" translation="Выбрать приоритет ребра" />
+    <label commandName="SelectTSplineFacePriorityCommand" devLabel="Select Face Priority" translation="Выбрать приоритет грани" />
+    <label commandName="SelectionFilterCommand" devLabel="Selection Filters" translation="Фильтры выбора" />
+    <label commandName="SelectionInput" devLabel="Selection" translation="Выбор" />
+    <label commandName="TSplineBodySelectionCategory" devLabel="T-Spline Body" translation="T-Spline тело" />
+    <label commandName="TSplineEdgeSelectionCategory" devLabel="T-Spline Edges" translation="T-Spline ребра" />
+    <label commandName="TSplineFaceSelectionCategory" devLabel="T-Spline Faces" translation="T-Spline грани" />
+    <label commandName="TranslatorFailedToExport" devLabel="Translator failed to export the asset as file: &quot;%1%&quot;" translation="Переводчик не смог экспортировать ресурс в файл: &quot;%1%&quot;" />
+    <label commandName="UndoCommand" devLabel="Undo" translation="Отменить" />
+    <label commandName="UndoCommandDesc" devLabel="Undo" translation="Отменить" />
+    <label commandName="UndoDropDown" devLabel="Undo Multiple" translation="Отменить несколько" />
+    <label commandName="lclzTxnStep" devLabel=" - Step %1%" translation=" - Шаг %1%" />
+    <label commandName="priorityBodiesInput" devLabel="Bodies" translation="Тела" />
+    <label commandName="priorityBodyEdgesInput" devLabel="Body Edges" translation="Ребра тела" />
+    <label commandName="priorityBodyFacesInput" devLabel="Body Faces" translation="Грани тела" />
+    <label commandName="priorityComponentsInput" devLabel="Components" translation="Компоненты" />
+    <label commandName="selectAllFiltersInput" devLabel="Select All" translation="Выбрать все" />
+    <label commandName="selectThroughInput" devLabel="Select Through" translation="Выбрать сквозь" />
+    <label commandName="ExportCmd_IAM_IPT" devLabel="Autodesk Inventor 2024 Files" translation="Файлы Autodesk Inventor 2024" />
+    <label commandName="ExportLatestCmd_LBR" devLabel="Autodesk Fusion Local Library Files - Not EAGLE compatible" translation="Файлы локальной библиотеки Autodesk Fusion - Не совместимы с EAGLE" />
+    <label commandName="ExportLegacy9XCmd_BRD" devLabel="EAGLE 9.X Compatible Board Files" translation="Файлы плат, совместимые с EAGLE 9.X" />
+    <label commandName="ExportLegacy9XCmd_LBR" devLabel="EAGLE 9.X Compatible Library Files" translation="Файлы библиотек, совместимые с EAGLE 9.X" />
+    <label commandName="ExportLegacy9XCmd_SCH" devLabel="EAGLE 9.X Compatible Schematic Files" translation="Файлы схем, совместимые с EAGLE 9.X" />
+	<label commandName="ExportCmd_SampleFileWithXRef" devLabel="Export is not available for sample designs with external references. Use “Copy” in the Data Panel and export from the new location." translation="Экспорт недоступен для образцов проектов с внешними ссылками. Используйте «Копировать» на Панели данных и экспортируйте из нового расположения." />
+    <label commandName="OpenCommandFailed" devLabel="Open command failed." translation="Не удалось выполнить команду открытия." />
+</Resource>

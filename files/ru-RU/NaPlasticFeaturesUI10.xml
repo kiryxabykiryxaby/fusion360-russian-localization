@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AdjustSettingsForRest" devLabel="Adjust the rest settings" translation="" />
+	<label commandName="AlertDTT" devLabel="Displays this alert in the canvas. If you use Design Advice to check this solid body again, this alert will be included in the results if you have not resolved it." translation="" />
+	<label commandName="AlertRegion" devLabel="  Region %1%" translation="" />
+	<label commandName="AlertStatusDropDownOptions" devLabel="Status" translation="" />
+	<label commandName="AlertStatusErrorOption" devLabel="Alert" translation="" />
+	<label commandName="AlertStatusIgnoreOption" devLabel="Ignore" translation="" />
+	<label commandName="AnalyzePrompt" devLabel="Click Analyze, then review results and recommendations" translation="" />
+	<label commandName="AssignedRuleName" devLabel="Rule Details: " translation="" />
+	<label commandName="BCCannotCreateCloudFolder" devLabel="&lt;b&gt;Bolt folder cannot be created in offline mode.&lt;/b&gt;&lt;p&gt;Bolt component is not created.&lt;/p&gt;" translation="" />
+	<label commandName="BCSaveTitle" devLabel="&lt;b&gt;Bolted Connection requires saved target design.&lt;/b&gt;" translation="" />
+	<label commandName="BodySelectionDTT" devLabel="Select a solid body to analyze." translation="" />
+	<label commandName="BoltConnCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener while Fusion is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode." translation="" />
+	<label commandName="BoltConnCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design." translation="" />
+	<label commandName="BoltConnCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design." translation="" />
+	<label commandName="BoltConnCmdBoltCreate" devLabel="Create Component" translation="" />
+	<label commandName="BoltConnCmdBoltCreateToolTip" devLabel="Creates an external component that contains the geometry of the fastener and references it into the active design.&#10;&#10;Identical fasteners reference the same external component." translation="" />
+	<label commandName="BoltConnCmdBoltGroup" devLabel="Fastener" translation="" />
+	<label commandName="BoltConnCmdDiameter" devLabel="Thread Diameter" translation="" />
+	<label commandName="BoltConnCmdDiameterToolTip" devLabel="Select a diameter to apply to the fastener." translation="" />
+	<label commandName="BoltConnCmdFinish" devLabel="Surface Finish" translation="" />
+	<label commandName="BoltConnCmdFinishToolTip" devLabel="Specify a surface finish to add as a text-only property to the fastener.&#10;&#10;Does not affect physical material or appearance." translation="" />
+	<label commandName="BoltConnCmdHeadType" devLabel="Head" translation="" />
+	<label commandName="BoltConnCmdHeadTypeFlat" devLabel="Flat" translation="" />
+	<label commandName="BoltConnCmdHeadTypeFlatToolTip" devLabel="Creates a fastener with a flat head." translation="" />
+	<label commandName="BoltConnCmdHeadTypeHex" devLabel="Hex" translation="" />
+	<label commandName="BoltConnCmdHeadTypeHexToolTip" devLabel="Creates a fastener with a hex head." translation="" />
+	<label commandName="BoltConnCmdHeadTypeHexWasher" devLabel="Hex Washer" translation="" />
+	<label commandName="BoltConnCmdHeadTypeHexWasherToolTip" devLabel="Creates a fastener with a hex washer head." translation="" />
+	<label commandName="BoltConnCmdHeadTypeOval" devLabel="Oval" translation="" />
+	<label commandName="BoltConnCmdHeadTypeOvalToolTip" devLabel="Creates a fastener with an oval head." translation="" />
+	<label commandName="BoltConnCmdHeadTypePan" devLabel="Pan" translation="" />
+	<label commandName="BoltConnCmdHeadTypePanToolTip" devLabel="Creates a fastener with a pan head." translation="" />
+	<label commandName="BoltConnCmdHeadTypeRound" devLabel="Round" translation="" />
+	<label commandName="BoltConnCmdHeadTypeRoundToolTip" devLabel="Creates a fastener with a round head." translation="" />
+	<label commandName="BoltConnCmdHeadTypeRoundWasher" devLabel="Round Washer" translation="" />
+	<label commandName="BoltConnCmdHeadTypeRoundWasherToolTip" devLabel="Creates a fastener with a round washer head." translation="" />
+	<label commandName="BoltConnCmdLength" devLabel="Length" translation="" />
+	<label commandName="BoltConnCmdLengthToolTip" devLabel="Select a length to apply to the fastener." translation="" />
+	<label commandName="BoltConnCmdMaterial" devLabel="Fastener Material" translation="" />
+	<label commandName="BoltConnCmdMaterialToolTip" devLabel="Specify a material to add as a text-only property to the fastener.&#10;&#10;Does not affect physical material or appearance." translation="" />
+	<label commandName="BoltConnCmdPosition" devLabel="Position" translation="" />
+	<label commandName="BoltConnCmdPositionToolTip" devLabel="Select a circular edge to position the feature on a body." translation="" />
+	<label commandName="BoltConnCmdSlotType" devLabel="Drive" translation="" />
+	<label commandName="BoltConnCmdSlotTypeInternalHex" devLabel="Hex" translation="" />
+	<label commandName="BoltConnCmdSlotTypeInternalHexToolTip" devLabel="Creates a hex style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeNoSlot" devLabel="None" translation="" />
+	<label commandName="BoltConnCmdSlotTypeNoSlotToolTip" devLabel="Creates no drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypePhillips" devLabel="Phillips" translation="" />
+	<label commandName="BoltConnCmdSlotTypePhillipsToolTip" devLabel="Creates a Phillips style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypePozidriv" devLabel="Pozidriv" translation="" />
+	<label commandName="BoltConnCmdSlotTypePozidrivToolTip" devLabel="Creates a Pozidriv style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeSecurityTorx" devLabel="Security Torx Plus" translation="" />
+	<label commandName="BoltConnCmdSlotTypeSecurityTorxToolTip" devLabel="Creates a Security Torx Plus style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlotted" devLabel="Slot" translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillips" devLabel="Slotted Phillips" translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillipsToolTip" devLabel="Creates a slotted Phillips style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidriv" devLabel="Slotted Pozidriv" translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidrivToolTip" devLabel="Creates a slotted Pozidriv style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedToolTip" devLabel="Creates a slot style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlus" devLabel="Slotted Torx Plus" translation="" />
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlusToolTip" devLabel="Creates a slotted Torx Plus style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdSlotTypeTorxPlus" devLabel="Torx Plus" translation="" />
+	<label commandName="BoltConnCmdSlotTypeTorxPlusToolTip" devLabel="Creates a Torx Plus style drive in the head of the fastener." translation="" />
+	<label commandName="BoltConnCmdThread30deg" devLabel="30°" translation="" />
+	<label commandName="BoltConnCmdThread30degToolTip" devLabel="Applies a 30-degree angle to the threads on the fastener." translation="" />
+	<label commandName="BoltConnCmdThread45deg" devLabel="45°" translation="" />
+	<label commandName="BoltConnCmdThread45degToolTip" devLabel="Applies a 45-degree angle to the threads on the fastener." translation="" />
+	<label commandName="BoltConnCmdThread60deg" devLabel="60°" translation="" />
+	<label commandName="BoltConnCmdThread60degToolTip" devLabel="Applies a 60-degree angle to the threads on the fastener." translation="" />
+	<label commandName="BoltConnCmdThreadType" devLabel="Thread Form" translation="" />
+	<label commandName="BoltConnCmdThreadTypeToolTip" devLabel="Select a thread form to apply to the fastener." translation="" />
+	<label commandName="BoltConnCmdThreadVariant" devLabel="Thread Angle" translation="" />
+	<label commandName="BoltConnCmdThreadVariantToolTip" devLabel="Select a thread angle to apply to the fastener." translation="" />
+	<label commandName="BoltConnSelectPosition" devLabel="Select a circles to locate bolt" translation="" />
+	<label commandName="BossCannotCreateFastener" devLabel="Cannot create fastener" translation="" />
+	<label commandName="BossCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener in the boss while Fusion is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode or continue without creating the fastener?" translation="" />
+	<label commandName="BossCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener in the boss until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design or continue without creating the fastener?" translation="" />
+	<label commandName="BossCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener in the boss until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design or continue without creating the fastener?" translation="" />
+	<label commandName="BossCmdBossPlasticRules" devLabel="Plastic Rules" translation="" />
+	<label commandName="BossCmdBossTab" devLabel="Boss" translation="" />
+	<label commandName="BossCmdBossTab1A" devLabel="A₁" translation="" />
+	<label commandName="BossCmdBossTab1AToolTipL0" devLabel="Counterbore Diameter" translation="" />
+	<label commandName="BossCmdBossTab1AToolTipL1" devLabel="Specify the diameter value of the counterbore hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab1Alpha1ToolTipSuffix" devLabel="Specify the draft angle value of the counterbore for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab1Alpha3ToolTipSuffix" devLabel="Specify the draft angle value of the step for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1AlphaImage" devLabel="BossCmdBossTab1AlphaImage" translation="" />
+	<label commandName="BossCmdBossTab1AlphaTable" devLabel="BossCmdBossTab1AlphaTable" translation="" />
+	<label commandName="BossCmdBossTab1BToolTipL0" devLabel="Inner Hole Diameter" translation="" />
+	<label commandName="BossCmdBossTab1BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1CToolTipL0" devLabel="Step Diameter" translation="" />
+	<label commandName="BossCmdBossTab1CToolTipL1" devLabel="Specify the diameter value of the step for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1CounterSinkAngle" devLabel="Countersink Angle" translation="" />
+	<label commandName="BossCmdBossTab1CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1DToolTipL0" devLabel="Boss Diameter" translation="" />
+	<label commandName="BossCmdBossTab1DToolTipSuffix" devLabel="Specify the overall diameter value for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1EToolTipL0" devLabel="Inner Hole Depth" translation="" />
+	<label commandName="BossCmdBossTab1EToolTipL1" devLabel="Specify the depth value of the inner hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1FToolTipL0" devLabel="Step Depth" translation="" />
+	<label commandName="BossCmdBossTab1FToolTipSuffix" devLabel="Specify the depth value of the step for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Hole" devLabel="Hole Type" translation="" />
+	<label commandName="BossCmdBossTab1HoleCommon" devLabel="Simple" translation="" />
+	<label commandName="BossCmdBossTab1HoleCommonToolTip" devLabel="Creates a simple hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1HoleCounterBore" devLabel="Counterbore" translation="" />
+	<label commandName="BossCmdBossTab1HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1HoleCounterSink" devLabel="Countersink" translation="" />
+	<label commandName="BossCmdBossTab1HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Image" devLabel="Boss1Image" translation="" />
+	<label commandName="BossCmdBossTab1OToolTipL0" devLabel="Offset Clearance" translation="" />
+	<label commandName="BossCmdBossTab1OToolTipL1" devLabel="Specify the clearance value between the sketch plane and the inner face of the step for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R1ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R1ToolTipL1" devLabel="Specify the radius value of the outer counterbore fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R2ToolTipSuffix" devLabel="Specify the radius value of the inner counterbore fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R3ToolTipL0" devLabel="Upper Hole Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R3ToolTipL1" devLabel="Specify the radius value of the upper hole fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R4ToolTipL0" devLabel="Lower Hole Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R4ToolTipSuffix" devLabel="Specify the radius value of the lower hole fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R5ToolTipL1" devLabel="Specify the radius value of the outer boss fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R6ToolTipSuffix" devLabel="Specify the radius value of the outer step fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1R7ToolTipL1" devLabel="Specify the radius value of the inner step fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1RImage" devLabel="BossCmdBossTab1RImage" translation="" />
+	<label commandName="BossCmdBossTab1RTable" devLabel="BossCmdBossTab1RTable" translation="" />
+	<label commandName="BossCmdBossTab1RToolTipL0" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab1RToolTipSuffix" devLabel="Specify the radius value of the base fillet for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Step" devLabel="Step Type" translation="" />
+	<label commandName="BossCmdBossTab1StepIn" devLabel="In" translation="" />
+	<label commandName="BossCmdBossTab1StepInToolTip" devLabel="Creates a step to the inside of Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1StepNone" devLabel="None" translation="" />
+	<label commandName="BossCmdBossTab1StepNoneToolTip" devLabel="Creates no step for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1StepOut" devLabel="Out" translation="" />
+	<label commandName="BossCmdBossTab1StepOutToolTip" devLabel="Creates a step to the outside of Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab1Table" devLabel="Boss1Table" translation="" />
+	<label commandName="BossCmdBossTab2AToolTipL0" devLabel="Counterbore Diameter" translation="" />
+	<label commandName="BossCmdBossTab2AToolTipSuffix" devLabel="Specify the diameter value of the counterbore hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL1" devLabel="Specify the draft angle value of the counterbore for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL1" devLabel="Specify the draft angle value of the step for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="" />
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2BToolTipL0" devLabel="Inner Hole Diameter" translation="" />
+	<label commandName="BossCmdBossTab2BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2CToolTipL0" devLabel="Step Diameter" translation="" />
+	<label commandName="BossCmdBossTab2CToolTipSuffix" devLabel="Specify the diameter value of the step for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2CounterSinkAngle" devLabel="Countersink Angle" translation="" />
+	<label commandName="BossCmdBossTab2CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2DToolTipL0" devLabel="Boss Diameter" translation="" />
+	<label commandName="BossCmdBossTab2DToolTipL1" devLabel="Specify the overall diameter value for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Depth" devLabel="Hole Depth Type" translation="" />
+	<label commandName="BossCmdBossTab2DepthFromBottom" devLabel="From Bottom" translation="" />
+	<label commandName="BossCmdBossTab2DepthFromBottomToolTip" devLabel="Measures the clearance between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2DepthFromTop" devLabel="From Top" translation="" />
+	<label commandName="BossCmdBossTab2DepthFromTopToolTip" devLabel="Measures the depth value of the inner hole from the top of Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2DepthThroughBody" devLabel="Through Body" translation="" />
+	<label commandName="BossCmdBossTab2DepthThroughBodyToolTip" devLabel="Extrudes the hole through the entire body for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2FToolTipL0" devLabel="Step Depth" translation="" />
+	<label commandName="BossCmdBossTab2FToolTipSuffix" devLabel="Specify the depth value of the step for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2GToolTipL0" devLabel="Inner Hole Depth" translation="" />
+	<label commandName="BossCmdBossTab2GToolTipL1" devLabel="Specify the depth value of the inner hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Hole" devLabel="Hole Type" translation="" />
+	<label commandName="BossCmdBossTab2HoleCommon" devLabel="Simple" translation="" />
+	<label commandName="BossCmdBossTab2HoleCommonToolTip" devLabel="Creates a simple hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2HoleCounterBore" devLabel="Counterbore" translation="" />
+	<label commandName="BossCmdBossTab2HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2HoleCounterSink" devLabel="Countersink" translation="" />
+	<label commandName="BossCmdBossTab2HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2IToolTipL0" devLabel="Counterbore Depth" translation="" />
+	<label commandName="BossCmdBossTab2IToolTipSuffix" devLabel="Specify the depth value of the counterbore hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2JToolTipL0" devLabel="Inner Hole Clearance" translation="" />
+	<label commandName="BossCmdBossTab2JToolTipL1" devLabel="Specify the clearance value between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2OToolTipL0" devLabel="Offset Clearance" translation="" />
+	<label commandName="BossCmdBossTab2OToolTipSuffix" devLabel="Specify the clearance value between the sketch plane and the nearest face for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R1ToolTipL0" devLabel="Outer Hole Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R1ToolTipSuffix" devLabel="Specify the radius value of the outer hole fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R2ToolTipL1" devLabel="Specify the radius value of the inner counterbore fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R3ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R3ToolTipSuffix" devLabel="Specify the radius value of the outer counterbore fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R4ToolTipL0" devLabel="Inner Hole Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R4ToolTipL1" devLabel="Specify the radius value of the inner hole fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R5ToolTipSuffix" devLabel="Specify the radius value of the outer boss fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R6ToolTipL1" devLabel="Specify the radius value of the outer step fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2R7ToolTipSuffix" devLabel="Specify the radius value of the inner step fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2RToolTipL0" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdBossTab2RToolTipL1" devLabel="Specify the radius value of the base fillet for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2Step" devLabel="Step Type" translation="" />
+	<label commandName="BossCmdBossTab2StepIn" devLabel="In" translation="" />
+	<label commandName="BossCmdBossTab2StepInToolTip" devLabel="Creates a step to the inside of Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2StepNone" devLabel="None" translation="" />
+	<label commandName="BossCmdBossTab2StepNoneToolTip" devLabel="Creates no step for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTab2StepOut" devLabel="Out" translation="" />
+	<label commandName="BossCmdBossTab2StepOutToolTip" devLabel="Creates a step to the outside of Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdBossTabFlipDirection" devLabel="Flip" translation="" />
+	<label commandName="BossCmdBossTabFlipDirectionToolTip" devLabel="Flips boss feature over selected sketch point to switch Side 1 and Side 2 bodies." translation="" />
+	<label commandName="BossCmdBossTabOffset" devLabel="Offset Position" translation="" />
+	<label commandName="BossCmdBossTabOffsetToolTip" devLabel="Specify a distance to offset the position of the boss feature from the sketch plane." translation="" />
+	<label commandName="BossCmdBossTabSide1" devLabel="Side 1" translation="" />
+	<label commandName="BossCmdBossTabSide1AO" devLabel="Advanced" translation="" />
+	<label commandName="BossCmdBossTabSide2" devLabel="Side 2" translation="" />
+	<label commandName="BossCmdBossTabSide2AO" devLabel="Advanced" translation="" />
+	<label commandName="BossCmdBossTabSketchPoints" devLabel="Sketch Points" translation="" />
+	<label commandName="BossCmdBossTabSketchPointsToolTip" devLabel="Select a sketch point to position the boss feature on a body." translation="" />
+	<label commandName="BossCmdBossTabType" devLabel="Type" translation="" />
+	<label commandName="BossCmdBossTabTypePinned" devLabel="Pinned" translation="" />
+	<label commandName="BossCmdBossTabTypeTappedFlat" devLabel="Tapped Hole With Flat End" translation="" />
+	<label commandName="BossCmdBossTabTypeTappedTip" devLabel="Tapped Hole With Tool Tip" translation="" />
+	<label commandName="BossCmdPreviewOpts" devLabel="Visibility" translation="" />
+	<label commandName="BossCmdPreviewSection" devLabel="Section Analysis" translation="" />
+	<label commandName="BossCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the boss feature while you edit." translation="" />
+	<label commandName="BossCmdRibs1Extent" devLabel="Extent/Suppress" translation="" />
+	<label commandName="BossCmdRibs2Extent" devLabel="Extent/Suppress" translation="" />
+	<label commandName="BossCmdRibsExtent1Tip" devLabel="Manage each rib" translation="" />
+	<label commandName="BossCmdRibsExtent1TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 1." translation="" />
+	<label commandName="BossCmdRibsExtent2Tip" devLabel="Manage each rib" translation="" />
+	<label commandName="BossCmdRibsExtent2TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 2." translation="" />
+	<label commandName="BossCmdRibsTab" devLabel="Ribs" translation="" />
+	<label commandName="BossCmdRibsTab1AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Beta1ToolTip" devLabel="Outer Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab1Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Beta2ToolTip" devLabel="Chamfer Angle" translation="" />
+	<label commandName="BossCmdRibsTab1Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Draft" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab1DraftTip" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab1DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1KToolTipL0" devLabel="Rib Length" translation="" />
+	<label commandName="BossCmdRibsTab1KToolTipL1" devLabel="Specify the distance value from the center of Side 1 of the boss feature to the nearest point on the outermost face of the rib." translation="" />
+	<label commandName="BossCmdRibsTab1LToolTip" devLabel="Step Offset" translation="" />
+	<label commandName="BossCmdRibsTab1LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1MToolTip" devLabel="Chamfer Distance" translation="" />
+	<label commandName="BossCmdRibsTab1MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Quantity" devLabel="Quantity" translation="" />
+	<label commandName="BossCmdRibsTab1QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1RRToolTip" devLabel="Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab1RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1RootR" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab1RootRTip" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab1RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Rotation" devLabel="Rotation Angle" translation="" />
+	<label commandName="BossCmdRibsTab1RotationToolTipDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Shape" devLabel="Profile" translation="" />
+	<label commandName="BossCmdRibsTab1ShapeRound" devLabel="Round" translation="" />
+	<label commandName="BossCmdRibsTab1ShapeRoundTip" devLabel="Fillet" translation="" />
+	<label commandName="BossCmdRibsTab1ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1ShapeSquare" devLabel="Chamfer" translation="" />
+	<label commandName="BossCmdRibsTab1ShapeSquareTip" devLabel="Chamfer" translation="" />
+	<label commandName="BossCmdRibsTab1ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1Thickness" devLabel="Thickness" translation="" />
+	<label commandName="BossCmdRibsTab1ThicknessToolTipDescription" devLabel="Specify the distance value to extrude the ribs, perpendicular to the outer face of Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab1TipR" devLabel="Outer Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab1TipRTip" devLabel="Outer Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab1TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 1 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Beta1ToolTip" devLabel="Outer Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab2Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Beta2ToolTip" devLabel="Chamfer Angle" translation="" />
+	<label commandName="BossCmdRibsTab2Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Draft" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab2DraftTip" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdRibsTab2DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2KToolTipL0" devLabel="Rib Length" translation="" />
+	<label commandName="BossCmdRibsTab2KToolTipL1" devLabel="Specify the distance value from the center of Side 2 of the boss feature to the nearest point on the outermost face of the rib." translation="" />
+	<label commandName="BossCmdRibsTab2LToolTip" devLabel="Step Offset" translation="" />
+	<label commandName="BossCmdRibsTab2LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2MToolTip" devLabel="Chamfer Distance" translation="" />
+	<label commandName="BossCmdRibsTab2MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Quantity" devLabel="Quantity" translation="" />
+	<label commandName="BossCmdRibsTab2QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2RRToolTip" devLabel="Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab2RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2RootR" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab2RootRTip" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab2RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Rotation" devLabel="Rotation Angle" translation="" />
+	<label commandName="BossCmdRibsTab2RotationDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Shape" devLabel="Profile" translation="" />
+	<label commandName="BossCmdRibsTab2ShapeRound" devLabel="Fillet" translation="" />
+	<label commandName="BossCmdRibsTab2ShapeRoundTip" devLabel="Fillet" translation="" />
+	<label commandName="BossCmdRibsTab2ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2ShapeSquare" devLabel="Chamfer" translation="" />
+	<label commandName="BossCmdRibsTab2ShapeSquareTip" devLabel="Chamfer" translation="" />
+	<label commandName="BossCmdRibsTab2ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2Thickness" devLabel="Thickness" translation="" />
+	<label commandName="BossCmdRibsTab2ThicknessToolTipDescription" devLabel="Specify the distance value for rib thickness, perpendicular to the outer face of Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTab2TipR" devLabel="Outer Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab2TipRTip" devLabel="Outer Fillet Radius" translation="" />
+	<label commandName="BossCmdRibsTab2TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 2 of the boss feature." translation="" />
+	<label commandName="BossCmdRibsTabSide1" devLabel="Side 1" translation="" />
+	<label commandName="BossCmdRibsTabSide2" devLabel="Side 2" translation="" />
+	<label commandName="BossCmdTabBar" devLabel="Boss Tab Bar" translation="" />
+	<label commandName="BossCmdTransparentSide1" devLabel="Side 1 Transparency" translation="" />
+	<label commandName="BossCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the boss feature." translation="" />
+	<label commandName="BossCmdTransparentSide2" devLabel="Side 2 Transparency" translation="" />
+	<label commandName="BossCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the boss feature." translation="" />
+	<label commandName="BossCmdWebTab" devLabel="Web" translation="" />
+	<label commandName="BossCmdWebTab1AngularSpacing" devLabel="Web1AngularSpacing" translation="" />
+	<label commandName="BossCmdWebTab1AngularSpacingAngle" devLabel="Angle" translation="" />
+	<label commandName="BossCmdWebTab1AngularSpacingFull" devLabel="Full" translation="" />
+	<label commandName="BossCmdWebTab1AngularSpacingLabel" devLabel="Angular Spacing" translation="" />
+	<label commandName="BossCmdWebTab1Depth" devLabel="Web1Depth" translation="" />
+	<label commandName="BossCmdWebTab1DepthButton" devLabel="Web1DepthButton" translation="" />
+	<label commandName="BossCmdWebTab1DepthLabel" devLabel="Depth" translation="" />
+	<label commandName="BossCmdWebTab1DraftAngle" devLabel="Web1DraftAngle" translation="" />
+	<label commandName="BossCmdWebTab1DraftAngleLabel" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdWebTab1NumberOfRibs" devLabel="Web1NumberOfRibs" translation="" />
+	<label commandName="BossCmdWebTab1NumberOfRibsCheckBox" devLabel="Web1NumberOfRibsCheckBox" translation="" />
+	<label commandName="BossCmdWebTab1NumberOfRibsLabel" devLabel="Number of Ribs" translation="" />
+	<label commandName="BossCmdWebTab1Rotation" devLabel="Web1Rotation" translation="" />
+	<label commandName="BossCmdWebTab1RotationButton" devLabel="Web1RotationButton" translation="" />
+	<label commandName="BossCmdWebTab1RotationLabel" devLabel="Rotation" translation="" />
+	<label commandName="BossCmdWebTab1Table" devLabel="Web1Table" translation="" />
+	<label commandName="BossCmdWebTab1Thickness" devLabel="Web1Thickness" translation="" />
+	<label commandName="BossCmdWebTab1ThicknessButton" devLabel="Web1ThicknessButton" translation="" />
+	<label commandName="BossCmdWebTab1ThicknessLabel" devLabel="Thickness" translation="" />
+	<label commandName="BossCmdWebTab1TotalAngle" devLabel="Web1TotalAngle" translation="" />
+	<label commandName="BossCmdWebTab1TotalAngleFlipButton" devLabel="Web1TotalAngleFlipButton" translation="" />
+	<label commandName="BossCmdWebTab1TotalAngleLabel" devLabel="Total Angle" translation="" />
+	<label commandName="BossCmdWebTab2AngularSpacing" devLabel="Web2AngularSpacing" translation="" />
+	<label commandName="BossCmdWebTab2AngularSpacingAngle" devLabel="Angle" translation="" />
+	<label commandName="BossCmdWebTab2AngularSpacingFull" devLabel="Full" translation="" />
+	<label commandName="BossCmdWebTab2AngularSpacingLabel" devLabel="Angular Spacing" translation="" />
+	<label commandName="BossCmdWebTab2Depth" devLabel="Web2Depth" translation="" />
+	<label commandName="BossCmdWebTab2DepthButton" devLabel="Web2DepthButton" translation="" />
+	<label commandName="BossCmdWebTab2DepthLabel" devLabel="Depth" translation="" />
+	<label commandName="BossCmdWebTab2DraftAngle" devLabel="Web2DraftAngle" translation="" />
+	<label commandName="BossCmdWebTab2DraftAngleLabel" devLabel="Draft Angle" translation="" />
+	<label commandName="BossCmdWebTab2NumberOfRibs" devLabel="Web2NumberOfRibs" translation="" />
+	<label commandName="BossCmdWebTab2NumberOfRibsCheckBox" devLabel="Web2NumberOfRibsCheckBox" translation="" />
+	<label commandName="BossCmdWebTab2NumberOfRibsLabel" devLabel="Number of Ribs" translation="" />
+	<label commandName="BossCmdWebTab2Rotation" devLabel="Web2Rotation" translation="" />
+	<label commandName="BossCmdWebTab2RotationButton" devLabel="Web2RotationButton" translation="" />
+	<label commandName="BossCmdWebTab2RotationLabel" devLabel="Rotation" translation="" />
+	<label commandName="BossCmdWebTab2Table" devLabel="Web2Table" translation="" />
+	<label commandName="BossCmdWebTab2Thickness" devLabel="Web2Thickness" translation="" />
+	<label commandName="BossCmdWebTab2ThicknessButton" devLabel="BossWeb2ThicknessButton" translation="" />
+	<label commandName="BossCmdWebTab2ThicknessLabel" devLabel="Thickness" translation="" />
+	<label commandName="BossCmdWebTabSide1" devLabel="Side 1" translation="" />
+	<label commandName="BossCmdWebTabSide2" devLabel="Side 2" translation="" />
+	<label commandName="BossCmdribsTab1AngularSpacing" devLabel="Total Angle" translation="" />
+	<label commandName="BossCmdribsTab2AngularSpacing" devLabel="Total Angle" translation="" />
+	<label commandName="BossCmdribsTab2AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 2 of the boss feature." translation="" />
+	<label commandName="BossContinue" devLabel="Continue" translation="" />
+	<label commandName="BossGoOnline" devLabel="Go Online" translation="" />
+	<label commandName="BossSave" devLabel="Save" translation="" />
+	<label commandName="ChangeBossExtentStates" devLabel="Profile/Extent/Suppress" translation="" />
+	<label commandName="CheckDesignDTT" devLabel="Analyzes the selected solid body against the plastic rule." translation="" />
+	<label commandName="CheckDesignInfo" devLabel="Analyze" translation="" />
+	<label commandName="CreateInjectionMoldingStudy" devLabel="Create an Injection Molding Simulation Study" translation="" />
+	<label commandName="DAAnalyzingBody" devLabel="Analyzing Solid Body..." translation="" />
+	<label commandName="DAAssignPlaticRule" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="DAContinue" devLabel="Continue" translation="" />
+	<label commandName="DAErrorTitle" devLabel="Cannot analyze body" translation="" />
+	<label commandName="DAFlipDirectionInputTooltip" devLabel="Flips the pull direction used to identify undercuts and insufficient draft." translation="" />
+	<label commandName="DAFlipPullDirectionInput" devLabel="Flip Pull Direction" translation="" />
+	<label commandName="DAInjectionMolding" devLabel="Injection Molding" translation="" />
+	<label commandName="DAIsolateDTT" devLabel="Displays the selected alert and hides all other alerts in the canvas." translation="" />
+	<label commandName="DAMeshingError" devLabel="Cannot analyze %1% because the geometry cannot be used to compute the analysis." translation="" />
+	<label commandName="DAModellingErrors" devLabel="Cannot analyze %1% because it contains modeling errors that must be resolved before you can analyze it." translation="" />
+	<label commandName="DANoPlasticRule" devLabel="The component that contains the solid body has no plastic rule assigned.&#10;&#10;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="" />
+	<label commandName="DANoRuleAssigned" devLabel="No plastic rule assigned" translation="" />
+	<label commandName="DAPlasticRuleRemoved" devLabel="The plastic rule has been removed from the component that contains the solid body.&#10;&#10;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="" />
+	<label commandName="DARuleRemoved" devLabel="Plastic rule removed" translation="" />
+	<label commandName="DAUnIsolateDTT" devLabel="Shows all alerts in the canvas." translation="" />
+	<label commandName="DAdvVoxelProblemSelectionName" devLabel="Voxel Problem" translation="" />
+	<label commandName="DesignAdvice" devLabel="Design Advice" translation="" />
+	<label commandName="DesignAdviceCmd" devLabel="Design Advice" translation="" />
+	<label commandName="DraftAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Adjust draft to meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="" />
+	<label commandName="DraftAdvice2" devLabel="Confirm pull direction." translation="" />
+	<label commandName="DraftAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; is defined correctly for the plastic material." translation="" />
+	<label commandName="DraftAlert" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;: %1% %2% meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="" />
+	<label commandName="DraftAlertsInfo" devLabel="DraftAlerts" translation="" />
+	<label commandName="DraftAnalysisLink" devLabel="Draft Analysis" translation="" />
+	<label commandName="DraftAnglesRecommendationInfo" devLabel="DraftAngleRecommendation" translation="" />
+	<label commandName="DraftDTTDesc" devLabel="Analyzes the solid body for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule assigned to its component." translation="" />
+	<label commandName="DraftGroup" devLabel="Draft" translation="" />
+	<label commandName="DraftLink" devLabel="Draft" translation="" />
+	<label commandName="DraftProblemMessage" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Faces with insufficient draft may block the ejection of the part from the injection mold.If the mold requires more ejection features, it may increase cost.Textured surfaces may also require more draft to eject the part without smearing the finish." translation="" />
+	<label commandName="DraftRegion" devLabel="region doesn't" translation="" />
+	<label commandName="DraftRegions" devLabel="regions don't" translation="" />
+	<label commandName="DraftTab" devLabel="Draft" translation="" />
+	<label commandName="DraftTabDTTDesc" devLabel="Displays the details of alerts for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="FusionBoltConn" devLabel="Bolted Connection" translation="" />
+	<label commandName="FusionBoltConnEdit" devLabel="Edit Bolted Connection" translation="" />
+	<label commandName="FusionBoss" devLabel="Boss" translation="" />
+	<label commandName="FusionDcBossEdit" devLabel="Edit Feature" translation="" />
+	<label commandName="FusionDcLipEdit" devLabel="Edit Feature" translation="" />
+	<label commandName="FusionDcRestEdit" devLabel="Edit Feature" translation="" />
+	<label commandName="FusionDcSnapFitEdit" devLabel="Edit Feature" translation="" />
+	<label commandName="FusionLip" devLabel="Lip" translation="" />
+	<label commandName="FusionPlasticFeatureRemoveRule" devLabel="Remove Plastic Rule" translation="" />
+	<label commandName="FusionPlasticFeatureRules" devLabel="Manage Plastic Rules" translation="" />
+	<label commandName="FusionPlasticFeatureSpecifyRule" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="FusionPlasticFeatureSwitchRule" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="FusionRest" devLabel="Rest" translation="" />
+	<label commandName="FusionSelectRestToObject" devLabel="Select body, face, or plane to extend to" translation="" />
+	<label commandName="FusionSnapFit" devLabel="Snap Fit" translation="" />
+	<label commandName="GradientDTTBase" devLabel="Full Range" translation="" />
+	<label commandName="GradientDTTDesc" devLabel="Displays the full range of thickness results as a gradient overlay on the solid body in the canvas.&#10;&#10;Red represents the thickest regions and dark blue represents the thinnest regions." translation="" />
+	<label commandName="HoldCommandToModifySelection" devLabel="Hold Command to modify selection" translation="" />
+	<label commandName="HoldCtrlToModifySelection" devLabel="Hold Ctrl to modify selection" translation="" />
+	<label commandName="IgnoreDTT" devLabel="Hides this alert so that it does not display in the canvas." translation="" />
+	<label commandName="InputTable" devLabel="" translation="" />
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="" />
+	<label commandName="IsolateSingleAlertInfo" devLabel="Isolate Alert" translation="" />
+	<label commandName="KnifeEdgeAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase space between part features to eliminate thin, sharp edges in the mold." translation="" />
+	<label commandName="KnifeEdgeAdvice2" devLabel="Apply fillets or radii to remove thin, sharp features." translation="" />
+	<label commandName="KnifeEdgeAdvice3" devLabel="Consult a mold designer." translation="" />
+	<label commandName="KnifeEdgeAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; is defined correctly for the plastic material." translation="" />
+	<label commandName="KnifeEdgeAlert" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;: %1% %2% thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt;." translation="" />
+	<label commandName="KnifeEdgeDTTDesc" devLabel="Analyzes the solid body for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule assigned to its component." translation="" />
+	<label commandName="KnifeEdgeProblemMessage" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Thin gaps in a part require a mold with thin, sharp features, sometimes called knife edges.These tend to break due to high injection pressure on the molten plastic and can cause the mold to fail prematurely." translation="" />
+	<label commandName="KnifeEdgeRegion" devLabel="region contains" translation="" />
+	<label commandName="KnifeEdgeRegions" devLabel="regions contain" translation="" />
+	<label commandName="KnifeEdgesAlertsInfo" devLabel="KnifeEdgesAlerts" translation="" />
+	<label commandName="KnifeEdgesGroup" devLabel="Knife Edges" translation="" />
+	<label commandName="KnifeEdgesRecommendationInfo" devLabel="KnifeEdgesRecommendation" translation="" />
+	<label commandName="KnifeEdgesTab" devLabel="Knife Edges" translation="" />
+	<label commandName="KnifeEdgesTabDTTDesc" devLabel="Displays the details of alerts for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="LargeVariationDTT" devLabel="Displays only the thickness alerts for regions that exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="LipCmdAdvancedImage" devLabel="AdvancedImage" translation="" />
+	<label commandName="LipCmdAdvancedTab" devLabel="Advanced" translation="" />
+	<label commandName="LipCmdAdvancedTable" devLabel="AdvancedTable" translation="" />
+	<label commandName="LipCmdClearance" devLabel="Clearance" translation="" />
+	<label commandName="LipCmdClearanceInput" devLabel="E" translation="" />
+	<label commandName="LipCmdClearanceToolTip" devLabel="Specify the Clearance for the feature." translation="" />
+	<label commandName="LipCmdClearanceToolTip_groove" devLabel="Specify the clearance for the groove feature." translation="" />
+	<label commandName="LipCmdClearanceToolTip_lipAndGroove" devLabel="Specify the clearance gap between the lip and groove. This dimension defines the offset values for the groove feature." translation="" />
+	<label commandName="LipCmdDefaultSide1BodyName" devLabel="side 1 body" translation="" />
+	<label commandName="LipCmdDefaultSide2BodyName" devLabel="side 2 body" translation="" />
+	<label commandName="LipCmdExtent1" devLabel="Extent 1" translation="" />
+	<label commandName="LipCmdExtent1ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="" />
+	<label commandName="LipCmdExtent2" devLabel="Extent 2" translation="" />
+	<label commandName="LipCmdExtent2ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="" />
+	<label commandName="LipCmdFeatureTab" devLabel="Feature" translation="" />
+	<label commandName="LipCmdFlipToolTip_groove" devLabel="Flips the groove feature to " translation="" />
+	<label commandName="LipCmdFlipToolTip_lip" devLabel="Flips the lip feature to " translation="" />
+	<label commandName="LipCmdFlipToolTip_lipandgroove" devLabel="Swaps the lip and groove features." translation="" />
+	<label commandName="LipCmdGuide" devLabel="Guide Surface" translation="" />
+	<label commandName="LipCmdGuideToolTip" devLabel="Select a face on either side of the selected edge to locate the lip feature." translation="" />
+	<label commandName="LipCmdHeight" devLabel="Height" translation="" />
+	<label commandName="LipCmdHeightInput" devLabel="A" translation="" />
+	<label commandName="LipCmdHeightToolTip" devLabel="Specify the Height of the Lip." translation="" />
+	<label commandName="LipCmdHeightToolTip_basegroove" devLabel="Groove Height" translation="" />
+	<label commandName="LipCmdHeightToolTip_baselip" devLabel="Lip Height" translation="" />
+	<label commandName="LipCmdHeightToolTip_baselipAndGroove" devLabel="Lip Height" translation="" />
+	<label commandName="LipCmdHeightToolTip_groove" devLabel="Specify the height of the groove feature." translation="" />
+	<label commandName="LipCmdHeightToolTip_lip" devLabel="Specify the height of the lip feature." translation="" />
+	<label commandName="LipCmdHeightToolTip_lipAndGroove" devLabel="Specify the height of the Lip. Groove dimensions are calculated automatically." translation="" />
+	<label commandName="LipCmdInsideAngle" devLabel="Side 1 Draft" translation="" />
+	<label commandName="LipCmdInsideAngleInput" devLabel="α1" translation="" />
+	<label commandName="LipCmdInsideAngleToolTip" devLabel="Specify the draft angle for the face farther from the selected edge." translation="" />
+	<label commandName="LipCmdLipTabPath" devLabel="Path" translation="" />
+	<label commandName="LipCmdLipTabPathTT" devLabel="Path" translation="" />
+	<label commandName="LipCmdLipTabPathToolTip" devLabel="Select an edge to place a lip feature on a solid body." translation="" />
+	<label commandName="LipCmdOutsideAngle" devLabel="Side 2 Draft" translation="" />
+	<label commandName="LipCmdOutsideAngleInput" devLabel="α2" translation="" />
+	<label commandName="LipCmdOutsideAngleToolTip" devLabel="Specify the draft angle for the face closer to the selected edge." translation="" />
+	<label commandName="LipCmdPathToolTip_groove" devLabel="Select an edge to place a groove feature on a solid body." translation="" />
+	<label commandName="LipCmdPathToolTip_lip" devLabel="Select an edge to place a lip feature on a solid body." translation="" />
+	<label commandName="LipCmdPathToolTip_lipandgroove" devLabel="Select an edge to place a lip feature on a solid body. The groove feature will automatically be placed on the corresponding body." translation="" />
+	<label commandName="LipCmdPullDirection" devLabel="Pull Direction" translation="" />
+	<label commandName="LipCmdPullDirectionToolTip" devLabel="Select a plane or face to define the pull direction." translation="" />
+	<label commandName="LipCmdRevealWidth" devLabel="Reveal Height" translation="" />
+	<label commandName="LipCmdRevealWidthInput" devLabel="D" translation="" />
+	<label commandName="LipCmdRevealWidthToolTip" devLabel="Specify the reveal height." translation="" />
+	<label commandName="LipCmdShoulderWidth" devLabel="Shoulder Width" translation="" />
+	<label commandName="LipCmdShoulderWidthInput" devLabel="C" translation="" />
+	<label commandName="LipCmdShoulderWidthToolTip" devLabel="Specify the Shoulder Width for the Lip." translation="" />
+	<label commandName="LipCmdShoulderWidthToolTip_groove" devLabel="Specify the distance between the selected edge and the groove feature.&#10; &#10;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="" />
+	<label commandName="LipCmdShoulderWidthToolTip_lip" devLabel="Specify the distance between the selected edge and the lip feature.&#10; &#10;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="" />
+	<label commandName="LipCmdShoulderWidthToolTip_lipAndGroove" devLabel="Specify the distance between the selected edge and the lip feature.&#10; &#10;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="" />
+	<label commandName="LipCmdTabBar" devLabel="Lip Tab Bar" translation="" />
+	<label commandName="LipCmdTangentChain" devLabel="Tangent Chain" translation="" />
+	<label commandName="LipCmdTangentChainTip" devLabel="Automatically select tangent edges." translation="" />
+	<label commandName="LipCmdTransparencyOptions" devLabel="Visibility" translation="" />
+	<label commandName="LipCmdTransparentSide1" devLabel="Side 1 Body Transparency" translation="" />
+	<label commandName="LipCmdTransparentSide1TT" devLabel="Side 1 Transparency" translation="" />
+	<label commandName="LipCmdTransparentSide1ToolTip" devLabel="Lowers the opacity of the side 1 body while you edit." translation="" />
+	<label commandName="LipCmdTransparentSide2" devLabel="Side 2 Body Transparency" translation="" />
+	<label commandName="LipCmdTransparentSide2TT" devLabel="Side 2 Transparency" translation="" />
+	<label commandName="LipCmdTransparentSide2ToolTip" devLabel="Lowers the opacity of the side 2 body while you edit." translation="" />
+	<label commandName="LipCmdVisibilityToolTip_prefix" devLabel="Lowers the opacity of " translation="" />
+	<label commandName="LipCmdVisibilityToolTip_suffix" devLabel=" while you edit." translation="" />
+	<label commandName="LipCmdWidth" devLabel="Width" translation="" />
+	<label commandName="LipCmdWidthInput" devLabel="B" translation="" />
+	<label commandName="LipCmdWidthToolTip" devLabel="Specify the Width of the Lip." translation="" />
+	<label commandName="LipCmdWidthToolTip_basegroove" devLabel="Groove Width" translation="" />
+	<label commandName="LipCmdWidthToolTip_baselip" devLabel="Lip Width" translation="" />
+	<label commandName="LipCmdWidthToolTip_baselipAndGroove" devLabel="Lip Width" translation="" />
+	<label commandName="LipCmdWidthToolTip_groove" devLabel="Specify the width of the groove feature." translation="" />
+	<label commandName="LipCmdWidthToolTip_lip" devLabel="Specify the width of the lip feature." translation="" />
+	<label commandName="LipCmdWidthToolTip_lipAndGroove" devLabel="Specify the width of the Lip. Groove dimensions are calculated automatically." translation="" />
+	<label commandName="LipCursorAdjustInputs1" devLabel="Adjust dimensions or modify edge, guide, or extent selections" translation="" />
+	<label commandName="LipCursorAdjustInputs2" devLabel="Adjust Extent Result, dimensions, and settings or modify selections" translation="" />
+	<label commandName="LipFlipDirectionInput" devLabel="Flip" translation="" />
+	<label commandName="LipFlipDirectionInputTooltip" devLabel="Flips lip feature to other body." translation="" />
+	<label commandName="LipFlipSides" devLabel="Flip" translation="" />
+	<label commandName="LipGrooveShoulderExclude" devLabel="Exclude Groove Shoulder" translation="" />
+	<label commandName="LipGrooveShoulderExcludeToolTip" devLabel="Select to turn off Groove Shoulder." translation="" />
+	<label commandName="LipGrooveShoulderInclude" devLabel="Include Groove Shoulder" translation="" />
+	<label commandName="LipGrooveShoulderIncludeToolTip" devLabel="Select to build Groove Shoulder. Dimensions are automatically calculated based on the Shoulder Width." translation="" />
+	<label commandName="LipGrooveShoulderOption" devLabel="Groove Shoulder" translation="" />
+	<label commandName="LipGuideTypeFace" devLabel="Face Guide" translation="" />
+	<label commandName="LipGuideTypeFaceToolTip" devLabel="Lets you select a face to place the lip feature." translation="" />
+	<label commandName="LipGuideTypeOption" devLabel="Guide Type" translation="" />
+	<label commandName="LipGuideTypePull" devLabel="Pull Direction" translation="" />
+	<label commandName="LipGuideTypePullDirection" devLabel="Pull Direction" translation="" />
+	<label commandName="LipGuideTypePullDirectionToolTip" devLabel="Lets you select a plane or face to define the pull direction." translation="" />
+	<label commandName="LipPartialResultOption" devLabel="Extent Result" translation="" />
+	<label commandName="LipResultChoice1" devLabel="Option 1" translation="" />
+	<label commandName="LipResultChoice1ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="" />
+	<label commandName="LipResultChoice2" devLabel="Option 2" translation="" />
+	<label commandName="LipResultChoice2ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="" />
+	<label commandName="LipResultChoice3" devLabel="Option 3" translation="" />
+	<label commandName="LipResultChoice3ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="" />
+	<label commandName="LipResultChoice4" devLabel="Option 4" translation="" />
+	<label commandName="LipResultChoice4ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="" />
+	<label commandName="LipTypeOption" devLabel="Type" translation="" />
+	<label commandName="LipTypeOptionGrooveOnly" devLabel="Groove" translation="" />
+	<label commandName="LipTypeOptionGrooveOnlyToolTip" devLabel="Creates a recessed groove feature on a solid body." translation="" />
+	<label commandName="LipTypeOptionLipAndGroove" devLabel="Lip And Groove" translation="" />
+	<label commandName="LipTypeOptionLipOnly" devLabel="Lip" translation="" />
+	<label commandName="LipTypeOptionLipOnlyToolTip" devLabel="Creates a raised lip feature on a solid body." translation="" />
+	<label commandName="LipTypeOptionLoopAndGrooveToolTip" devLabel="Creates a lip feature with a lip and groove on a pair of solid bodies." translation="" />
+	<label commandName="MainTabBar" devLabel="MainTabBar" translation="" />
+	<label commandName="ManagePlasticRuleLink" devLabel="Manage Plastic Rules" translation="" />
+	<label commandName="ManufactureMethod" devLabel="Manufacture" translation="" />
+	<label commandName="MinimumDraftInfo" devLabel="Minimum Draft Angle" translation="" />
+	<label commandName="MissingLipGuideFace" devLabel="Missing Guide Face" translation="" />
+	<label commandName="MissingLipPath" devLabel="Missing Path" translation="" />
+	<label commandName="MissingLipPullDirection" devLabel="missing pull direction" translation="" />
+	<label commandName="MissingPlasticRuleAssignPlasticRule" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="MissingPlasticRuleCheckBox" devLabel="Do not show this again" translation="" />
+	<label commandName="MissingPlasticRuleContinue" devLabel="Continue" translation="" />
+	<label commandName="MissingPlasticRuleText" devLabel="The solid bodies you are modifying are contained in the following components with no plastic rules assigned:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Assign plastic rules, or continue creating a feature without assign plastic rules?" translation="" />
+	<label commandName="MissingPlasticRuleTitle" devLabel="No plastic rule assigned" translation="" />
+	<label commandName="MissingRestProfile" devLabel="missing profiles" translation="" />
+	<label commandName="MissingSnapFitRotationDirection" devLabel="Missing rotation direction" translation="" />
+	<label commandName="NoBodySelectedPrompt" devLabel="Select a solid body to analyze" translation="" />
+	<label commandName="NoPullDirectionSelectedPrompt" devLabel="Select a pull direction" translation="" />
+	<label commandName="PlasticFeatureRuleData" devLabel="Plastic Rule: " translation="" />
+	<label commandName="PresetNotCompatibleWithEditedFeatureSettings" devLabel="The preset isn't compatible with edited feature settings." translation="" />
+	<label commandName="PullDirection" devLabel="Pull Direction" translation="" />
+	<label commandName="PullDirectionDTT" devLabel="Select a face, plane, linear edge, or axis to define the pull direction to use to identify undercuts and insufficient draft." translation="" />
+	<label commandName="RecommendationsGroupInfo" devLabel="Recommendations" translation="" />
+	<label commandName="Region" devLabel="region is" translation="" />
+	<label commandName="RegionIcon" devLabel="" translation="" />
+	<label commandName="RegionNumberString" devLabel="" translation="" />
+	<label commandName="RegionValueString" devLabel="RegionValueString" translation="" />
+	<label commandName="Regions" devLabel="regions are" translation="" />
+	<label commandName="RequireSaveBeforeBC" devLabel="Please save this design before inserting Bolted Connection." translation="" />
+	<label commandName="RestAdvancedGroup" devLabel="Advanced" translation="" />
+	<label commandName="RestBothDirectionInput" devLabel="Symmetric" translation="" />
+	<label commandName="RestBothDirectionTooltip" devLabel="Symmetric" translation="" />
+	<label commandName="RestBothDirectionTooltipDesc" devLabel="Centers the thickness on the sketch profile." translation="" />
+	<label commandName="RestCmdDraftAngleInput" devLabel="Draft Angle" translation="" />
+	<label commandName="RestCmdDraftAngleInput2" devLabel="Draft Angle" translation="" />
+	<label commandName="RestCmdDraftAngleTooltip" devLabel="Draft Angle" translation="" />
+	<label commandName="RestCmdDraftAngleTooltip2" devLabel="Draft Angle" translation="" />
+	<label commandName="RestCmdDraftAngleTooltipDesc" devLabel="Specify the draft angle for Side 1 of the rest feature." translation="" />
+	<label commandName="RestCmdDraftAngleTooltipDesc2" devLabel="Specify the draft angle for Side 2 of the rest feature." translation="" />
+	<label commandName="RestCmdLandingFaces" devLabel="Top Faces" translation="" />
+	<label commandName="RestCmdLandingFacesBodyToolTipDesc" devLabel="Select top faces of the solid body to specify areas where the rest feature will be created." translation="" />
+	<label commandName="RestCmdLandingFacesToolTip" devLabel="Top Faces" translation="" />
+	<label commandName="RestCmdRestOffsetInput" devLabel="Offset Position" translation="" />
+	<label commandName="RestCmdRestOffsetTooltip" devLabel="Offset Position" translation="" />
+	<label commandName="RestCmdRestOffsetTooltipDesc" devLabel="Specify the distance to offset the position of the rest plane from the selected profile." translation="" />
+	<label commandName="RestCmdRestTabBody" devLabel="Body" translation="" />
+	<label commandName="RestCmdRestTabBodyToolTip" devLabel="Body" translation="" />
+	<label commandName="RestCmdRestTabBodyToolTipDesc" devLabel="Select a solid body for the rest feature." translation="" />
+	<label commandName="RestCmdRestTabSketch" devLabel="Profile" translation="" />
+	<label commandName="RestCmdRestTabSketchToolTip" devLabel="Profiles" translation="" />
+	<label commandName="RestCmdRestTabSketchToolTipDesc" devLabel="Select closed sketch profiles to create a rest." translation="" />
+	<label commandName="RestCmdRestThicknessInput" devLabel="Thickness" translation="" />
+	<label commandName="RestCmdRestThicknessTooltip" devLabel="Thickness" translation="" />
+	<label commandName="RestCmdRestThicknessTooltipDesc" devLabel="Specify the thickness of the rest wall." translation="" />
+	<label commandName="RestCmdSide1Group" devLabel="Side 1" translation="" />
+	<label commandName="RestCmdSide2Group" devLabel="Side 2" translation="" />
+	<label commandName="RestCmdTrimPlatform" devLabel="Trim" translation="" />
+	<label commandName="RestCmdTrimPlatformToolTipDesc" devLabel="Removes an unwanted rest area extending out of the solid body." translation="" />
+	<label commandName="RestCmdTrimPlatformTooltip" devLabel="Trim" translation="" />
+	<label commandName="RestDirection" devLabel="Thickness Direction" translation="" />
+	<label commandName="RestExtentType" devLabel="Extent Type" translation="" />
+	<label commandName="RestExtentTypeToObjectInput" devLabel="Object" translation="" />
+	<label commandName="RestExtentTypeToObjectInput2" devLabel="Object" translation="" />
+	<label commandName="RestExtentTypeToObjectTooltip2" devLabel="Object" translation="" />
+	<label commandName="RestExtentTypeToObjectTooltipDesc2" devLabel="Select a body, a face, or a plane to extrude to." translation="" />
+	<label commandName="RestFlipDirectionInput" devLabel="Flip" translation="" />
+	<label commandName="RestFlipDirectionInputTooltip" devLabel="Flip" translation="" />
+	<label commandName="RestFlipDirectionInputTooltipDesc" devLabel="Flips the rest feature over the selected sketch profile." translation="" />
+	<label commandName="RestInsideDirectionInput" devLabel="Side 1" translation="" />
+	<label commandName="RestInsideDirectionTooltip" devLabel="Side 1" translation="" />
+	<label commandName="RestInsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="" />
+	<label commandName="RestOutsideDirectionInput" devLabel="Side 2" translation="" />
+	<label commandName="RestOutsideDirectionTooltip" devLabel="Side 2" translation="" />
+	<label commandName="RestOutsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="" />
+	<label commandName="RestSide1ToObjectSelectInfoDesc" devLabel="Select a body, a face, or a plane to extrude to." translation="" />
+	<label commandName="RestThroughAllExtentTypeInput" devLabel="All" translation="" />
+	<label commandName="RestThroughAllExtentTypeInput2" devLabel="All" translation="" />
+	<label commandName="RestThroughAllExtentTypeTooltip" devLabel="All" translation="" />
+	<label commandName="RestThroughAllExtentTypeTooltip2" devLabel="All" translation="" />
+	<label commandName="RestThroughAllExtentTypeTooltipDesc" devLabel="Extrudes the rest through the selected body." translation="" />
+	<label commandName="RestThroughAllExtentTypeTooltipDesc2" devLabel="Extrudes the rest through the selected body." translation="" />
+	<label commandName="RestToObjectExtentTypeInput" devLabel="To Object" translation="" />
+	<label commandName="RestToObjectExtentTypeInput2" devLabel="To Object" translation="" />
+	<label commandName="RestToObjectExtentTypeTooltip" devLabel="To Object" translation="" />
+	<label commandName="RestToObjectExtentTypeTooltip2" devLabel="To Object" translation="" />
+	<label commandName="RestToObjectExtentTypeTooltipDesc" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="" />
+	<label commandName="RestToObjectExtentTypeTooltipDesc2" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="" />
+	<label commandName="RuleGroupInfo" devLabel="Rule Details" translation="" />
+	<label commandName="RulesWidget" devLabel="Rules Widget" translation="" />
+	<label commandName="SelectBodiesForSnapFit" devLabel="Select target body to place a snap fit" translation="" />
+	<label commandName="SelectExtentForLip" devLabel="Select a point, vertex, face, or plane to extend to" translation="" />
+	<label commandName="SelectGuideFaceLip" devLabel="Select a face on either side of the selected edge to locate the lip feature" translation="" />
+	<label commandName="SelectLandingFacesForRest" devLabel="Select Landing faces for the rest feature" translation="" />
+	<label commandName="SelectMorePathForLip" devLabel="Modify edge selection or adjust lip settings" translation="" />
+	<label commandName="SelectMoreSketchPointsForBoss" devLabel="Select additional sketch points or adjust boss settings" translation="" />
+	<label commandName="SelectMoreSketchPointsForSnapFit" devLabel="Select additional sketch points or adjust snap fit settings" translation="" />
+	<label commandName="SelectPathForLip" devLabel="Select an edge to place lip" translation="" />
+	<label commandName="SelectPullDirectionLip" devLabel="Select a plane or face to define the pull direction" translation="" />
+	<label commandName="SelectRotationDirectionForSnapFit" devLabel="Select a line, an edge, a vertex or point to define Custom alignment direction" translation="" />
+	<label commandName="SelectSketchForRest" devLabel="Select a closed sketch profile to place a rest feature" translation="" />
+	<label commandName="SelectSketchForSnapFit" devLabel="Select sketch to place snap fit" translation="" />
+	<label commandName="SelectSketchPointsForBoss" devLabel="Select sketch point to place a boss" translation="" />
+	<label commandName="SelectSketchPointsForSnapFit" devLabel="Select sketch point to place a snap fit" translation="" />
+	<label commandName="SelectTargetBodyForRest" devLabel="Select a solid body for the rest feature" translation="" />
+	<label commandName="SelectedCompName" devLabel="Component" translation="" />
+	<label commandName="Separator" devLabel="" translation="" />
+	<label commandName="SnapFitAlignmentFlipInput" devLabel="Flip" translation="" />
+	<label commandName="SnapFitAlignmentFlipInputToolTip" devLabel="Flips the alignment of snap fits 180 degrees relative to the selected alignment object." translation="" />
+	<label commandName="SnapFitBottomExtentDistanceInput" devLabel="Depth" translation="" />
+	<label commandName="SnapFitBottomExtentDistanceInputTooltip" devLabel="Specify the distance to extrude the bottom of the snap fit, in a direction parallel to the sketch plane, toward the nearest faces on a solid body." translation="" />
+	<label commandName="SnapFitBottomExtentOption" devLabel="Extent Type" translation="" />
+	<label commandName="SnapFitBottomExtentOptionDistance" devLabel="Distance" translation="" />
+	<label commandName="SnapFitBottomExtentOptionDistanceToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to a specified depth." translation="" />
+	<label commandName="SnapFitBottomExtentOptionToNext" devLabel="To Next" translation="" />
+	<label commandName="SnapFitBottomExtentOptionToNextToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to the nearest faces on a solid body." translation="" />
+	<label commandName="SnapFitCmdGrooveGroup" devLabel="Groove" translation="" />
+	<label commandName="SnapFitCmdHookGroup" devLabel="Hook" translation="" />
+	<label commandName="SnapFitCmdHookImage" devLabel="HookImage" translation="" />
+	<label commandName="SnapFitCmdHookTable" devLabel="HookTable" translation="" />
+	<label commandName="SnapFitCmdLoopGroup" devLabel="Loop" translation="" />
+	<label commandName="SnapFitCmdLoopHookImage" devLabel="LoopHookImage" translation="" />
+	<label commandName="SnapFitCmdLoopHookTable" devLabel="LoopHookTable" translation="" />
+	<label commandName="SnapFitCmdLoopImage" devLabel="LoopImage" translation="" />
+	<label commandName="SnapFitCmdLoopTable" devLabel="LoopTable" translation="" />
+	<label commandName="SnapFitCmdParallelGrooveImage" devLabel="ParallelGrooveImage" translation="" />
+	<label commandName="SnapFitCmdParallelGrooveTable" devLabel="ParallelGrooveTable" translation="" />
+	<label commandName="SnapFitCmdPerpendicularGrooveImage" devLabel="PerpendicularGrooveImage" translation="" />
+	<label commandName="SnapFitCmdPerpendicularGrooveTable" devLabel="PerpendicularGrooveTable" translation="" />
+	<label commandName="SnapFitCmdPreviewOpts" devLabel="Visibility" translation="" />
+	<label commandName="SnapFitCmdPreviewSection" devLabel="Section Analysis" translation="" />
+	<label commandName="SnapFitCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the snap fit feature while you edit." translation="" />
+	<label commandName="SnapFitCmdSelectOption" devLabel="Selection Mode" translation="" />
+	<label commandName="SnapFitCmdSelectPoints" devLabel="Manual" translation="" />
+	<label commandName="SnapFitCmdSelectPointsToolTip" devLabel="Lets you manually select each sketch point to create snap fits." translation="" />
+	<label commandName="SnapFitCmdSelectSketch" devLabel="Automatic" translation="" />
+	<label commandName="SnapFitCmdSelectSketchToolTip" devLabel="Automatically selects all visible sketch points to create snap fits." translation="" />
+	<label commandName="SnapFitCmdTransparentSide1" devLabel="Side 1 Transparency" translation="" />
+	<label commandName="SnapFitCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the snap fit feature." translation="" />
+	<label commandName="SnapFitCmdTransparentSide2" devLabel="Side 2 Transparency" translation="" />
+	<label commandName="SnapFitCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the snap fit feature." translation="" />
+	<label commandName="SnapFitCmdUndercutGroup" devLabel="Hook Undercut" translation="" />
+	<label commandName="SnapFitCmdUndercutImage" devLabel="UndercutImage" translation="" />
+	<label commandName="SnapFitCmdUndercutTable" devLabel="UndercutTable" translation="" />
+	<label commandName="SnapFitDummy" devLabel="Dummy" translation="" />
+	<label commandName="SnapFitFlipDirectionInput" devLabel="Flip" translation="" />
+	<label commandName="SnapFitHookBeamLength" devLabel="B" translation="" />
+	<label commandName="SnapFitHookBeamLengthToolTipL0" devLabel="Beam Length" translation="" />
+	<label commandName="SnapFitHookBeamLengthToolTipL1" devLabel="Specify the length of the beam between the base and the tip of the hook." translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtRetention" devLabel="C" translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL0" devLabel="Transition Depth" translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL1" devLabel="Specify the depth of the hook at the transition between the beam and the tip of the hook." translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtWall" devLabel="A" translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL0" devLabel="Base Depth" translation="" />
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL1" devLabel="Specify the depth of the beam at the base of the hook." translation="" />
+	<label commandName="SnapFitHookBeamWidthAtRetention" devLabel="E" translation="" />
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL0" devLabel="Transition Width" translation="" />
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL1" devLabel="Specify width of the hook at the transition between the beam and the tip of the hook." translation="" />
+	<label commandName="SnapFitHookBeamWidthAtWall" devLabel="D" translation="" />
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL0" devLabel="Base Width" translation="" />
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL1" devLabel="Specify the width of the beam at the base of the hook." translation="" />
+	<label commandName="SnapFitHookBody" devLabel="Body" translation="" />
+	<label commandName="SnapFitHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="" />
+	<label commandName="SnapFitHookInsertionAngle" devLabel="α2" translation="" />
+	<label commandName="SnapFitHookInsertionAngleToolTipL0" devLabel="Entry Angle" translation="" />
+	<label commandName="SnapFitHookInsertionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it enters the groove." translation="" />
+	<label commandName="SnapFitHookRetentionAngle" devLabel="α1" translation="" />
+	<label commandName="SnapFitHookRetentionAngleToolTipL0" devLabel="Exit Angle" translation="" />
+	<label commandName="SnapFitHookRetentionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it exits the groove." translation="" />
+	<label commandName="SnapFitHookRetentionHookTip" devLabel="G" translation="" />
+	<label commandName="SnapFitHookRetentionHookTipToolTipL0" devLabel="Tip Length" translation="" />
+	<label commandName="SnapFitHookRetentionHookTipToolTipL1" devLabel="Specify the length of the tip of the hook where it meets the entry angle." translation="" />
+	<label commandName="SnapFitHookRetentionLength" devLabel="H" translation="" />
+	<label commandName="SnapFitHookRetentionLengthToolTipL0" devLabel="Hook Length" translation="" />
+	<label commandName="SnapFitHookRetentionLengthToolTipL1" devLabel="Specify overall length of the tip of the hook." translation="" />
+	<label commandName="SnapFitHookRetentionUndercut" devLabel="F" translation="" />
+	<label commandName="SnapFitHookRetentionUndercutToolTipL0" devLabel="Hook Depth" translation="" />
+	<label commandName="SnapFitHookRetentionUndercutToolTipL1" devLabel="Specify the depth of the tip of the hook." translation="" />
+	<label commandName="SnapFitHorizontalDirectionInput" devLabel="Alignment Object" translation="" />
+	<label commandName="SnapFitHorizontalDirectionInputToolTip" devLabel="Select a plane, line, or point to align snap fits." translation="" />
+	<label commandName="SnapFitIndependentRotationInput" devLabel="Rotation Angle" translation="" />
+	<label commandName="SnapFitIndependentRotationInputTooltipL1" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="" />
+	<label commandName="SnapFitIndependentRotationToolTipL0" devLabel="Independent Rotation Angle" translation="" />
+	<label commandName="SnapFitLoopBody" devLabel="Body" translation="" />
+	<label commandName="SnapFitLoopBodyToolTip" devLabel="Select a body for the loop side of the snap fit feature." translation="" />
+	<label commandName="SnapFitLoopCatchLength" devLabel="E" translation="" />
+	<label commandName="SnapFitLoopCatchLengthToolTipL0" devLabel="Loop Length" translation="" />
+	<label commandName="SnapFitLoopCatchLengthToolTipL1" devLabel="Specify the length of the opening of the loop." translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtSide" devLabel="G" translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL0" devLabel="Side Width" translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL1" devLabel="Specify the width of the edges on the sides of the loop." translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtTop" devLabel="F" translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL0" devLabel="Tip Length" translation="" />
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL1" devLabel="Specify the length of the edge at the tip of the loop." translation="" />
+	<label commandName="SnapFitLoopClipLength" devLabel="B" translation="" />
+	<label commandName="SnapFitLoopClipLengthToolTipL0" devLabel="Beam Length" translation="" />
+	<label commandName="SnapFitLoopClipLengthToolTipL1" devLabel="Specify the overall length of the beam for the loop." translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtTop" devLabel="C" translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL0" devLabel="Loop Depth" translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL1" devLabel="Specify the depth of the tip of the loop" translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtWall" devLabel="A" translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL0" devLabel="Base Depth" translation="" />
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL1" devLabel="Specify the depth at the base of the loop." translation="" />
+	<label commandName="SnapFitLoopClipWidth" devLabel="D" translation="" />
+	<label commandName="SnapFitLoopClipWidthToolTipL0" devLabel="Base Width" translation="" />
+	<label commandName="SnapFitLoopClipWidthToolTipL1" devLabel="Specify the width at the base of the loop." translation="" />
+	<label commandName="SnapFitLoopHookBody" devLabel="Body" translation="" />
+	<label commandName="SnapFitLoopHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="" />
+	<label commandName="SnapFitLoopHookRetentionAngle" devLabel="α1" translation="" />
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL0" devLabel="Entry Angle" translation="" />
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL1" devLabel="Specify the angle of the hook where it enters the loop." translation="" />
+	<label commandName="SnapFitLoopHookRetentionClearance" devLabel="L" translation="" />
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL0" devLabel="Hook Clearance" translation="" />
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL1" devLabel="Specify the clearance to maintain between the the hook and the edge of the loop." translation="" />
+	<label commandName="SnapFitLoopHookRetentionDepth" devLabel="J" translation="" />
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL0" devLabel="Hook Depth" translation="" />
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL1" devLabel="Specify the depth of the hook, measured from the edge where it enters the loop." translation="" />
+	<label commandName="SnapFitLoopHookRetentionRibThickness" devLabel="M" translation="" />
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL0" devLabel="Rib Width" translation="" />
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL1" devLabel="Specify the width of the ribs for the hook." translation="" />
+	<label commandName="SnapFitLoopHookRetentionTip" devLabel="K" translation="" />
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL0" devLabel="Hook Tip Length" translation="" />
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL1" devLabel="Specify length of the tip of the hook." translation="" />
+	<label commandName="SnapFitLoopHookRibsInput" devLabel="Ribs" translation="" />
+	<label commandName="SnapFitLoopHookRibsInputToolTip" devLabel="Adds ribs to the hook side of the snap fit." translation="" />
+	<label commandName="SnapFitParallelGrooveBackClearance" devLabel="K" translation="" />
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL0" devLabel="Deflection Clearance" translation="" />
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL1" devLabel="Specify the clearance to maintain when the hook deflects as it snaps into the groove." translation="" />
+	<label commandName="SnapFitParallelGrooveBody" devLabel="Body" translation="" />
+	<label commandName="SnapFitParallelGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="" />
+	<label commandName="SnapFitParallelGrooveCornerRadius" devLabel="R" translation="" />
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL0" devLabel="Corner Radius" translation="" />
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="" />
+	<label commandName="SnapFitParallelGrooveDepth" devLabel="J" translation="" />
+	<label commandName="SnapFitParallelGrooveDepthToolTipL0" devLabel="Groove Depth" translation="" />
+	<label commandName="SnapFitParallelGrooveDepthToolTipL1" devLabel="Specify the depth of the groove to receive the hook, measured from the nearest face on the tip of the hook." translation="" />
+	<label commandName="SnapFitParallelGrooveLengthClearance" devLabel="M" translation="" />
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL0" devLabel="Length Clearance" translation="" />
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL1" devLabel="Specify the clearance to maintain between the tip of the hook and the edge of the groove." translation="" />
+	<label commandName="SnapFitParallelGrooveWidth" devLabel="L" translation="" />
+	<label commandName="SnapFitParallelGrooveWidthToolTipL0" devLabel="Groove Width" translation="" />
+	<label commandName="SnapFitParallelGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveBody" devLabel="Body" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveHookClearance" devLabel="J" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL0" devLabel="Beam Clearance" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL1" devLabel="Specify the clearance to maintain between the beam of the hook and the edge of the groove." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveLength" devLabel="M" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL0" devLabel="Groove Length" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL1" devLabel="Specify the length of the groove to receive the hook." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRadius" devLabel="R" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL0" devLabel="Corner Radius" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampAngle" devLabel="α3" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL0" devLabel="Ramp Angle" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL1" devLabel="Specify the angle of the ramp where the hook enters the groove." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampSize" devLabel="K" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL0" devLabel="Ramp Depth" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL1" devLabel="Specify the depth of the ramp, measured from the outer edge of the groove." translation="" />
+	<label commandName="SnapFitPerpendicularGrooveWidth" devLabel="L" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL0" devLabel="Groove Width" translation="" />
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="" />
+	<label commandName="SnapFitRadiusHookRoot" devLabel="Radius Hook Root" translation="" />
+	<label commandName="SnapFitRadiusHookRootToolTip" devLabel="Specify the radius for the hook root." translation="" />
+	<label commandName="SnapFitRootBlendRadiusInput" devLabel="Base Fillet Radius" translation="" />
+	<label commandName="SnapFitRootBlendRadiusInputTooltip" devLabel="Specify the radius value of the fillet at the base of the hook." translation="" />
+	<label commandName="SnapFitRotationInput" devLabel="Rotation Angle" translation="" />
+	<label commandName="SnapFitRotationInputTooltip" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="" />
+	<label commandName="SnapFitRotationOption" devLabel="Rotation Type" translation="" />
+	<label commandName="SnapFitRotationOptionDirection" devLabel="Aligned" translation="" />
+	<label commandName="SnapFitRotationOptionDirectionToolTip" devLabel="Aligns all snap fits to planar, linear, or point geometry that you select." translation="" />
+	<label commandName="SnapFitRotationOptionIndependent" devLabel="Independent" translation="" />
+	<label commandName="SnapFitRotationOptionIndependentToolTip" devLabel="Rotates each snap fit independently around its own sketch point." translation="" />
+	<label commandName="SnapFitRotationOptionUnified" devLabel="Uniform" translation="" />
+	<label commandName="SnapFitRotationOptionUnifiedToolTip" devLabel="Rotates all snap fits to the same angle around their sketch points." translation="" />
+	<label commandName="SnapFitSketchPointInput" devLabel="Sketch Points" translation="" />
+	<label commandName="SnapFitSketchPointInputToolTip" devLabel="Select a sketch point to position the snap fit feature on a body." translation="" />
+	<label commandName="SnapFitTypeOption" devLabel="Type" translation="" />
+	<label commandName="SnapFitTypeOptionLoop" devLabel="Hook And Loop" translation="" />
+	<label commandName="SnapFitTypeOptionLoopToolTip" devLabel="Creates a snap fit feature with a hook and loop on a pair of solid bodies." translation="" />
+	<label commandName="SnapFitTypeOptionParallelHook" devLabel="Parallel Hook And Groove" translation="" />
+	<label commandName="SnapFitTypeOptionParallelHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, parallel to a face on a pair of solid bodies." translation="" />
+	<label commandName="SnapFitTypeOptionPerpendicularHook" devLabel="Perpendicular Hook And Groove" translation="" />
+	<label commandName="SnapFitTypeOptionPerpendicularHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, perpendicular to a face on a pair of solid bodies." translation="" />
+	<label commandName="SnapFitUndercutCornerRadius" devLabel="RU" translation="" />
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL0" devLabel="Corner Radius" translation="" />
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the undercut." translation="" />
+	<label commandName="SnapFitUndercutLength" devLabel="V" translation="" />
+	<label commandName="SnapFitUndercutLengthToolTipL0" devLabel="Undercut Length" translation="" />
+	<label commandName="SnapFitUndercutLengthToolTipL1" devLabel="Specify the length of the groove to receive the undercut." translation="" />
+	<label commandName="SnapFitUndercutWidth" devLabel="U" translation="" />
+	<label commandName="SnapFitUndercutWidthToolTipL0" devLabel="Undercut Width" translation="" />
+	<label commandName="SnapFitUndercutWidthToolTipL1" devLabel="Specify the width of the groove to receive the undercut." translation="" />
+	<label commandName="SolidSelection" devLabel="Solid Body" translation="" />
+	<label commandName="SpecifyRule" devLabel="Plastic Rule" translation="" />
+	<label commandName="SpecifyRuleSelectComponentTooltip" devLabel="Select a component to assign a plastic rule." translation="" />
+	<label commandName="SpeficyRuleSelectComponentCursor1" devLabel="Select a component in the browser or canvas" translation="" />
+	<label commandName="SpeficyRuleSelectComponentCursor2" devLabel="Select a plastic rule" translation="" />
+	<label commandName="StatusError" devLabel="" translation="" />
+	<label commandName="StatusIgnore" devLabel="" translation="" />
+	<label commandName="SummaryTab" devLabel="Summary" translation="" />
+	<label commandName="SummaryTabDTTDesc" devLabel="Displays an overview of all the alerts found during the analysis of the solid body." translation="" />
+	<label commandName="SwitchRule" devLabel="Plastic Rule" translation="" />
+	<label commandName="SwitchRuleSelectComponentTooltip" devLabel="Assign Plastic Rule&#10;&#10;Assign a different plastic rule to this component." translation="" />
+	<label commandName="ThicknessAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Try to maintain uniform thickness." translation="" />
+	<label commandName="ThicknessAdvice2" devLabel="Increase or decrease thickness in regions of high variation. In general, thickness variation should be kept under 25%." translation="" />
+	<label commandName="ThicknessAdvice3" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="" />
+	<label commandName="ThicknessAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Variation&lt;/b&gt; is defined correctly for the plastic material." translation="" />
+	<label commandName="ThicknessAdvice5" devLabel="Set up an &lt;b&gt;Injection Molding&lt;/b&gt; simulation study to get accurate information based on process settings, material selection, and injection location." translation="" />
+	<label commandName="ThicknessAlertLargeWallWariation" devLabel="&lt;b&gt;Large Thickness Variation:&lt;/b&gt; %1% %2% the maximum percentage &lt;b&gt;Thickness Variation&lt;/b&gt;." translation="" />
+	<label commandName="ThicknessAlertTooThick" devLabel="%1%&lt;b&gt;Too Thick:&lt;/b&gt; %2% %3% thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="" />
+	<label commandName="ThicknessAlertTooThin" devLabel="%1%&lt;b&gt;Too Thin:&lt;/b&gt; %2% %3% thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="" />
+	<label commandName="ThicknessAlertsInfo" devLabel="ThicknessAlerts" translation="" />
+	<label commandName="ThicknessDTTDesc" devLabel="Analyzes the solid body for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule assigned to its component." translation="" />
+	<label commandName="ThicknessGroup" devLabel="Thickness" translation="" />
+	<label commandName="ThicknessInfo" devLabel="Thickness" translation="" />
+	<label commandName="ThicknessIssueTypeInfo" devLabel="Alert Type" translation="" />
+	<label commandName="ThicknessIssueTypeLargeVariationInfo" devLabel="Large Thickness Variation" translation="" />
+	<label commandName="ThicknessIssueTypeTooThickInfo" devLabel="Too Thick" translation="" />
+	<label commandName="ThicknessIssueTypeTooThinInfo" devLabel="Too Thin" translation="" />
+	<label commandName="ThicknessRangeInfo" devLabel="Thickness Range" translation="" />
+	<label commandName="ThicknessRecommendationInfo" devLabel="ThicknessRecommendation" translation="" />
+	<label commandName="ThicknessTab" devLabel="Thickness" translation="" />
+	<label commandName="ThicknessTabDTTDesc" devLabel="Displays the details of alerts for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="ThicknessVariationInfo" devLabel="Thickness Variation" translation="" />
+	<label commandName="ThicknessViewGradientInfo" devLabel="" translation="" />
+	<label commandName="ThicknessViewInfo" devLabel="Display" translation="" />
+	<label commandName="ThicknessViewTransparentInfo" devLabel="" translation="" />
+	<label commandName="ThinSteelConditionInfo" devLabel="Knife Edge Threshold" translation="" />
+	<label commandName="TooThickAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Decrease thickness in thicker regions." translation="" />
+	<label commandName="TooThickAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="" />
+	<label commandName="TooThickAdvice3" devLabel="Use a tool like &lt;b&gt;Shell&lt;/b&gt; to core out thick sections to maintain uniform thickness." translation="" />
+	<label commandName="TooThickAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="" />
+	<label commandName="TooThickDTT" devLabel="Displays only the thickness alerts for regions that are thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="TooThickProblemMessage" devLabel="&lt;b&gt;Too Thick&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thick take longer to cool.This can lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part as the molten plastic solidifies." translation="" />
+	<label commandName="TooThinAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase thickness in thinner regions." translation="" />
+	<label commandName="TooThinAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="" />
+	<label commandName="TooThinAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="" />
+	<label commandName="TooThinDTT" devLabel="Displays only the thickness alerts for regions that are thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="" />
+	<label commandName="TooThinProblemMessage" devLabel="&lt;b&gt;Too Thin&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thin may fill slower or have difficulty filling completely.They cool faster than thicker regions.This can cause uneven shrinkage, which warps the part as the molten plastic solidifies." translation="" />
+	<label commandName="TransparentDTTBase" devLabel="Alerts Only" translation="" />
+	<label commandName="TransparentDTTDesc" devLabel="Displays the areas affected by thickness alerts as a red overlay on the solid body in the canvas." translation="" />
+	<label commandName="UnIsolateSingleAlertInfo" devLabel="Unisolate Alert" translation="" />
+	<label commandName="UndercutAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Remove undercuts to simplify the mold design." translation="" />
+	<label commandName="UndercutAdvice2" devLabel="Confirm pull direction." translation="" />
+	<label commandName="UndercutAdvice3" devLabel="Redesign undercut features to align with the pull direction." translation="" />
+	<label commandName="UndercutAdvice4" devLabel="Check draft on the undercut feature." translation="" />
+	<label commandName="UndercutAdvice5" devLabel="Investigate to make sure the part can be removed from the mold." translation="" />
+	<label commandName="UndercutAdvice6" devLabel="Highlight undercuts as features of concern, and consult a mold designer. Confirm whether sliders, lifters, or inserts could be added to the mold to help remove the part." translation="" />
+	<label commandName="UndercutAlert" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;: %1% %2% undercuts that will interfere with ejection from a mold." translation="" />
+	<label commandName="UndercutProblemMessagen" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Undercuts are trapped features that can't be ejected from the mold. If the mold requires sliders, lifters, or inserts to help eject the part from the mold, it may increase the cost. Not all undercuts can be avoided, but they should be minimized." translation="" />
+	<label commandName="UndercutRegion" devLabel="region contains" translation="" />
+	<label commandName="UndercutRegions" devLabel="regions contain" translation="" />
+	<label commandName="UndercutTabDTTDesc" devLabel="Displays the details of alerts for features that will interfere with ejection from a mold, based on the pull direction." translation="" />
+	<label commandName="UndercutsAlertsInfo" devLabel="UndercutsAlerts" translation="" />
+	<label commandName="UndercutsDTTDesc" devLabel="Analyzes the solid body for features that will interfere with ejection from a mold, based on the pull direction." translation="" />
+	<label commandName="UndercutsGroup" devLabel="Undercuts" translation="" />
+	<label commandName="UndercutsRecommendationInfo" devLabel="UndercutsRecommendation" translation="" />
+	<label commandName="UndercutsTab" devLabel="Undercuts" translation="" />
+	<label commandName="ViewDetails" devLabel="View Details" translation="" />
+	<label commandName="ViewDetailsGroupInfo" devLabel="Details" translation="" />
+	<label commandName="WVRegion" devLabel="region exceeds" translation="" />
+	<label commandName="WVRegions" devLabel="regions exceed" translation="" />
+	<label commandName="WallVariationProblemMessage" devLabel="&lt;b&gt;Large Thickness Variation&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions with large variation in thickness may fill and cool unevenly.Thick regions may lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part.Thin regions may fill slower or have difficulty filling completely.They cool faster than thicker regions. This can cause uneven shrinkage, which warps the part." translation="" />
+	<label commandName="componentSelection" devLabel="Component" translation="" />
+	<label commandName="design-advice-feature-desc" devLabel="Identify manufacturability concerns based on industry best practices and company standards, and receive recommendations to improve the manufacturability and performance of your design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="design-advice-feature-title" devLabel="Design Advice" translation="" />
+	<label commandName="finishBlack" devLabel="Black" translation="" />
+	<label commandName="finishChrome" devLabel="Chrome" translation="" />
+	<label commandName="finishNickelPlated" devLabel="Nickel Plated" translation="" />
+	<label commandName="finishPassivated" devLabel="Passivated" translation="" />
+	<label commandName="finishZincPlated" devLabel="Zinc Plated" translation="" />
+	<label commandName="geometric-pattern-feature-desc" devLabel="Create complex patterns with adjustable size and distribution gradients across a selected face. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="geometric-pattern-feature-title" devLabel="Geometric Pattern" translation="" />
+	<label commandName="lclzAssignPlasticRule1" devLabel="Assigns a plastic rule to a component to automatically control the properties of plastic features, like physical material and thickness." translation="" />
+	<label commandName="lclzAssignPlasticRule2" devLabel="Select a component, then select the plastic rule to assign to it." translation="" />
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksDesc" devLabel="In the Browser, you can switch the plastic rule assigned to a component, and all the associated features will update to reflect the values defined in the new rule." translation="" />
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTips" devLabel="Assign a plastic rule to a component to automatically control values like plastic material, thickness, and draft angle when you create features using tools like Rib, Web, and Boss." translation="" />
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTitle" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="lclzBoltConn1" devLabel="Inserts bolt into existing hole." translation="" />
+	<label commandName="lclzBoltConn2" devLabel="Select a circular edge." translation="" />
+	<label commandName="lclzBoltConnTipsAndTricksTips" devLabel="Select a circular edge." translation="" />
+	<label commandName="lclzBoltConnTipsAndTricksTitle" devLabel="Bolted Connection Information" translation="" />
+	<label commandName="lclzBoss1" devLabel="Creates a boss feature to fasten two solid bodies together and reinforce thin areas of a design." translation="" />
+	<label commandName="lclzBoss2" devLabel="Select a sketch point between two solid bodies, then adjust the settings for each side of the boss feature and the fastener that will assemble them together." translation="" />
+	<label commandName="lclzBossTipsAndTricksDesc" devLabel="On the Ribs tab, add ribs to each side of the boss feature to strengthen and support them." translation="" />
+	<label commandName="lclzBossTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create bosses between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each boss, or constrain or dimension them in the sketch to define precise locations." translation="" />
+	<label commandName="lclzBossTipsAndTricksTitle" devLabel="Boss Information" translation="" />
+	<label commandName="lclzChangePlasticRule1" devLabel="Assign Plastic Rule" translation="" />
+	<label commandName="lclzChangePlasticRule2" devLabel="Assign a different plastic rule to this component." translation="" />
+	<label commandName="lclzDesignAdviceCmd1" devLabel="Identifies manufacturability concerns based on best practices for plastic injection molding, and provides recommendations to address them." translation="" />
+	<label commandName="lclzDesignAdviceCmd2" devLabel="Select a solid body and the pull direction, then click Analyze. Once the analysis is complete, the rules, results, and recommendations display." translation="" />
+	<label commandName="lclzLip1" devLabel="Creates a lip, groove, or combined feature on one or two solid bodies." translation="" />
+	<label commandName="lclzLip2" devLabel="Select an edge on a solid body then choose between the Lip, Groove, or Lip And Groove types. Select a guide type, a pull direction or guide face to locate the feature, then adjust the dimension settings. Optionally, select one or two extents for the feature and choose a result option." translation="" />
+	<label commandName="lclzLipTipsAndTricksDesc" devLabel="When you create a lip and groove together, the groove dimensions are automatically determined by the lip dimensions and clearance." translation="" />
+	<label commandName="lclzLipTipsAndTricksTips" devLabel="Select the inside edge to place your lip feature to ensure the reveal is on the outside of your design." translation="" />
+	<label commandName="lclzLipTipsAndTricksTitle" devLabel="Lip And Groove Information" translation="" />
+	<label commandName="lclzManagePlasticRules1" devLabel="Manages plastic rules in the active design to automatically control properties of plastic features, like physical material and thickness." translation="" />
+	<label commandName="lclzManagePlasticRules2" devLabel="Create new rules, edit existing rules, or save rules to a library to use them in multiple designs." translation="" />
+	<label commandName="lclzManagePlasticRulesTipsAndTricksDesc" devLabel="Plastic rules that appear in the &lt;b&gt;In This Design&lt;/b&gt; section are stored in the active design document. Plastic rules that appear in the &lt;b&gt;Library&lt;/b&gt; section are stored in the cloud." translation="" />
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTips" devLabel="When you edit the values in a plastic rule, any plastic features in components that use that plastic rule will update to reflect the new values." translation="" />
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTitle" devLabel="Manage Plastic Rules Information" translation="" />
+	<label commandName="lclzRest1" devLabel="Creates a rest feature that intersects the overall shape and forms a flat area that can be used for other features or placement of other components." translation="" />
+	<label commandName="lclzRest2" devLabel="Select a closed sketch profile and a solid body, then specify the thickness." translation="" />
+	<label commandName="lclzRestTipsAndTricksDesc" devLabel="The landing area can be used for the placement of another part or to provide a surface that has an orientation different from the adjacent wall." translation="" />
+	<label commandName="lclzRestTipsAndTricksTips" devLabel="A rest is a feature on a plastic part that is applied to a wall to form a “landing area” that protrudes partially inside and outside the body." translation="" />
+	<label commandName="lclzRestTipsAndTricksTitle" devLabel="Rest Information" translation="" />
+	<label commandName="lclzSnapFit1" devLabel="Creates a cantilever snap fit feature to fasten two solid bodies together in a design." translation="" />
+	<label commandName="lclzSnapFit2" devLabel="Select a snap fit type, select a sketch point between two solid bodies, then adjust the settings for the hook, groove, or loop on each side of the snap fit feature." translation="" />
+	<label commandName="lclzSnapFitTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create snap fit features between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each snap fit, or constrain or dimension them in the sketch to define precise locations." translation="" />
+	<label commandName="lclzSnapFitTipsAndTricksTitle" devLabel="Snap Fit Information" translation="" />
+	<label commandName="matAluminium" devLabel="Aluminium" translation="" />
+	<label commandName="matBrass" devLabel="Brass" translation="" />
+	<label commandName="matCarbonSteel" devLabel="Carbon Steel" translation="" />
+	<label commandName="matStainlessSteelA2" devLabel="Stainless Steel A2" translation="" />
+	<label commandName="matStainlessSteelA4" devLabel="Stainless Steel A4" translation="" />
+	<label commandName="matTitanium" devLabel="Titanium" translation="" />
+	<label commandName="organic-mesh-feature-desc" devLabel="Convert organically shaped meshes to solid, surface, or T-Spline bodies. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="organic-mesh-feature-title" devLabel="Organic Mesh Conversion" translation="" />
+	<label commandName="plastic-design-tools-feature-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="plastic-design-tools-feature-title" devLabel="Plastic Design Tools" translation="" />
+	<label commandName="plastic-rules-feature-desc" devLabel="Assign plastic rules to components to automatically control the properties of plastic features, like physical material and thickness. Create new rules, edit existing rules, or save rules to a library to use them in multiple designs. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="plastic-rules-feature-title" devLabel="Plastic Rules" translation="" />
+	<label commandName="presets-feature-desc" devLabel="Create setting presets to quickly reuse common values. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="presets-feature-title" devLabel="Presets" translation="" />
+	<label commandName="productdesign-featurepack-desc" devLabel="Amplify your design capabilities in Fusion. Use advanced tools to automate the design of complex plastic features, apply intelligent patterns, and add shape-altering properties to your designs. Receive manufacturing-aware advice to improve product performance and prepare your designs for manufacturing. Empower your design process and turn your ideas into finished products faster. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="snapFitFlipDirectionInputTooltip" devLabel="Flips snap fit feature over selected sketch point." translation="" />
+	<label commandName="volumetric-lattice-feature-desc" devLabel="Modify existing solid bodies or mesh bodies to create complex volumetric lattices that alter the shape and appearance of a design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Learn More&lt;/a&gt;" translation="" />
+	<label commandName="volumetric-lattice-feature-title" devLabel="Volumetric Lattice" translation="" />
+	<label commandName="xRefSwitchPlasticRuleCommandTooltip" devLabel="Assigning a different plastic rule in a referenced design is not supported." translation="" />
+</Resource>

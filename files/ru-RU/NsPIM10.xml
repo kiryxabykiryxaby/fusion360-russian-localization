@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ERROR_DEFAULT::MESSAGE" devLabel="&lt;p&gt;Something went wrong with the cloud connection. See &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=ASM-FUSION-OFFLINE-MODE&quot;&gt;details and potential solutions&lt;/a&gt;.&lt;/p&gt;" translation="" />
+	<label commandName="ERROR_DEFAULT::TITLE" devLabel="Unhealthy Cloud Connection" translation="" />
+	<label commandName="MESSAGE_OPEN_CONFIG_CANNOT_CONTACT_FREMONT_JS_LIB" devLabel="&lt;p&gt;Fusion cannot connect to a required service in this session.&lt;/p&gt;&lt;p&gt;Restart Fusion to reestablish the connection.&lt;/p&gt;" translation="" />
+	<label commandName="MESSAGE_OPEN_CONFIG_NOT_INITIALIZED" devLabel="&lt;p&gt;Fusion cannot initialize a required service in this session.&lt;/p&gt;&lt;p&gt;Update and restart Fusion.&lt;/p&gt;&lt;p&gt;If updating and restarting do not resolve the issue, clear your cache data, or contact technical support.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.autodesk.com/Manufacturing-Data-Model-Initialization-Failure&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;" translation="" />
+	<label commandName="MESSAGE_OPEN_CONFIG_TIMEOUT_CONTACT_FREMONT_JS_LIB" devLabel="&lt;p&gt;Fusion encountered a timeout error.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.autodesk.com/Manufacturing-Data-Model-Timeout&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;" translation="" />
+	<label commandName="TITLE_OPEN_CONFIG_CANNOT_CONTACT_FREMONT_JS_LIB" devLabel="Service connection error" translation="" />
+	<label commandName="TITLE_OPEN_CONFIG_NOT_INITIALIZED" devLabel="Initialization error" translation="" />
+	<label commandName="TITLE_OPEN_CONFIG_TIMEOUT_CONTACT_FREMONT_JS_LIB" devLabel="Timeout error" translation="" />
+	<label commandName="WARNING_MULTIPLE_FUSION_PROCESSES_RUNNING::ANY::MESSAGE" devLabel="&lt;p&gt;Warning: Continuing might lead to data loss. Please close other instances of Fusion.&lt;/p&gt;" translation="" />
+	<label commandName="WARNING_MULTIPLE_FUSION_PROCESSES_RUNNING::ANY::TITLE" devLabel="Multiple Fusion instances detected" translation="" />
+</Resource>

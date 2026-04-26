@@ -1,0 +1,913 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AddInput" devLabel="Grow  Selection" translation="Расширить выделение" />
+    <label commandName="AgainstExtrudeDistance" devLabel="Distance" translation="Расстояние" />
+    <label commandName="All" devLabel="All" translation="Все" />
+    <label commandName="AlongExtrudeDistance" devLabel="Distance" translation="Расстояние" />
+    <label commandName="AlternateAlignment" devLabel="Alternate Alignment" translation="Альтернативное выравнивание" />
+    <label commandName="AlternateTangent" devLabel="Alternate Tangent" translation="Альтернативная касательная" />
+    <label commandName="Angle" devLabel="Angle" translation="Угол" />
+    <label commandName="ArcLength" devLabel="Uniform" translation="Равномерно" />
+    <label commandName="AssemblyInfoCommand" devLabel="Assembly Info" translation="Информация о сборке" />
+    <label commandName="AssemblyInfoCommandDesc" devLabel="Assembly Info" translation="Информация о сборке" />
+    <label commandName="AssociativeMode" devLabel="Associative" translation="Ассоциативный" />
+    <label commandName="AutoFeatureSelMode" devLabel="Auto Feature Selection" translation="Автоматический выбор элементов" />
+    <label commandName="AutoJoin" devLabel="Auto Join" translation="Автоматическое соединение" />
+    <label commandName="AutoRepair" devLabel="AutoRepair" translation="Автоматическое исправление" />
+    <label commandName="BetterDisplay" devLabel="Better Display" translation="Лучшее отображение" />
+    <label commandName="BetterPerformance" devLabel="Enable Better Performance" translation="Включить лучшую производительность" />
+    <label commandName="Body" devLabel="Body" translation="Тело" />
+    <label commandName="BooleanInput" devLabel="Embed Symmetry" translation="Встроить симметрию" />
+    <label commandName="Both" devLabel="Both" translation="Оба" />
+    <label commandName="Box" devLabel="Wireframe Box" translation="Каркасный куб" />
+    <label commandName="BoxDisplayInput" devLabel="Box Display" translation="Отображение куба" />
+    <label commandName="BridgeCurveRotation" devLabel="Curve Rotation" translation="Вращение кривой" />
+    <label commandName="BridgeErrBridgeFailed" devLabel="Bridge failed" translation="Не удалось выполнить соединение" />
+    <label commandName="BridgeErrNumSegments" devLabel="Number of segments should be greater than twists" translation="Количество сегментов должно быть больше, чем количество витков" />
+    <label commandName="BridgeErrSameTSpline" devLabel="Please select faces or boundary edges from same body" translation="Пожалуйста, выберите грани или граничные ребра из одного тела" />
+    <label commandName="BridgeFlipDirectionInput1" devLabel="Flip Side 1" translation="Перевернуть сторону 1" />
+    <label commandName="BridgeFlipDirectionInput2" devLabel="Flip Side 2" translation="Перевернуть сторону 2" />
+    <label commandName="BridgeFollowCurve" devLabel="Follow Curve" translation="Следовать кривой" />
+    <label commandName="BridgeGuideCurve" devLabel="Select bridge guide curve" translation="Выберите направляющую кривую для соединения" />
+    <label commandName="BridgeInputOrientVertex" devLabel="OrientVertex" translation="Ориентировать вершину" />
+    <label commandName="BridgeSegmentsInput" devLabel="Faces" translation="Грани" />
+    <label commandName="BridgeShowPreview" devLabel="Preview" translation="Предпросмотр" />
+    <label commandName="BridgeSideE1" devLabel="Select side one boundary edges" translation="Выберите граничные ребра первой стороны" />
+    <label commandName="BridgeSideE2" devLabel="Select side two boundary edges" translation="Выберите граничные ребра второй стороны" />
+    <label commandName="BridgeSideEF1" devLabel="Select side one faces or boundary edges" translation="Выберите грани или граничные ребра первой стороны" />
+    <label commandName="BridgeSideEF2" devLabel="Select side two faces or boundary edges" translation="Выберите грани или граничные ребра второй стороны" />
+    <label commandName="BridgeSideF1" devLabel="Select side one faces" translation="Выберите грани первой стороны" />
+    <label commandName="BridgeSideF2" devLabel="Select side two faces" translation="Выберите грани второй стороны" />
+    <label commandName="BridgeSideOne" devLabel="Side 1" translation="Сторона 1" />
+    <label commandName="BridgeSideTwo" devLabel="Side 2" translation="Сторона 2" />
+    <label commandName="BridgeSideVE1" devLabel="Select side one boundary edges or direction vertex" translation="Выберите граничные ребра или вершину направления первой стороны" />
+    <label commandName="BridgeSideVE2" devLabel="Select side two boundary edges or direction vertex" translation="Выберите граничные ребра или вершину направления второй стороны" />
+    <label commandName="BridgeSideVEF1" devLabel="Select side one faces or boundary edges or direction vertex" translation="Выберите грани, граничные ребра или вершину направления первой стороны" />
+    <label commandName="BridgeSideVEF2" devLabel="Select side two faces or boundary edges or direction vertex" translation="Выберите грани, граничные ребра или вершину направления второй стороны" />
+    <label commandName="BridgeSideVF1" devLabel="Select side one faces or direction vertex" translation="Выберите грани или вершину направления первой стороны" />
+    <label commandName="BridgeSideVF2" devLabel="Select side two faces or direction vertex" translation="Выберите грани или вершину направления второй стороны" />
+    <label commandName="BridgeTwistsInput" devLabel="Twists" translation="Витки" />
+    <label commandName="CancelOrUnfreezeBrokenFreeze" devLabel="To apply this change, the affected regions need to be unfrozen. Do you wish to continue?" translation="Чтобы применить это изменение, затронутые области должны быть разморожены. Хотите продолжить?" />
+    <label commandName="Circular Symmetry Warning" devLabel="%1% is a large number of circular instances that could impact performance.  You can proceed or modify the number of instances." translation="%1% — это большое количество круговых экземпляров, что может повлиять на производительность. Вы можете продолжить или изменить количество экземпляров." />
+    <label commandName="CircularAxis" devLabel="Axis" translation="Ось" />
+    <label commandName="CircularGrid" devLabel="Circular Grid" translation="Круговая сетка" />
+    <label commandName="CircularSymmetryPossibleLoop" devLabel="Possible symmetries" translation="Возможные симметрии" />
+    <label commandName="ClearSymmetrySeperateBody" devLabel="Separate Bodies" translation="Разделить тела" />
+    <label commandName="Continuity" devLabel="Continuity" translation="Непрерывность" />
+    <label commandName="ContinuityCurvature" devLabel="Curvature (G2)" translation="Кривизна (G2)" />
+    <label commandName="ContinuityPositional" devLabel="Connected (G0)" translation="Соединено (G0)" />
+    <label commandName="ContinuityTangential" devLabel="Tangent (G1)" translation="Касательная (G1)" />
+    <label commandName="ControlFrameDisplayInput" devLabel="Control Frame Display" translation="Отображение контрольного каркаса" />
+    <label commandName="ControlFrameEntity" devLabel="ControlFrameEntity" translation="Элемент контрольного каркаса" />
+    <label commandName="ControlFrameEntitySelection2" devLabel="T-Spline Face, Edge or Surface" translation="Грань, ребро или поверхность T-Spline" />
+    <label commandName="ControlFrameEntitySelection3" devLabel="T-Spline Vertices or Edges" translation="Вершины или ребра T-Spline" />
+    <label commandName="ControlFrameEntitySelection4" devLabel="T-Spline Vertices or Edges" translation="Вершины или ребра T-Spline" />
+    <label commandName="ControlFrameEntitySelection5" devLabel="T-Spline Edges" translation="Ребра T-Spline" />
+    <label commandName="CoordinateSpace" devLabel="Coordinate Space" translation="Координатное пространство" />
+    <label commandName="Crease edges/vertices" devLabel="Select edges or vertices" translation="Выберите ребра или вершины" />
+    <label commandName="CreateFaceChainNoPossible" devLabel="Chain creation failed, select edge to start new chain" translation="Не удалось создать цепочку, выберите ребро для начала новой цепочки" />
+    <label commandName="CrvSensitive" devLabel="Curvature" translation="Кривизна" />
+    <label commandName="CurvatureMode" devLabel="Curvature" translation="Кривизна" />
+    <label commandName="CurveFit" devLabel="Curve Fit" translation="Аппроксимация кривой" />
+    <label commandName="CurveInterfaceExport" devLabel="Curve Interface Export" translation="Экспорт интерфейса кривой" />
+    <label commandName="CurveSplit" devLabel="Display Curve Splits" translation="Отображение разбиений кривой" />
+    <label commandName="CurveToleranceValueInput" devLabel="Curve Tolerance" translation="Допуск кривой" />
+    <label commandName="DeformJoint" devLabel="Deform" translation="Деформация" />
+    <label commandName="Degree" devLabel="Degree" translation="Степень" />
+    <label commandName="DeleteGlobalHandle" devLabel="Global sections may not be deleted" translation="Глобальные секции не могут быть удалены" />
+    <label commandName="DeleteKeyPressed" devLabel="Delete Key" translation="Клавиша удаления" />
+    <label commandName="DeviationToggle" devLabel="Deviation" translation="Отклонение" />
+    <label commandName="Diameter1Faces" devLabel="Diameter 1 Faces" translation="Грани диаметра 1" />
+    <label commandName="DiameterFaces" devLabel="Diameter Faces" translation="Грани диаметра" />
+    <label commandName="DirectionType" devLabel="Direction" translation="Направление" />
+    <label commandName="DirectionTypeTowards" devLabel="Towards" translation="К" />
+    <label commandName="DisplayMode" devLabel="Display Mode" translation="Режим отображения" />
+    <label commandName="DisplayType" devLabel="Display" translation="Отображение" />
+    <label commandName="Distribution" devLabel="Distribution" translation="Распределение" />
+    <label commandName="DragPreviewToShiftPosition" devLabel="Move manipulator or enter parameter value" translation="Переместите манипулятор или введите значение параметра" />
+    <label commandName="DrivingCurveCVSelection" devLabel="Curve Control Points" translation="Контрольные точки кривой" />
+    <label commandName="EFillHoleMode" devLabel="Fill Hole Mode" translation="Режим заполнения отверстия" />
+    <label commandName="ELayoutDisplayErrorStarInput" devLabel="Error Star" translation="Ошибка звезды" />
+    <label commandName="ELayoutDisplayLPointsInput" devLabel="L Points" translation="Точки L" />
+    <label commandName="ELayoutDisplayNGonsInput" devLabel="NGons" translation="N-угольники" />
+    <label commandName="ELayoutDisplayNakedEdgesInput" devLabel="Free Edges" translation="Свободные ребра" />
+    <label commandName="ELayoutDisplaySeaShellsInput" devLabel="Error T Points" translation="Ошибка T-точек" />
+    <label commandName="ELayoutDisplayStarPointsInput" devLabel="Star Points" translation="Звездные точки" />
+    <label commandName="ELayoutDisplayTPointsInput" devLabel="T Points" translation="T-точки" />
+    <label commandName="Edge" devLabel="Edge" translation="Ребро" />
+    <label commandName="EdgeGroupOneNotConnected" devLabel="Edge Group One is not connected." translation="Группа ребер 1 не соединена." />
+    <label commandName="EdgeGroupTwoNotConnected" devLabel="Edge Group Two is not connected." translation="Группа ребер 2 не соединена." />
+    <label commandName="EdgeSelection" devLabel="EdgeSelection" translation="Выбор ребра" />
+    <label commandName="EdgeSelectionForInsertion" devLabel="T-Spline Edge" translation="Ребро T-Spline" />
+    <label commandName="EditFormSelectionA" devLabel="Select vertex, edge or face. Alt Key to extrude" translation="Выберите вершину, ребро или грань. Клавиша Alt для выдавливания" />
+    <label commandName="EditFormSelectionE" devLabel="Select edges. Alt Key to extrude" translation="Выберите ребра. Клавиша Alt для выдавливания" />
+    <label commandName="EditFormSelectionF" devLabel="Select faces. Alt Key to extrude" translation="Выберите грани. Клавиша Alt для выдавливания" />
+    <label commandName="EditFormSelectionS" devLabel="Select T-Spline" translation="Выберите T-Spline" />
+    <label commandName="EditFormSelectionV" devLabel="Select vertices or tangency handles" translation="Выберите вершины или касательные ручки" />
+    <label commandName="EnableBetterDisplay" devLabel="Enable Better Display" translation="Включить лучшее отображение" />
+    <label commandName="EntitySelection" devLabel="Profile" translation="Профиль" />
+    <label commandName="ErrorlabelGroup" devLabel="Error Labels" translation="Метки ошибок" />
+    <label commandName="Exact Mode" devLabel="Select point on edge" translation="Выберите точку на ребре" />
+    <label commandName="ExtrudeBackSegmentsInput" devLabel="Back Faces" translation="Задние грани" />
+    <label commandName="ExtrudeFailed" devLabel="Curve Extraction failed" translation="Не удалось извлечь кривую" />
+    <label commandName="ExtrudeFrontSegmentsInput" devLabel="Front Faces" translation="Передние грани" />
+    <label commandName="ExtrudeLengthSegmentsInput" devLabel="Length Faces" translation="Грани длины" />
+    <label commandName="ExtrudeSelection" devLabel="Select sketch profiles or planar faces to extrude" translation="Выберите эскизные профили или плоские грани для выдавливания" />
+    <label commandName="ExtrudeSubD" devLabel="Extrude" translation="Выдавливание" />
+    <label commandName="ExtrudeTaperAngleInput" devLabel="Angle" translation="Угол" />
+    <label commandName="ExtrudeWidthSegmentsInput" devLabel="Width Faces" translation="Грани ширины" />
+    <label commandName="Face" devLabel="Face" translation="Грань" />
+    <label commandName="Face/Edge" devLabel="Face/Edge" translation="Грань/Ребро" />
+    <label commandName="FaceEdgeVertSelectionForSmooth" devLabel="Faces" translation="Грани" />
+    <label commandName="FaceSelection" devLabel="Select Face" translation="Выберите грань" />
+    <label commandName="FaceSelectionForSubSet" devLabel="T-Spline Faces" translation="Грани T-Spline" />
+    <label commandName="FalloffValue" devLabel="Falloff Distance" translation="Расстояние затухания" />
+    <label commandName="FasterBetterPerformance" devLabel="Switching to faster performance mode.  Editing will be faster.  Display and analysis may be compromised." translation="Переход в режим повышенной производительности. Редактирование будет быстрее. Отображение и анализ могут быть ухудшены." />
+    <label commandName="FasterModeling" devLabel="Faster Modeling" translation="Быстрое моделирование" />
+    <label commandName="FeatSelInput" devLabel="Feature Selection" translation="Выбор элементов" />
+    <label commandName="FewerLabel" devLabel="Fewer" translation="Меньше" />
+    <label commandName="FillHoleCollapse" devLabel="Collapse" translation="Свернуть" />
+    <label commandName="FillHoleNGON" devLabel="Fill Star" translation="Заполнить звезду" />
+    <label commandName="FillHoleTessellation" devLabel="Reduced Star" translation="Уменьшенная звезда" />
+    <label commandName="FilterType" devLabel="Selection Filter" translation="Фильтр выбора" />
+    <label commandName="FitDirection" devLabel="Fit" translation="Подгонка" />
+    <label commandName="FlattenSelectPlane" devLabel="Select a work plane or planar B-rep face" translation="Выберите рабочую плоскость или плоскую грань B-rep" />
+    <label commandName="FlattenSelectVertices" devLabel="Select vertices and/or tangency handles to flatten" translation="Выберите вершины и/или элементы касания для уплощения" />
+    <label commandName="FlattenType" devLabel="Flatten Type" translation="Тип уплощения" />
+    <label commandName="FlipFollowCurve" devLabel="Flip Curve" translation="Повернуть кривую" />
+    <label commandName="ForgeSelectAxisSymmetry" devLabel="Select axis or edge" translation="Выберите ось или край" />
+    <label commandName="ForgeSelectAxisThicken" devLabel="Select axis or edge" translation="Выберите ось или край" />
+    <label commandName="ForgeSelectChainEdge" devLabel="Select Edge" translation="Выберите край" />
+    <label commandName="ForgeSelectCorner" devLabel="Specify next corner or Select first point to complete" translation="Укажите следующий угол или выберите первую точку для завершения" />
+    <label commandName="ForgeSelectEdgeFillHole" devLabel="Select boundary edges" translation="Выберите крайние грани" />
+    <label commandName="ForgeSelectFaceSymmetry" devLabel="Select face for symmetry." translation="Выберите грань для симметрии" />
+    <label commandName="ForgeSelectFirstCorner" devLabel="Specify first corner" translation="Укажите первый угол" />
+    <label commandName="ForgeSelectFirstEdgeSymmetry" devLabel="Select edge on master side" translation="Выберите край на основной стороне" />
+    <label commandName="ForgeSelectFirstFaceSymmetry" devLabel="Select face on master side" translation="Выберите грань на основной стороне" />
+    <label commandName="ForgeSelectFirstPoint" devLabel="Specify first corner" translation="Укажите первую точку" />
+    <label commandName="ForgeSelectFirstRetopoCorner" devLabel="Specify first corner" translation="Укажите первый угол" />
+    <label commandName="ForgeSelectFirstVertexSymmetry" devLabel="Select vertex on master side" translation="Выберите вершину на основной стороне" />
+    <label commandName="ForgeSelectFourthCorner" devLabel="Specify fourth corner" translation="Укажите четвертый угол" />
+    <label commandName="ForgeSelectFourthRetopoCorner" devLabel="Specify fourth corner" translation="Укажите четвертый угол" />
+    <label commandName="ForgeSelectInterpolateSurface" devLabel="Select body" translation="Выберите тело" />
+    <label commandName="ForgeSelectPlaneSymmetry" devLabel="Select a plane or planar face" translation="Выберите плоскость или плоскую грань" />
+    <label commandName="ForgeSelectPullFaces" devLabel="Select target" translation="Выберите цель" />
+    <label commandName="ForgeSelectRetoPoint" devLabel="Specify first corner" translation="Укажите первую точку" />
+    <label commandName="ForgeSelectRetopoCorner" devLabel="Specify next corner or Select first point to complete" translation="Укажите следующий угол или выберите первую точку для завершения" />
+    <label commandName="ForgeSelectSecondCorner" devLabel="Specify second corner" translation="Укажите второй угол" />
+    <label commandName="ForgeSelectSecondEdgeSymmetry" devLabel="Select edge on mirror side" translation="Выберите край на зеркальной стороне" />
+    <label commandName="ForgeSelectSecondFaceSymmetry" devLabel="Select face on mirror side" translation="Выберите грань на зеркальной стороне" />
+    <label commandName="ForgeSelectSecondPoint" devLabel="Specify size of rectangle" translation="Укажите размер прямоугольника" />
+    <label commandName="ForgeSelectSecondRetopoCorner" devLabel="Specify second corner" translation="Укажите второй угол" />
+    <label commandName="ForgeSelectSecondVertexSymmetry" devLabel="Select vertex on mirror side" translation="Выберите вершину на зеркальной стороне" />
+    <label commandName="ForgeSelectSizeOfRectangle" devLabel="Specify size of rectangle" translation="Укажите размер прямоугольника" />
+    <label commandName="ForgeSelectSketchPlane" devLabel="" translation="" />
+    <label commandName="ForgeSelectSketchPlaneClear" devLabel="" translation="" />
+    <label commandName="ForgeSelectSketchPlaneFirst" devLabel="Select plane or Snap first point" translation="Выберите плоскость или закрепите первую точку" />
+    <label commandName="ForgeSelectSketchPlaneFourth" devLabel="Select plane or Snap fourth point" translation="Выберите плоскость или закрепите четвертую точку" />
+    <label commandName="ForgeSelectSketchPlaneNoValue" devLabel="" translation="" />
+    <label commandName="ForgeSelectSketchPlaneSecond" devLabel="Select plane or Snap second point" translation="Выберите плоскость или закрепите вторую точку" />
+    <label commandName="ForgeSelectSketchPlaneThird" devLabel="Select plane or Snap third point" translation="Выберите плоскость или закрепите третью точку" />
+    <label commandName="ForgeSelectSurfaceForThicken" devLabel="Select body" translation="Выберите тело" />
+    <label commandName="ForgeSelectSurfaceSymmetry" devLabel="Select T-Spline body" translation="Выберите тело T-Spline" />
+    <label commandName="ForgeSelectThirdCorner" devLabel="Specify third corner" translation="Укажите третий угол" />
+    <label commandName="ForgeSelectThirdRetopoCorner" devLabel="Specify third corner" translation="Укажите третий угол" />
+    <label commandName="ForgeSelectVertices" devLabel="Select vertices" translation="Выберите вершины" />
+    <label commandName="ForgeSpecifyCenterPoint" devLabel="Specify center point" translation="Укажите центральную точку" />
+    <label commandName="ForgeSpecifyFirstCorner" devLabel="Specify first corner" translation="Укажите первый угол" />
+    <label commandName="ForgeSpecifyRadiusOfCircle" devLabel="Specify Diameter of Cylinder" translation="Укажите диаметр цилиндра" />
+    <label commandName="ForgeSpecifyRadiusOfTorus" devLabel="Specify diameter of torus" translation="Укажите диаметр тора" />
+    <label commandName="ForgeSpecifySizeOfRectangle" devLabel="Specify size of rectangle" translation="Укажите размер прямоугольника" />
+    <label commandName="ForgeTSplineUpgradeSurfaceVersionCmd" devLabel="Select T-Spline bodies" translation="Выберите тела T-Spline" />
+    <label commandName="FrameTransformInput" devLabel="coordinate" translation="координата" />
+    <label commandName="FreezeInput" devLabel="T-Spline Faces/Edges" translation="Грани/Ребра T-Spline" />
+    <label commandName="FrozenSurfChangedNonPreview" devLabel="The last operation unfroze a frozen region to make the requested shape change. Undo this operation to revert the shape change and restore the frozen region" translation="Последняя операция разморозила замороженную область для изменения формы. Отмените эту операцию, чтобы вернуть форму и восстановить замороженную область" />
+    <label commandName="FrozenSurfChangedPreview" devLabel="This operation will need to unfreeze a frozen region to make the requested shape change." translation="Эта операция потребует разморозки замороженной области для изменения формы." />
+    <label commandName="Full" devLabel="Full" translation="Полный" />
+    <label commandName="FusionSelectAxis" devLabel="Select sketch curve, edge or axis" translation="Выберите кривую эскиза, край или ось" />
+    <label commandName="FusionSelectPathPipe" devLabel="Select sketch curves or edges" translation="Выберите кривые или грани эскиза" />
+    <label commandName="FusionSelectPathSweep" devLabel="Select sketch curves or edges" translation="Выберите кривые или грани эскиза" />
+    <label commandName="FusionSelectProfileCurveSweep" devLabel="Select sketch profiles or planar faces to sweep" translation="Выберите профили эскиза или плоские грани для вытягивания" />
+    <label commandName="FusionSelectSketchPlane" devLabel="Select a plane or planar face" translation="Выберите плоскость или плоскую грань" />
+    <label commandName="GeometrylabelGroup" devLabel="Geometry Labels" translation="Метки геометрии" />
+    <label commandName="GlobalSetting" devLabel="Global Settings" translation="Глобальные настройки" />
+    <label commandName="GrowShrinkInput" devLabel="Grow/Shrink" translation="Увеличить/Уменьшить" />
+    <label commandName="HeightFaces" devLabel="Height Faces" translation="Высота граней" />
+    <label commandName="HeightSymmetry" devLabel="Height Symmetry" translation="Симметрия высоты" />
+    <label commandName="High Face Count Warning" devLabel="%1% is a large number of faces that could impact performance.  You can proceed or modify the number of faces." translation="%1% — это большое количество граней, что может повлиять на производительность. Вы можете продолжить или изменить количество граней." />
+    <label commandName="HoldShiftSelectDrivingCurveCVs" devLabel="Hold Shift to select multiple control points or edit driving curve" translation="Зажмите Shift, чтобы выбрать несколько контрольных точек или отредактировать управляющую кривую" />
+    <label commandName="InputType" devLabel="Input Type" translation="Тип ввода" />
+    <label commandName="InputTypeFace" devLabel="Face" translation="Грань" />
+    <label commandName="InputTypeFaceEdgeVertices" devLabel="Face Edge Vertices" translation="Грани, ребра, вершины" />
+    <label commandName="Insert T-Spline" devLabel="Insert" translation="Вставить" />
+    <label commandName="InsertEdgeMode" devLabel="Insertion Mode" translation="Режим вставки" />
+    <label commandName="InsertEdgeModeExact" devLabel="Exact" translation="Точный" />
+    <label commandName="InsertEdgeModeSimple" devLabel="Simple" translation="Простой" />
+    <label commandName="InsertEdgeSide" devLabel="Insertion Side" translation="Сторона вставки" />
+    <label commandName="InsertPointCommandInput" devLabel="Insertion Point" translation="Точка вставки" />
+    <label commandName="InsertPointMode" devLabel="Insertion Mode" translation="Режим вставки" />
+    <label commandName="InsertPointModeExact" devLabel="Exact" translation="Точный" />
+    <label commandName="InsertPointModeSimple" devLabel="Simple" translation="Простой" />
+    <label commandName="InsertPointOnPathCommand" devLabel="Insert Section" translation="Вставить секцию" />
+    <label commandName="InvertInput" devLabel="Invert  Selection" translation="Инвертировать выбор" />
+    <label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Объект, который вы создаете, не виден. Пожалуйста, измените видимость в браузере." />
+    <label commandName="IsolateSymmetry3" devLabel="Select faces, edges or vertices" translation="Выберите грани, ребра или вершины" />
+    <label commandName="JointInput" devLabel="Handle" translation="Ручка" />
+    <label commandName="JointType" devLabel="End Type" translation="Тип конца" />
+    <label commandName="LengthSymmetry" devLabel="Length Symmetry" translation="Симметрия длины" />
+    <label commandName="Line" devLabel="Line" translation="Линия" />
+    <label commandName="LoopGrowInput" devLabel="Loop Grow Selection" translation="Выбор для увеличения петли" />
+    <label commandName="LoopGrowShrinkInput" devLabel="Loop Grow/Shrink" translation="Увеличить/Уменьшить петлю" />
+    <label commandName="LoopInput" devLabel="Loop  Selection" translation="Выбор петли" />
+    <label commandName="LoopShrinkInput" devLabel="Loop Shrink Selection" translation="Выбор для уменьшения петли" />
+    <label commandName="MaintainCreaseEdgesOption" devLabel="Keep Creases" translation="Сохранять складки" />
+    <label commandName="Make Uniform" devLabel="Make Uniform" translation="Сделать однородным" />
+    <label commandName="MatchToleranceValue" devLabel="Edge Tolerance" translation="Допуск края" />
+    <label commandName="MaxErrorDeviationKey" devLabel="MaxErrorDeviation" translation="Максимальная ошибка отклонения" />
+    <label commandName="MaxErrorDeviationString" devLabel="Max Deviation: " translation="Макс. отклонение: " />
+    <label commandName="MergeEdgeSelection1" devLabel="Select side one boundary edges" translation="Выберите граничные грани первой стороны" />
+    <label commandName="MergeEdgeSelection2" devLabel="Select side two boundary edges" translation="Выберите граничные грани второй стороны" />
+    <label commandName="MergeEdgeSideOne" devLabel="Edge Group One" translation="Группа краев один" />
+    <label commandName="MergeEdgeSideTwo" devLabel="Edge Group Two" translation="Группа краев два" />
+    <label commandName="MoreLabel" devLabel="More" translation="Подробнее" />
+    <label commandName="NGons" devLabel="Number of Sides" translation="Количество сторон" />
+    <label commandName="NewBodyInNewCompType" devLabel="New Component" translation="Новый компонент" />
+    <label commandName="NewBodyType" devLabel="New Body" translation="Новое тело" />
+    <label commandName="NextUInput1" devLabel="NextU  Selection" translation="Следующий выбор U" />
+    <label commandName="NextUInput2" devLabel="Next U Selection" translation="Следующий выбор U" />
+    <label commandName="NextUInput3" devLabel="NextU  Selection" translation="Следующий выбор U" />
+    <label commandName="NextUInput4" devLabel="Next U Selection" translation="Следующий выбор U" />
+    <label commandName="NextVInput1" devLabel="NextV  Selection" translation="Следующий выбор V" />
+    <label commandName="NextVInput2" devLabel="Next V Selection" translation="Следующий выбор V" />
+    <label commandName="NextVInput3" devLabel="NextV  Selection" translation="Следующий выбор V" />
+    <label commandName="NextVInput4" devLabel="Next V Selection" translation="Следующий выбор V" />
+    <label commandName="No Edge" devLabel="No Edge" translation="Нет края" />
+    <label commandName="NoComponentsExist1" devLabel="This operation affects one or more frozen regions." translation="Эта операция затрагивает одну или несколько замороженных областей." />
+    <label commandName="NumericalInputsGroup" devLabel="Numerical Inputs" translation="Числовые входы" />
+    <label commandName="OneSide" devLabel="One Side" translation="Одна сторона" />
+    <label commandName="OpenType" devLabel="Open" translation="Открыть" />
+    <label commandName="Operation" devLabel="Operation" translation="Операция" />
+    <label commandName="Performance" devLabel="Performance" translation="Производительность" />
+    <label commandName="PipeJoints" devLabel="End Types" translation="Типы концов" />
+    <label commandName="PipePathInput" devLabel="Path" translation="Путь" />
+    <label commandName="PipeSections" devLabel="Sections" translation="Секции" />
+    <label commandName="PipeSegments" devLabel="Segments" translation="Сегменты" />
+    <label commandName="PlanarCurve" devLabel="Planar Curve" translation="Плоская кривая" />
+    <label commandName="Plane" devLabel="Plane" translation="Плоскость" />
+    <label commandName="PlaneSelection" devLabel="Mirror Plane" translation="Зеркальная плоскость" />
+    <label commandName="PossibleSymmetry" devLabel="%1% sided symmetry [%2%]" translation="Симметрия с %1% сторонами [%2%]" />
+    <label commandName="PossibleSymmetry1" devLabel="%1% sided symmetry" translation="Симметрия с %1% сторонами" />
+    <label commandName="PossibleSymmetryKey" devLabel="%1%%2%" translation="%1%%2%" />
+    <label commandName="PossibleSymmetryKey1" devLabel="%1%" translation="%1%" />
+    <label commandName="PrevUInput1" devLabel="PrevU  Selection" translation="Предыдущий выбор U" />
+    <label commandName="PrevUInput2" devLabel="Prev U Selection" translation="Предыдущий выбор U" />
+    <label commandName="PrevUInput3" devLabel="PrevU  Selection" translation="Предыдущий выбор U" />
+    <label commandName="PrevUInput4" devLabel="Prev U Selection" translation="Предыдущий выбор U" />
+    <label commandName="PrevVInput1" devLabel="PrevV  Selection" translation="Предыдущий выбор V" />
+    <label commandName="PrevVInput2" devLabel="Prev V Selection" translation="Предыдущий выбор V" />
+    <label commandName="PrevVInput3" devLabel="PrevV  Selection" translation="Предыдущий выбор V" />
+    <label commandName="PrevVInput4" devLabel="Prev V Selection" translation="Предыдущий выбор V" />
+    <label commandName="ProfileChainSelection" devLabel="Chain Selection" translation="Выбор цепочки" />
+    <label commandName="ProfileChainSelectionOption" devLabel="Chain Selection" translation="Выбор цепочки" />
+    <label commandName="ProfileChainSelectionOption2" devLabel="Chain Selection" translation="Выбор цепочки" />
+    <label commandName="PullType" devLabel="Pull Type" translation="Тип вытягивания" />
+    <label commandName="RangeInput" devLabel="Range  Selection" translation="Выбор диапазона" />
+    <label commandName="RangeSelection" devLabel="Range Selection" translation="Выбор диапазона" />
+    <label commandName="ReapirBodySelectBody" devLabel="Select body" translation="Выберите тело" />
+    <label commandName="ReapirBodySelectBodyVertex" devLabel="Select body or vertex" translation="Выберите тело или вершину" />
+    <label commandName="RectType" devLabel="Rectangle" translation="Прямоугольник" />
+    <label commandName="RectType2Point" devLabel="2-Point" translation="2-точечный" />
+    <label commandName="RectTypeCenter" devLabel="Center" translation="Центр" />
+    <label commandName="RemoveInput" devLabel="Shrink  Selection" translation="Сжать выбор" />
+    <label commandName="RemoveSection" devLabel="Remove Section" translation="Удалить секцию" />
+    <label commandName="RemoveTPointsMode" devLabel="Convert T-Points" translation="Преобразовать T-точки" />
+    <label commandName="ResetJoint" devLabel="Reset End Type" translation="Сбросить тип конца" />
+    <label commandName="ResetSection" devLabel="Reset Section" translation="Сбросить секцию" />
+    <label commandName="ResetSegment" devLabel="Reset Segment" translation="Сбросить сегмент" />
+    <label commandName="RetopoOptionGroup" devLabel="Object Snap" translation="Привязка объекта" />
+    <label commandName="RetopoOptionInput" devLabel="Object Snap" translation="Привязка объекта" />
+    <label commandName="RetopoPointInput" devLabel="Retopo Point" translation="Точка ретопа" />
+    <label commandName="RevolveAgainstAngleInput" devLabel="Angle" translation="Угол" />
+    <label commandName="RevolveAlongAngleInput" devLabel="Angle" translation="Угол" />
+    <label commandName="RevolveAxisInput" devLabel="Axis" translation="Ось" />
+    <label commandName="RevolveFailed" devLabel="Curve Extraction failed" translation="Не удалось извлечь кривую" />
+    <label commandName="RevolveProfileInput" devLabel="Profile" translation="Профиль" />
+    <label commandName="RevolveSelection" devLabel="Select sketch profiles, planar faces or T-Spline edges to revolve" translation="Выберите эскизные профили, плоские грани или ребра T-Spline для вращения" />
+    <label commandName="RingGrowInput" devLabel="Ring Grow Selection" translation="Выбор для увеличения кольца" />
+    <label commandName="RingGrowShrinkInput" devLabel="Ring Grow/Shrink" translation="Увеличить/Уменьшить кольцо" />
+    <label commandName="RingInput" devLabel="Ring  Selection" translation="Выбор кольца" />
+    <label commandName="RingShrinkInput" devLabel="Ring Shrink Selection" translation="Выбор для уменьшения кольца" />
+    <label commandName="RotateXAngle" devLabel="X Angle" translation="Угол X" />
+    <label commandName="RotateYAngle" devLabel="Y Angle" translation="Угол Y" />
+    <label commandName="RotateZAngle" devLabel="Z Angle" translation="Угол Z" />
+    <label commandName="S" devLabel="S" translation="S" />
+    <label commandName="SamplePointMapping" devLabel="Sample Point Mapping" translation="Отображение точек выборки" />
+    <label commandName="SamplingType" devLabel="Spacing" translation="Шаг" />
+    <label commandName="SectionAngle" devLabel="Angle" translation="Угол" />
+    <label commandName="SectionDefaultDiameter" devLabel="Global Diameter" translation="Глобальный диаметр" />
+    <label commandName="SectionDiameter" devLabel="Diameter" translation="Диаметр" />
+    <label commandName="SectionInput" devLabel="Section" translation="Секция" />
+    <label commandName="SectionPosition" devLabel="Position" translation="Позиция" />
+    <label commandName="SegmentAspectRatioInput" devLabel="Density" translation="Плотность" />
+    <label commandName="SegmentCountInput" devLabel="Segments" translation="Сегменты" />
+    <label commandName="SegmentInput" devLabel="Segment" translation="Сегмент" />
+    <label commandName="SelOptionGroup" devLabel="Selection Options" translation="Опции выбора" />
+    <label commandName="SelectDirection" devLabel="Select Plane" translation="Выберите плоскость" />
+    <label commandName="SelectDirectionAxis" devLabel="Axis" translation="Ось" />
+    <label commandName="SelectDirectionNormal" devLabel="Normal" translation="Нормаль" />
+    <label commandName="SelectDrivingCurveCVs" devLabel="Select control points" translation="Выберите контрольные точки" />
+    <label commandName="SelectEdge" devLabel="Select Edge" translation="Выберите ребро" />
+    <label commandName="SelectEdgeToInsert" devLabel="Select edges" translation="Выберите ребра" />
+    <label commandName="SelectEdges" devLabel="Select edges" translation="Выберите ребра" />
+    <label commandName="SelectFacesEraseFill" devLabel="Select faces to erase and fill" translation="Выберите грани для стирания и заливки" />
+    <label commandName="SelectInsertEdge" devLabel="Select edges" translation="Выберите ребра" />
+    <label commandName="SelectLine" devLabel="Select Line" translation="Выберите линию" />
+    <label commandName="SelectParallelDirection" devLabel="Select Parallel Plane" translation="Выберите параллельную плоскость" />
+    <label commandName="SelectParallelLine" devLabel="Select Parallel Line" translation="Выберите параллельную линию" />
+    <label commandName="SelectPlaneOrSnapNextPointOrSnapFirstPointToComplete" devLabel="Select Plane or Snap next point or Snap first point to complete" translation="Выберите плоскость или зафиксируйте следующую точку, или зафиксируйте первую точку для завершения" />
+    <label commandName="SelectPointOnCurveToInsertSection" devLabel="Insert Section " translation="Вставить секцию" />
+    <label commandName="SelectPointOnEdgeOrVertexToInsert" devLabel="Select vertex or edge" translation="Выберите вершину или ребро" />
+    <label commandName="SelectSecondVertexWeld" devLabel="Select vertices" translation="Выберите вершины" />
+    <label commandName="SelectSurfaceClearSymmetry" devLabel="Select T-Spline body" translation="Выберите тело T-Spline" />
+    <label commandName="SelectTwoPoints" devLabel="Select Two Points" translation="Выберите две точки" />
+    <label commandName="SelectTwoVertexToWeld" devLabel="Select vertices" translation="Выберите вершины" />
+    <label commandName="SelectionForIsolateSymmetry" devLabel="Isolate Symmetry" translation="Изолировать симметрию" />
+    <label commandName="SelectionForSymmetry" devLabel="Symmetry" translation="Симметрия" />
+    <label commandName="SelectionReorderCommandInput" devLabel="ProfileOrder" translation="Порядок профиля" />
+    <label commandName="SelectionSpaceMode" devLabel="Selection Space" translation="Пространство выбора" />
+    <label commandName="ShadedBox" devLabel="Box" translation="Коробка" />
+    <label commandName="ShadedSmooth" devLabel="Smooth" translation="Плавный" />
+    <label commandName="Sharp" devLabel="Sharp" translation="Острый" />
+    <label commandName="Simple Mode" devLabel="Select vertex or edge" translation="Выберите вершину или ребро" />
+    <label commandName="Single" devLabel="Single" translation="Одиночный" />
+    <label commandName="SketchFirstPointInput" devLabel="Sketch first point" translation="Эскиз первой точки" />
+    <label commandName="SketchSecondPointInput" devLabel="Sketch second point" translation="Эскиз второй точки" />
+    <label commandName="Smooth" devLabel="Wireframe Smooth" translation="Плавность каркаса" />
+    <label commandName="SmoothDisplayInput" devLabel="Smooth Display" translation="Плавный дисплей" />
+    <label commandName="SmoothModeBrush" devLabel="Brush" translation="Щетка" />
+    <label commandName="SmoothModeSelection" devLabel="Selection" translation="Выбор" />
+    <label commandName="SnapDirection" devLabel="Snap direction" translation="Направление привязки" />
+    <label commandName="Soft" devLabel="Soft" translation="Мягкий" />
+    <label commandName="SoftBulgeFalloff" devLabel="Bulge" translation="Выпуклость" />
+    <label commandName="SoftLinearFalloff" devLabel="Linear" translation="Линейный" />
+    <label commandName="SoftSelDistance" devLabel="Distance" translation="Расстояние" />
+    <label commandName="SoftSelExtent" devLabel="Extent" translation="Протяженность" />
+    <label commandName="SoftSelFaceCount" devLabel="Face Count" translation="Количество граней" />
+    <label commandName="SoftSelOptionGroup" devLabel="Soft Modification" translation="Мягкая модификация" />
+    <label commandName="SoftSelRectFaceCount" devLabel="Rectangular Face Count" translation="Количество прямоугольных граней" />
+    <label commandName="SoftSelTransition" devLabel="Transition" translation="Переход" />
+    <label commandName="SoftSmoothFalloff" devLabel="Smooth" translation="Плавность" />
+    <label commandName="SomePossibleSymmetry" devLabel="%1%%2%" translation="%1%%2%" />
+    <label commandName="SomePossibleSymmetry1" devLabel="%1%" translation="%1%" />
+    <label commandName="SourceEdges" devLabel="T-Spline Edges" translation="Ребра T-Spline" />
+    <label commandName="Spacing" devLabel="Spacing" translation="Шаг" />
+    <label commandName="Specify" devLabel="Specify" translation="Указать" />
+    <label commandName="SpecifyFalloff" devLabel="Falloff" translation="Спад" />
+    <label commandName="SpecifyTolerance" devLabel="Tolerance" translation="Допуск" />
+    <label commandName="SpikeType" devLabel="Spike" translation="Шип" />
+    <label commandName="SquareType" devLabel="Square" translation="Квадрат" />
+    <label commandName="StraightenSelectLine" devLabel="Select a line to straighten along" translation="Выберите линию для выпрямления" />
+    <label commandName="StraightenSelectParallelLine" devLabel="Select a parallel line to straighten along" translation="Выберите параллельную линию для выпрямления" />
+    <label commandName="StraightenSelectTwoPoints" devLabel="Select two points to define a line to straighten along" translation="Выберите две точки для определения линии выпрямления" />
+    <label commandName="StraightenSelectVertices" devLabel="Select vertices to straighten" translation="Выберите вершины для выпрямления" />
+    <label commandName="StraightenType" devLabel="Straighten Type" translation="Тип выпрямления" />
+    <label commandName="StrutHoleSelTip" devLabel="Strut/Hole Selection" translation="Выбор поддержек/отверстий" />
+    <label commandName="SubDivideFailed" devLabel="Subdivide operation can be applied only on manifold Surfaces." translation="Операция подразделения может быть применена только к многогранным поверхностям." />
+    <label commandName="SubSetMode" devLabel="Insert Mode" translation="Режим вставки" />
+    <label commandName="SubSetModeExact" devLabel="Exact" translation="Точный" />
+    <label commandName="SubSetModeSimple" devLabel="Simple" translation="Простой" />
+    <label commandName="Subdivide" devLabel="Subdivide" translation="Подразделить" />
+    <label commandName="SubdivideFaceSpanCountInput" devLabel="Faces" translation="Грани" />
+    <label commandName="SurfaceSelection" devLabel="Select Surface" translation="Выберите поверхность" />
+    <label commandName="SweepFullPathInput" devLabel="Full Path" translation="Полный путь" />
+    <label commandName="SweepOrientationType" devLabel="Orientation" translation="Ориентация" />
+    <label commandName="SweepPOPAgainstInput" devLabel="Distance" translation="Расстояние" />
+    <label commandName="SweepPOPAlongInput" devLabel="Distance" translation="Расстояние" />
+    <label commandName="SweepParallel" devLabel="Parallel" translation="Параллельный" />
+    <label commandName="SweepPathInput" devLabel="Path" translation="Путь" />
+    <label commandName="SweepPerpendicular" devLabel="Perpendicular" translation="Перпендикуляр" />
+    <label commandName="SweepProfileInput" devLabel="Profile" translation="Профиль" />
+    <label commandName="SymSegmentInput" devLabel="Symmetric Faces" translation="Симметричные грани" />
+    <label commandName="Symmetric" devLabel="Symmetric" translation="Симметричный" />
+    <label commandName="SymmetricFaces" devLabel="Symmetric Faces" translation="Симметричные грани" />
+    <label commandName="SymmetryCircular" devLabel="Circular" translation="Круглая симметрия" />
+    <label commandName="SymmetryMirror" devLabel="Mirror" translation="Зеркало" />
+    <label commandName="SymmetryNone" devLabel="None" translation="Отсутствует" />
+    <label commandName="SymmetryToleranceValue" devLabel="Weld Tolerance" translation="Допуск сварки" />
+    <label commandName="SymmetryType" devLabel="Symmetry" translation="Тип симметрии" />
+    <label commandName="SymmetryWeldType" devLabel="Weld" translation="Симметричный тип сварки" />
+    <label commandName="TSpline Environment TT" devLabel="Form" translation="Форма" />
+    <label commandName="TSplineAppendFaceCommand" devLabel="Face" translation="Лицо" />
+    <label commandName="TSplineBevelEdge" devLabel="Bevel Edge" translation="Скосить край" />
+    <label commandName="TSplineBody" devLabel="T-Spline Body" translation="Тело T-Spline" />
+    <label commandName="TSplineBoxHtSegErr" devLabel="Height faces should be greater than or equal to 1" translation="Высота граней должна быть больше или равна 1" />
+    <label commandName="TSplineBoxLenSegErr" devLabel="Length faces should be greater than or equal to 1" translation="Длина граней должна быть больше или равна 1" />
+    <label commandName="TSplineBoxTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplineBoxWidSegErr" devLabel="Width faces should be greater than or equal to 1" translation="Ширина граней должна быть больше или равна 1" />
+    <label commandName="TSplineBridgeSubDCmd" devLabel="Bridge" translation="Мост" />
+    <label commandName="TSplineCancelLastOperation" devLabel="Cancel" translation="Отмена" />
+    <label commandName="TSplineClearSymmetryCommand" devLabel="Clear Symmetry" translation="Очистить симметрию" />
+    <label commandName="TSplineClosedEdgeLoopWarning" devLabel="The selection formed a closed loop, which cannot be used for Edit by Curve. The last selected edge has been deselected." translation="Выбор сформировал замкнутую петлю, которую нельзя использовать для редактирования по кривой. Последний выбранный край был отменен." />
+    <label commandName="TSplineCreasedEdge" devLabel="Crease" translation="Загиб" />
+    <label commandName="TSplineCylCirSymErr" devLabel="To apply circular symmetry, symmetric faces should be greater than or equal to 1" translation="Для применения круговой симметрии, симметричные грани должны быть больше или равны 1" />
+    <label commandName="TSplineCylDiaSegErr" devLabel="Radius faces should be greater than or equal to 3" translation="Радиусные грани должны быть больше или равны 3" />
+    <label commandName="TSplineCylDiaSegSymErr" devLabel="To apply X or Y symmetry, radius faces should be greater than or equal to 4" translation="Для применения симметрии по X или Y, радиусные грани должны быть больше или равны 4" />
+    <label commandName="TSplineCylHtSegErr" devLabel="Height faces should be greater than or equal to 1" translation="Высота граней должна быть больше или равна 1" />
+    <label commandName="TSplineCylHtSegSymErr" devLabel="To apply Z symmetry, height faces should be greater than or equal to 1" translation="Для применения симметрии по Z, высота граней должна быть больше или равна 1" />
+    <label commandName="TSplineCylMirSymErr" devLabel="To apply both X and Y symmetry, radius faces should be multiples of 4" translation="Для применения симметрии по X и Y, радиусные грани должны быть кратны 4" />
+    <label commandName="TSplineCylTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplineCylindrifyCmd" devLabel="Cylindrify" translation="Цилиндризация" />
+    <label commandName="TSplineDiagnosticCommand" devLabel="T-Spline Diagnostics" translation="Диагностика T-Spline" />
+    <label commandName="TSplineDiagnosticCommandDesc" devLabel="T-Spline Diagnostics Info" translation="Информация о диагностике T-Spline" />
+    <label commandName="TSplineDumpEntityCommand" devLabel="T-Spline Entity Info" translation="Информация о сущности T-Spline" />
+    <label commandName="TSplineDumpEntityCommandDesc" devLabel="T-Spline Entity Info" translation="Информация о сущности T-Spline" />
+    <label commandName="TSplineEdge" devLabel="T-Spline Edge" translation="Край T-Spline" />
+    <label commandName="TSplineEdges" devLabel="T-Spline Edges" translation="Края T-Spline" />
+    <label commandName="TSplineEditByCurve" devLabel="Edit By Curve" translation="Редактировать по кривой" />
+    <label commandName="TSplineEditCommand" devLabel="Edit Form" translation="Редактировать форму" />
+    <label commandName="TSplineEntity" devLabel="T-Spline Entity" translation="Сущность T-Spline" />
+    <label commandName="TSplineEntitySelection" devLabel="T-Spline Entity" translation="Сущность T-Spline" />
+    <label commandName="TSplineEraseAndFillCmd" devLabel="Erase And Fill" translation="Стереть и заполнить" />
+    <label commandName="TSplineFaces" devLabel="T-Spline Faces" translation="Грани T-Spline" />
+    <label commandName="TSplineFillHoleCmd" devLabel="Fill Hole" translation="Заполнить отверстие" />
+    <label commandName="TSplineFlattenSubDCmd" devLabel="Flatten" translation="Сплющить" />
+    <label commandName="TSplineFreezeCmd" devLabel="Freeze" translation="Заморозить" />
+    <label commandName="TSplineFreezeSelection" devLabel="Select faces or edges to freeze" translation="Выберите грани или края для замораживания" />
+    <label commandName="TSplineImpCantFindComp" devLabel="Cannot find appropriate component for adding T-Spline!" translation="Не удается найти подходящий компонент для добавления T-Spline!" />
+    <label commandName="TSplineImportCommand" devLabel="Insert T-Spline" translation="Вставить T-Spline" />
+    <label commandName="TSplineInsertEdge" devLabel="Insert Edge" translation="Вставить край" />
+    <label commandName="TSplineInsertPointCommand" devLabel="Insert Point" translation="Вставить точку" />
+    <label commandName="TSplineInternalCircularSymmetryCmd" devLabel="Circular - Internal" translation="Круговая - Внутренняя" />
+    <label commandName="TSplineInternalMirrorSymmetryCmd" devLabel="Mirror - Internal" translation="Зеркальная - Внутренняя" />
+    <label commandName="TSplineInterpolateSubDCmd" devLabel="Interpolate" translation="Интерполировать" />
+    <label commandName="TSplineIsolateSymmetryCmd" devLabel="Isolate Symmetry" translation="Изолировать симметрию" />
+    <label commandName="TSplineIsolateSymmetryWarningSelection" devLabel="Only entities lying on symmetric surfaces can be selected for isolate symmetry command." translation="Только сущности, расположенные на симметричных поверхностях, могут быть выбраны для команды изоляции симметрии." />
+    <label commandName="TSplineMatchCmd" devLabel="Match" translation="Сопоставить" />
+    <label commandName="TSplineMatchEdit" devLabel="Edit Match" translation="Редактировать сопоставление" />
+    <label commandName="TSplineMatchTarCrvCantJoin" devLabel="Target curves can't be joined together." translation="Целевые кривые не могут быть объединены." />
+    <label commandName="TSplineMergeEdgeCmd" devLabel="Merge Edge" translation="Объединить край" />
+    <label commandName="TSplineNonManifoldWarning" devLabel="Selected T-Spline surface is not manufacturable. Modify the T-Spline surface." translation="Выбранная поверхность T-Spline не поддается производству. Измените поверхность T-Spline." />
+    <label commandName="TSplinePipe" devLabel="TSpline Pipe" translation="Трубка T-Spline" />
+    <label commandName="TSplinePipeEdit" devLabel="Edit Pipe" translation="Редактировать трубку" />
+    <label commandName="TSplinePlnLenSegErr" devLabel="Length faces should be greater than or equal to 1" translation="Длина граней должна быть больше или равна 1" />
+    <label commandName="TSplinePlnLenSymErr" devLabel="To apply X symmetry, length faces should be greater than or equal to 2" translation="Для применения симметрии по X, длина граней должна быть больше или равна 2" />
+    <label commandName="TSplinePlnTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplinePlnWidSegErr" devLabel="Width faces should be greater than or equal to 1" translation="Ширина граней должна быть больше или равна 1" />
+    <label commandName="TSplinePlnWidSymErr" devLabel="To apply Y symmetry, width faces should be greater than or equal to 2" translation="Для применения симметрии по Y, ширина граней должна быть больше или равна 2" />
+    <label commandName="TSplinePrimitiveBoxCommand" devLabel="Box" translation="Коробка" />
+    <label commandName="TSplinePrimitiveCylinderCommand" devLabel="Cylinder" translation="Цилиндр" />
+    <label commandName="TSplinePrimitivePipe" devLabel="Pipe" translation="Трубка" />
+    <label commandName="TSplinePrimitivePlaneCommand" devLabel="Plane" translation="Плоскость" />
+    <label commandName="TSplinePrimitiveQuadBallCommand" devLabel="Quadball" translation="Квадробалл" />
+    <label commandName="TSplinePrimitiveSphereCommand" devLabel="Sphere" translation="Сфера" />
+    <label commandName="TSplinePrimitiveTorusCommand" devLabel="Torus" translation="Тор" />
+    <label commandName="TSplinePullSubDCmd" devLabel="Pull" translation="Тянуть" />
+    <label commandName="TSplineQuadSpnSegErr" devLabel="Span faces should be greater than or equal to 1" translation="Грани спана должны быть больше или равны 1" />
+    <label commandName="TSplineQuadTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplineReflectionCircularSymmetryCmd" devLabel="Circular - Duplicate" translation="Круговая - Дубликат" />
+    <label commandName="TSplineReflectionMirrorSymmetryCmd" devLabel="Mirror - Duplicate" translation="Зеркальная - Дубликат" />
+    <label commandName="TSplineRepairBodyCmd" devLabel="Repair Body" translation="Ремонт тела" />
+    <label commandName="TSplineRevCreateFailed" devLabel="Failed to create the revolve for selected profile and axis" translation="Не удалось создать вращение для выбранного профиля и оси" />
+    <label commandName="TSplineRevolveCommand" devLabel="Revolve" translation="Вращение" />
+    <label commandName="TSplineSaveAsTSMCommand" devLabel="Save *.tsm file" translation="Сохранить файл *.tsm" />
+    <label commandName="TSplineSelectSketchPlaneInput" devLabel="Select a plane or planar face" translation="Выберите плоскость или плоскую грань" />
+    <label commandName="TSplineSelectSketchPlaneOrSnapPoint" devLabel="Select a plane, planar face or vertex" translation="Выберите плоскость, плоскую грань или вершину" />
+    <label commandName="TSplineSketchPlaneInput" devLabel="Sketch plane" translation="Плоскость эскиза" />
+    <label commandName="TSplineSlideEdge" devLabel="Slide Edge" translation="Сдвиг края" />
+    <label commandName="TSplineSmooth" devLabel="Smooth" translation="Сгладить" />
+    <label commandName="TSplineSmoothBrushSizeInput" devLabel="Brush Size" translation="Размер кисти" />
+    <label commandName="TSplineSmoothDisplayWarning" devLabel="Cannot display selected T-Spline surface in Smooth Display Mode. Try the Repair Body command or modify the T-Spline surface." translation="Невозможно отобразить выбранную поверхность T-Spline в режиме сглаженного отображения. Попробуйте команду «Ремонт тела» или измените поверхность T-Spline." />
+    <label commandName="TSplineSmoothRateInput" devLabel="Smoothing" translation="Сглаживание" />
+    <label commandName="TSplineSmoothSelectionFacets" devLabel="Select Faces" translation="Выберите грани" />
+    <label commandName="TSplineSmoothingMode" devLabel="Smoothing Mode" translation="Режим сглаживания" />
+    <label commandName="TSplineSphereTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplineSprCirSymErr" devLabel="To apply circular symmetry, symmetric faces should be greater than or equal to 1" translation="Для применения круговой симметрии, симметричные грани должны быть больше или равны 1" />
+    <label commandName="TSplineSprLanSegErr" devLabel="Longitude faces should be greater than or equal to 3" translation="Грани долготы должны быть больше или равны 3" />
+    <label commandName="TSplineSprLatSegErr" devLabel="Latitude faces should be greater than or equal to 2" translation="Грани широты должны быть больше или равны 2" />
+    <label commandName="TSplineSprMirSymBothErr" devLabel="To apply both X and Y symmetry, longitude faces should be multiples of 4" translation="Для применения симметрии по X и Y, грани долготы должны быть кратны 4" />
+    <label commandName="TSplineSprMirSymErr" devLabel="To apply X or Y symmetry, longitude faces should be greater than or equal to 4" translation="Для применения симметрии по X или Y, грани долготы должны быть больше или равны 4" />
+    <label commandName="TSplineStraighten" devLabel="Straighten" translation="Выпрямить" />
+    <label commandName="TSplineStraigtenSurfacePointsError" devLabel="Straighten operation failed. When you use the Surface Points option, ensure that the T-Spline surface can be displayed in Smooth display mode." translation="Операция выпрямления не удалась. При использовании опции «Точки поверхности», убедитесь, что поверхность T-Spline может быть отображена в режиме сглаженного отображения." />
+    <label commandName="TSplineStraigtenTwoPointsError" devLabel="Could not find a line from the given inputs." translation="Не удалось найти линию по указанным входным данным." />
+    <label commandName="TSplineSurfaceVersionUpdateAllWarning" devLabel="Upgrade all T-Spline bodies in this document" translation="Обновите все тела T-Spline в этом документе" />
+    <label commandName="TSplineSurfaceVersionWarningTitle" devLabel="T-Spline Surface Version Upgrade" translation="Обновление версии поверхности T-Spline" />
+    <label commandName="TSplineSurfacesInterpolate" devLabel="T-Spline Body" translation="T-Spline Тело" />
+    <label commandName="TSplineSweepCommand" devLabel="Sweep" translation="Процесс" />
+    <label commandName="TSplineThicken" devLabel="Thicken" translation="Утолщение" />
+    <label commandName="TSplineToggleCommand" devLabel="Select T-Spline Entities" translation="Выбрать элементы T-Spline" />
+    <label commandName="TSplineTorCirSymErr" devLabel="To apply circular symmetry, symmetric faces should be greater than or equal to 1" translation="Для применения круговой симметрии, симметричные грани должны быть больше или равны 1" />
+    <label commandName="TSplineTorDiaSegErr" devLabel="Radius faces should be greater than or equal to 3" translation="Грани радиуса должны быть больше или равны 3" />
+    <label commandName="TSplineTorDiaSegSymErr" devLabel="To apply mirror symmetry, radius faces should be greater than or equal to 4" translation="Для применения зеркальной симметрии, грани радиуса должны быть больше или равны 4" />
+    <label commandName="TSplineTorMirSymBothErr" devLabel="To apply both X and Y symmetry, radius segments should be multiples of 4" translation="Для применения симметрии по X и Y, сегменты радиуса должны быть кратны 4" />
+    <label commandName="TSplineTorRngSegErr" devLabel="Ring faces should be greater than or equal to 3" translation="Грани кольца должны быть больше или равны 3" />
+    <label commandName="TSplineTorRngSegSymErr" devLabel="To apply mirror symmetry, ring faces should be greater than or equal to 4" translation="Для применения зеркальной симметрии, кольцевые грани должны быть больше или равны 4" />
+    <label commandName="TSplineTorusTotalSegErr" devLabel="The total number of faces cannot exceed 100,000" translation="Общее количество граней не может превышать 100,000" />
+    <label commandName="TSplineUnCreasedEdge" devLabel="UnCrease" translation="Снять заострение" />
+    <label commandName="TSplineUnFreeze" devLabel="Unfreeze" translation="Разморозить" />
+    <label commandName="TSplineUnFreezeCmd" devLabel="UnFreeze" translation="Разморозить" />
+    <label commandName="TSplineUnWeldCommand" devLabel="UnWeld Edges" translation="Отсоединить края" />
+    <label commandName="TSplineVertices" devLabel="T-Spline Vertices" translation="Вершины T-Spline" />
+    <label commandName="TSplineWeldCommand" devLabel="Weld Vertices" translation="Сварить вершины" />
+    <label commandName="TSplinesVertices" devLabel="T-Spline Vertices" translation="Вершины T-Spline" />
+    <label commandName="TangencyWeight" devLabel="Tangency Weight" translation="Вес касания" />
+    <label commandName="TangentChain" devLabel="Tangent Chain" translation="Цепочка касаний" />
+    <label commandName="TargetEdges" devLabel="Match Edges" translation="Совпадение краев" />
+    <label commandName="TargetFaces" devLabel="Targets" translation="Цели" />
+    <label commandName="TargetSelectType" devLabel="Target Select" translation="Выбор цели" />
+    <label commandName="Thicken Type" devLabel="Thicken Type" translation="Тип утолщения" />
+    <label commandName="ThickenAxis" devLabel="Axis" translation="Ось" />
+    <label commandName="ThickenAxisSelect" devLabel="Select axis or edge" translation="Выберите ось или край" />
+    <label commandName="ToggleDisplayMode" devLabel="Display Mode" translation="Режим отображения" />
+    <label commandName="ToggleLink" devLabel="Link tangent handle" translation="Связать касательные ручки" />
+    <label commandName="ToleranceValue" devLabel="Weld Tolerance" translation="Допуск сварки" />
+    <label commandName="TransformManip" devLabel="Transform Manipulator" translation="Манипулятор преобразования" />
+    <label commandName="TransformMode" devLabel="Transform Mode" translation="Режим преобразования" />
+    <label commandName="TsplineExtrudeSpanCount" devLabel="Faces" translation="Грани" />
+    <label commandName="TwoPoints" devLabel="Two Points" translation="Два пункта" />
+    <label commandName="TwoSide" devLabel="Two Side" translation="Двойная сторона" />
+    <label commandName="Type" devLabel="Type" translation="Тип" />
+    <label commandName="UVNormalMatrix" devLabel="Local Per Entity" translation="Местная для каждого элемента" />
+    <label commandName="UnCrease edges/vertices" devLabel="Select edges or vertices" translation="Выберите края или вершины" />
+    <label commandName="UnFreezeInput" devLabel="T-Spline Entity" translation="Элемент T-Spline" />
+    <label commandName="UnWeld Edges" devLabel="Select edges" translation="Выберите края" />
+    <label commandName="UnfreezeBodiesCursorPrompt" devLabel="Select T-Spline bodies to unfreeze" translation="Выберите тела T-Spline для размораживания" />
+    <label commandName="UnfreezeBrokenFreeze" devLabel="To apply this change, the affected regions need to be unfrozen." translation="Для применения этого изменения, необходимо разморозить затронутые регионы." />
+    <label commandName="UnfreezeFaceEdgeCursorPrompt" devLabel="Select frozen faces or edges to unfreeze" translation="Выберите замороженные грани или края для размораживания" />
+    <label commandName="Uniform" devLabel="Uniform" translation="Единый" />
+    <label commandName="UniformMode" devLabel="Uniform" translation="Единый" />
+    <label commandName="Upgrade Surface Version" devLabel="Upgrade Surface Version" translation="Обновить версию поверхности" />
+    <label commandName="VertRangeSelToolTip" devLabel="Click to select a range of vertices" translation="Щелкните для выбора диапазона вершин" />
+    <label commandName="Vertex" devLabel="Vertex" translation="Вершина" />
+    <label commandName="VertexSelection" devLabel="Select Vertex" translation="Выберите вершину" />
+    <label commandName="ViewSpaceMatrix" devLabel="View Space" translation="Пространство просмотра" />
+    <label commandName="Weld" devLabel="Weld" translation="Сварка" />
+    <label commandName="Weld Vertices" devLabel="Select vertices" translation="Выберите вершины" />
+    <label commandName="WeldCenterVerticesOption" devLabel="Weld Center Vertices" translation="Сварка центральных вершин" />
+    <label commandName="WeldMode" devLabel="Weld Mode" translation="Режим сварки" />
+    <label commandName="WeldModeVertex" devLabel="Vertex to Vertex" translation="Вершина к вершине" />
+    <label commandName="WidthSymmetry" devLabel="Width Symmetry" translation="Ширина симметрии" />
+    <label commandName="WorldSpaceMatrix" devLabel="World Space" translation="Мировое пространство" />
+    <label commandName="WrongEntity" devLabel="Entity can't be selected from this surface" translation="Невозможно выбрать объект с этой поверхности" />
+    <label commandName="alternateAlignmentTooltip" devLabel="Switches the direction of control&#10;points around the match edge,&#10;clockwise or counterclockwise." translation="Переключает направление контрольных точек вокруг соответствующего края, по часовой стрелке или против." />
+    <label commandName="alternateTangentTooltip" devLabel="Switches the direction of tangency&#10;across the match transition." translation="Переключает направление касания через переход." />
+    <label commandName="associativeModeTooltip" devLabel="Creates an associative relationship&#10;between the T-Spline geometry and the&#10;parametric solid or surface geometry." translation="Создает ассоциативную связь между геометрией T-Spline и параметрической геометрией твердого тела или поверхности." />
+    <label commandName="autoFeatureSelTooltip" devLabel="Automatically select and preview entire features." translation="Автоматически выбрать и предварительно просматривать целые элементы." />
+    <label commandName="autoSelect" devLabel="Auto" translation="Авто" />
+    <label commandName="chainMode" devLabel="Chain" translation="Цепь" />
+    <label commandName="circularAxisSelect" devLabel="Select axis or edge" translation="Выберите ось или край" />
+    <label commandName="controlPointsType" devLabel="Control Points" translation="Контрольные точки" />
+    <label commandName="controlPointsTypeTip" devLabel="Fits control points of selected edges to driving curve" translation="Подгоняет контрольные точки выбранных краев к управляющей кривой" />
+    <label commandName="convertTPointsTooltip" devLabel="Check to convert all T-Points to star points." translation="Отметьте, чтобы преобразовать все T-Points в звездные точки." />
+    <label commandName="createMode" devLabel="Mode" translation="Режим" />
+    <label commandName="cursorPromptBodySelected" devLabel="Select additional T-Spline bodies to make uniform" translation="Выберите дополнительные тела T-Spline для унификации" />
+    <label commandName="cursorPromptModify" devLabel="Adjust match settings,&#10;or uncheck Preview&#10;to modify selection" translation="Настройте параметры совпадения или снимите предварительный просмотр для изменения выбора" />
+    <label commandName="cursorPromptNoBodySelected" devLabel="Select T-Spline bodies to make uniform" translation="Выберите тела T-Spline для унификации" />
+    <label commandName="cursorPromptSourceEdges" devLabel="Select T-Spline edges" translation="Выберите края T-Spline" />
+    <label commandName="cursorPromptTargetEdges" devLabel="Select sketch curves&#10;or edges on a solid or&#10;surface body" translation="Выберите эскизные кривые или края на твердом теле или поверхности" />
+    <label commandName="curvatureContinuityTooltip" devLabel="Applies G2 curvature continuity&#10;across the match transition." translation="Применяет непрерывность кривизны G2 через переход совпадения." />
+    <label commandName="curvatureSamplingTooltip" devLabel="Distributes control points based on&#10;the curvature of the match edge.&#10;Higher curvature areas receive&#10;more control points." translation="Распределяет контрольные точки на основе кривизны соответствующего края. Более кривые участки получают больше контрольных точек." />
+    <label commandName="curveInterfaceExportTooltip" devLabel="Toggles export of the underlying T-Splines curve interface." translation="Переключает экспорт основной кривой интерфейса T-Splines." />
+    <label commandName="cylindrifyFaceSelCursorPromptAutoOff" devLabel="Select faces to cylindrify" translation="Выберите грани для цилиндризации" />
+    <label commandName="cylindrifyFaceSelCursorPromptAutoOn" devLabel="Select faces on features to cylindrify" translation="Выберите грани на особенностях для цилиндризации" />
+    <label commandName="cylindrifyFaceSelTooltip" devLabel="Select faces to cylindrify." translation="Выберите грани для цилиндризации." />
+    <label commandName="degreeTooltip" devLabel="Select degree of driving curve" translation="Выберите степень управляющей кривой" />
+    <label commandName="deviationTooltip" devLabel="Displays the amount and location of&#10;maximum deviation of the T-Spline&#10;edge from the match edge." translation="Отображает величину и расположение максимального отклонения края T-Spline от соответствующего края." />
+    <label commandName="drivingCurveCVSelTooltip" devLabel="Select control points to edit on driving curve" translation="Выберите контрольные точки для редактирования на управляющей кривой" />
+    <label commandName="edgeLengthDistrib" devLabel="Edge Length" translation="Длина ребра" />
+    <label commandName="edgeLengthDistribTip" devLabel="Distributes control points in proportion to lengths of T-Spline edges" translation="Распределяет контрольные точки пропорционально длине ребер T-Spline" />
+    <label commandName="edgeMode" devLabel="Edge" translation="Край" />
+    <label commandName="edgeSelTooltip" devLabel="Select edges on a T-Spline body" translation="Выберите края на теле T-Spline" />
+    <label commandName="edgeSelection" devLabel="Edge" translation="Край" />
+    <label commandName="falloffTooltip" devLabel="Specify a distance from the match&#10;edge to control how much of the&#10;T-Spline body is influenced by&#10;the match." translation="Укажите расстояние от соответствующего края, чтобы контролировать влияние совпадения на тело T-Spline." />
+    <label commandName="forwardDirectionType" devLabel="Control Points" translation="Контрольные точки" />
+    <label commandName="heightDirection" devLabel="Direction" translation="Направление" />
+    <label commandName="heightDirectionOneSide" devLabel="One Side" translation="Одна сторона" />
+    <label commandName="heightDirectionSymmetry" devLabel="Symmetric" translation="Симметричный" />
+    <label commandName="infoWeldMidPointMode" devLabel="Vertex to Midpoint" translation="Вершина к середине" />
+    <label commandName="infoWeldToToleranceMode" devLabel="Weld to Tolerance" translation="Сварка по допуску" />
+    <label commandName="lclTSplineBridgeTipsAndTricksDesc" devLabel="You can specify the number of faces between the edges. The Follow Curve option will use a sketch curve to influence the shape of the bridged faces." translation="Вы можете указать количество граней между краями. Опция Follow Curve будет использовать эскизную кривую для влияния на форму соединяемых граней." />
+    <label commandName="lclTSplineCreaseEdgeTipsAndTricksDesc" devLabel="Regions around star/cap points (highlighted yellow) will cause edge creases to end abruptly. Boundary corner vertices (indicated by yellow dots at the surface boundary) can also be creased and uncreased." translation="Области вокруг звездных/капельных точек (выделенные желтым) вызовут резкое завершение заострения краев. Вершины на границе поверхности (обозначенные желтыми точками) также могут быть заострены и разострены." />
+    <label commandName="lclTSplineCylindrifyTipsAndTricksDesc" devLabel="You can use Cylindrify to smooth uneven struts and holes from generative design results." translation="Вы можете использовать Cylindrify для сглаживания неровных опор и отверстий, полученных в результате генеративного проектирования." />
+    <label commandName="lclTSplineDisplayModeTipsAndTricksDesc" devLabel="Toggle between modes by holding Ctrl (Windows) or Control (Mac) and the 1, 2, or 3 key. This function is also available in the Edit Form dialog box in Selection Options." translation="Переключайтесь между режимами, удерживая Ctrl (Windows) или Control (Mac) и клавиши 1, 2 или 3. Эта функция также доступна в диалоговом окне редактирования формы в параметрах выбора." />
+    <label commandName="lclTSplineEditByCurveTipsAndTricksDesc" devLabel="Adjust the Display Mode to see the effect of Curve Fit more easily. Use Box Display for Control Points and Smooth Display for Surface Points. Control Points (curve fitting only) performs faster than Surface Points (curve and surface fitting)." translation="Настройте режим отображения, чтобы легче увидеть эффект подгонки кривой. Используйте отображение Box для контрольных точек и Smooth для точек поверхности. Контрольные точки (только для подгонки кривой) работают быстрее, чем точки поверхности (подгонка кривой и поверхности)." />
+    <label commandName="lclTSplineEraseAndFillTipsAndTricksDesc" devLabel="Fill Star will fill using a single face.  Reduced Star will fill with mulitple faces to minimize star points." translation="Fill Star заполняет с использованием одной грани. Reduced Star заполняет несколькими гранями, чтобы минимизировать количество звездочек." />
+    <label commandName="lclTSplineFillHoleTipsAndTricksDesc" devLabel="Fill Star will fill using a single face.  Reduced Star will fill with mulitple faces to minimize star points. Collapse brings all vertices together at a single vertex." translation="Fill Star заполняет с использованием одной грани. Reduced Star заполняет несколькими гранями, чтобы минимизировать количество звездочек. Collapse объединяет все вершины в одну точку." />
+    <label commandName="lclTSplineFlattenTipsAndTricksDesc" devLabel="The minimum number of vertices per surface for Flatten operation depends on Direction type: 4 for Fit, 1 for Plane, and 2 for Parallel Plane. If you flatten linked tangency handles, they will get unlinked from their vertices. The more vertices in the region the better the flatten result will look. Use the Subdivide command to add more geometry for better flattening." translation="Минимальное количество вершин на поверхности для операции Flatten зависит от типа направления: 4 для Fit, 1 для Plane и 2 для Parallel Plane. Если вы выравниваете связанные касательные элементы, они будут отсоединены от своих вершин. Чем больше вершин в области, тем лучше будет результат выравнивания. Используйте команду Subdivide для добавления больше геометрии для лучшего выравнивания." />
+    <label commandName="lclTSplineFreezeCmdTipsAndTricksDesc" devLabel="Light blue edges represent user-frozen regions. Darker blue edges show the buffer regions that are automatically locked to prevent shape changes in the user-frozen regions." translation="Светло-синие края представляют области, замороженные пользователем. Более темно-синие края показывают буферные области, которые автоматически блокируются, чтобы предотвратить изменения формы в замороженных пользователем областях." />
+    <label commandName="lclTSplineInsertEdgeTipsAndTricksDesc" devLabel="Set the Insertion Mode to Exact to insert the edge without changing the shape of the T-Spline, however this will add more faces to maintain the shape." translation="Установите режим вставки на Exact, чтобы вставить грань без изменения формы T-Spline, однако это добавит больше граней для поддержания формы." />
+    <label commandName="lclTSplineInsertPointTipsAndTricksDesc" devLabel="Slide the pointer along the edge until a red dot is shown, this is the midpoint of the edge. Set the Insertion Mode to Exact to insert the point without changing the shape of the T-Spline body, however this will add more faces to maintain the shape." translation="Перетащите указатель вдоль грани, пока не появится красная точка — это середина грани. Установите режим вставки на Exact, чтобы вставить точку без изменения формы тела T-Spline, однако это добавит больше граней для поддержания формы." />
+    <label commandName="lclTSplineInternalCircularTipsAndTricksDesc" devLabel="The possible areas of symmetry are calculated automatically based on the selected face and the body." translation="Возможные области симметрии рассчитываются автоматически на основе выбранной грани и тела." />
+    <label commandName="lclTSplineInternalMirrorTipsAndTricksDesc" devLabel="Symmetry lines are displayed in green." translation="Линии симметрии отображаются зеленым цветом." />
+    <label commandName="lclTSplineInterpolateTipsAndTricksDesc" devLabel="Interpolate is best used in conjunction with the Control Frame Display mode (Ctrl + 2)." translation="Интерполяция лучше всего используется в сочетании с режимом отображения Control Frame (Ctrl + 2)." />
+    <label commandName="lclTSplineIsolateSymmetryTipsAndTricksDesc" devLabel="The non-symmetric faces are displayed in red." translation="Несимметричные грани отображаются красным цветом." />
+    <label commandName="lclTSplineMakeUniformTipsAndTricksDesc" devLabel="Use the Convert T-Points option as a repair tool when T-Points cause undesirable surface quality or conversion from T-Spline form body to solid or surface body fails." translation="Используйте опцию Convert T-Points в качестве инструмента для исправления, когда T-Points вызывают нежелательное качество поверхности или при конверсии тела T-Spline в твердое или поверхность тело возникают ошибки." />
+    <label commandName="lclTSplineMatchTipsAndTricksDesc" devLabel="Use the &lt;b&gt;Tolerance&lt;/b&gt; settings to control the deviation of the T-Spline edge from the match edge." translation="Используйте настройки &lt;b&gt;Tolerance&lt;/b&gt; для контроля отклонения края T-Spline от совпадающего края." />
+    <label commandName="lclTSplineMergeEdgeTipsAndTricksDesc" devLabel="Use Merge Edge in place of Weld Vertices when connecting multiple vertices along the selected edges." translation="Используйте Merge Edge вместо Weld Vertices при соединении нескольких вершин вдоль выбранных граней." />
+    <label commandName="lclTSplinePullTipsAndTricksDesc" devLabel="Change the Target Select to specify targets. Set the Pull Type to move surface points or control points." translation="Измените Target Select для указания целей. Установите Pull Type для перемещения точек поверхности или контрольных точек." />
+    <label commandName="lclTSplineReflectionCircularTipsAndTricksDesc" devLabel="The weld option will join the bodies where they intersect within the specified tolerance." translation="Опция сварки соединяет тела, где они пересекаются в пределах указанного допуском." />
+    <label commandName="lclTSplineReflectionMirrorTipsAndTricksDesc" devLabel="The weld option will join the bodies where they intersect within the specified tolerance." translation="Опция сварки соединяет тела, где они пересекаются в пределах указанного допуском." />
+    <label commandName="lclTSplineRepairBodyTipsAndTricksDesc" devLabel="Clicking on a Star will convert it to a T-Point and vise versa. Use Autorepair to let the software try to repair the model." translation="Щелчок по звезде преобразует её в T-Point и наоборот. Используйте Autorepair, чтобы позволить программе попытаться исправить модель." />
+    <label commandName="lclTSplineSlideEdgeTipsAndTricksDesc" devLabel="Slide the selected edge closer to another to make the transition between the two sharper." translation="Перетащите выбранную грань ближе к другой, чтобы сделать переход между ними более резким." />
+    <label commandName="lclTSplineSmoothTipsAndTricksDesc" devLabel="Select the faces and set smoothing rate." translation="Выберите грани и установите степень сглаживания." />
+    <label commandName="lclTSplineStraightenTipsAndTricksDesc" devLabel="If you straighten linked tangency handles, they will unlink from their vertices." translation="Если вы выпрямите связанные касательные элементы, они будут отсоединены от своих вершин." />
+    <label commandName="lclTSplineThickenTipsAndTricksDesc" devLabel="Thicken tool does not check for self intersections during creating and can create surfaces that will not convert to a solid." translation="Инструмент Thicken не проверяет на самопересечения при создании и может создавать поверхности, которые не будут преобразованы в твердое тело." />
+    <label commandName="lclTSplineUnCreaseEdgeTipsAndTricksDesc" devLabel="Regions around star/cap points (highlighted yellow) will cause edge creases to end abruptly. Boundary corner vertices (indicated by yellow dots at the surface boundary) can also be creased and uncreased." translation="Области вокруг звездочек/капель (выделенные желтым) приведут к обрыву складок на краях. Вершины на границах (обозначенные желтыми точками на границе поверхности) также могут быть срезаны и расправлены." />
+    <label commandName="lclTSplineUnFreezeCmdTipsAndTricksDesc" devLabel="Light blue edges represent user-frozen regions. Darker blue edges show the buffer regions that are automatically locked to prevent shape changes in the user-frozen regions." translation="Светло-синие края представляют области, замороженные пользователем. Более темно-синие края показывают буферные области, которые автоматически блокируются, чтобы предотвратить изменения формы в замороженных пользователем областях." />
+    <label commandName="lclTSplineUnWeldTipsAndTricksDesc" devLabel="A darker line indicates that the edge has been unwelded and is no longer connected." translation="Темная линия указывает, что грань была разъединена и больше не соединена." />
+    <label commandName="lclTSplineWeldTipsAndTricksDesc" devLabel="Use the Weld Mode to weld the first vertex to the second or weld both selections to the midpoint." translation="Используйте режим сварки, чтобы сварить первую вершину со второй или сварить оба выбора в точку пересечения." />
+    <label commandName="lclzMergeEdgeTipsAndTricksTips" devLabel="Select the first set of edges then the second set of edges." translation="Выберите первый набор граней, затем второй набор." />
+    <label commandName="lclzSTSplineSlideEdgeipsAndTricksTips" devLabel="Select the edges then specify the new position." translation="Выберите грани, затем укажите новое положение." />
+    <label commandName="lclzSculptWorkspaceTitle" devLabel="Creates organic geometry. Access commands to create T-Spline bodies." translation="Создает органическую геометрию. Доступ к командам для создания тел T-Spline." />
+    <label commandName="lclzTSpline2BRepDesc1" devLabel="Changes the body type of the selected object. Converts BRep (solid or surface) faces to a T-Spline face. Converts a T-Spline body to a BRep body. Converts a quad mesh to a T-Spline body." translation="Изменяет тип тела выбранного объекта. Преобразует грани BRep (твердое или поверхность) в грани T-Spline. Преобразует тело T-Spline в тело BRep. Преобразует квадратичную сетку в тело T-Spline." />
+    <label commandName="lclzTSpline2BRepDesc2" devLabel="Select the object to convert." translation="Выберите объект для преобразования." />
+    <label commandName="lclzTSplineAppendFace1" devLabel="Creates individual T-Spline faces." translation="Создает отдельные грани T-Spline." />
+    <label commandName="lclzTSplineAppendFace2" devLabel="Select a plane to begin defining vertices or select vertices from a T-Spline body." translation="Выберите плоскость для начала определения вершин или выберите вершины из тела T-Spline." />
+    <label commandName="lclzTSplineAppendFaceTipsAndTricksDesc" devLabel="Pick existing vertices to connect the face to that geometry. Enable Object Snap to position new vertices on the closest solid, surface, or mesh body." translation="Выберите существующие вершины, чтобы соединить грань с этой геометрией. Включите привязку объектов, чтобы разместить новые вершины на ближайшем твердом теле, поверхности или сетке." />
+    <label commandName="lclzTSplineAppendFaceTipsAndTricksTitle" devLabel="Face Information" translation="Информация о грани" />
+    <label commandName="lclzTSplineAppendTipsAndTricksTips" devLabel="Select a plane or existing vertex to begin. Continue setting points to define the face." translation="Выберите плоскость или существующую вершину для начала. Продолжайте устанавливать точки для определения грани." />
+    <label commandName="lclzTSplineBevelEdgeTipsAndTricksTitle" devLabel="Bevel Edge Information" translation="Информация о фаске грани" />
+    <label commandName="lclzTSplineBoxTipsAndTricksDesc" devLabel="Direction changes how the box is built releative to your original input rectangle.  Mirror allows you to maintain symmetry in subsequent modeling edits" translation="Направление изменяет, как строится коробка относительно вашего исходного прямоугольника. Опция Mirror позволяет сохранять симметрию при последующих редактированиях модели." />
+    <label commandName="lclzTSplineBoxTipsAndTricksTips" devLabel="Select a plane and draw a rectangle.  Use the manipulators or input fields to specify the height and number of faces." translation="Выберите плоскость и нарисуйте прямоугольник. Используйте манипуляторы или поля ввода для указания высоты и количества граней." />
+    <label commandName="lclzTSplineBoxTipsAndTricksTitle" devLabel="Box Information" translation="Информация о коробке" />
+    <label commandName="lclzTSplineBridgeSubDDesc1" devLabel="Creates segments to connect two opposing faces within a body or between two bodies." translation="Создает сегменты для соединения двух противоположных граней внутри одного тела или между двумя телами." />
+    <label commandName="lclzTSplineBridgeSubDDesc2" devLabel="Select the first set of edges then select the second set of edges." translation="Выберите первый набор граней, затем выберите второй набор граней." />
+    <label commandName="lclzTSplineBridgeTipsAndTricksTitle" devLabel="Bridge Information" translation="Информация о мосте" />
+    <label commandName="lclzTSplineCapSettingCommand" devLabel="Toggles between better performance or better display. Better display shows the bodies at highest quality (G1 conditions at star points). Better performance calculates modification by applying G0 conditions at star points." translation="Переключается между лучшей производительностью или лучшим отображением. Лучшее отображение показывает тела в высшем качестве (условия G1 на звездных точках). Лучшая производительность рассчитывает изменения, применяя условия G0 на звездных точках." />
+    <label commandName="lclzTSplineClearSymmetry1" devLabel="Remove symmetry constraint from individual bodies or a series of bodies." translation="Удаляет ограничение симметрии с отдельных тел или серии тел." />
+    <label commandName="lclzTSplineClearSymmetry2" devLabel="Select the symmetric bodies." translation="Выберите симметричные тела." />
+    <label commandName="lclzTSplineClearSymmetryTipsAndTricksTips" devLabel="Select the symmetric bodies." translation="Выберите симметричные тела." />
+    <label commandName="lclzTSplineClearSymmetryTipsAndTricksTitle" devLabel="Clear Symmetry Information" translation="Информация о сбросе симметрии" />
+    <label commandName="lclzTSplineConvertTipsAndTricksTips" devLabel="Select the object to convert." translation="Выберите объект для преобразования." />
+    <label commandName="lclzTSplineConvertTipsAndTricksTitle" devLabel="Convert Information" translation="Информация о преобразовании" />
+    <label commandName="lclzTSplineCreaseEdgeTipsAndTricksTips" devLabel="Select edges to crease." translation="Выберите грани для создания складки." />
+    <label commandName="lclzTSplineCreaseEdgeTipsAndTricksTitle" devLabel="Crease Information" translation="Информация о складке" />
+    <label commandName="lclzTSplineCreasedEdgeDesc1" devLabel="Creates a sharp edge between faces." translation="Создает острый край между гранями." />
+    <label commandName="lclzTSplineCreasedEdgeDesc2" devLabel="Select edges to crease." translation="Выберите грани для создания складки." />
+    <label commandName="lclzTSplineCylinderTipsAndTricksDesc" devLabel="Direction changes how the cylinder is built releative to your original input circle. Mirror allows you to maintain symmetry in subsequent modeling edits" translation="Направление изменяет, как строится цилиндр относительно вашего исходного круга. Опция Mirror позволяет сохранять симметрию при последующих редактированиях модели." />
+    <label commandName="lclzTSplineCylinderTipsAndTricksTips" devLabel="Select a plane and draw a circle.  Use the manipulators or input fields to specify the height and number of faces." translation="Выберите плоскость и нарисуйте круг. Используйте манипуляторы или поля ввода для указания высоты и количества граней." />
+    <label commandName="lclzTSplineCylinderTipsAndTricksTitle" devLabel="Cylinder Information" translation="Информация о цилиндре" />
+    <label commandName="lclzTSplineCylindrifyDesc1" devLabel="Forms uneven T-Spline geometry into a smooth cylindrical shape." translation="Превращает неровную геометрию T-Spline в плавно цилиндрическую форму." />
+    <label commandName="lclzTSplineCylindrifyDesc2" devLabel="Select a face on the feature to cylindrify. The preview displays automatically. Uncheck Auto Feature Selection to select individual faces." translation="Выберите грань на объекте для цилиндрической трансформации. Предварительный просмотр отображается автоматически. Снимите флажок с Auto Feature Selection, чтобы выбрать отдельные грани." />
+    <label commandName="lclzTSplineCylindrifyTipsAndTricksTips" devLabel="Cylindrify applies to all selected faces on a T-Spline body. You can select multiple strut or hole features on a T-Spline body at once, or uncheck Auto Feature Selection to select individual faces." translation="Cylindrify применяется ко всем выбранным граням на теле T-Spline. Вы можете выбрать несколько структурных или отверстий на теле T-Spline одновременно, или снять флажок с Auto Feature Selection для выбора отдельных граней." />
+    <label commandName="lclzTSplineCylindrifyTipsAndTricksTitle" devLabel="Cylindrify Information" translation="Информация о Cylindrify" />
+    <label commandName="lclzTSplineDisplayModeTipsAndTricksTips" devLabel="Select the desired display mode. If there is more than one T-Spline body, you need to select the body to change the display." translation="Выберите желаемый режим отображения. Если существует несколько тел T-Spline, вам нужно выбрать тело для изменения отображения." />
+    <label commandName="lclzTSplineDisplayModeTipsAndTricksTitle" devLabel="Display Mode Information" translation="Информация о режиме отображения" />
+    <label commandName="lclzTSplineEditByCurveDesc1" devLabel="Manipulates T-Spline edges using a driving curve." translation="Манипулирует гранями T-Spline с помощью управляющей кривой." />
+    <label commandName="lclzTSplineEditByCurveDesc2" devLabel="Select edges to create a driving curve. Move the control points to adjust the shape of the T-Spline edges." translation="Выберите грани для создания управляющей кривой. Перемещайте контрольные точки, чтобы изменить форму граней T-Spline." />
+    <label commandName="lclzTSplineEditByCurveTipsAndTricksTips" devLabel="The driving curve appears when at least two continuous edges are selected. You can adjust the rotation and scale settings when you select at least two control points of the driving curve." translation="Управляющая кривая появляется, когда выбраны как минимум две смежные грани. Вы можете настроить параметры вращения и масштаба, когда выбраны как минимум две контрольные точки управляющей кривой." />
+    <label commandName="lclzTSplineEditByCurveTipsAndTricksTitle" devLabel="Edit By Curve Information" translation="Информация об редактировании по кривой" />
+    <label commandName="lclzTSplineEditDesc1" devLabel="Manipulates faces, edges and vertices with transform, scale and rotate editing." translation="Манипулирует гранями, ребрами и вершинами с помощью преобразования, масштаба и вращения." />
+    <label commandName="lclzTSplineEditDesc2" devLabel="Select faces, edges, or vertices to enable the manipulator. Double click a face or edge to select a loop." translation="Выберите грани, ребра или вершины для включения манипулятора. Дважды щелкните на грани или ребре, чтобы выбрать петлю." />
+    <label commandName="lclzTSplineEditTipsAndTricksDesc" devLabel="Hold the Alt key and drag a manipulator to insert new geometry based on the action." translation="Удерживайте клавишу Alt и перетащите манипулятор, чтобы вставить новую геометрию в зависимости от действия." />
+    <label commandName="lclzTSplineEditTipsAndTricksTips" devLabel="Select faces, edges, or vertices to enable the manipulator. Double click a face or edge to select a loop." translation="Выберите грани, ребра или вершины для включения манипулятора. Дважды щелкните на грани или ребре, чтобы выбрать петлю." />
+    <label commandName="lclzTSplineEditTipsAndTricksTitle" devLabel="Edit Form Information" translation="Информация о редактировании формы" />
+    <label commandName="lclzTSplineEraseAndFillDesc1" devLabel="Deletes a part of connected T-Spline geometry and fills new gaps with faces. You can use this to remove struts or bridges." translation="Удаляет часть связанной геометрии T-Spline и заполняет новые пробелы гранями. Это можно использовать для удаления опор или мостов." />
+    <label commandName="lclzTSplineEraseAndFillDesc2" devLabel="Select the faces to erase and select fill type." translation="Выберите грани для удаления и выберите тип заполнения." />
+    <label commandName="lclzTSplineEraseAndFillTipsAndTricksTips" devLabel="Select the faces to erase and set the fill type." translation="Выберите грани для удаления и установите тип заполнения." />
+    <label commandName="lclzTSplineEraseAndFillTipsAndTricksTitle" devLabel="Erase and Fill Information" translation="Информация о удалении и заполнении" />
+    <label commandName="lclzTSplineExtrude1" devLabel="Creates or modifies a T-Spline body by adding faces along a vector." translation="Создает или изменяет тело T-Spline, добавляя грани вдоль вектора." />
+    <label commandName="lclzTSplineExtrude2" devLabel="Select sketch curves, profiles or faces. Use the manipulators or input fields to specify the distance and number of faces." translation="Выберите эскизные кривые, профили или грани. Используйте манипуляторы или поля ввода для указания расстояния и количества граней." />
+    <label commandName="lclzTSplineExtrudeTipsAndTricksDesc" devLabel="Set the Spacing setting to Curvature to add faces in areas of higher curvature." translation="Установите параметр Спейса на Кривизна, чтобы добавлять грани в областях с высокой кривизной." />
+    <label commandName="lclzTSplineExtrudeTipsAndTricksTips" devLabel="Select sketch curves, profiles or faces.  Use the manipulators or input fields to specify the distance and number of faces." translation="Выберите эскизные кривые, профили или грани. Используйте манипуляторы или поля ввода для указания расстояния и количества граней." />
+    <label commandName="lclzTSplineExtrudeTipsAndTricksTitle" devLabel="Extrude Information" translation="Информация о экструзии" />
+    <label commandName="lclzTSplineFillHoleDesc1" devLabel="Fills an internal hole in T-Spline body." translation="Заполняет внутреннее отверстие в теле T-Spline." />
+    <label commandName="lclzTSplineFillHoleDesc2" devLabel="Select the edge of the hole and set the fill type." translation="Выберите край отверстия и установите тип заполнения." />
+    <label commandName="lclzTSplineFillHoleTipsAndTricksTips" devLabel="Select the edge of the hole and set the fill type." translation="Выберите край отверстия и установите тип заполнения." />
+    <label commandName="lclzTSplineFillHoleTipsAndTricksTitle" devLabel="Fill Hole Information" translation="Информация о заполнении отверстия" />
+    <label commandName="lclzTSplineFlattenSubDEdgeDesc1" devLabel="Projects vertices to a best fit or user defined plane." translation="Проецирует вершины на наилучшее соответствие или заданную пользователем плоскость." />
+    <label commandName="lclzTSplineFlattenSubDEdgeDesc2" devLabel="Select the vertices and/or tangency handles to flatten." translation="Выберите вершины и/или ручки касания для выравнивания." />
+    <label commandName="lclzTSplineFlattenTipsAndTricksTips" devLabel="To easily see the effect of Flatten Type, use Box Display for Control Points and Smooth Display for Surface Points. Valid selection types for Plane are a work plane and planar B-rep face." translation="Чтобы легко увидеть эффект типа выравнивания, используйте отображение Box для контрольных точек и Smooth Display для точек поверхности. Допустимые типы выбора для плоскости — рабочая плоскость и плоская B-rep грань." />
+    <label commandName="lclzTSplineFlattenTipsAndTricksTitle" devLabel="Flatten Information" translation="Информация о выравнивании" />
+    <label commandName="lclzTSplineFreezeCmd1" devLabel="Freezes faces and edges on the model to prevent accidental changes." translation="Замораживает грани и ребра на модели, чтобы предотвратить случайные изменения." />
+    <label commandName="lclzTSplineFreezeCmd2" devLabel="Select faces or edges to freeze." translation="Выберите грани или ребра, которые хотите заморозить." />
+    <label commandName="lclzTSplineFreezeCmdTipsAndTricksTips" devLabel="Select faces or edges to freeze them." translation="Выберите грани или ребра, чтобы заморозить их." />
+    <label commandName="lclzTSplineFreezeCmdTipsAndTricksTitle" devLabel="Freeze Information" translation="Информация о заморозке" />
+    <label commandName="lclzTSplineImportDesc1" devLabel="Inserts a T-Spline Mesh (TSM) file as a single T-Spline body or a T-Spline Scene (TSS) file as one or more T-Spline bodies." translation="Вставляет файл T-Spline Mesh (TSM) как одно тело T-Spline или файл T-Spline Scene (TSS) как одно или несколько тел T-Spline." />
+    <label commandName="lclzTSplineImportDesc2" devLabel="Select the TSM or TSS file you want to insert, then click Open. The T-Spline bodies display in the canvas and Browser and you can use the Form tools to edit them." translation="Выберите файл TSM или TSS, который вы хотите вставить, затем нажмите Открыть. Тела T-Spline отобразятся на холсте и в браузере, и вы сможете использовать инструменты Form для их редактирования." />
+    <label commandName="lclzTSplineInsertEdgeDesc1" devLabel="Inserts edges at a specified position from the original edge." translation="Вставляет ребра в указанное положение относительно исходного ребра." />
+    <label commandName="lclzTSplineInsertEdgeDesc2" devLabel="Select an edge or double click to select a loop." translation="Выберите ребро или дважды щелкните, чтобы выбрать петлю." />
+    <label commandName="lclzTSplineInsertEdgeTipsAndTricksTitle" devLabel="Insert Edge Information" translation="Информация о вставке ребра" />
+    <label commandName="lclzTSplineInsertPointDesc1" devLabel="Inserts an edge by selecting two points." translation="Вставляет ребро, выбирая две точки." />
+    <label commandName="lclzTSplineInsertPointDesc2" devLabel="Select a point on an edge to start. Continue selecting points on additional edges to divide multiple faces." translation="Выберите точку на ребре для начала. Продолжайте выбирать точки на других ребрах, чтобы разделить несколько граней." />
+    <label commandName="lclzTSplineInsertPointTipsAndTricksTips" devLabel="Select a point on an edge to start. Continue selecting points on additional edges to divide multiple faces." translation="Выберите точку на ребре для начала. Продолжайте выбирать точки на других ребрах, чтобы разделить несколько граней." />
+    <label commandName="lclzTSplineInsertPointTipsAndTricksTitle" devLabel="Insert Point Information" translation="Информация о вставке точки" />
+    <label commandName="lclzTSplineInternalCircularSymmetry1" devLabel="Creates circular symmetry with the elements of a T-Spline body." translation="Создает круговую симметрию с элементами тела T-Spline." />
+    <label commandName="lclzTSplineInternalCircularSymmetry2" devLabel="Select a face on the body then select the number of symmetry lines." translation="Выберите грань на теле, затем выберите количество осей симметрии." />
+    <label commandName="lclzTSplineInternalCircularTipsAndTricksTips" devLabel="Select a face on the body then select the number of symmetry lines." translation="Выберите грань на теле, затем выберите количество осей симметрии." />
+    <label commandName="lclzTSplineInternalCircularTipsAndTricksTitle" devLabel="Circular Internal Information" translation="Информация о круговой симметрии" />
+    <label commandName="lclzTSplineInternalMirrorSymmetry1" devLabel="Creates a mirror symmetry with the elements of a T-Spline body." translation="Создает зеркальную симметрию с элементами тела T-Spline." />
+    <label commandName="lclzTSplineInternalMirrorSymmetry2" devLabel="Select a face on each side of the body. If needed select edges on each side, then vertices." translation="Выберите грань с каждой стороны тела. При необходимости выберите ребра с каждой стороны, затем вершины." />
+    <label commandName="lclzTSplineInternalMirrorTipsAndTricksTips" devLabel="Select a face on each side of the body. If needed select edges on each side, then vertices." translation="Выберите грань с каждой стороны тела. При необходимости выберите ребра с каждой стороны, затем вершины." />
+    <label commandName="lclzTSplineInternalMirrorTipsAndTricksTitle" devLabel="Mirror Internal Information" translation="Информация о зеркальной симметрии" />
+    <label commandName="lclzTSplineInterpolateSubDDesc1" devLabel="Switches the location of the surface and the control points to improve fitting. Select whether to move the control points to the surface or the surface to the control points." translation="Перемещает поверхность и контрольные точки для улучшения подгонки. Выберите, хотите ли вы переместить контрольные точки на поверхность или поверхность на контрольные точки." />
+    <label commandName="lclzTSplineInterpolateSubDDesc2" devLabel="Select the body then set whether you are moving control points or surface points." translation="Выберите тело, затем настройте, перемещаете ли вы контрольные точки или точки поверхности." />
+    <label commandName="lclzTSplineInterpolateTipsAndTricksTips" devLabel="Select the body then set whether you are moving control points or surface points." translation="Выберите тело, затем настройте, перемещаете ли вы контрольные точки или точки поверхности." />
+    <label commandName="lclzTSplineInterpolateTipsAndTricksTitle" devLabel="Interpolate Information" translation="Информация о интерполяции" />
+    <label commandName="lclzTSplineIsolateSymmetry1" devLabel="Prevents symmetric transformations from being applied to the selected vertex, edge or face." translation="Предотвращает применение симметричных трансформаций к выбранной вершине, ребру или грани." />
+    <label commandName="lclzTSplineIsolateSymmetry2" devLabel="Select the faces, edges, or vertices to remove symmetry from." translation="Выберите грани, ребра или вершины, чтобы удалить симметрию." />
+    <label commandName="lclzTSplineIsolateSymmetryTipsAndTricksTips" devLabel="Select the faces, edges, or vertices to remove symmetry from." translation="Выберите грани, ребра или вершины, чтобы удалить симметрию." />
+    <label commandName="lclzTSplineIsolateSymmetryTipsAndTricksTitle" devLabel="Isolate Symmetry Information" translation="Информация о изоляции симметрии" />
+    <label commandName="lclzTSplineMakeUniformDesc1" devLabel="Evenly distributes the angles at the intersection of star points and makes faces as uniform as possible." translation="Равномерно распределяет углы на пересечении звездных точек и делает грани максимально равномерными." />
+    <label commandName="lclzTSplineMakeUniformDesc2" devLabel="Select a T-Spline body to make uniform." translation="Выберите тело T-Spline для выравнивания." />
+    <label commandName="lclzTSplineMakeUniformTipsAndTricksTips" devLabel="This tool may change the shape of the T-Spline body if it contains non-uniform edges." translation="Этот инструмент может изменить форму тела T-Spline, если оно содержит неравномерные ребра." />
+    <label commandName="lclzTSplineMakeUniformTipsAndTricksTitle" devLabel="Make Uniform Information" translation="Информация о выравнивании" />
+    <label commandName="lclzTSplineMatchDesc1" devLabel="Aligns the edges of a T-Spline body with sketch curves or edges on a solid or surface body." translation="Выравнивает ребра тела T-Spline с эскизными кривыми или ребрами на твердом теле или поверхности." />
+    <label commandName="lclzTSplineMatchDesc2" devLabel="Select the T-Spline edges, then select the sketch curves or edges on a solid or surface body to match." translation="Выберите ребра T-Spline, затем выберите эскизные кривые или ребра на твердом теле или поверхности для выравнивания." />
+    <label commandName="lclzTSplineMatchTipsAndTricksTips" devLabel="Use the &lt;b&gt;Spacing&lt;/b&gt; settings to control the distribution of control points along the match edge." translation="Используйте настройки &lt;b&gt;Spacing&lt;/b&gt; для управления распределением контрольных точек вдоль ребра выравнивания." />
+    <label commandName="lclzTSplineMatchTipsAndTricksTitle" devLabel="Match Information" translation="Информация о выравнивании" />
+    <label commandName="lclzTSplineMergeEdgeDesc1" devLabel="Aligns the first set of selected edges to a second set of selected edges." translation="Выравнивает первый набор выбранных ребер ко второму набору выбранных ребер." />
+    <label commandName="lclzTSplineMergeEdgeDesc2" devLabel="Select the first set of edges then the second set of edges." translation="Выберите первый набор ребер, затем второй набор ребер." />
+    <label commandName="lclzTSplineMergeEdgeTipsAndTricksTitle" devLabel="Merge Edge Information" translation="Информация о слиянии ребер" />
+    <label commandName="lclzTSplinePipeTipsAndTricksDesc" devLabel="In Sections, click points on the path to make local diameter changes. In End Types, select open ends to change their shape. In Segments, define the number of faces between pipe sections." translation="В разделе «Секции» щелкните по точкам на пути, чтобы изменить локальный диаметр. В разделе «Типы концов» выберите открытые концы для изменения их формы. В разделе «Сегменты» укажите количество граней между секциями трубы." />
+    <label commandName="lclzTSplinePipeTipsAndTricksTips" devLabel="Select the input path, specify the global diameter then modify sections, paths, and the number of faces." translation="Выберите исходный путь, укажите общий диаметр, затем измените секции, пути и количество граней." />
+    <label commandName="lclzTSplinePipeTipsAndTricksTitle" devLabel="Pipe Information" translation="Информация о трубе" />
+    <label commandName="lclzTSplinePlaneTipsAndTricks1Desc" devLabel="Mirror allows you to maintain symmetry in subsequent modeling edits" translation="Зеркалирование позволяет сохранять симметрию при последующих изменениях модели" />
+    <label commandName="lclzTSplinePlaneTipsAndTricksTips" devLabel="Select a plane and draw a rectangle.  Use the manipulators or input fields to specify the number of faces." translation="Выберите плоскость и нарисуйте прямоугольник. Используйте манипуляторы или поля ввода, чтобы указать количество граней." />
+    <label commandName="lclzTSplinePlaneTipsAndTricksTitle" devLabel="Plane Information" translation="Информация о плоскости" />
+    <label commandName="lclzTSplinePrimitiveBox1" devLabel="Creates a T-Spline box." translation="Создает коробку T-Spline." />
+    <label commandName="lclzTSplinePrimitiveBox2" devLabel="Select a plane and draw a rectangle.  Use the manipulators or input fields to specify the height and number of faces." translation="Выберите плоскость и нарисуйте прямоугольник. Используйте манипуляторы или поля ввода для задания высоты и количества граней." />
+    <label commandName="lclzTSplinePrimitiveCylinder1" devLabel="Creates a T-Spline cylinder." translation="Создает цилиндр T-Spline." />
+    <label commandName="lclzTSplinePrimitiveCylinder2" devLabel="Select a plane and draw a circle.  Use the manipulators or input fields to specify the height and number of faces." translation="Выберите плоскость и нарисуйте круг. Используйте манипуляторы или поля ввода для задания высоты и количества граней." />
+    <label commandName="lclzTSplinePrimitivePipe2" devLabel="Select the input path, specify the global diameter then modify sections, paths, and the number of faces." translation="Выберите исходный путь, укажите общий диаметр, затем измените секции, пути и количество граней." />
+    <label commandName="lclzTSplinePrimitivePlane1" devLabel="Creates a T-Spline plane." translation="Создает плоскость T-Spline." />
+    <label commandName="lclzTSplinePrimitivePlane2" devLabel="Select a plane and draw a rectangle. Use the manipulators or input fields to specify the height and number of faces." translation="Выберите плоскость и нарисуйте прямоугольник. Используйте манипуляторы или поля ввода для задания высоты и количества граней." />
+    <label commandName="lclzTSplinePrimitiveQuadBall1" devLabel="Creates a T-Spline quadball." translation="Создает четырехугольный мяч T-Spline." />
+    <label commandName="lclzTSplinePrimitiveQuadBall2" devLabel="Select a plane then a center point for the sphere.  Use the manipulators or input fields to specify the diameter and number of faces." translation="Выберите плоскость, затем центр сферы. Используйте манипуляторы или поля ввода для задания диаметра и количества граней." />
+    <label commandName="lclzTSplinePrimitiveSphere1" devLabel="Creates a T-Spline sphere." translation="Создает сферу T-Spline." />
+    <label commandName="lclzTSplinePrimitiveSphere2" devLabel="Select a plane then a center point for the sphere.  Use the manipulators or input fields to specify the diameter and number of faces." translation="Выберите плоскость, затем центр сферы. Используйте манипуляторы или поля ввода для задания диаметра и количества граней." />
+    <label commandName="lclzTSplinePrimitiveTorus1" devLabel="Creates a T-Spline torus." translation="Создает тор T-Spline." />
+    <label commandName="lclzTSplinePrimitiveTorus2" devLabel="Select a plane and draw a circle.  Use the manipulators or input fields to specify major and minor diameters and the number of faces." translation="Выберите плоскость и нарисуйте круг. Используйте манипуляторы или поля ввода для задания больших и малых диаметров и количества граней." />
+    <label commandName="lclzTSplineSweep2" devLabel="Select sketch curves or profiles then select the path to sweep along.  Use the manipulators or input fields to specify percentage length of the path and the number of faces." translation="Выберите эскизные кривые или профили, а затем выберите путь для вытягивания. Используйте манипуляторы или поля ввода для указания процентной длины пути и количества граней." />
+    <label commandName="lclzTSplineSweepTipsAndTricksDesc" devLabel="Set Curvature in the Spacing setting to add faces in areas of higher curvature. Changing the Orientation will affect the topology of your geometry." translation="Установите кривизну в настройке расстояния, чтобы добавить грани в области с более высокой кривизной. Изменение ориентации повлияет на топологию вашей геометрии." />
+    <label commandName="lclzTSplineSweepTipsAndTricksTips" devLabel="Select sketch curves or profiles then select the path to sweep along.  Use the manipulators or input fields to specify percentage length of the path and the number of faces." translation="Выберите эскизные кривые или профили, а затем выберите путь для вытягивания. Используйте манипуляторы или поля ввода для указания процентной длины пути и количества граней." />
+    <label commandName="lclzTSplineSweepTipsAndTricksTitle" devLabel="Sweep Information" translation="Информация о вытягивании" />
+    <label commandName="lclzTSplineThickenDesc1" devLabel="Creates a body offset." translation="Создаёт смещение тела." />
+    <label commandName="lclzTSplineThickenDesc2" devLabel="Select the body then set the thickness and end treatments." translation="Выберите тело, затем установите толщину и методы обработки концов." />
+    <label commandName="lclzTSplineThickenTipsAndTricksTips" devLabel="Select the body then set the thickness and end treatments." translation="Выберите тело, затем установите толщину и методы обработки концов." />
+    <label commandName="lclzTSplineThickenTipsAndTricksTitle" devLabel="Thicken Information" translation="Информация о утолщении" />
+    <label commandName="lclzTSplineToggleTessModeDesc1" devLabel="Sets the body display to smooth, box, or control frame. Smooth shows the actual model. Box displays only the control framework. Control frame displays the framework and the actual model." translation="Устанавливает отображение тела на плавное, коробочное или управляющее каркасное. Плавное отображает саму модель. Коробочное отображает только управляющий каркас. Каркасное отображает как каркас, так и саму модель." />
+    <label commandName="lclzTSplineToggleTessModeDesc2" devLabel="Select the desired display mode. If there is more than one T-Spline body, you need to select the body to change the display." translation="Выберите желаемый режим отображения. Если есть несколько T-Spline тел, нужно выбрать тело для изменения отображения." />
+    <label commandName="lclzTSplineTorusTipsAndTricksTips" devLabel="Select a plane and draw a circle.  Use the manipulators or input fields to specify major and minor diameters and the number of faces." translation="Выберите плоскость и нарисуйте круг. Используйте манипуляторы или поля ввода, чтобы указать большие и малые диаметры и количество граней." />
+    <label commandName="lclzTSplineTorusTipsAndTricksTitle" devLabel="Torus Information" translation="Информация о торе" />
+    <label commandName="lclzTSplineUnCreaseEdgeDesc1" devLabel="Restores previously creased edges to their original state." translation="Восстанавливает ранее зафиксированные края в исходное состояние." />
+    <label commandName="lclzTSplineUnCreaseEdgeDesc2" devLabel="Select creased edges to uncrease." translation="Выберите зафиксированные края для их размягчения." />
+    <label commandName="lclzTSplineUnCreaseEdgeTipsAndTricksTips" devLabel="Select edges to uncrease." translation="Выберите края для размягчения." />
+    <label commandName="lclzTSplineUnCreaseEdgeTipsAndTricksTitle" devLabel="Uncrease Information" translation="Информация о размягчении" />
+    <label commandName="lclzTSplineUnFreezeCmd1" devLabel="Unfreezes faces and edges that have previously been frozen." translation="Размораживает грани и края, которые ранее были заморожены." />
+    <label commandName="lclzTSplineUnFreezeCmd2" devLabel="Select faces or edges to unfreeze." translation="Выберите грани или края для размораживания." />
+    <label commandName="lclzTSplineUnFreezeCmdTipsAndTricksTips" devLabel="Select frozen faces or edges to unfreeze them." translation="Выберите замороженные грани или края для их размораживания." />
+    <label commandName="lclzTSplineUnFreezeCmdTipsAndTricksTitle" devLabel="Unfreeze Information" translation="Информация о размораживании" />
+    <label commandName="lclzTSplineUnWeldDesc1" devLabel="Disconnects an edge or loop." translation="Отключает край или петлю." />
+    <label commandName="lclzTSplineUnWeldDesc2" devLabel="Select an edge or double click to select a loop. Hold Ctrl (Windows) or Command (Mac) to select multiple edges." translation="Выберите край или дважды щелкните, чтобы выбрать петлю. Удерживайте Ctrl (Windows) или Command (Mac), чтобы выбрать несколько краёв." />
+    <label commandName="lclzTSplineUnWeldTipsAndTricksTips" devLabel="Select an edge or double click to select a loop. Hold Ctrl (Windows) or Command (Mac) to select multiple edges." translation="Выберите край или дважды щелкните, чтобы выбрать петлю. Удерживайте Ctrl (Windows) или Command (Mac), чтобы выбрать несколько краёв." />
+    <label commandName="lclzTSplineUnWeldTipsAndTricksTitle" devLabel="UnWeld Information" translation="Информация о разъединении" />
+    <label commandName="lclzTSplineWeldDesc1" devLabel="Joins two or more vertices." translation="Соединяет две или более вершины." />
+    <label commandName="lclzTSplineWeldDesc2" devLabel="Select two vertices to join. Window select vertices to weld within the specified tolerance." translation="Выберите две вершины для соединения. Окно выберите вершины для сварки в пределах заданного допуска." />
+    <label commandName="lclzTSplineWeldTipsAndTricksTips" devLabel="Select two vertices to join. Window select vertices to weld within the specified tolerance." translation="Выберите две вершины для соединения. Окно выберите вершины для сварки в пределах заданного допуска." />
+    <label commandName="lclzTSplineWeldTipsAndTricksTitle" devLabel="Weld Information" translation="Информация о сварке" />
+    <label commandName="matchShowPreview" devLabel="Preview" translation="Предварительный просмотр" />
+    <label commandName="multi" devLabel="Multi" translation="Мульти" />
+    <label commandName="nGonsFour" devLabel="Four Sides" translation="Четыре стороны" />
+    <label commandName="nGonsNonFour" devLabel="Multiple Sides" translation="Несколько сторон" />
+    <label commandName="planarCurveTooltip" devLabel="Check to create driving curve on a best fit plane" translation="Отметьте, чтобы создать управляющую кривую на лучшей плоскости" />
+    <label commandName="positionalContinuityTooltip" devLabel="Applies G0 positional continuity&#10;across the match transition." translation="Применяет позиционную непрерывность G0 через переход соответствия." />
+    <label commandName="previewTooltip" devLabel="Displays a preview of the&#10;matched T-Spline body over&#10;the original T-Spline body&#10;in the canvas." translation="Отображает предварительный просмотр совпавшего тела T-Spline поверх оригинального тела T-Spline на холсте." />
+    <label commandName="primitiveDiameter" devLabel="Diameter" translation="Диаметр" />
+    <label commandName="primitiveDiameter1" devLabel="Diameter 1" translation="Диаметр 1" />
+    <label commandName="primitiveDiameterDimensionInput" devLabel="Diameter" translation="Диаметр" />
+    <label commandName="primitiveHeightDimensionInput" devLabel="Height" translation="Высота" />
+    <label commandName="primitiveHeightSegmentInput" devLabel="Height Faces" translation="Грани высоты" />
+    <label commandName="primitiveLatitudeSegmentInput" devLabel="Latitude Faces" translation="Грани широты" />
+    <label commandName="primitiveLengthDimensionInput" devLabel="Length" translation="Длина" />
+    <label commandName="primitiveLengthSegmentInput" devLabel="Length Faces" translation="Грани длины" />
+    <label commandName="primitiveLongitudeSegmentInput" devLabel="Longitude Faces" translation="Грани долготы" />
+    <label commandName="primitiveRingDimensionInput" devLabel="Diameter 2" translation="Диаметр 2" />
+    <label commandName="primitiveRingSegmentInput" devLabel="Diameter 2 Faces" translation="Грани диаметра 2" />
+    <label commandName="primitiveSpanSegmentInput" devLabel="Span Faces" translation="Грани пролёта" />
+    <label commandName="primitiveWidthDimensionInput" devLabel="Width" translation="Ширина" />
+    <label commandName="primitiveWidthSegmentInput" devLabel="Width Faces" translation="Грани ширины" />
+    <label commandName="profileSegmentInput" devLabel="Faces" translation="Грани" />
+    <label commandName="retoOffsetDistanceInput" devLabel="Offset" translation="Смещение" />
+    <label commandName="reverseDirectionType" devLabel="Surface Points" translation="Точки поверхности" />
+    <label commandName="revolveRadiusSegmentInput" devLabel="Faces" translation="Грани" />
+    <label commandName="rotation" devLabel="Rotation" translation="Вращение" />
+    <label commandName="scale" devLabel="Scale" translation="Масштаб" />
+    <label commandName="selectNextBTNInput" devLabel="Select Next" translation="Выбрать следующий" />
+    <label commandName="selectTSplineBodiesTooltip" devLabel="Select T-Spline bodies to make uniform." translation="Выберите тела T-Spline для приведения к единому виду." />
+    <label commandName="selectTarget" devLabel="Select Targets" translation="Выбрать цели" />
+    <label commandName="simpleMode" devLabel="Simple" translation="Простой" />
+    <label commandName="softDistanceInput" devLabel="Distance" translation="Расстояние" />
+    <label commandName="softGrowFaceCountInput" devLabel="Face Count" translation="Количество граней" />
+    <label commandName="softManipInput" devLabel="Soft Modification" translation="Мягкая модификация" />
+    <label commandName="softRadiusInput1" devLabel="Radius1" translation="Радиус1" />
+    <label commandName="softRectLengthInput" devLabel="Length Face Count" translation="Количество граней по длине" />
+    <label commandName="softRectWidthInput" devLabel="Width Face Count" translation="Количество граней по ширине" />
+    <label commandName="softWeightInput" devLabel="Weight" translation="Вес" />
+    <label commandName="sourceEdgesTooltip" devLabel="Select T-Spline edges to match." translation="Выберите края T-Spline для соответствия." />
+    <label commandName="specifyFalloffTooltip" devLabel="Enables a falloff range to control&#10;how much of the T-Spline body is&#10;influenced by the match." translation="Включает диапазон спадания для управления тем,&#10;насколько тело T-Spline будет&#10;влиять на соответствие." />
+    <label commandName="specifyToleranceTooltip" devLabel="Enables a tolerance to control&#10;how closely the T-Spline edge&#10;adheres to the match edge." translation="Включает допуск для контроля&#10;того, насколько близко край T-Spline&#10;прилипает к краю соответствия." />
+    <label commandName="subdivideCursorPromptFacesSelected" devLabel="Specify the number of faces to divide into&#10;or modify selection" translation="Укажите количество граней для разделения&#10;или измените выбор" />
+    <label commandName="subdivideCursorPromptNoFacesSelected" devLabel="Select faces to divide" translation="Выберите грани для разделения" />
+    <label commandName="subdivideDlgTooltipExact" devLabel="Creates additional control points to maintain the shape of the T-Spline surface." translation="Создаёт дополнительные контрольные точки для поддержания формы поверхности T-Spline." />
+    <label commandName="subdivideDlgTooltipLengthFaces" devLabel="Specify the number of faces to divide into&#10;along the face length." translation="Укажите количество граней для разделения&#10;по длине грани." />
+    <label commandName="subdivideDlgTooltipObjSnap" devLabel="Moves the new vertices to the&#10;closest point on solid, surface,&#10;or mesh bodies in the canvas." translation="Перемещает новые вершины к&#10;самой близкой точке на твёрдых, поверхностных&#10;или сеточных телах на холсте." />
+    <label commandName="subdivideDlgTooltipOffset" devLabel="Offsets new vertices a a specified distance&#10;from the closest point on solid, surface,&#10;or mesh bodies in the canvas." translation="Смещает новые вершины на заданное расстояние&#10;от самой близкой точки на твёрдых, поверхностных&#10;или сеточных телах на холсте." />
+    <label commandName="subdivideDlgTooltipSideFaces" devLabel="Specify the number of faces to divide into&#10;along each side of the face." translation="Укажите количество граней для разделения&#10;по каждой стороне грани." />
+    <label commandName="subdivideDlgTooltipSimple" devLabel="Creates the minimum number of control points to subdivide the face. The shape of the T-spline surface may change." translation="Создаёт минимальное количество контрольных точек для разделения грани. Форма поверхности T-spline может измениться." />
+    <label commandName="subdivideDlgTooltipTSplineFace" devLabel="Select T-Spline faces to divide" translation="Выберите грани T-Spline для разделения" />
+    <label commandName="subdivideDlgTooltipWidthFaces" devLabel="Specify the number of faces to divide into&#10;along the face width." translation="Укажите количество граней для разделения&#10;по ширине грани." />
+    <label commandName="surfaceCopy" devLabel="Copy" translation="Копировать" />
+    <label commandName="surfacePointsType" devLabel="Surface Points" translation="Точки поверхности" />
+    <label commandName="surfacePointsTypeTip" devLabel="Fits vertices on smooth surface to driving curve" translation="Приспосабливает вершины на плавной поверхности к управляющей кривой" />
+    <label commandName="sweepPathSegmentInput" devLabel="Faces" translation="Грани" />
+    <label commandName="sweepSegmentInput" devLabel="Faces" translation="Грани" />
+    <label commandName="tangencyWeightTooltip" devLabel="Increase or decrease the scale&#10;of influence that continuity has&#10;on the match transition." translation="Увеличьте или уменьшите масштаб&#10;влияния непрерывности на&#10;переход соответствия." />
+    <label commandName="tangentChainTooltip" devLabel="Automatically selects&#10;tangent geometry." translation="Автоматически выбирает&#10;тангенциальную геометрию." />
+    <label commandName="tangentContinuityTooltip" devLabel="Applies G1 tangent continuity&#10;across the match transition." translation="Применяет G1 тангенциальную непрерывность&#10;через переход соответствия." />
+    <label commandName="targetEdgesTooltip" devLabel="Select sketch curves or edges on&#10;a solid or surface body to match." translation="Выберите эскизные кривые или края на&#10;твердом или поверхностном теле для соответствия." />
+    <label commandName="toleranceValueTooltip" devLabel="Specify a tolerance value to&#10;control how closely the T-Spline&#10;edge adheres to the match edge." translation="Укажите значение допуска для&#10;управления тем, как точно край T-Spline&#10;соответствует краю." />
+    <label commandName="translation" devLabel="Translation" translation="Перевод" />
+    <label commandName="tsSplineInsertEdgePreviewInput" devLabel="Insert Location " translation="Местоположение вставки " />
+    <label commandName="tsSplineSlideEdgePreviewInput" devLabel="Slide Location " translation="Местоположение скольжения " />
+    <label commandName="tsSplineThicknessInput" devLabel="Thickness" translation="Толщина" />
+    <label commandName="uniformDistib" devLabel="Uniform" translation="Равномерно" />
+    <label commandName="uniformDistibTip" devLabel="Distributes control points uniformly along curve" translation="Равномерно распределяет контрольные точки вдоль кривой" />
+    <label commandName="uniformSamplingTooltip" devLabel="Distributes control points&#10;evenly along the match edge." translation="Равномерно распределяет контрольные точки&#10;по краю соответствия." />
+    <label commandName="weldVertexOption" devLabel="Weld" translation="Сварка" />
+    <label commandName="lclzTSplineSlideEdgeDesc1" devLabel="Moves the selected edge along the control polygon." translation="Перемещает выбранное ребро вдоль управляющего многоугольника." />
+    <label commandName="Absolute" devLabel="Bevel Width" translation="Ширина скоса" />
+    <label commandName="EdgeSelectionForBevel" devLabel="T-Spline Edges" translation="T-Spline рёбра" />
+    <label commandName="ParametricMode" devLabel="Parametric" translation="Параметрический" />
+    <label commandName="Relative" devLabel="Relative Offset" translation="Относительное смещение" />
+    <label commandName="SelectBevelEdges" devLabel="Select edges between non-parallel faces" translation="Выберите рёбра между непараллельными гранями" />
+    <label commandName="SelectMoreBevelEdges" devLabel="Select more edges to bevel or modify bevel settings" translation="Выберите больше рёбер для скоса или измените настройки скоса" />
+    <label commandName="TSplineBetterDisplay" devLabel="Switching to T-Spline Better Display mode.  Large models could edit more slowly.  Display and analysis will be best quality." translation="Переключение в режим улучшенного отображения T-Spline. Большие модели могут редактироваться медленнее. Отображение и анализ будут наивысшего качества." />
+    <label commandName="TSplineFilesFilter" devLabel="All Supported Files (*.tsm *.tss *.fbx);;T-Spline Mesh File (*.tsm);;T-Spline Scene File (*.tss);;FBX File (*.fbx)" translation="Все поддерживаемые файлы (*.tsm *.tss *.fbx);;Файл сетки T-Spline (*.tsm);;Файл сцены T-Spline (*.tss);;FBX файл (*.fbx)" />
+    <label commandName="TSplineSurfaceVersionWarning" devLabel="This body can be upgraded to take advantage of improved T-Spline modeling capabilities.  Some modification to the shape may occur.  Upgrade this body?" translation="Это тело можно обновить, чтобы воспользоваться улучшенными возможностями моделирования T-Spline. Возможны некоторые изменения формы. Обновить это тело?" />
+    <label commandName="absoluteDistance" devLabel="Width" translation="Ширина" />
+    <label commandName="bevelAbsoluteTooltip" devLabel="Lets you specify a distance to determine the bevel width to create a bevel with sides of equal distance." translation="Позволяет указать расстояние для определения ширины скоса, чтобы создать скос с сторонами равной длины." />
+    <label commandName="bevelCrown" devLabel="Crown" translation="Кривизна" />
+    <label commandName="bevelDlgTooltipAbsoluteDistance" devLabel="Specify the distance between the outer edges of the bevel." translation="Укажите расстояние между внешними краями скоса." />
+    <label commandName="bevelDlgTooltipCrown" devLabel="Specify a value between 0 and 2 to create a rounded bevel,&#10;0 for a flat bevel, or 2 for a sharp bevel." translation="Укажите значение от 0 до 2 для создания скругленного скоса,&#10;0 для плоского скоса или 2 для острого скоса." />
+    <label commandName="bevelDlgTooltipRelativeDistance" devLabel="Specify a ratio value between 0 and 1 to determine&#10;the offset of the outer edges relative to the original edge." translation="Укажите значение коэффициента от 0 до 1 для определения&#10;смещения внешних краёв относительно исходного ребра." />
+    <label commandName="bevelDlgTooltipSegments" devLabel="Specify the number of faces to insert between the new edges." translation="Укажите количество граней для вставки между новыми рёбрами." />
+    <label commandName="bevelDlgTooltipTSplineEdges" devLabel="Select edges between two faces&#10;that are at an angle to each other." translation="Выберите рёбра между двумя гранями,&#10;которые находятся под углом друг к другу." />
+    <label commandName="bevelParametricTooltip" devLabel="Spaces segments parametrically along the bevel so the inner segments are narrower than the outer segments." translation="Распределяет сегменты параметрически вдоль скоса, так что внутренние сегменты уже внешних." />
+    <label commandName="bevelRelativeTooltip" devLabel="Lets you specify the offset ratio of the outer edges relative to the original edge." translation="Позволяет указать коэффициент смещения внешних краёв относительно исходного ребра." />
+    <label commandName="bevelSegments" devLabel="Segments" translation="Сегменты" />
+    <label commandName="bevelUniformTooltip" devLabel="Spaces segments are spaced equally across the bevel." translation="Сегменты распределяются равномерно по всему скосу." />
+    <label commandName="distanceMode" devLabel="Distance Mode" translation="Режим расстояния" />
+    <label commandName="lclTSplineBevelEdgeTipsAndTricksDesc" devLabel="For bevels with 2 or more &lt;b&gt;Segments&lt;/b&gt;, adjust the &lt;b&gt;Crown&lt;/b&gt; ratio value to flatten or round the bevel surface:&lt;ul&gt;&lt;li&gt;To create a flat bevel, enter a value of &lt;b&gt;0&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;To create a rounded profile, enter a value between &lt;b&gt;0&lt;/b&gt; and &lt;b&gt;2&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;A value less than &lt;b&gt;1.0&lt;/b&gt; creates a flatter profile and a value more than &lt;b&gt;1.0&lt;/b&gt; creates a more convex profile.&lt;/li&gt;&lt;/ul&gt;" translation="Для скосов с 2 или более &lt;b&gt;Сегментами&lt;/b&gt; настройте значение коэффициента &lt;b&gt;Кривизны&lt;/b&gt;, чтобы сделать поверхность скоса плоской или скругленной:&lt;ul&gt;&lt;li&gt;Чтобы создать плоский скос, введите значение &lt;b&gt;0&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Чтобы создать скругленный профиль, введите значение между &lt;b&gt;0&lt;/b&gt; и &lt;b&gt;2&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Значение меньше &lt;b&gt;1.0&lt;/b&gt; создает более плоский профиль, а значение больше &lt;b&gt;1.0&lt;/b&gt; создает более выпуклый профиль.&lt;/li&gt;&lt;/ul&gt;" />
+    <label commandName="lclTSplineConvertTipsAndTricksDesc" devLabel="BRep faces, T-Spline bodies or Mesh bodies can be filtered for selection.  The options available depends on the filter selected." translation="BRep-грани, T-Spline тела или полигональные тела могут быть отфильтрованы для выбора. Доступные опции зависят от выбранного фильтра." />
+    <label commandName="lclzSculptWorkspaceName" devLabel="Sculpt Workspace" translation="Рабочая область Скульптурирование" />
+    <label commandName="lclzTSplineBevelEdgeDesc1" devLabel="Creates a bevel on a T-spline body along selected edges." translation="Создает скос на T-Spline теле вдоль выбранных рёбер." />
+    <label commandName="lclzTSplineBevelEdgeDesc2" devLabel="Select the edges and specify the distance to offset the new edges, then specify the number of segments to insert, spacing method, and crown value." translation="Выберите рёбра и укажите расстояние для смещения новых рёбер, затем укажите количество вставляемых сегментов, метод распределения и значение кривизны." />
+    <label commandName="lclzTSplineBevelEdgeTipsAndTricksTips" devLabel="You can bevel edges between two faces that are at an angle to each other. To create a sharper corner, reduce the &lt;b&gt;Width&lt;/b&gt; or the &lt;b&gt;Offset Ratio&lt;/b&gt; value." translation="Вы можете скосить рёбра между двумя гранями, которые находятся под углом друг к другу. Чтобы создать более острый угол, уменьшите значение &lt;b&gt;Ширины&lt;/b&gt; или &lt;b&gt;Коэффициента смещения&lt;/b&gt;." />
+    <label commandName="lclzTSplineBridgeTipsAndTricksTips" devLabel="Select the first set of edges then select the second set of edges. The number of edges on each side must be equal to or a multiple of each other. " translation="Выберите первый набор рёбер, затем выберите второй набор рёбер. Количество рёбер с каждой стороны должно быть равным или кратным друг другу." />
+    <label commandName="lclzTSplineInsertEdgeTipsAndTricksTips" devLabel="Select an edge or double click to select a loop then spedify the position of the new edge." translation="Выберите ребро или дважды щелкните, чтобы выбрать петлю, затем укажите положение нового ребра." />
+    <label commandName="lclzTSplinePrimitivePipe1" devLabel="Manages the creation of complex topologies base on selected curves. Paths can be sketch geometry and edges of bodies." translation="Управляет созданием сложных топологий на основе выбранных кривых. Путями может быть геометрия эскиза и рёбра тел." />
+    <label commandName="lclzTSplinePullSubDDesc1" devLabel="Snaps selected T-Spline vertices to a face or surface. The vertices could be control points or surface points." translation="Привязывает выбранные вершины T-Spline к грани или поверхности. Вершинами могут быть контрольные точки или точки поверхности." />
+    <label commandName="lclzTSplinePullSubDDesc2" devLabel="Select the vertices to move and the vertices will automatically move to the nearest body." translation="Выберите вершины для перемещения, и вершины автоматически переместятся к ближайшему телу." />
+    <label commandName="lclzTSplinePullTipsAndTricksTips" devLabel="Select the vertices to move and the vertices will automatically move to the nearest body." translation="Выберите вершины для перемещения, и вершины автоматически переместятся к ближайшему телу." />
+    <label commandName="lclzTSplinePullTipsAndTricksTitle" devLabel="Pull Information" translation="Информация о притягивании" />
+    <label commandName="lclzTSplineQuadBallTipsAndTricksDesc" devLabel="The Quadball is approximately a sphere with no polar points. Mirror allows you to maintain symmetry in subsequent modeling edits." translation="Quadball — это приблизительно сфера без полярных точек. Зеркальное отражение позволяет сохранять симметрию при последующих правках модели." />
+    <label commandName="lclzTSplineQuadBallTipsAndTricksTips" devLabel="Select a plane then a center point for the sphere.  Use the manipulators or input fields to specify the diameter and number of faces." translation="Выберите плоскость, затем центральную точку для сферы. Используйте манипуляторы или поля ввода, чтобы указать диаметр и количество граней." />
+    <label commandName="lclzTSplineQuadBallTipsAndTricksTitle" devLabel="Quadball Information" translation="Информация о Quadball" />
+    <label commandName="lclzTSplineReflectionCircularSymmetry1" devLabel="Create specified number of duplicate bodies around a selected axis." translation="Создает указанное количество копий тела вокруг выбранной оси." />
+    <label commandName="lclzTSplineReflectionCircularSymmetry2" devLabel="Select the body to copy then select the axis to revolve around." translation="Выберите тело для копирования, затем выберите ось для вращения вокруг." />
+    <label commandName="lclzTSplineReflectionCircularTipsAndTricksTips" devLabel="Select the body to copy then select the axis to revolve around." translation="Выберите тело для копирования, затем выберите ось для вращения вокруг." />
+    <label commandName="lclzTSplineReflectionCircularTipsAndTricksTitle" devLabel="Circular Duplicate Information" translation="Информация о круговом копировании" />
+    <label commandName="lclzTSplineReflectionMirrorSymmetry1" devLabel="Create a duplicate body mirrored across a specified plane." translation="Создает копию тела, отраженную через указанную плоскость." />
+    <label commandName="lclzTSplineReflectionMirrorSymmetry2" devLabel="Select the body to copy then select the mirror plane." translation="Выберите тело для копирования, затем выберите плоскость зеркала." />
+    <label commandName="lclzTSplineReflectionMirrorTipsAndTricksTips" devLabel="Select the body to copy then select the mirror plane." translation="Выберите тело для копирования, затем выберите плоскость зеркала." />
+    <label commandName="lclzTSplineReflectionMirrorTipsAndTricksTitle" devLabel="Mirror Duplicate Information" translation="Информация о зеркальном копировании" />
+    <label commandName="lclzTSplineRepairBodyDesc1" devLabel="Analyzes the T-Spline body and displays information about the mesh. Corrects Error T and Error Star conditions." translation="Анализирует T-Spline тело и отображает информацию о сетке. Исправляет условия Ошибка T и Ошибка Звезда." />
+    <label commandName="lclzTSplineRepairBodyDesc2" devLabel="Select the body to analyze." translation="Выберите тело для анализа." />
+    <label commandName="lclzTSplineRepairBodyTipsAndTricksTips" devLabel="Select the body to analyze. This command can be used to evaluate a body without repairing or making any changes." translation="Выберите тело для анализа. Эта команда может использоваться для оценки тела без ремонта или внесения изменений." />
+    <label commandName="lclzTSplineRepairBodyTipsAndTricksTitle" devLabel="Repair Body Information" translation="Информация о ремонте тела" />
+    <label commandName="lclzTSplineRevolve1" devLabel="Creates a T-Spline body by revolving edges or sketch geometry around a selected axis." translation="Создает T-Spline тело путем вращения рёбер или геометрии эскиза вокруг выбранной оси." />
+    <label commandName="lclzTSplineRevolve2" devLabel="Select sketch curves, profiles, planar faces, or edges then select the axis to revolve around. Use the manipulators or input fields to specify the number of faces." translation="Выберите кривые эскиза, профили, плоские грани или рёбра, затем выберите ось для вращения вокруг. Используйте манипуляторы или поля ввода, чтобы указать количество граней." />
+    <label commandName="lclzTSplineRevolveTipsAndTricksDesc" devLabel="Set the Spacing setting to Curvature to add faces in areas of higher curvature. Circular Symmetry allows you to maintain symmetry in subsequent modeling edits" translation="Установите настройку Интервалов в Значение по кривизне, чтобы добавлять грани в областях с большей кривизной. Круговая симметрия позволяет сохранять симметрию при последующих правках модели" />
+    <label commandName="lclzTSplineRevolveTipsAndTricksTips" devLabel="Select sketch curves, profiles, planar faces, or edges then select the axis to revolve around. Use the manipulators or input fields to specify the number of faces." translation="Выберите кривые эскиза, профили, плоские грани или рёбра, затем выберите ось для вращения вокруг. Используйте манипуляторы или поля ввода, чтобы указать количество граней." />
+    <label commandName="lclzTSplineRevolveTipsAndTricksTitle" devLabel="Revolve Information" translation="Информация о вращении" />
+    <label commandName="lclzTSplineSlideEdgeDesc2" devLabel="Select the edges then specify the new position." translation="Выберите рёбра, затем укажите новое положение." />
+    <label commandName="lclzTSplineSlideEdgeTipsAndTricksTitle" devLabel="Slide Edge Information" translation="Информация о смещении ребра" />
+    <label commandName="lclzTSplineSmoothDesc1" devLabel="Smoothes an area of the T-Spline geometry." translation="Сглаживает область геометрии T-Spline." />
+    <label commandName="lclzTSplineSmoothDesc2" devLabel="Select the faces to smooth and the smoothing rate." translation="Выберите грани для сглаживания и степень сглаживания." />
+    <label commandName="lclzTSplineSmoothTipsAndTricksTips" devLabel="Select around the desired area and play with the smoothing rate for desired result. Change the smoothing rate to see results in real-time." translation="Выделите нужную область и экспериментируйте со степенью сглаживания для достижения желаемого результата. Изменяйте степень сглаживания, чтобы видеть результаты в реальном времени." />
+    <label commandName="lclzTSplineSmoothTipsAndTricksTitle" devLabel="Smooth Information" translation="Информация о сглаживании" />
+    <label commandName="lclzTSplineSphereTipsAndTricksDesc" devLabel="Reducing the number of faces below 8 or 4 in either directioin, the body will no longer be spherical. Mirror allows you to maintain symmetry in subsequent modeling edits." translation="При уменьшении количества граней ниже 8 или 4 в любом направлении тело перестанет быть сферическим. Зеркальное отражение позволяет сохранять симметрию при последующих правках модели." />
+    <label commandName="lclzTSplineSphereTipsAndTricksTips" devLabel="Select a plane then a center point for the sphere.  Use the manipulators or input fields to specify the diameter and number of faces." translation="Выберите плоскость, затем центральную точку для сферы. Используйте манипуляторы или поля ввода, чтобы указать диаметр и количество граней." />
+    <label commandName="lclzTSplineSphereTipsAndTricksTitle" devLabel="Sphere Information" translation="Информация о сфере" />
+    <label commandName="lclzTSplineStraightenDesc1" devLabel="Straightens vertices to a best fit line, an existing line, or a line through two selected points." translation="Выпрямляет вершины по линии наилучшего приближения, существующей линии или линии, проходящей через две выбранные точки." />
+    <label commandName="lclzTSplineStraightenDesc2" devLabel="Select the direction type, select a line or two points to define the line, then select the vertices or tangency handles to straighten." translation="Выберите тип направления, выберите линию или две точки для определения линии, затем выберите вершины или handles касательных для выпрямления." />
+    <label commandName="lclzTSplineStraightenTipsAndTricksTips" devLabel="Adjust the Display Mode to see the effect of each Straighten Type more easily. Use Box Display for Control Points and Smooth Display for Surface Points." translation="Настройте режим отображения, чтобы легче видеть эффект каждого типа выпрямления. Используйте Блочное отображение для контрольных точек и Сглаженное отображение для точек поверхности." />
+    <label commandName="lclzTSplineStraightenTipsAndTricksTitle" devLabel="Straighten Information" translation="Информация о выпрямлении" />
+    <label commandName="lclzTSplineSubsetDesc1" devLabel="Divides one or more faces into a subset of faces." translation="Делит одну или несколько граней на подмножество граней." />
+    <label commandName="lclzTSplineSubsetDesc2" devLabel="Select T-Spline faces to divide, then select the Insert Mode and adjust the number of faces to divide selected faces into. Optionally for Simple Mode, check Object Snap and specify the Offset distance." translation="Выберите T-Spline грани для деления, затем выберите режим вставки и настройте количество граней, на которое делятся выбранные грани. Для простого режима опционально установите Object Snap и укажите расстояние смещения." />
+    <label commandName="lclzTSplineSubsetTipsAndTricksTips" devLabel="If you select only quadrilateral faces, you can specify the number of faces along both the width and length. Otherwise, you can specify an equal number of faces to divide into along each edge." translation="Если вы выберете только четырехугольные грани, вы можете указать количество граней как по ширине, так и по длине. В противном случае вы можете указать равное количество граней для деления вдоль каждого ребра." />
+    <label commandName="lclzTSplineSubsetTipsAndTricksTitle" devLabel="Subdivide Information" translation="Информация о подразделении" />
+    <label commandName="lclzTSplineSweep1" devLabel="Creates a T-Spline body by sweeping edges or sketch curves along a selected path." translation="Создает T-Spline тело путем протягивания рёбер или кривых эскиза по выбранному пути." />
+    <label commandName="lclzTSplineTorusTipsAndTricks1Desc" devLabel="Reducing the number of faces below 8 in either directioin, the body will no longer be round. Mirror allows you to maintain symmetry in subsequent modeling edits." translation="При уменьшении количества граней ниже 8 в любом направлении тело перестанет быть круглым. Зеркальное отражение позволяет сохранять симметрию при последующих правках модели." />
+    <label commandName="relativeDistance" devLabel="Offset Ratio" translation="Коэффициент смещения" />
+</Resource>

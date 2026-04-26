@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="APIDefaultCancelSaveReason" devLabel="Cancelled from API" translation="" />
+	<label commandName="CopyManifestError" devLabel="Unable to copy the manifest!" translation="" />
+	<label commandName="CopyScriptError" devLabel="Script with same name already exists!" translation="" />
+	<label commandName="DefaultManifestFormatError" devLabel="Default manifest is not JSON format!" translation="" />
+	<label commandName="DefaultManifestNotFound" devLabel="Unable to find default manifest!" translation="" />
+	<label commandName="DefaultManifestReadError" devLabel="Unable to read default manifest!" translation="" />
+	<label commandName="EditScriptFileGeneralError" devLabel="Failed to open " translation="" />
+	<label commandName="EditScriptFileNoAssocError" devLabel="No application knows how to open" translation="" />
+	<label commandName="ManifestCreateError" devLabel="Unable to create manifest!" translation="" />
+	<label commandName="ManifestExistError" devLabel="Script with same name already exists!" translation="" />
+	<label commandName="ManifestWriteError" devLabel="Unable to write attributes to manifest!" translation="" />
+	<label commandName="NewScriptFileExistsError" devLabel="Script with same name already exists!" translation="" />
+	<label commandName="NewScriptFileExistsError2" devLabel="Unable to create the script!" translation="" />
+	<label commandName="NewScriptFileOpenError" devLabel="Unable to create the script!" translation="" />
+	<label commandName="NewScriptUnknownError" devLabel="Unknown error occurred. Failed to create the script!" translation="" />
+	<label commandName="RenameScriptError" devLabel="Script cannot be renamed!" translation="" />
+</Resource>

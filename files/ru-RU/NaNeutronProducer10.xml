@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AreaProperty" devLabel="Area" translation="" />
+	<label commandName="DensityProperty" devLabel="Density" translation="" />
+	<label commandName="MassProperty" devLabel="Mass" translation="" />
+	<label commandName="VolumeProperty" devLabel="Volume" translation="" />
+	<label commandName="frontNamedView" devLabel="FRONT" translation="" />
+	<label commandName="homeNamedView" devLabel="HOME" translation="" />
+	<label commandName="rightNamedView" devLabel="RIGHT" translation="" />
+	<label commandName="topNamedView" devLabel="TOP" translation="" />
+</Resource>

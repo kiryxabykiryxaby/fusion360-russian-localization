@@ -1,0 +1,23 @@
+<div id="silhouetteDefinition_xoxx_4174843308"><p>Определяет поведение инструмента на внешнем крае силуэта:</p>
+<ul>
+<li><b>Контакт инструмента с внешними краями (Tool contact on outer edges)</b> - Контактная точка, то есть точка на инструменте, которая соприкасается с деталью, определяет конец зоны резания. На пологих участках инструмент может перемещаться дальше конца кромки, чтобы гарантировать обработку до края поверхности.</li>
+<li><b>Верх вертикальных стенок (Top of vertical walls)</b> - Приводит к перекатыванию инструмента через внешний край. Инструмент также может обрабатывать верхнюю область nearby вертикальной стенки.</li>
+<li><b>Низ вертикальных стенок (Bottom of vertical walls)</b> - Инструмент обрабатывает верхние поверхности, а также достигает низа любых nearby вертикальных стенок.</li>
+</ul>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="142" src="../images/geodesic_silhouette_defined_for_contact_on_outer_edges.png"/></center></td>
+<td><center><img border="0" width="200" height="142" src="../images/geodesic_silhouette_defined_for_top_walls.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Контакт инструмента с внешними краями</b></p></center></td>
+<td><center><p><b>Верх вертикальных стенок</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="142" src="../images/geodesic_silhouette_defined_for_bottom_walls.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Низ вертикальных стенок</b></p></center></td>
+</tr></table>
+<p><b>Примечание:</b> Вам необходимо указать поверхность как <b>Ведущую поверхность (Drive Surface)</b>, если вы хотите, чтобы эта поверхность учитывалась при расчете траектории инструмента. Например, вам нужно включить nearby вертикальные стенки как <b>Ведущие поверхности</b> при использовании опции <b>Низ вертикальных стенок</b>.</p>
+</div>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AVKSelectGeometryCommand" devLabel="AVK Geometry Selector" translation="" />
+	<label commandName="AdvancedMeshingApproachOption" devLabel="Advanced" translation="" />
+	<label commandName="AdvancedMeshingApproachOptionToolTip" devLabel="Creates mesh with good outer surface quality." translation="" />
+	<label commandName="Blend Distance Caption" devLabel="Blend Distance" translation="" />
+	<label commandName="BlendDistanceCaption" devLabel="Blend Distance" translation="" />
+	<label commandName="BlendDistanceCaptionToolTip" devLabel="" translation="" />
+	<label commandName="CellCount" devLabel="Element Count" translation="" />
+	<label commandName="CellCountToolTip" devLabel="Indicates the total number of elements in the grid used to divide the volumetric space.&#10;More elements create a more detailed mesh and take longer to calculate." translation="" />
+	<label commandName="CustomresolutionOption" devLabel="Custom" translation="" />
+	<label commandName="CustomresolutionOptionToolTip" devLabel="Applies custom resolution settings to tessellate the volumetric lattice." translation="" />
+	<label commandName="Design" devLabel="Design" translation="" />
+	<label commandName="DesignFeaturePackDescription" devLabel="This section controls optional behavior within the Design workspace." translation="" />
+	<label commandName="FailedVolFieldCreatelatticeRequestNode" devLabel="Failed to find correct graph nodes" translation="" />
+	<label commandName="Geometry Caption" devLabel="Geometry" translation="" />
+	<label commandName="GeometryCaption" devLabel="Geometry" translation="" />
+	<label commandName="GeometryCaptionToolTip" devLabel="" translation="" />
+	<label commandName="HighresolutionOption" devLabel="High" translation="" />
+	<label commandName="HighresolutionOptionToolTip" devLabel="Applies a preset with high resolution settings to tessellate the volumetric lattice." translation="" />
+	<label commandName="LowresolutionOption" devLabel="Low" translation="" />
+	<label commandName="LowresolutionOptionToolTip" devLabel="Applies a preset with low resolution settings to tessellate the volumetric lattice." translation="" />
+	<label commandName="MassProperties" devLabel="Volumetric Lattice Properties" translation="" />
+	<label commandName="MediumresolutionOption" devLabel="Medium" translation="" />
+	<label commandName="MediumresolutionOptionToolTip" devLabel="Applies a preset with medium resolution settings to tessellate the volumetric lattice." translation="" />
+	<label commandName="MeshingApproachOptionsInput" devLabel="Meshing Approach" translation="" />
+	<label commandName="MeshingApproachOptionsInputToolTip" devLabel="" translation="" />
+	<label commandName="MeshingCellSize" devLabel="Element Size" translation="" />
+	<label commandName="MeshingCellSizeToolTip" devLabel="Indicates the size of each element in a grid used to divide the volumetric space.&#10;Small elements create a more detailed mesh and take longer to calculate." translation="" />
+	<label commandName="MeshingResolution" devLabel="Meshing Resolution" translation="" />
+	<label commandName="MeshingResolutionToolTip" devLabel="The meshing resolution" translation="" />
+	<label commandName="MomentOfInertiaAtCOG" devLabel="Moment of Inertia at Center of Mass" translation="" />
+	<label commandName="MomentOfInertiaAtOrigin" devLabel="Moment of Inertia at Origin" translation="" />
+	<label commandName="OriginalMeshingApproachOption" devLabel="Original" translation="" />
+	<label commandName="OriginalMeshingApproachOptionToolTip" devLabel="Creates a mesh with a rough outer surface with volumetric color." translation="" />
+	<label commandName="Point Caption" devLabel="Point" translation="" />
+	<label commandName="PointCaption" devLabel="Point" translation="" />
+	<label commandName="PointCaptionToolTip" devLabel="" translation="" />
+	<label commandName="PointOnPathCaption" devLabel="Position" translation="" />
+	<label commandName="PointOnPathCaptionToolTip" devLabel="" translation="" />
+	<label commandName="Position Caption" devLabel="Position" translation="" />
+	<label commandName="Solidity Caption" devLabel="Solidity" translation="" />
+	<label commandName="Solidity Caption Regions" devLabel="Solidity" translation="" />
+	<label commandName="SolidityCaption" devLabel="Solidity" translation="" />
+	<label commandName="SolidityCaptionToolTip" devLabel="" translation="" />
+	<label commandName="Thickness Caption" devLabel="Thickness" translation="" />
+	<label commandName="ThicknessCaption" devLabel="Thickness" translation="" />
+	<label commandName="ThicknessCaptionToolTip" devLabel="" translation="" />
+	<label commandName="VRepStatusInvalid" devLabel="An essential geometric reference has been lost.&#10;Check the Setup and Solidity tabs for missing selections." translation="" />
+	<label commandName="VolFielTextureGeom" devLabel="Geometry" translation="" />
+	<label commandName="VolFielTextureGeomToolTip" devLabel="Select faces to define the texture surfaces." translation="" />
+	<label commandName="VolFieldAssignCmd" devLabel="Assign Volumetric Lattice" translation="" />
+	<label commandName="VolFieldCreateCommand" devLabel="Volumetric Field From Geometry" translation="" />
+	<label commandName="VolFieldCreateLatticeCmd" devLabel="Volumetric Lattice" translation="" />
+	<label commandName="VolFieldCreateLatticeSelectBody" devLabel="Select solid or closed mesh body to apply a volumetric lattice" translation="" />
+	<label commandName="VolFieldCreateLatticeSelectDensityCurv" devLabel="Select a curve or edge to define a path of varying solidity" translation="" />
+	<label commandName="VolFieldCreateLatticeSelectDensityReg" devLabel="Select geometry to create regions of solidity" translation="" />
+	<label commandName="VolFieldCreateLatticeSpecifyOffset" devLabel="Specify offset and blending distance" translation="" />
+	<label commandName="VolFieldEditLatticeCmd" devLabel="Edit Volumetric Lattice" translation="" />
+	<label commandName="VolFieldEditLatticeCmdBrowser" devLabel="Edit Volumetric Lattice" translation="" />
+	<label commandName="VolFieldEditLatticeSelectBody" devLabel="Select solid or closed mesh body from the same component" translation="" />
+	<label commandName="VolFieldEditTextureCmd" devLabel="Edit Volumetric Texture" translation="" />
+	<label commandName="VolFieldEditTextureCmdBrowser" devLabel="Edit Volumetric Texture" translation="" />
+	<label commandName="VolFieldEditTextureSelectBody" devLabel="Select solid or closed mesh body from the same component" translation="" />
+	<label commandName="VolFieldLatticeBoundaryBodyInput" devLabel="Body" translation="" />
+	<label commandName="VolFieldLatticeBoundaryBodyInputToolTip" devLabel="Select a solid or closed mesh body to create an internal lattice." translation="" />
+	<label commandName="VolFieldLatticeCellGeom" devLabel="Geometry" translation="" />
+	<label commandName="VolFieldLatticeCellGeomSelectPrompt" devLabel="Select solid or closed mesh bodies, faces or paths." translation="" />
+	<label commandName="VolFieldLatticeCellGeomToolTip" devLabel="Select solid or closed mesh bodies, faces or paths to define the unit cell structure." translation="" />
+	<label commandName="VolFieldLatticeCellType" devLabel="Cell Shape" translation="" />
+	<label commandName="VolFieldLatticeCellType2DXCell" devLabel="2.5D X-Cell" translation="" />
+	<label commandName="VolFieldLatticeCellType2DXCellToolTip" devLabel="Creates a 2.5D X structure per cell.&#10;2.5D X-cell structures are used commonly in additive manufacturing and provide high directional stiffness." translation="" />
+	<label commandName="VolFieldLatticeCellTypeCross" devLabel="Cross" translation="" />
+	<label commandName="VolFieldLatticeCellTypeCrossToolTip" devLabel="Creates a simple cross structure per cell.&#10;Cross structures have good vertical and horizontal strength qualities." translation="" />
+	<label commandName="VolFieldLatticeCellTypeCustom" devLabel="Custom" translation="" />
+	<label commandName="VolFieldLatticeCellTypeCustomToolTip" devLabel="Creates a structure based on selected geometry." translation="" />
+	<label commandName="VolFieldLatticeCellTypeGyroid" devLabel="Gyroid" translation="" />
+	<label commandName="VolFieldLatticeCellTypeGyroidToolTip" devLabel="Creates a gyroid structure per cell.&#10;Gyroid structures have excellent isotropic strength properties and can be used effectively inside 3D prints." translation="" />
+	<label commandName="VolFieldLatticeCellTypeHoneycomb" devLabel="2.5D Honeycomb" translation="" />
+	<label commandName="VolFieldLatticeCellTypeHoneycombToolTip" devLabel="Creates a 2.5D Honeycomb structure per cell.&#10;2.5D Honeycomb structures provide high directional stiffness and are easy to produce with a range of manufacturing methods." translation="" />
+	<label commandName="VolFieldLatticeCellTypeLidinoid" devLabel="Lidinoid" translation="" />
+	<label commandName="VolFieldLatticeCellTypeLidinoidToolTip" devLabel="Creates a Lidinoid structure per cell.&#10;Lidinoid structures have high surface areas and high stiffness which makes them effective for a range of applications." translation="" />
+	<label commandName="VolFieldLatticeCellTypeSchwarzD" devLabel="Schwarz D" translation="" />
+	<label commandName="VolFieldLatticeCellTypeSchwarzDToolTip" devLabel="Creates a Schwarz D structure per cell.&#10;A structure which exhibits high stiffness properties and can be used effectively inside 3D printed parts." translation="" />
+	<label commandName="VolFieldLatticeCellTypeSchwarzP" devLabel="Schwarz P" translation="" />
+	<label commandName="VolFieldLatticeCellTypeSchwarzPToolTip" devLabel="Creates a Schwarz P minimal structure surface per cell.&#10;The Schwarz P structure exhibits a high load bearing capacity due to the shape's inherent strain distribution." translation="" />
+	<label commandName="VolFieldLatticeCellTypeToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeCellTypeXCell" devLabel="X-Cell" translation="" />
+	<label commandName="VolFieldLatticeCellTypeXCellToolTip" devLabel="Creates an X structure per cell.&#10;A widely used cell in a range of additive manufacturing processes for its self-supporting nature. Suitable for a range of applications including lightweighting." translation="" />
+	<label commandName="VolFieldLatticeDEnsityType" devLabel="Distribution" translation="" />
+	<label commandName="VolFieldLatticeDEnsityTypeToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurve" devLabel="Path" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveEnd" devLabel="End" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveEndPointLabel" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveEndPointLabelToolTip" devLabel="Specify the end point." translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePoint" devLabel="Point " translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointDensity" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointDensityToolTip" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointLabel" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointLabelToolTip" devLabel="Point index" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointPositionEnd" devLabel="Position Along Path" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointPositionEndToolTip" devLabel="Specify position along selected path." translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointPositionStart" devLabel="Position Along Path" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointPositionStartToolTip" devLabel="Specify position along selected path." translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointType" devLabel="Point interpolation type" translation="" />
+	<label commandName="VolFieldLatticeDensityCurvePointTypeToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveStart" devLabel="Start" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveStartPointLabel" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveStartPointLabelToolTip" devLabel="Specify starting point." translation="" />
+	<label commandName="VolFieldLatticeDensityCurveTable" devLabel="Curve solidity gradient" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveTableToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityCurveToolTip" devLabel="Select path to distribute material volume within the body." translation="" />
+	<label commandName="VolFieldLatticeDensityInput" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="" />
+	<label commandName="VolFieldLatticeDensityReg" devLabel="Select" translation="" />
+	<label commandName="VolFieldLatticeDensityRegDensitySlider" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeDensityRegDensitySliderToolTip" devLabel="Specify the solidity of the offset region." translation="" />
+	<label commandName="VolFieldLatticeDensityRegFallOff" devLabel="Blend Distance" translation="" />
+	<label commandName="VolFieldLatticeDensityRegFallOffToolTip" devLabel="Specify the length of the gradient between the offset area and the solidity of the rest of the lattice." translation="" />
+	<label commandName="VolFieldLatticeDensityRegGeom" devLabel="Geometry" translation="" />
+	<label commandName="VolFieldLatticeDensityRegGeomToolTip" devLabel="Select bodies, faces, paths or points to specify solidity." translation="" />
+	<label commandName="VolFieldLatticeDensityRegLabel" devLabel="Region" translation="" />
+	<label commandName="VolFieldLatticeDensityRegLabelToolTip" devLabel="Geometry" translation="" />
+	<label commandName="VolFieldLatticeDensityRegThickness" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeDensityRegThicknessToolTip" devLabel="Thickness" translation="" />
+	<label commandName="VolFieldLatticeDensityRegToolTip" devLabel="Geometry" translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsAdd" devLabel="Add region" translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsAddToolTip" devLabel="Add geometry." translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsRem" devLabel="Remove region" translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsRemToolTip" devLabel="Remove geometry." translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsTable" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeDensityRegionsTableToolTip" devLabel="Solidity offset regions" translation="" />
+	<label commandName="VolFieldLatticeDensitySliderInput" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeDensitySliderInputConstant" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeDensitySliderInputConstantToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="" />
+	<label commandName="VolFieldLatticeDensitySliderInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="" />
+	<label commandName="VolFieldLatticeDensityTypeAlongCurve" devLabel="Gradient Along Path" translation="" />
+	<label commandName="VolFieldLatticeDensityTypeAlongCurveToolTip" devLabel="Distributes a varying percentage of material volume to cells along the selected line, curve or edge." translation="" />
+	<label commandName="VolFieldLatticeDensityTypeConstant" devLabel="Uniform" translation="" />
+	<label commandName="VolFieldLatticeDensityTypeConstantToolTip" devLabel="Distributes an even percentage of material volume to all cells throughout the selected body." translation="" />
+	<label commandName="VolFieldLatticeDensityTypeDistance" devLabel="Distance from geometry" translation="" />
+	<label commandName="VolFieldLatticeDensityTypeDistanceToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticePointTypeCubic" devLabel="Cubic" translation="" />
+	<label commandName="VolFieldLatticePointTypeCubicToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticePointTypeLinear" devLabel="Linear" translation="" />
+	<label commandName="VolFieldLatticePointTypeLinearToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticePointTypeNearest" devLabel="Nearest" translation="" />
+	<label commandName="VolFieldLatticePointTypeNearestToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticePointTypeSmooth" devLabel="Smooth" translation="" />
+	<label commandName="VolFieldLatticePointTypeSmoothToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeRegDensity" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeRegDensityToolTip" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeSizeActive" devLabel="Scale" translation="" />
+	<label commandName="VolFieldLatticeSizeActiveToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeSizeInputGroup" devLabel="Cell Size" translation="" />
+	<label commandName="VolFieldLatticeSizeInputGroupToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeSizeIsUniformInput" devLabel="Proportions" translation="" />
+	<label commandName="VolFieldLatticeSizeIsUniformInputToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeSizeTypeNonUniform" devLabel="Nonuniform" translation="" />
+	<label commandName="VolFieldLatticeSizeTypeNonUniformToolTip" devLabel="Creates cells of different sizes in each direction." translation="" />
+	<label commandName="VolFieldLatticeSizeTypeUniform" devLabel="Uniform" translation="" />
+	<label commandName="VolFieldLatticeSizeTypeUniformToolTip" devLabel="Creates cells of the same size in each direction." translation="" />
+	<label commandName="VolFieldLatticeSizeUniformInput" devLabel="Size" translation="" />
+	<label commandName="VolFieldLatticeSizeUniformInputToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeSizeXInput" devLabel="X Direction" translation="" />
+	<label commandName="VolFieldLatticeSizeXInputToolTip" devLabel="Specify the size of the cell in the X direction." translation="" />
+	<label commandName="VolFieldLatticeSizeYInput" devLabel="Y Direction" translation="" />
+	<label commandName="VolFieldLatticeSizeYInputToolTip" devLabel="Specify the size of the cell in the Y direction." translation="" />
+	<label commandName="VolFieldLatticeSizeZInput" devLabel="Z Direction" translation="" />
+	<label commandName="VolFieldLatticeSizeZInputToolTip" devLabel="Specify the size of the cell in the Z direction." translation="" />
+	<label commandName="VolFieldLatticeTabBar" devLabel="Lattice Tabs" translation="" />
+	<label commandName="VolFieldLatticeTabBarToolTip" devLabel="Volumetric lattice parameter tabs" translation="" />
+	<label commandName="VolFieldLatticeTabDensity" devLabel="Solidity" translation="" />
+	<label commandName="VolFieldLatticeTabDensityToolTip" devLabel="Specify the amount of the solidity in cells and its distribution." translation="" />
+	<label commandName="VolFieldLatticeTabPattern" devLabel="Setup" translation="" />
+	<label commandName="VolFieldLatticeTabPatternToolTip" devLabel="Select a body and specify the cell shape and orientation." translation="" />
+	<label commandName="VolFieldLatticeTabRegions" devLabel="Offset" translation="" />
+	<label commandName="VolFieldLatticeTabRegionsToolTip" devLabel="Specify offset areas of the body." translation="" />
+	<label commandName="VolFieldLatticeTransformEnable" devLabel="Move / Rotate" translation="" />
+	<label commandName="VolFieldLatticeTransformEnableToolTip" devLabel="Moves or rotates cells in the specified direction." translation="" />
+	<label commandName="VolFieldLatticeTransformInput" devLabel="Transform" translation="" />
+	<label commandName="VolFieldLatticeTransformInputGroup" devLabel="Lattice Transform" translation="" />
+	<label commandName="VolFieldLatticeTransformInputGroupToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeTransformInputToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldLatticeTransformReset" devLabel="Reset" translation="" />
+	<label commandName="VolFieldLatticeTransformResetToolTip" devLabel="Resets cells to the original position." translation="" />
+	<label commandName="VolFieldMassPropDisclaimer" devLabel="Volumetric Lattice Properties are estimates of their true physical quantities. Increasing&#10;the complexity of the Volumetric Lattice will reduce the accuracy of these estimates." translation="" />
+	<label commandName="VolFieldSelectCellGeometry" devLabel="Select solid or closed mesh bodies, faces or paths." translation="" />
+	<label commandName="VolFieldTextureAmplitudeInput" devLabel="Amplitude" translation="" />
+	<label commandName="VolFieldTextureAmplitudeInputToolTip" devLabel="Specify the amplitude of the volumetric texture." translation="" />
+	<label commandName="VolFieldTextureBoundaryBodyInput" devLabel="Body" translation="" />
+	<label commandName="VolFieldTextureBoundaryBodyInputToolTip" devLabel="Select a solid or closed mesh body to create an internal lattice." translation="" />
+	<label commandName="VolFieldTextureCmd" devLabel="Volumetric Texture" translation="" />
+	<label commandName="VolFieldTextureDepth" devLabel="Depth" translation="" />
+	<label commandName="VolFieldTextureDepthToolTip" devLabel="Specify the depth of engraved texture on the surface." translation="" />
+	<label commandName="VolFieldTextureGeomSelectPrompt" devLabel="Select solid or closed mesh bodies, faces or paths." translation="" />
+	<label commandName="VolFieldTexturePattern" devLabel="Texture Pattern" translation="" />
+	<label commandName="VolFieldTexturePatternCheckerBoard" devLabel="Checker Board" translation="" />
+	<label commandName="VolFieldTexturePatternCheckerBoardToolTip" devLabel="Creates a checker board texture over the selected faces." translation="" />
+	<label commandName="VolFieldTexturePatternGyroid" devLabel="Gyroid" translation="" />
+	<label commandName="VolFieldTexturePatternGyroidToolTip" devLabel="Creates a gyroid wave texture over the selected faces." translation="" />
+	<label commandName="VolFieldTexturePatternLeather" devLabel="Leather" translation="" />
+	<label commandName="VolFieldTexturePatternLeatherToolTip" devLabel="Creates a leather like texture over the selected faces." translation="" />
+	<label commandName="VolFieldTexturePatternNoise" devLabel="Noise" translation="" />
+	<label commandName="VolFieldTexturePatternNoiseToolTip" devLabel="Creates a random noisy texture over the selected faces." translation="" />
+	<label commandName="VolFieldTexturePatternStripe" devLabel="Stripe" translation="" />
+	<label commandName="VolFieldTexturePatternStripeToolTip" devLabel="Creates stirped texture over the selected faces." translation="" />
+	<label commandName="VolFieldTexturePatternToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldTexturePatternWoodGrain" devLabel="Wood Grain" translation="" />
+	<label commandName="VolFieldTexturePatternWoodGrainToolTip" devLabel="Creates a wood grain like suface texture over the selected faces." translation="" />
+	<label commandName="VolFieldTextureScaleXInput" devLabel="X Direction" translation="" />
+	<label commandName="VolFieldTextureScaleXInputToolTip" devLabel="Specify the size of the cell in the X direction." translation="" />
+	<label commandName="VolFieldTextureScaleYInput" devLabel="Y Direction" translation="" />
+	<label commandName="VolFieldTextureScaleYInputToolTip" devLabel="Specify the size of the cell in the Y direction." translation="" />
+	<label commandName="VolFieldTextureScaleZInput" devLabel="Z Direction" translation="" />
+	<label commandName="VolFieldTextureScaleZInputToolTip" devLabel="Specify the size of the cell in the Z direction." translation="" />
+	<label commandName="VolFieldTextureSelectBody" devLabel="Select solid or closed mesh body to apply a volumetric texture" translation="" />
+	<label commandName="VolFieldToMeshBoundaryBodyInput" devLabel="Body" translation="" />
+	<label commandName="VolFieldToMeshBoundaryBodyInputToolTip" devLabel="" translation="" />
+	<label commandName="VolFieldToMeshCmd" devLabel="Create Mesh" translation="" />
+	<label commandName="VolFieldToMeshSelectBody" devLabel="Select a body with an existing volumetric lattice to create mesh body" translation="" />
+	<label commandName="VolFieldToMeshSelectedBody" devLabel="Adjust the refinement settings" translation="" />
+	<label commandName="VolFieldUIExtensionText" devLabel="Included with the Design Extension" translation="" />
+	<label commandName="VolFieldUnassignCmd" devLabel="Unassign Volumetric Lattice" translation="" />
+	<label commandName="VolfieldPropCOM" devLabel="Center of Mass" translation="" />
+	<label commandName="VolfieldPropVolume" devLabel="Volume" translation="" />
+	<label commandName="VolumetricModelingFeature" devLabel="Volumetric Modeling" translation="" />
+	<label commandName="VolumetricModelingFeatureDescription" devLabel="Enables Volumetric Modeling tools." translation="" />
+	<label commandName="infoDensityRegDensity" devLabel="infoDensityRegDensity%1%" translation="" />
+	<label commandName="infoDensityRegFallOff" devLabel="infoDensityRegFallOff%1%" translation="" />
+	<label commandName="infoDensityRegLabel" devLabel="infoDensityRegLabel%1%" translation="" />
+	<label commandName="infoDensityRegMissing" devLabel="infoDensityRegMissing%1%" translation="" />
+	<label commandName="infoDensityRegThickness" devLabel="infoDensityRegThickness%1%" translation="" />
+	<label commandName="lclzApply" devLabel="Apply" translation="" />
+	<label commandName="lclzCancel" devLabel="Cancel" translation="" />
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksDesc" devLabel="The Gyroid shape can create stiff structures. However, can lead to trapped powder or resin in some printing processes. When using the Cross structure, consider using the Move/Rotate command to rotate the structure to ensure the Cross shape is able to support itself when printing." translation="" />
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksTips" devLabel="Select a solid body or mesh body to lattice, then select a cell shape from the dropdown. Scale and position the structure using the manipulators. Then, specify the solidity of the structure using the fill percentage input, or select the Gradient Along Path to create a solidity gradient along a line. In the Offset tab, add a solidity offset region and specify its solidity." translation="" />
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksTitle" devLabel="Volumetric Lattice Information" translation="" />
+	<label commandName="lclzEditVolumetricTextureTipsAndTricksDesc" devLabel="Select a solid body or mesh body, then select one or many surfaces from the part as desired. Then select the desired texture pattern." translation="" />
+	<label commandName="lclzEditVolumetricTextureTipsAndTricksTips" devLabel="Select a solid body or mesh body, then select one or many surfaces from the part as desired. Then select the desired texture pattern." translation="" />
+	<label commandName="lclzEditVolumetricTextureTipsAndTricksTitle" devLabel="Volumetric Texture Information" translation="" />
+	<label commandName="lclzOk" devLabel="OK" translation="" />
+	<label commandName="lclzVolFieldAssignCmdDesc" devLabel="Assigns an internal volumetric lattice structure to the selected body. A volumetric lattice must already be created in your design." translation="" />
+	<label commandName="lclzVolFieldAssignCmdDesc2" devLabel="Also, you can only assign one volumetric lattice per component." translation="" />
+	<label commandName="lclzVolFieldCreateCmdDesc1" devLabel="Create a new volumetric field using the bounding box of the selected geometry as the boundary of the volume." translation="" />
+	<label commandName="lclzVolFieldCreateLatticeCmdDesc1" devLabel="Modifies an existing solid body or mesh body by adding an internal lattice structure within the body boundary." translation="" />
+	<label commandName="lclzVolFieldCreateLatticeCmdDesc2" devLabel="Select a body, then specify the cell shape, distribution, and solidity." translation="" />
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksDesc" devLabel="The mesh created with this tool can be extremely dense, consider using the Remesh tool in the Mesh workspace to make the model easier to work with. Also, the results can sometimes lead to small mesh shell artifacts. Consider using the Separate tool in the Mesh workspace to separate the small shells from the mesh body, then delete them." translation="" />
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksTips" devLabel="Select a body with volumetric lattice. Select a resolution from the dropdown and click OK." translation="" />
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksTitle" devLabel="Create Mesh Information" translation="" />
+	<label commandName="lclzVolFieldEditLatticeCmdDesc" devLabel="Modifies an existing volumetric lattice structure." translation="" />
+	<label commandName="lclzVolFieldEditTextureCmdDesc" devLabel="Modifies an existing volumetric texture surface." translation="" />
+	<label commandName="lclzVolFieldSetup" devLabel="Setup" translation="" />
+	<label commandName="lclzVolFieldTab" devLabel="Volume Fields" translation="" />
+	<label commandName="lclzVolFieldTextureCmdDesc1" devLabel="Modifies an existing solid body or mesh body by adding a surface texture within the selected faces." translation="" />
+	<label commandName="lclzVolFieldTextureCmdDesc2" devLabel="Select a body, then the face to specify the texture shape, distribution, and solidity." translation="" />
+	<label commandName="lclzVolFieldToMeshCmdDesc1" devLabel="Creates a mesh body from an existing volumetric lattice." translation="" />
+	<label commandName="lclzVolFieldToMeshCmdDesc2" devLabel="Select a body with a volumetric lattice to use, then specify the resolution." translation="" />
+	<label commandName="lclzVolFieldUnassignCmdDesc" devLabel="Unassigns the existing  volumetric lattice structure from the selected body." translation="" />
+	<label commandName="lclzVolumetricLatticeTipsAndTricksDesc" devLabel="The Gyroid shape can create stiff structures. However, can lead to trapped powder or resin in some printing processes. When using the Cross structure, consider using the Move/Rotate command to rotate the structure to ensure the Cross shape is able to support itself when printing." translation="" />
+	<label commandName="lclzVolumetricLatticeTipsAndTricksTips" devLabel="Select a solid body or mesh body to lattice, then select a cell shape from the dropdown. Scale and position the structure using the manipulators. Then, specify the solidity of the structure using the fill percentage input, or select the Gradient Along Path to create a solidity gradient along a line. In the Offset tab, add a solidity offset region and specify its solidity." translation="" />
+	<label commandName="lclzVolumetricLatticeTipsAndTricksTitle" devLabel="Volumetric Lattice Information" translation="" />
+	<label commandName="lclzVolumetricTextureTipsAndTricksDesc" devLabel="Select a solid body or mesh body, then select the required surfaces from the part. Then select the desired texture pattern." translation="" />
+	<label commandName="lclzVolumetricTextureTipsAndTricksTips" devLabel="Select a solid body or mesh body, then select the required surfaces from the part. Then select the desired texture pattern." translation="" />
+	<label commandName="lclzVolumetricTextureTipsAndTricksTitle" devLabel="Volumetric Texture Information" translation="" />
+	<label commandName="mpSeparator" devLabel="" translation="" />
+	<label commandName="resolutionOptionsInput" devLabel="Refinement" translation="" />
+	<label commandName="resolutionOptionsInputToolTip" devLabel="" translation="" />
+</Resource>

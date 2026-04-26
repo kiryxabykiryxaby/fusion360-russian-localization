@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="App" devLabel="App " translation="Приложение " />
+	<label commandName="DesignPreviewFeatureGroup" devLabel="Design" translation="Дизайн" />
+	<label commandName="DesignPreviewFeatureGroupDescription" devLabel="This section controls optional behavior within the Design workspace." translation="Этот раздел управляет дополнительным поведением в рабочем пространстве Дизайн." />
+	<label commandName="ErrorNoPythonFunctionObject" devLabel="The given python function object does not exist" translation="Указанный объект функции Python не существует" />
+	<label commandName="ErrorNoPythonModule" devLabel="The given python module does not exist" translation="Указанный модуль Python не существует" />
+	<label commandName="ErrorPythonSysExitException" devLabel="system exit exception" translation="исключение выхода из системы" />
+	<label commandName="FailureToCreateSandboxPythonModule" devLabel="Failed to create sandbox python module." translation="Не удалось создать модуль Python в песочнице." />
+	<label commandName="FailureToReadPythonScriptFile" devLabel="Failed to read the python script." translation="Не удалось прочитать скрипт Python." />
+	<label commandName="FailureToSetPythonAttribute" devLabel="Failed to set Python Attribute" translation="Не удалось установить атрибут Python" />
+	<label commandName="Forbidden" devLabel="Forbidden" translation="Запрещено" />
+	<label commandName="GenDefaultUserAccountToolTip" devLabel="Gen Default User Account" translation="Учетная запись пользователя Gen по умолчанию" />
+	<label commandName="InternalError" devLabel="InternalError" translation="Внутренняя ошибка" />
+	<label commandName="NWReqInfoHavePermission" devLabel=": Are you sure you have permission?" translation=": Уверены, что у вас есть разрешение?" />
+	<label commandName="NWReqInfoTryAgain" devLabel=": Something went wrong. Please try again in a few minutes." translation=": Что-то пошло не так. Пожалуйста, повторите попытку через несколько минут." />
+	<label commandName="NetworkOptionsDescription" devLabel="These are a set of options that are used for network access." translation="Это набор опций, используемых для сетевого доступа." />
+	<label commandName="NetworkOptionsName" devLabel="Network" translation="Сеть" />
+	<label commandName="NotFound" devLabel="Requested resource not found" translation="Запрошенный ресурс не найден" />
+	<label commandName="PLM360OptionsDescription" devLabel="These are a set of options that are used for %1% integration." translation="Это набор опций, используемых для интеграции с %1%." />
+	<label commandName="PLM360OptionsName" devLabel="PLM 360 Options" translation="Опции PLM 360" />
+	<label commandName="ProductUsageDataGroupName" devLabel="Data Collection and Use" translation="Сбор и использование данных" />
+	<label commandName="ProductUsageDataGroupTooltip" devLabel="Data Collection and Use" translation="Сбор и использование данных" />
+	<label commandName="ProxyHostTooltip" devLabel="Proxy Host" translation="Хост прокси" />
+	<label commandName="ProxyHostUserName" devLabel="Proxy Host" translation="Хост прокси" />
+	<label commandName="ProxyPortTooltip" devLabel="Proxy Port" translation="Порт прокси" />
+	<label commandName="ProxyPortUserName" devLabel="Proxy Port" translation="Порт прокси" />
+	<label commandName="PythonAppStoreAppInstalled" devLabel=" is installed." translation=" установлено." />
+	<label commandName="PythonAppStoreAppRemoved" devLabel=" is removed." translation=" удалено." />
+	<label commandName="PythonAppStoreAppUninstalled" devLabel=" is uninstalled." translation=" удалено." />
+	<label commandName="PythonAppStoreExistAndWillRemove" devLabel=" already exists. It will be updated at the next startup." translation=" уже существует. Он будет обновлен при следующем запуске." />
+	<label commandName="PythonAppStoreNewVersionApp" devLabel="A new version of " translation="Новая версия " />
+	<label commandName="PythonAppStoreOldVersionApp" devLabel="An old version of " translation="Старая версия " />
+	<label commandName="PythonCallBackCompany" devLabel="Need to contact the vendor" translation="Необходимо связаться с поставщиком" />
+	<label commandName="PythonCallBackError" devLabel="Error in callback %1% in module %2% &#10;&#09; Detail Error:%3%" translation="Ошибка в обратном вызове %1% в модуле %2% &#10;&#09; Детали ошибки:%3%" />
+	<label commandName="PythonCallBackFixError" devLabel=" to fix the error in the Autorun Scripts" translation=" для исправления ошибки в скриптах автозапуска" />
+	<label commandName="PythonCommandStartError" devLabel="No valid string passed to Command.Start" translation="В Command.Start не передана допустимая строка" />
+	<label commandName="PythonErrorMissingFunctionPrefix" devLabel="Error Missing Function" translation="Ошибка: Отсутствует функция" />
+	<label commandName="PythonErrorPrefix" devLabel="Error: " translation="Ошибка: " />
+	<label commandName="PythonExecuteDictError" devLabel="Could not build dictionary in %1% in python command %2%" translation="Не удалось построить словарь в %1% в команде Python %2%" />
+	<label commandName="PythonExecutePreviewReturnError" devLabel="Bad return value from executePreview in python command %1%" translation="Недопустимое возвращаемое значение от executePreview в команде Python %1%" />
+	<label commandName="PythonGetCommandInputsJSONError" devLabel="Invalid JSON from getCommandInputs in python command %1%" translation="Неверный JSON от getCommandInputs в команде Python %1%" />
+	<label commandName="PythonGetCommandInputsReturnError" devLabel="Bad return value from getCommandInputs in python command %1%" translation="Недопустимое возвращаемое значение от getCommandInputs в команде Python %1%" />
+	<label commandName="PythonInvalidParametersPassedTo" devLabel="Invalid parameters passed to " translation="В функцию переданы недопустимые параметры: " />
+	<label commandName="RequestTimeout" devLabel="Request timed out. Please retry the command" translation="Время запроса истекло. Пожалуйста, повторите команду" />
+	<label commandName="SSLVerifyOnlyTrustedServers" devLabel="Block access when an intermediate server is detected" translation="Блокировать доступ при обнаружении промежуточного сервера" />
+	<label commandName="SSLVerifyPeerName" devLabel="Server Verification" translation="Проверка сервера" />
+	<label commandName="SSLVerifyPeerTooltip" devLabel="Verify that the %1% client can validate the server SSL Certificate." translation="Проверьте, что клиент %1% может проверять SSL-сертификат сервера." />
+	<label commandName="SSLVerifyTrustAllServers" devLabel="Do not warn when accessing through an intermediate server" translation="Не предупреждать при доступе через промежуточный сервер" />
+	<label commandName="SSLVerifyWarnOnUntrustedServers" devLabel="Warn when accessing through an intermediate server" translation="Предупреждать при доступе через промежуточный сервер" />
+	<label commandName="ServiceUnavailable" devLabel="Cloud service unavailable. Please retry the command" translation="Облачный сервис недоступен. Пожалуйста, повторите команду" />
+	<label commandName="ShowCloudCreditBalanceToolTip" devLabel="Show Cloud Credit Balance" translation="Показать баланс облачных кредитов" />
+	<label commandName="SimDefaultUserAccountToolTip" devLabel="Sim Default User Account" translation="Учетная запись пользователя Sim по умолчанию" />
+	<label commandName="TokensAndCloudCreditOptionGroupTooltip" devLabel="Token &amp; Cloud Credit preferences" translation="Настройки токенов и облачных кредитов" />
+	<label commandName="TokensAndCloudCreditOptionGroupUserName" devLabel="Tokens &amp; Cloud Credits" translation="Токены и облачные кредиты" />
+	<label commandName="TrackUsageGroupToolTip" devLabel="" translation="" />
+	<label commandName="TrackUsageGroupUserName" devLabel="" translation="" />
+	<label commandName="Unauthorized" devLabel="Unauthorized to access this resource" translation="Не авторизован для доступа к этому ресурсу" />
+	<label commandName="WindowsProxyAutomatic" devLabel="Automatic" translation="Автоматически" />
+	<label commandName="WindowsProxyNoProxy" devLabel="No Proxy" translation="Без прокси" />
+	<label commandName="WindowsProxyOverride" devLabel="Override" translation="Переопределить" />
+	<label commandName="WindowsProxyTooltip" devLabel=" Windows network proxy setting" translation=" Настройка сетевого прокси Windows" />
+	<label commandName="WindowsProxyUserName" devLabel="Windows network proxy setting" translation="Настройка сетевого прокси Windows" />
+	<label commandName="WindowsProxyWindowsDefault" devLabel="Windows Default" translation="По умолчанию Windows" />
+	<label commandName="additive-desc" devLabel="Adds select additive manufacturing machines (3D printers) to the Manufacture Workspace. This initial stage allows for users to select an additive machine, specify print parameters, manually position and orient a part on  the build platform, generate support structures, and either create a build file for select machines or export a 3MF file for all machines. Note that activating this preview functionality will also enable the Machine Configurations feature above." translation="Добавляет выбранные машины для аддитивного производства (3D-принтеры) в рабочее пространство Производство. На этом начальном этапе пользователи могут выбрать аддитивную машину, указать параметры печати, вручную расположить и сориентировать деталь на платформе построения, генерировать поддерживающие структуры и либо создать файл сборки для выбранных машин, либо экспортировать файл 3MF для всех машин. Обратите внимание, что активация этой функции предварительного просмотра также включит функцию Конфигурации машин выше." />
+	<label commandName="additive-title" devLabel="Additive Manufacturing" translation="Аддитивное производство" />
+	<label commandName="assemblyExperience-desc" devLabel="Enables a workflow that lets you model individual components in Part Designs, then insert and define relationships between them in an Assembly Design to create a complete assembly." translation="Включает рабочий процесс, позволяющий моделировать отдельные компоненты в Детали, затем вставлять и определять связи между ними в Сборке для создания полной сборки." />
+	<label commandName="assemblyExperience-title" devLabel="Part and Assembly Design Workflow" translation="Рабочий процесс Детали и Сборки" />
+	<label commandName="ccOptEducationStr" devLabel="Education" translation="Образование" />
+	<label commandName="cross-project-refs-desc" devLabel="Reuse designs from any project, using the insert workflow, without making a copy in the destination project. At this time the preview is available as part of team hubs." translation="Повторно используйте проекты из любого проекта, используя рабочий процесс вставки, без создания копии в целевом проекте. В настоящее время предварительный просмотр доступен как часть командных хабов." />
+	<label commandName="cross-project-refs-title" devLabel="Cross-Project References" translation="Межпроектные ссылки" />
+	<label commandName="folder-permissions-desc" devLabel="Enable Folder Permissions for your team." translation="Включите разрешения папок для вашей команды." />
+	<label commandName="folder-permissions-title" devLabel="Folder Permissions" translation="Разрешения папок" />
+	<label commandName="general-featurepack-desc" devLabel="This section controls optional aspects of behavior across Fusion." translation="Этот раздел управляет дополнительными аспектами поведения во всем Fusion." />
+	<label commandName="general-featurepack-title" devLabel="General" translation="Общие" />
+	<label commandName="home-tab-default-startup-preview-preview-desc" devLabel="Enable Fusion Home as a default startup experience. Every time you start Fusion you will get to Fusion Home first to resume work on your designs." translation="Включите Fusion Home как стандартный опыт запуска. Каждый раз при запуске Fusion вы будете сначала попадать в Fusion Home, чтобы продолжить работу над своими проектами." />
+	<label commandName="home-tab-default-startup-preview-title" devLabel="Fusion Home as startup experience" translation="Fusion Home как опыт запуска" />
+	<label commandName="insertPanel-preview-desc" devLabel="Insert a design into the active document. Available under File &gt; View &gt; Show Insert Design." translation="Вставьте проект в активный документ. Доступно в Файл &gt; Вид &gt; Показать вставку проекта." />
+	<label commandName="insertPanel-preview-title" devLabel="Insert Dialog" translation="Диалог вставки" />
+	<label commandName="ioptin_evergage_label" devLabel="&lt;b&gt;Learning Panel.&lt;/b&gt; Allows us to show contextual content based on your usage data to help you use Fusion. &lt;a href='%1%'&gt;Learn more&lt;/a&gt; about the Learning Panel." translation="&lt;b&gt;Панель обучения.&lt;/b&gt; Позволяет нам показывать контекстный контент на основе ваших данных об использовании, чтобы помочь вам использовать Fusion. &lt;a href='%1%'&gt;Узнать больше&lt;/a&gt; о панели обучения." />
+	<label commandName="lclzAssemblyDesign" devLabel="Assembly Design" translation="Сборка" />
+	<label commandName="lclzElectronicsDesign" devLabel="Electronics Design" translation="Электронный проект" />
+	<label commandName="lclzMechanicalDesign" devLabel="Design" translation="Дизайн" />
+	<label commandName="lclzPartDesign" devLabel="Part Design" translation="Деталь" />
+	<label commandName="legacy-command-dialogs-desc" devLabel="Enable legacy command dialogs." translation="Включить устаревшие диалоги команд." />
+	<label commandName="legacy-command-dialogs-title" devLabel="Command Dialogs (Legacy)" translation="Диалоги команд (устаревшие)" />
+	<label commandName="legacy-toolbar-desc" devLabel="Enable legacy toolbar." translation="Включить устаревшую панель инструментов." />
+	<label commandName="legacy-toolbar-title" devLabel="Application Toolbar (Legacy)" translation="Панель приложения (устаревшая)" />
+	<label commandName="machine-configurations-desc" devLabel="The first stage of machine definitions has been added to Autodesk Fusion. This will lay the framework for information about a machine to be used throughout the Manufacture workspace. A machine configuration will contain information about the machine such as its axes, maximum spindle speed, feedrate limits, print configurations, and more, which will allow Fusion to alert the user to potential issues as well as aid users in making toolpathing decisions and configure the output programs." translation="Первый этап определений машин был добавлен в Autodesk Fusion. Это заложит основу для информации о машине, которая будет использоваться во всем рабочем пространстве Производство. Конфигурация машины будет содержать информацию о машине, такую как ее оси, максимальная скорость шпинделя, ограничения подачи, конфигурации печати и многое другое, что позволит Fusion предупреждать пользователя о потенциальных проблемах, а также помогать пользователям принимать решения о траектории инструмента и настраивать выходные программы." />
+	<label commandName="machine-configurations-title" devLabel="Machine Configurations" translation="Конфигурации машин" />
+	<label commandName="manufacture-featurepack-desc" devLabel="This section controls optional functionality with the Manufacture workspace." translation="Этот раздел управляет дополнительной функциональностью в рабочем пространстве Производство." />
+	<label commandName="manufacture-featurepack-title" devLabel="Manufacture" translation="Производство" />
+	<label commandName="qml-command-dialogs-desc" devLabel="Enable QML command dialogs." translation="Включить диалоги команд QML." />
+	<label commandName="qml-command-dialogs-title" devLabel="Command Dialogs (QML)" translation="Диалоги команд (QML)" />
+	<label commandName="qml-fp-desc" devLabel="This section controls Weave user interface usage across Fusion." translation="Этот раздел управляет использованием пользовательского интерфейса Weave во всем Fusion." />
+	<label commandName="qml-fp-title" devLabel="Weave" translation="Weave" />
+	<label commandName="qml-modal-dialogs-desc" devLabel="Toggle between QML modal dialogs (checked) or legacy modal dialogs (unchecked)." translation="Переключитесь между модальными диалогами QML (отмечено) или устаревшими модальными диалогами (не отмечено)." />
+	<label commandName="qml-modal-dialogs-title" devLabel="Modal Dialogs" translation="Модальные диалоги" />
+	<label commandName="qml-toolbar-desc" devLabel="Enable QML toolbar." translation="Включить панель инструментов QML." />
+	<label commandName="qml-toolbar-title" devLabel="Application Toolbar (QML)" translation="Панель приложения (QML)" />
+	<label commandName="team-general-featurepack-desc" devLabel="This section controls optional aspects of behavior across Fusion." translation="Этот раздел управляет дополнительными аспектами поведения во всем Fusion." />
+	<label commandName="team-general-featurepack-title" devLabel="General" translation="Общие" />
+	<label commandName="test-tech-desc" devLabel="A place holder of a new functionality in a conceptual stage to be previewed." translation="Заполнитель для новой функциональности на концептуальной стадии для предварительного просмотра." />
+	<label commandName="test-tech-title" devLabel="Test tech" translation="Тестовая технология" />
+</Resource>

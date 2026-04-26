@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ExplicitSolverDataCheckReportLine1" devLabel="%1% : %2%" translation="" />
+	<label commandName="ExplicitSolverDataCheckReportLine2" devLabel="%1% : %2% %3%:%4%:%5% (dd hh::mm::ss)" translation="" />
+	<label commandName="ExplicitSolverEstimatedRuntime" devLabel="Estimated Solve Time" translation="" />
+	<label commandName="ExplicitSolverInitialCourantStabilityLimit" devLabel="Initial Courant Stability Limit" translation="" />
+	<label commandName="NotComputedMesh" devLabel="Mesh is not computed" translation="" />
+	<label commandName="SimADSKSIMPKGSolverSharedMissingError" devLabel="Solver driver module not found." translation="" />
+	<label commandName="SimFEACSConvergenceInvalidMode" devLabel="The mode selected for h-adaptive meshing (mode %1%) is unavailable due to the study's frequency range or mode limits. Continuing h-adaptive meshing using the last valid mode (mode %2%)." translation="" />
+	<label commandName="SimFEACSConvergenceRate" devLabel="Convergence rate: %1% %%" translation="" />
+	<label commandName="SimFEACSMeshStatsReport" devLabel="%1%: %2% nodes, %3% elements" translation="" />
+	<label commandName="SimFEACSMeshingStatsBaseMesh" devLabel="Base mesh" translation="" />
+	<label commandName="SimFEACSMeshingStatsHRef" devLabel="h refinement #%1%" translation="" />
+	<label commandName="SimFEACSMeshingStatsSolverMesh" devLabel="Solver mesh" translation="" />
+	<label commandName="SimFEACSMissingError" devLabel="Solve module not found." translation="" />
+	<label commandName="SimFEACSNoConvergenceData" devLabel="Solve did not produce any convergence data for h-adaptivity for refinement %1%" translation="" />
+	<label commandName="SimFEACSProblemConverged" devLabel="Problem converged" translation="" />
+	<label commandName="SimFEACSReachedNumberOfRefinements" devLabel="Reached the total number of h refinements" translation="" />
+	<label commandName="SimFEACSSpawnError" devLabel="Error invoking solve module, Error: %1%" translation="" />
+	<label commandName="SimFailureWhileCancel" devLabel="Solve module failure while cancelling, Error: %1%" translation="" />
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="" />
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="" />
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="" />
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="" />
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="" />
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="" />
+	<label commandName="SimJobLimitElementCountMeshSizeExceeded" devLabel="The current maximum mesh size of %1% elements has been exceeded." translation="" />
+	<label commandName="SimJobLimitGenericMeshSizeExceeded" devLabel="The current maximum mesh size has been exceeded." translation="" />
+	<label commandName="SimJobLimitGenericMeshSizeExceededRectification" devLabel="Please increase the average element size and/or simplify the model and try solving again." translation="" />
+	<label commandName="SimJobLimitModalMeshSizeExceededRectification" devLabel="Please increase the average element size, decrease the number of modes and/or simplify the model and try solving again." translation="" />
+	<label commandName="SimLocalSolveModuleFailure" devLabel="Solve module failure, Error: %1%" translation="" />
+	<label commandName="SimMinMassTargetForTOEx" devLabel="It’s not possible to reduce the mass to %1$.3f%% of the original mass, as specified in &amp;#10;             the study setup. The model geometry can only be reduced to %2$.3f%% &amp;#10;             of the original mass. &amp;#10;&amp;#10;Causes: The combination of the shape optimization criteria, mesh size, and preserve &amp;#10;            regions in the study setup restrict how much the model geometry can be &amp;#10;            reduced. &amp;#10;&amp;#10;Action: If the achievable target mass is close to the specified target mass, &amp;#10;            try decreasing the mesh size and relaunching the analysis. &amp;#10;            Otherwise, try &amp;#10;            - increasing the Target Mass, for example, if you have accepted &amp;#10;                the default (60%% of original mass), or &amp;#10;            - unchecking ‘Preserve Entities with Loads and Constraints’ in &amp;#10;                the Shape Optimization Criteria dialog, and then relaunch &amp;#10;                the analysis.&amp;#10;" translation="" />
+	<label commandName="Sim_IDS_DIFFERENT_BODY_COUNT" devLabel="One or more configurations result in a different number of bodies than the base configuration.&#10;These configurations will not be solved." translation="" />
+	<label commandName="Sim_IDS_ERR_FAILED_GEN_CONFIG" devLabel="Failed to generate configuration" translation="" />
+	<label commandName="Sim_IDS_MESH_WARN_BODY_TOO_THIN" devLabel="Certain parts of the model are extremely thin, which can lead to long meshing/solution times and numerical instabilities in the results. Please use careful judgment when interpreting the results." translation="" />
+	<label commandName="Sim_IDS_MESH_WARN_LOCAL_SIZE_VERY_SMALL" devLabel="Warning: Local mesh control '%s' specifies a very small element size." translation="" />
+	<label commandName="Sim_IDS_MESH_WARN_THIN_BODY" devLabel="Body '%s' is thin." translation="" />
+	<label commandName="Sim_IDS_NO_CONTACT_BODY" devLabel="Warning: There are no contacts attached to body(s): %s" translation="" />
+	<label commandName="Sim_IDS_NO_SOLID_BODY" devLabel="Error processing the geometry. The model contains no solid body." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_BREP_COMPUTE" devLabel="Computing geometry..." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_CONTACT_COMPUTE" devLabel="Computing contacts..." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_COMPUTE" devLabel="Computing mesh..." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE1" devLabel="Adaptive Refinement Setup..." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE2" devLabel="Adaptive Refinement..." translation="" />
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_RESULT_COMPUTE" devLabel="Computing results..." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR0" devLabel="" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR1" devLabel="Internal solver error" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR10" devLabel="Not enough constraints and not balanced load" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR100" devLabel="Internal Error # 100" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR101" devLabel="Internal Error # 101" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR11" devLabel="Error opening the mesh file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR12" devLabel="Error opening the debug output file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR13" devLabel="Error processing the mesh" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR14" devLabel="There are no new DOFs for the current p-cycle" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR15" devLabel="Not enough memory to continue operation" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR16" devLabel="Improper constraints, material or mesh" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR17" devLabel="Not enough constraints" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR18" devLabel="Internal Error # ps_1" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR19" devLabel="Internal Error # ps_2" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR2" devLabel="Load not defined" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR20" devLabel="Internal Error # ps_3" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR201" devLabel="Internal Error # 201" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR202" devLabel="Internal Error # 202" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR204" devLabel="Internal Error # 204" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR206" devLabel="Internal Error # 206" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR208" devLabel="Internal Error # 208" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR21" devLabel="Error opening the tetrahedra data file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR210" devLabel="Internal Error # 210" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR212" devLabel="Internal Error # 212" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR216" devLabel="Internal Error # 216" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR22" devLabel="Error opening the result file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR23" devLabel="Unable to create a temporary file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR24" devLabel="Error while closing a temporary file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR25" devLabel="Error while reading from a temporary file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR26" devLabel="Error while writing to a temporary file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR27" devLabel="Simulation canceled" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR28" devLabel="Bad modeling parameter - some faces have disappeared!" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR29" devLabel="Error executing the solver." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR3" devLabel="Unacceptable combination of boundary condition and element type" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR30" devLabel="Internal Error # 30" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR301" devLabel="Internal Error # 301" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR31" devLabel="Internal Error: Can not use the same file for the input and the output" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR32" devLabel="Internal Error: Can not open the thermal load file." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR33" devLabel="Error reading the thermal load file." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR34" devLabel="Add-in format is not supported." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR35" devLabel="Internal solver error. Can not process the contacts." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR36" devLabel="Some rigid body modes remain after application of constraints" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR37" devLabel="Load is directed along a rigid body mode" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR38" devLabel="Can not open the pre-stress file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR39" devLabel="Error reading the pre-stress file" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR4" devLabel="Degenerate element" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR40" devLabel="Improper preloading" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR41" devLabel="Mesh at the contacts is too coarse. It is recommended to use local mesh control in the areas of high stress concentration." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR42" devLabel="The assembly breaks up into disjointed pieces" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR43" devLabel="Nonlinear iterations diverge" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR44" devLabel="Internal Error: Data import failed" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR45" devLabel="Error processing the contacts" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR5" devLabel="Internal Error # 5" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR555" devLabel="Internal Error #555" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR6" devLabel="Element material is not defined" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR600" devLabel="Internal Error: SAT translation failed" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR601" devLabel="Internal Error: Regularization failed" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR602" devLabel="Unknown error in geometry builder" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR612" devLabel="Currently import of surface models is not supported" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR613" devLabel="Geometry translation failed. Solid body breaks into multiple bodies or into disconnected surfaces" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR614" devLabel="Geometry processing failed. Solid body could not be mapped back to any Simulus entity" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR615" devLabel="Body '%s' cannot be processed." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR7" devLabel="Material property set is not defined" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR701" devLabel="Simulation canceled" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR702" devLabel="Mesh failed: The mesher reported an unknown error" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR703" devLabel="Mesh failed: The mesher failed to allocate enough memory to compute the mesh. Try reducing the mesh size." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR704" devLabel="Mesh failed: Vertex failure" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR705" devLabel="Mesh failed: Edge failure" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR706" devLabel="Mesh failed: Face failure" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR707" devLabel="Mesh failed: Body failure" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR708" devLabel="Mesh failed: Curvature failure" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR709" devLabel="Mesh failed: The mesher encountered a self-intersection. Try repairing the model using Inspect &gt; Interference in the Design environment." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR710" devLabel="Mesh failed: The mesher encountered a corrupted entity. Try repairing the model using Inspect &gt; Validate in the Design environment with the 'Document Settings' &gt; 'Do not capture Design History' option disabled" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR711" devLabel="Mesh failed: The mesher exceeded an internal limit for nodes in a single body. Try reducing the mesh size." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR712" devLabel="Mesh failed: The mesher exceeded an internal limit for nodes in a model. Try reducing the mesh size." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR713" devLabel="Mesh failed: The mesher exceeded an internal limit for elements in a model. Try reducing the mesh size." translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR8" devLabel="The load is inconsistent with the boundary conditions" translation="" />
+	<label commandName="Sim_IDS_SERVER_ERR9" devLabel="Coordinate system is referenced but not defined" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER1" devLabel="Solution time: %ss" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER2" devLabel="Computed %s frequency modes" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER3" devLabel="Soft spring was added" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER4" devLabel="Model separates into %s independent groups of bodies" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER5" devLabel="Mesh at contact %s is too coarse" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER6" devLabel="Contact %s: direction of the non-bonded edge-to-edge contact can not be determined" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER7" devLabel="The deformation is large compared to the model size. Please verify that load and constraint settings are appropriately scaled." translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER8" devLabel="Number of equations solved: %s" translation="" />
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER9" devLabel="Computed %s buckling modes" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_COMPUTE_MESH" devLabel="Compute mesh before proceeding." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_CONTACTS" devLabel="Compute automatic contacts before proceeding." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_DESIGN_PARA_HAS_DEPENDENT" devLabel="One or more parameters in the Parametric Table have dependent objects which are not allowed in the Table, and must be removed: %s" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDCONSTRAINT" devLabel="Invalid constraint: %s" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDLOAD" devLabel="Invalid load: %s" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELL" devLabel="Invalid shell: %s" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELLDEFINITION" devLabel="Invalid shell definition (unconnected lumps/gaps): %s" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_LOADONFIX" devLabel="All loads are acting on entities which have fixed constraints applied on them" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_MATERIALS" devLabel="Can not run. Some materials are not defined correctly. Please assign a valid study material using Study Materials command." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_FAILURE" devLabel="Repair mesh failures before proceeding." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_OUTOFDATE" devLabel="Update mesh before proceeding." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_NOCONSTRAINT" devLabel="No constraint defined." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_NOLOAD" devLabel="No load defined." translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_TO_MASSTARGET_UNACHIEVABLE" devLabel="The Target Mass %% could not be attained. %1%" translation="" />
+	<label commandName="Sim_IDS_SIM_ERROR_TO_MASSTARGET_UNACHIEVABLE_EX" devLabel="The Target Mass %% could not be attained (%2% requested, %1% achieved)." translation="" />
+	<label commandName="Sim_IDS_WARN_MESH_BODY_USEVOXEL" devLabel="Body '%s' uses voxel mesh. Adaptive mesh refinements are not supported for this body." translation="" />
+</Resource>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Add Document Material" devLabel="Add Document Material" translation="" />
+	<label commandName="Autodesk Advanced Appearance Library" devLabel="Fusion Appearance Library" translation="" />
+	<label commandName="Autodesk Advanced Material Library" devLabel="Fusion Material Library" translation="" />
+	<label commandName="DefaultMaterialOptionsToolTip" devLabel="Preferences that control default material and appearance" translation="" />
+	<label commandName="DefaultMaterialOptionsUserName" devLabel="Material" translation="" />
+	<label commandName="Delete Document Material" devLabel="Delete Document Material" translation="" />
+	<label commandName="EMBCanceledMessageContent" devLabel="Ongoing material downloads have been canceled. A live update is in progress and the material library has been locked to avoid potential damage to local user data." translation="" />
+	<label commandName="EMBCanceledMessageTitle" devLabel="Material Downloads have been canceled" translation="" />
+	<label commandName="EMBDisabledMessageContent" devLabel="Material downloading has been temporarily disabled due to a live update currently in progress. The material library has been locked to avoid potential damage to local user data." translation="" />
+	<label commandName="EMBDisabledMessageTitle" devLabel="Material Downloading has been Disabled" translation="" />
+	<label commandName="Favorites Library" devLabel="Favorites Library" translation="" />
+	<label commandName="GenericMaterialId" devLabel="Generic" translation="" />
+	<label commandName="PhysicalCategoryToolTip" devLabel="The default physical material category for a new document" translation="" />
+	<label commandName="PhysicalCategoryUserName" devLabel="Physical Material Category" translation="" />
+	<label commandName="PhysicalIDToolTip" devLabel="The default physical material for a new document" translation="" />
+	<label commandName="PhysicalIDUserName" devLabel="Physical Material Name" translation="" />
+	<label commandName="PhysicalLibraryToolTip" devLabel="The default physical material Library for a new document" translation="" />
+	<label commandName="PhysicalLibraryUserName" devLabel="Physical Material Library" translation="" />
+	<label commandName="Private Visual Library" devLabel="Private Visual Library" translation="" />
+	<label commandName="Simulation Additive Material Library" devLabel="Fusion Additive Material Library" translation="" />
+	<label commandName="Simulation Nonlinear Material Library" devLabel="Fusion Nonlinear Material Library" translation="" />
+	<label commandName="UnknownMaterialId" devLabel="Unknown" translation="" />
+	<label commandName="VisualCategoryToolTip" devLabel="The default appearance category for a new document" translation="" />
+	<label commandName="VisualCategoryUserName" devLabel="Appearance Category" translation="" />
+	<label commandName="VisualIDToolTip" devLabel="The default appearance for a new document" translation="" />
+	<label commandName="VisualIDUserName" devLabel="Material Name" translation="" />
+	<label commandName="VisualLibraryToolTip" devLabel="The default Appearance Library for a new document" translation="" />
+	<label commandName="VisualLibraryUserName" devLabel="Appearance Material Library" translation="" />
+	<label commandName="VisualNotAsMaterialToolTip" devLabel="Set the default appearance for a new document to be different from the physical material" translation="" />
+	<label commandName="VisualNotAsMaterialUserName" devLabel="Apply a different appearance" translation="" />
+	<label commandName="default" devLabel="default" translation="" />
+</Resource>

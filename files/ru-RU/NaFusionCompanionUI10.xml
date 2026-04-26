@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Fusion360SaveSmtFileFailed" devLabel="Unable to push. Save of intermediate files failed." translation="" />
+	<label commandName="Fusion360ToCFD" devLabel="Unable to push data from Fusion to CFD. CFD application may be busy." translation="" />
+	<label commandName="Fusion360ToCFD1" devLabel="Unable to push data from Fusion to CFD." translation="" />
+	<label commandName="Fusion360ToCFDPlugin" devLabel="Unable to communicate with Fusion to CFD plugin." translation="" />
+	<label commandName="Fusion360ToCFDPluginBusy" devLabel="Unable to push data from Fusion to CFD. CFD application may be busy" translation="" />
+	<label commandName="Fusion360ToCFDSaveFailed" devLabel="Unable to push data from Fusion to CFD. Save of intermediate files failed." translation="" />
+	<label commandName="Fusion360ToMFAdviser" devLabel="Unable to push data from Fusion to Moldflow." translation="" />
+	<label commandName="Fusion360ToMFInsight" devLabel="Unable to push data from Fusion to Moldflow." translation="" />
+	<label commandName="Fusion360ToMFInsightBusy" devLabel="Unable to push data from Fusion to Moldflow. Moldflow application may be busy." translation="" />
+	<label commandName="Fusion360ToMFInsightBusy1" devLabel="Unable to push data from Fusion to Moldflow. Moldflow application may be busy" translation="" />
+	<label commandName="Fusion360ToMFInsightPlugin" devLabel="Unable to communicate with Fusion to Moldflow plugin." translation="" />
+	<label commandName="Fusion360ToMat" devLabel="Unable to push data from Fusion to CFD." translation="" />
+	<label commandName="Fusion360ToMoldflowBusy" devLabel="Unable to push data from Fusion to Moldflow. Moldflow application may be busy." translation="" />
+	<label commandName="Fusion360ToMoldflowPlugin" devLabel="Unable to communicate with Fusion to Moldflow plugin." translation="" />
+	<label commandName="Fusion360ToMoldflowSaveFailed" devLabel="Unable to push data from Fusion to Moldflow. Save of intermediate files failed." translation="" />
+	<label commandName="FusionCFDModelAssessmentTool" devLabel="CFD Model Assessment Tool" translation="" />
+	<label commandName="FusionCFDModelAssessmentToolCommandDefDesc1" devLabel="Open in CFD Model Assessment Tool." translation="" />
+	<label commandName="FusionCFDModelAssessmentToolCommandDefDesc2" devLabel="Opens Autodesk CFD and imports your model into the Assessment Tool before creating a new Design Study." translation="" />
+	<label commandName="FusionCompanionDataDoesNotExist" devLabel="The data file does not exist." translation="" />
+	<label commandName="FusionCompanionInteractiveBodySelection" devLabel="Select body" translation="" />
+	<label commandName="FusionCompanionInteractiveBodySelectionInput" devLabel="Select Body" translation="" />
+	<label commandName="FusionCompanionInteractiveBodyStringInput" devLabel="Body Name" translation="" />
+	<label commandName="FusionCompanionSaveDocumentAndDataFailed" devLabel="Unable to save the document and data files!" translation="" />
+	<label commandName="FusionCompanionUnableToRemoveFile" devLabel="Unable to remove the file at:" translation="" />
+	<label commandName="FusionSimulateInCFD" devLabel="Simulate in CFD" translation="" />
+	<label commandName="FusionSimulateInCFD2020" devLabel="Simulate in CFD" translation="" />
+	<label commandName="FusionSimulateInCFD2021" devLabel="Simulate in CFD" translation="" />
+	<label commandName="FusionSimulateInCFD2023" devLabel="Simulate in CFD" translation="" />
+	<label commandName="FusionSimulateInCFD2024" devLabel="Simulate in CFD" translation="" />
+	<label commandName="FusionSimulateInCFDCommandDefDesc1" devLabel="Launches your model in Autodesk CFD." translation="" />
+	<label commandName="FusionSimulateInCFDCommandDefDesc2" devLabel="Opens CFD and imports your model into a new file. Setup and run your CFD simulation using your verified geometry." translation="" />
+	<label commandName="FusionSimulateInMoldflowAdviser" devLabel="Simulate in Moldflow Adviser" translation="" />
+	<label commandName="FusionSimulateInMoldflowAdviserCommandDefDesc1" devLabel="Launches your model in Autodesk Moldflow Adviser." translation="" />
+	<label commandName="FusionSimulateInMoldflowAdviserCommandDefDesc2" devLabel="Opens Moldflow Adviser and imports your model into a new file. Setup and run your Moldflow simulation using your verified geometry." translation="" />
+	<label commandName="FusionSimulateInMoldflowInsight" devLabel="Simulate in Moldflow Insight" translation="" />
+	<label commandName="FusionSimulateInMoldflowInsightCommandDefDesc1" devLabel="Launches your model in Autodesk Moldflow Insight." translation="" />
+	<label commandName="FusionSimulateInMoldflowInsightCommandDefDesc2" devLabel="Opens Moldflow Synergy and imports your model into a new file. Setup and run your Moldflow simulation using your verified geometry." translation="" />
+	<label commandName="lclzExpirationMessage" devLabel="Licensing for this product has expired." translation="" />
+</Resource>

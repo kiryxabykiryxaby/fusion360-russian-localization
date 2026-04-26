@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="" />
+	<label commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="" />
+	<label commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="" />
+	<label commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="" />
+	<label commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="" />
+	<label commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="" />
+	<label commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="" />
+	<label commandName="InsertImportUserName" devLabel="InsertImport enable" translation="" />
+	<label commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="" />
+	<label commandName="assetTypeUserName" devLabel="Create asset" translation="" />
+	<label commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="" />
+	<label commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="" />
+	<label commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="" />
+	<label commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="" />
+	<label commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="" />
+	<label commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="" />
+	<label commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="" />
+	<label commandName="lclzLoadInterface" devLabel="loadInterface: " translation="" />
+	<label commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="" />
+	<label commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="" />
+</Resource>

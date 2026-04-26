@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="EProjectFileFilterDescription" devLabel="ECAD Project Files (*.eprj)" translation="" />
+</Resource>
