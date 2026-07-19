@@ -43,10 +43,14 @@ REM 2) Find the active webdeploy hash directory (most recently modified)
 set "HASH_DIR="
 for /f "delims=" %%D in ('dir /b /ad /o-d "%WEBDEPLOY%" 2^>nul') do (
   if not defined HASH_DIR (
-    REM Pick first dir that looks like a 40-char hex hash AND has StringTable subfolder
-    if exist "%WEBDEPLOY%\%%D\StringTable" (
-      set "HASH_DIR=%WEBDEPLOY%\%%D"
-      set "HASH=%%D"
+    REM Pick the ACTIVE build: must have BOTH Fusion360.exe AND StringTable.
+    REM A folder with StringTable but no Fusion360.exe is a stale/partial build
+    REM that Fusion does not actually run - copying there silently does nothing.
+    if exist "%WEBDEPLOY%\%%D\Fusion360.exe" (
+      if exist "%WEBDEPLOY%\%%D\StringTable" (
+        set "HASH_DIR=%WEBDEPLOY%\%%D"
+        set "HASH=%%D"
+      )
     )
   )
 )
