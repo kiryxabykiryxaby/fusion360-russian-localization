@@ -1,6 +1,6 @@
 # Русская локализация Autodesk Fusion 360
 
-Полный русский перевод интерфейса Fusion 360 для **macOS** и **Windows**, рабочий на актуальной версии (2026.x, проверено в апреле 2026).
+Полный русский перевод интерфейса Fusion 360 для **macOS** и **Windows**. Проверено на версии **2704.1.36** (июль 2026), включая свежую установку прямо после обновления.
 
 > Перевод изначально собран сообществом [RusFus](https://github.com/RusFus/fusion360-rus-files) для Windows. Этот репозиторий содержит:
 > - те же файлы перевода;
@@ -19,8 +19,11 @@ files/
 ├── ru-html.html        ← фреймсет-обёртка для CAM-справки
 └── russian_ru.xml      ← перевод строк CAM360 (1.8 МБ)
 
-install-macos.command   ← двойной клик для установки на macOS
-install-windows.bat     ← двойной клик для установки на Windows
+install-macos.command       ← двойной клик для установки на macOS
+install-windows.bat         ← двойной клик для установки на Windows (обёртка над .ps1)
+install-windows.ps1         ← вся логика установки на Windows (поиск активной сборки + копирование)
+create-shortcut-windows.bat ← один раз: создаёт на рабочем столе ярлык «Вернуть русский в Fusion»
+create-shortcut-windows.ps1 ← логика создания ярлыка
 ```
 
 ---
@@ -146,20 +149,26 @@ Fusion 360 обновляется через webdeploy и при каждом к
 
 ### Скрипт написал «Done», но русский не появился (несколько папок сборки)
 
-Иногда в `webdeploy/production/` оказывается **несколько** папок с подпапкой `StringTable`: активная (в ней лежит `Fusion360.exe`) и «мёртвая» — недокачанная или остаточная сборка без `Fusion360.exe`. Если «мёртвая» папка новее по дате, старые версии установщика клали файлы именно в неё, честно писали `Done`, но Fusion этих файлов не видел.
+В `webdeploy/production/` часто лежит **несколько** папок сборки: активная (её и запускает Fusion) плюс старые версии и остаточные/недокачанные сборки. После обновления там нередко оказываются сразу две папки с `Fusion360.exe` — старая и новая версии. Ранние версии установщика выбирали папку «по свежести», а время папки **ненадёжно** (копирование файлов в старую сборку обновляет её дату), поэтому файлы могли уйти в неактивную папку: скрипт писал `Done`, но Fusion перевод не видел.
 
-**Как проверить**, куда реально пошёл перевод:
+**Как это решено:** актуальный `install-windows.ps1` определяет активную сборку по прямому указателю Autodesk — строке `cmd = ...\<HASH>\Fusion360.exe` в `FusionLauncher.exe.ini`. Если ini недоступен — берёт сборку с самой новой версией `Fusion360.exe`. Время папки не используется вовсе. Просто обновите скрипты из репозитория и запустите снова.
+
+**Как проверить**, какую сборку Fusion реально запускает и куда должен лечь перевод:
 ```powershell
 $prod = "$env:LOCALAPPDATA\Autodesk\webdeploy\production"
+# активная сборка = та, что указана в FusionLauncher.exe.ini
+(Get-Content (Get-ChildItem "$prod\*\FusionLauncher.exe.ini" | Select -First 1) |
+  Where-Object { $_ -match 'cmd\s*=' })
+# версия и наличие ru-RU в каждой папке
 Get-ChildItem $prod -Directory | ForEach-Object {
-  "{0} | Fusion360.exe: {1} | ru-RU: {2}" -f $_.Name,
-    (Test-Path "$($_.FullName)\Fusion360.exe"),
-    (Test-Path "$($_.FullName)\StringTable\ru-RU")
+  $exe = "$($_.FullName)\Fusion360.exe"
+  if (Test-Path $exe) {
+    "{0} | ver {1} | ru-RU: {2}" -f $_.Name,
+      (Get-Item $exe).VersionInfo.ProductVersion,
+      (Test-Path "$($_.FullName)\StringTable\ru-RU")
+  }
 }
 ```
-`ru-RU` должен стоять в той папке, где `Fusion360.exe: True`.
-
-**Решение:** актуальный `install-windows.bat` выбирает папку только при наличии в ней `Fusion360.exe` — обновите скрипт из этого репозитория и запустите снова. Либо скопируйте `ru-RU` в правильную папку вручную.
 
 ### macOS: «Ошибка входа» / ошибка авторизации после установки
 
@@ -222,6 +231,16 @@ dir "%LOCALAPPDATA%\Autodesk\webdeploy\production\"
 APP="$HOME/Library/Application Support/Autodesk/webdeploy/production"
 HASH=$(ls "$APP" | grep -E '^[a-f0-9]{40}$' | head -1)
 ls "$APP/$HASH/Autodesk Fusion.app/Contents/Libraries/Neutron/StringTable/ru-RU/" | wc -l
+# Должно быть 115
+```
+
+**Windows (PowerShell):** — проверяет активную сборку из `FusionLauncher.exe.ini`
+```powershell
+$prod = "$env:LOCALAPPDATA\Autodesk\webdeploy\production"
+$cmd  = Get-Content (Get-ChildItem "$prod\*\FusionLauncher.exe.ini" | Select -First 1) | Where-Object { $_ -match 'cmd\s*=' }
+if ($cmd -match '([0-9a-fA-F]{40})') {
+  (Get-ChildItem "$prod\$($matches[1])\StringTable\ru-RU" -Filter *.xml).Count
+}
 # Должно быть 115
 ```
 
