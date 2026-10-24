@@ -15,9 +15,9 @@
     <label commandName="BrowserConstructionLabel" devLabel="Construction" translation="Вспомогательные элементы" />
     <label commandName="BrowserSelectionGroupsLabel" devLabel="Selection Sets" translation="Наборы выделения" />
     <label commandName="CBRevisionMilestone_ccy" devLabel="Revision" translation="Ревизия" />
-    <label commandName="ComponentInstanceSelectTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is grounded to %3%." translation="%1%&lt;br&gt;&lt;br&gt;%2% закреплен на %3%." />
-    <label commandName="ComponentInstanceUnselectTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is grounded to %3%. &lt;br&gt;&lt;br&gt;%4% is Unselectable." translation="%1%&lt;br&gt;&lt;br&gt;%2% закреплен на %3%. &lt;br&gt;&lt;br&gt;%4% недоступен для выбора." />
-    <label commandName="ComponentInstanceUnselectTooltipInfo" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% is Unselectable." translation="%1%&lt;br&gt;&lt;br&gt;%2% недоступен для выбора." />
+    <label commandName="ComponentInstanceSelectTooltip" devLabel="%1% is grounded to %2%." translation="%1% закреплён на %2%." />
+    <label commandName="ComponentInstanceUnselectTooltip" devLabel="%1% is grounded to %2%.&lt;br&gt;&lt;br&gt;%3% is Unselectable." translation="%1% закреплён на %2%.&lt;br&gt;&lt;br&gt;%3% недоступен для выбора." />
+    <label commandName="ComponentInstanceUnselectTooltipInfo" devLabel="%1% is Unselectable." translation="%1% недоступен для выбора." />
     <label commandName="ContactSetsLabelAll" devLabel="Contact: all" translation="Контакт: все" />
     <label commandName="ContactSetsLabelNone" devLabel="Contact: off" translation="Контакт: выкл" />
     <label commandName="ContactSetsLabelSets" devLabel="Contact: sets" translation="Контакт: наборы" />

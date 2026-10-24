@@ -26,13 +26,20 @@ if [ ! -d "$WEBDEPLOY" ]; then
   exit 1
 fi
 
-if pgrep -fq "Autodesk Fusion"; then
+# Match the main process by exact name: helpers like ADPClientService live inside
+# the bundle path and can outlive Fusion, so a path match gives false positives.
+if pgrep -xq "Autodesk Fusion"; then
   echo "❌ Fusion 360 is running. Quit it (Cmd+Q) and re-run this script."
   exit 1
 fi
 
-# 2) Find the active webdeploy hash directory (40-char hex)
-HASH=$(ls "$WEBDEPLOY" 2>/dev/null | grep -E '^[a-f0-9]{40}$' | head -1)
+# 2) Find the active webdeploy hash directory (40-char hex).
+# webdeploy keeps a symlink "Autodesk Fusion.app" pointing at the build it launches;
+# old builds may still lie around, so prefer the symlink over the first folder found.
+HASH=$(readlink "$WEBDEPLOY/Autodesk Fusion.app" 2>/dev/null | grep -oE '[a-f0-9]{40}' | head -1)
+if [ -z "$HASH" ]; then
+  HASH=$(ls "$WEBDEPLOY" 2>/dev/null | grep -E '^[a-f0-9]{40}$' | head -1)
+fi
 if [ -z "$HASH" ]; then
   echo "❌ Could not find a Fusion build directory in $WEBDEPLOY"
   exit 1
@@ -53,6 +60,10 @@ TARGET_STRINGTABLE="$APP/Libraries/Neutron/StringTable/ru-RU"
 mkdir -p "$TARGET_STRINGTABLE"
 cp "$FILES/ru-RU/"*.xml "$TARGET_STRINGTABLE/"
 echo "✓ ru-RU StringTable: $(ls "$TARGET_STRINGTABLE" | wc -l | tr -d ' ') files"
+
+# Strings whose %1%-style placeholders don't match this Fusion build crash it
+# (boost::format too_many_args), so reset those to the build's English text.
+perl "$SCRIPT_DIR/sanitize-placeholders.pl" "$APP/Libraries/Neutron/StringTable/en-US" "$TARGET_STRINGTABLE"
 
 # 4) Copy ru-html into Help
 TARGET_HELP="$APP/Libraries/Applications/CAM360/NeuCAM/UI/NeuCAMUI/Resources/Help"

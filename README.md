@@ -1,6 +1,6 @@
 # Русская локализация Autodesk Fusion 360
 
-Полный русский перевод интерфейса Fusion 360 для **macOS** и **Windows**. Проверено на версии **2704.1.36** (июль 2026), включая свежую установку прямо после обновления.
+Полный русский перевод интерфейса Fusion 360 для **macOS** и **Windows**. Проверено на версии **2704.1.36** (июль 2026), на macOS — также на **2706.1.14** (октябрь 2026): новый дизайн, эскиз, выдавливание, сохранение.
 
 > Перевод изначально собран сообществом [RusFus](https://github.com/RusFus/fusion360-rus-files) для Windows. Этот репозиторий содержит:
 > - те же файлы перевода;
@@ -20,6 +20,7 @@ files/
 └── russian_ru.xml      ← перевод строк CAM360 (1.8 МБ)
 
 install-macos.command       ← двойной клик для установки на macOS
+sanitize-placeholders.pl    ← защита от краша: сверяет плейсхолдеры %1% с установленной версией Fusion (вызывается установщиком macOS)
 install-windows.bat         ← двойной клик для установки на Windows (обёртка над .ps1)
 install-windows.ps1         ← вся логика установки на Windows (поиск активной сборки + копирование)
 create-shortcut-windows.bat ← один раз: создаёт на рабочем столе ярлык «Вернуть русский в Fusion»
@@ -91,6 +92,12 @@ Fusion при каждом крупном апдейте создаёт нову
 **❗ КРИТИЧЕСКИ ВАЖНО для macOS: НЕ ПЕРЕПОДПИСЫВАЙТЕ бандл.**
 Не запускайте `codesign --remove-signature`, не пересохраняйте через Xcode и т.п. Если переподписать ad-hoc, сломается IPC-handshake между Fusion и Identity Manager → ошибка входа в аккаунт. Просто скопируйте файлы — оригинальная подпись Autodesk останется валидной для исполняемого Mach-O, а изменения ресурсов IDSDK не проверяет.
 
+После ручного копирования обязательно запустите проверку плейсхолдеров (иначе Fusion может падать, см. «Fusion падает при создании проекта»):
+```bash
+C="$HOME/Library/Application Support/Autodesk/webdeploy/production/Autodesk Fusion.app/Contents/Libraries/Neutron/StringTable"
+perl sanitize-placeholders.pl "$C/en-US" "$C/ru-RU"
+```
+
 ### Windows
 
 Корень установки:
@@ -141,6 +148,22 @@ C:\Users\ИМЯ\AppData\Local\Autodesk\webdeploy\production\<HASH>\
 
 ## Известные проблемы и обновления
 
+### Fusion падает при создании проекта / нового дизайна
+
+Симптом: сразу после установки перевода Fusion вылетает с «критической ошибкой», как только открывается новый дизайн (вкладка Untitled). В отчёте о сбое:
+```
+boost::io::too_many_args
+  Na::EIP::BeginEditInPlaceCmdDef::onIsApplicable
+```
+
+**Причина:** Fusion подставляет значения в строки через `boost::format` (`%1%`, `%2%`, …). Autodesk в обновлениях меняет английские строки — добавляет или убирает плейсхолдеры. Если в русском переводе их набор не совпадает с английским, `boost::format` бросает исключение и Fusion падает. В 2706.x в строку `BeginEIPBlockedDueToPermissions` добавили `%1%` (имя дизайна), а старый перевод его не содержал.
+
+**Решение:**
+- в репозитории исправлены все строки с несовпадающими плейсхолдерами для 2706.1.14 (26 шт.);
+- `install-macos.command` после копирования запускает `sanitize-placeholders.pl`: он сверяет каждую русскую строку с английской из **установленной** версии Fusion и строки с несовпадающими плейсхолдерами возвращает на английский. Поэтому после очередного обновления Fusion отдельные строки могут стать английскими, но Fusion падать не будет. Скрипт пишет, сколько строк сброшено.
+
+Если Fusion уже падает — обновите репозиторий и запустите `install-macos.command` ещё раз.
+
 ### Fusion обновился — русский пропал
 
 Fusion 360 обновляется через webdeploy и при каждом крупном апдейте создаёт **новую папку** с другим `<HASH>` в `webdeploy/production/`. Старая папка с нашими файлами больше не используется.
@@ -190,7 +213,7 @@ IDSDKAuth: idsdk_init failed with error IDSDK_E_IDSDK_CLIENT_OBJECT_INVALID
 **macOS:**
 ```bash
 APP="$HOME/Library/Application Support/Autodesk/webdeploy/production"
-HASH=$(ls "$APP" | grep -E '^[a-f0-9]{40}$' | head -1)
+HASH=$(readlink "$APP/Autodesk Fusion.app" | grep -oE '[a-f0-9]{40}')
 rm -rf "$APP/$HASH/Autodesk Fusion.app/Contents/Libraries/Neutron/StringTable/ru-RU"
 rm -rf "$APP/$HASH/Autodesk Fusion.app/Contents/Libraries/Applications/CAM360/NeuCAM/UI/NeuCAMUI/Resources/Help/ru-html"
 rm    "$APP/$HASH/Autodesk Fusion.app/Contents/Libraries/Applications/CAM360/NeuCAM/UI/NeuCAMUI/Resources/Help/ru-html.html"

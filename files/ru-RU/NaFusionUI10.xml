@@ -1440,7 +1440,7 @@
     <label commandName="FilletEdgeRowLabel" devLabel="FilletEdgeRowLabel" translation="Метка ряда края скругления"/>
     <label commandName="FilletEdgeRowLabelInfo" devLabel="FilletEdgeRowLabelInfo%1%" translation="Информация о метке строки скругления кромки %1%"/>
     <label commandName="FilletEdgeRuleFilletIcon" devLabel="" translation="Информация о метке срезов %1%"/>
-    <label commandName="FilletEdgeVariableRadiusIcon" devLabel="" translation="Информация о ценнике %1%"/>
+    <label commandName="FilletEdgeVariableRadiusIcon" devLabel="" translation="" />
     <label commandName="FilletEdges0" devLabel="1 Edge" translation="1 край"/>
     <label commandName="FilletEdgesCornerOptionInput" devLabel="Corner Type" translation="Угловой тип"/>
     <label commandName="FilletEdgesEdgesInput" devLabel="Edges" translation="Края"/>
@@ -3071,7 +3071,7 @@
     <label commandName="PushDeriveNewDesign" devLabel="New Design" translation="Новый проект"/>
     <label commandName="PushDeriveNoSelectOrParamsMsg" devLabel="Expected at least one selection" translation="Ожидалось, что будет выбран хотя бы один элемент"/>
     <label commandName="PushDeriveNonDesignTarget" devLabel="Cannot derive objects into &lt;strong&gt;%1%&lt;/strong&gt; because the &lt;strong&gt;Design&lt;/strong&gt; workspace is not active.&lt;p&gt;&lt;p&gt;Switch to the &lt;strong&gt;Design&lt;/strong&gt; workspace in &lt;strong&gt;%2%&lt;/strong&gt;, then try to derive again." translation="Объекты не могут быть выведены в &lt;strong&gt;%1%&lt;/strong&gt;, поскольку рабочая область &lt;strong&gt;Design&lt;/strong&gt; не активен.&lt;p&gt;&lt;p&gt;Перейдите в рабочую область &lt;strong&gt;Дизайн&lt;/strong&gt; в &lt;strong&gt;%2%&lt;/strong&gt;, а затем повторите операцию деривации."/>
-    <label commandName="PushDeriveObjectsTable" devLabel="" translation="Объекты не могут быть включены в &lt;strong&gt;%1%&lt;/strong&gt;, поскольку обл асть &lt;strong&gt;Design&lt;/strong&gt; нет активности в &lt;strong&gt;%2%&lt;/strong&gt;, а затем повторите операцию с производной."/>
+    <label commandName="PushDeriveObjectsTable" devLabel="" translation="" />
     <label commandName="PushDeriveObjectsTree" devLabel="Objects to Derive" translation="Объекты для вывода"/>
     <label commandName="PushDeriveParametersComponents" devLabel="From Components" translation="Из компонентов"/>
     <label commandName="PushDeriveParametersFavorites" devLabel="Favorites" translation="Избранное"/>
@@ -6167,7 +6167,7 @@
     <label commandName="Axis Alignment" devLabel="Axis Alignment" translation="Выравнивание оси" />
     <label commandName="BeginEIPBlockedDueToConfiguration" devLabel="&lt;b&gt;Edit In Place (unavailable)&lt;/b&gt;&lt;p&gt;&lt;small&gt;Unavailable for Configured Components.&#10; Right-click &gt; Open to edit this Configuration directly&#10; from the Configured Design.&lt;/small&gt;" translation="&lt;b&gt;Редактировать на месте (недоступно)&lt;/b&gt;&lt;p&gt;&lt;small&gt;Недоступно для настроенных компонентов.&#10; Щелкните правой кнопкой мыши &gt; Открыть, чтобы редактировать эту конфигурацию напрямую&#10; из настроенного проекта.&lt;/small&gt;" />
     <label commandName="BeginEIPBlockedDueToConfigurationParent" devLabel="&lt;b&gt;Edit In Place (unavailable)&lt;/b&gt;&lt;p&gt;&lt;small&gt;Parent component is a Configured Components.&#10; Right-click &gt; Open to edit this design directly, or open its&#10; parent to edit it in the context of the Configured Design.&lt;/small&gt;" translation="&lt;b&gt;Редактировать на месте (недоступно)&lt;/b&gt;&lt;p&gt;&lt;small&gt;Родительский компонент является настроенным компонентом.&#10; Щелкните правой кнопкой мыши &gt; Открыть, чтобы редактировать этот проект напрямую, или откройте его&#10; родительский элемент, чтобы редактировать его в контексте настроенного проекта.&lt;/small&gt;" />
-    <label commandName="BeginEIPBlockedDueToPermissions" devLabel="Edit In Place unavailable&#10;You do not have permission to edit this design." translation="Редактирование на месте недоступно&#10;У вас нет разрешения на редактирование этого проекта." />
+    <label commandName="BeginEIPBlockedDueToPermissions" devLabel="&lt;b&gt;Edit In Place (unavailable)&lt;/b&gt;&lt;p&gt;Unavailable because %1% is currently read-only.&lt;br/&gt;To use Edit In Place, change the design’s status to Editable.&lt;/p&gt;" translation="&lt;b&gt;Редактирование на месте (недоступно)&lt;/b&gt;&lt;p&gt;Недоступно, так как %1% сейчас доступен только для чтения.&lt;br/&gt;Чтобы использовать редактирование на месте, измените статус проекта на «Редактируемый».&lt;/p&gt;" />
     <label commandName="BrowserAppearanceCITooltip" devLabel="Check to configure the Appearance of&#10;this component." translation="Установите флажок, чтобы настроить Внешний вид&#10;этого компонента." />
     <label commandName="BrowserAppearanceTooltip" devLabel="Check to configure the Appearance of&#10;this object." translation="Установите флажок, чтобы настроить Внешний вид&#10;этого объекта." />
     <label commandName="BrowserPhysicalMaterialCITooltip" devLabel="Check to configure the Physical Material&#10;for this component." translation="Установите флажок, чтобы настроить Физический материал&#10;для этого компонента." />
@@ -6786,7 +6786,7 @@
     <label commandName="BossSelectionSingular" devLabel="boss" translation="бобышка" />
     <label commandName="BrowserStandardDesignInsertTooltip" devLabel="Check to configure the Insert feature for this Component." translation="Отметьте, чтобы настроить функцию Вставки для этого компонента." />
     <label commandName="CSInitializationFailed" devLabel="Coordinate System Request Initialization failed!" translation="Ошибка инициализации запроса системы координат!" />
-    <label commandName="CannotInsertComponentIntoPartWarning" devLabel="%1% is a Part Design and can't contain additional components.&lt;br/&gt;&lt;br/&gt;Select an Assembly Design to insert %2% into." translation="%1% является Деталью и не может содержать дополнительные компоненты.&lt;br/&gt;&lt;br/&gt;Выберите Сборку для вставки %2%." />
+    <label commandName="CannotInsertComponentIntoPartWarning" devLabel="{docName} is a Part Design and can't contain additional components.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Convert {docName} to an Assembly Design&lt;/b&gt; and insert {fileName} as an external component or &lt;b&gt;Create a new Assembly Design&lt;/b&gt; and insert both {docName} and {fileName}?" translation="{docName} является деталью и не может содержать дополнительные компоненты.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Преобразовать {docName} в сборку&lt;/b&gt; и вставить {fileName} как внешний компонент или &lt;b&gt;создать новую сборку&lt;/b&gt; и вставить в неё {docName} и {fileName}?" />
     <label commandName="CannotInsertComponentIntoPartWarningTitle" devLabel="Can't insert design" translation="Не удается вставить проект" />
     <label commandName="ChangeAssemblyTypeCmdTitlePrefix" devLabel="Document: " translation="Документ: " />
     <label commandName="ClickPointPosition" devLabel="Click point" translation="Нажмите на точку" />

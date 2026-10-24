@@ -79,7 +79,7 @@
     <label commandName="AFComments" devLabel="comments" translation="Комментарии"/>
     <label commandName="AFCommentsSeeLess" devLabel="See Less" translation="Посмотреть меньше"/>
     <label commandName="AFCommentsSeeMore" devLabel="See More" translation="Узнать больше"/>
-    <label commandName="AFCreatedBy" devLabel=" by %s" translation="авторы"/>
+    <label commandName="AFCreatedBy" devLabel=" by %s" translation=" — автор: %s" />
     <label commandName="AFDetailsInA360" devLabel="Details in Fusion Team" translation="Подробности о команде Fusion"/>
     <label commandName="AFHideComments" devLabel="Hide comments" translation="Скрыть комментарии"/>
     <label commandName="AFLatestVersion" devLabel="This comment is from the latest version. Click to open in a new tab" translation="Этот комментарий из последней версии. Нажмите, чтобы открыть в новой вкладке"/>
@@ -670,7 +670,7 @@
     <label commandName="Library" devLabel="Library" translation="Библиотека"/>
     <label commandName="LicensePendingLabel" devLabel="License Pending" translation="Ждем лицензию"/>
     <label commandName="LiftHeight" devLabel="Lift Height" translation="Высота подъема"/>
-    <label commandName="LimitResolutionInput" devLabel="Limit Resolution to (20% - 100%)" translation="Ограничьте разрешение до (20–100%)"/>
+    <label commandName="LimitResolutionInput" devLabel="Limit Resolution to (20% - 100%)" translation="Ограничить разрешение (20% - 100%)" />
     <label commandName="LinearSnapValueInput" devLabel="Linear Increments" translation="Линейные приращения"/>
     <label commandName="Link_AppStore_Title" devLabel="App Store" translation="Магазин приложений"/>
     <label commandName="Link_AppStore_URL" devLabel="https://apps.autodesk.com/FUSION/en/Home/Index" translation="https://apps.autodesk.com/FUSION/pl/Home/Index"/>
@@ -700,7 +700,7 @@
     <label commandName="MDAreYouSureYouWantDeleteRB" devLabel="Are you sure you want to delete &lt;b&gt; %s &lt;/b&gt;?" translation="Вы уверены, что хотите удалить элемент &lt;b&gt;? %s &lt;/b&gt;?"/>
     <label commandName="MDAsGrid" devLabel="View as Grid" translation="Посмотреть в виде сетки"/>
     <label commandName="MDAsList" devLabel="View as List" translation="Посмотреть как список"/>
-    <label commandName="MDAtTIME" devLabel="at %s" translation="ось"/>
+    <label commandName="MDAtTIME" devLabel="at %s" translation="в %s" />
     <label commandName="MDAtleast2chars" devLabel="Please enter at least 2 characters." translation="Пожалуйста, введите не менее 2 символов."/>
     <label commandName="MDAug" devLabel="Aug" translation="Сам"/>
     <label commandName="MDBack" devLabel="Back" translation="Назад"/>
@@ -1148,7 +1148,7 @@
     <label commandName="MaintenanceMessageTitle" devLabel="Sign In Failure Due to Scheduled Maintenance" translation="Ошибка входа в систему из-за планового обслуживания"/>
     <label commandName="MajorUpdateNotificationDlgBtn_Quit" devLabel="Quit %1%" translation="Закрыть %1%"/>
     <label commandName="MajorUpdateNotificationDlgBtn_UpdateNow" devLabel="Update Now" translation="Обновить сейчас"/>
-    <label commandName="MajorUpdateNotificationDlgText_Update" devLabel="As we continue to enhance and evolve the %1% experience, updating the software will keep your work compatible with new features and enhancements.&lt;br/&gt;&lt;br/&gt;For details, see &lt;a href='%2%'&gt;What's New&lt;/a&gt; on our learning site." translation="Поскольку мы продолжаем совершенствовать и развивать интерфейс %1%, обновление программного обеспечения обеспечит совместимость вашей работы с новыми функциями и улучшениями.&lt;br/&gt;&lt;br/&gt;Подробную информацию см. в разделе &lt;a href='% 2%'&gt;Что нового&lt;/a&gt; на нашем обучающем сайте."/>
+    <label commandName="MajorUpdateNotificationDlgText_Update" devLabel="As we continue to enhance and evolve the %1% experience, updating the software will keep your work compatible with new features and enhancements.&lt;br/&gt;&lt;br/&gt;For details, see &lt;a href='%2%'&gt;What's New&lt;/a&gt; on our learning site." translation="Мы продолжаем совершенствовать и развивать %1%, и обновление программы сохранит совместимость вашей работы с новыми функциями и улучшениями.&lt;br/&gt;&lt;br/&gt;Подробнее см. в разделе &lt;a href='%2%'&gt;Что нового&lt;/a&gt; на нашем обучающем сайте." />
     <label commandName="MajorUpdateNotificationDlgTitle_Update" devLabel="Update %1%" translation="Обновить %1%"/>
     <label commandName="ManualRampDiameter" devLabel="Manual Ramp Diameter" translation="Диаметр ручного пандуса"/>
     <label commandName="MarkDocumentsForOpenCommand" devLabel="Mark documents for open" translation="Выберите документы для открытия"/>
@@ -2184,7 +2184,7 @@
     <label commandName="lclzTestTableText" devLabel="Test Table" translation="Тестовая таблица"/>
     <label commandName="lclzTestToolkitToolTipDesc1" devLabel="INTERNAL USE ONLY" translation="ТОЛЬКО ДЛЯ ВНУТРЕННЕГО ИСПОЛЬЗОВАНИЯ"/>
     <label commandName="lclzTestToolkitToolTipDesc2" devLabel="Used to develop advanced toolbar handling. Don't do this at home kids!" translation="Используется для разработки расширенной поддержки панели инструментов. Не делайте этого дома с детьми!"/>
-    <label commandName="lclzTxnStep" devLabel=" - Step %1%" translation="- Шаг 1%"/>
+    <label commandName="lclzTxnStep" devLabel=" - Step %1%" translation=" - Шаг %1%" />
     <label commandName="lclzUndoDropDownText" devLabel="Undo" translation="Отменить"/>
     <label commandName="lclzVersionOfChooseVersionInput" devLabel="Version" translation="Версия"/>
     <label commandName="lclzlLoad" devLabel="Load" translation="Загрузка"/>
@@ -2249,8 +2249,8 @@
     <label commandName="AppSignInInconsistMsg" devLabel="To continue opening %1%, you must sign out of your current account and sign in as %2% &#10;&#10;Would you like to save your work and sign out?" translation="Чтобы продолжить открытие %1%, вы должны выйти из текущей учетной записи и войти как %2% &#10;&#10;Хотите сохранить работу и выйти?" />
     <label commandName="AppUserHubInconsistMsg" devLabel="To continue opening %1%, you must activate %2% hub and close all currently open documents.&#10;&#10;Would you like to continue?" translation="Чтобы продолжить открытие %1%, вы должны активировать хаб %2% и закрыть все открытые документы.&#10;&#10;Хотите продолжить?" />
     <label commandName="AppUserHubInvalidFileLink" devLabel="Opening %1% cannot continue.&#10;Application has detected that the document you are trying to open is stored on a different hub. Please activate appropriate hub and try again." translation="Открытие %1% не может быть продолжено.&#10;Приложение обнаружило, что документ, который вы пытаетесь открыть, хранится в другом хабе. Активируйте соответствующий хаб и повторите попытку." />
-    <label commandName="AppUserHubInvalidFileLink1" devLabel="Cannot open &lt;b&gt;%1%&lt;/b&gt; because the url &lt;a href=&quot;%2%&quot;&gt;%2%&lt;/a&gt; is invalid." translation="Не удается открыть &lt;b&gt;%1%&lt;/b&gt;, так как URL-адрес &lt;a href=&quot;%2%&quot;&gt;%2%&lt;/a&gt; недействителен." />
-    <label commandName="AppUserHubInvalidFileLink2" devLabel="Cannot open &lt;b&gt;%1%&lt;/b&gt; because you do not have access to the hub where it is saved.&lt;br/&gt;&lt;br/&gt;Contact the hub administrator to request access to &lt;a href=&quot;%2%&quot;&gt;%2%&lt;/a&gt;" translation="Не удается открыть &lt;b&gt;%1%&lt;/b&gt;, так как у вас нет доступа к хабу, где он сохранен.&lt;br/&gt;&lt;br/&gt;Свяжитесь с администратором хаба, чтобы запросить доступ к &lt;a href=&quot;%2%&quot;&gt;%2%&lt;/a&gt;" />
+    <label commandName="AppUserHubInvalidFileLink1" devLabel="Cannot open &lt;b&gt;%1%&lt;/b&gt; because the url %2% is invalid." translation="Не удается открыть &lt;b&gt;%1%&lt;/b&gt;, так как URL-адрес %2% недействителен." />
+    <label commandName="AppUserHubInvalidFileLink2" devLabel="Cannot open &lt;b&gt;%1%&lt;/b&gt; because you do not have access to the hub where it is saved.&lt;br/&gt;&lt;br/&gt;Contact the hub administrator to request access to %2%" translation="Не удается открыть &lt;b&gt;%1%&lt;/b&gt;, так как у вас нет доступа к хабу, где он сохранен.&lt;br/&gt;&lt;br/&gt;Обратитесь к администратору хаба, чтобы запросить доступ к %2%" />
     <label commandName="AutoSavedToolTipWithHubName" devLabel="%1% &#10;%2% &#10;Team: %3%" translation="%1% &#10;%2% &#10;Команда: %3%" />
     <label commandName="AutoSavedToolTipWithoutHubName" devLabel="%1% &#10;%2%" translation="%1% &#10;%2%" />
     <label commandName="Banner_AppHomeHelp_Msg" devLabel="Welcome to the Fusion home tab, a central location from which you can view and access your data." translation="Добро пожаловать на домашнюю вкладку Fusion, центральное место, откуда вы можете просматривать и получать доступ к своим данным." />

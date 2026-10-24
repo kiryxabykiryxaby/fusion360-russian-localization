@@ -521,7 +521,7 @@
     <label commandName="FusDocDimensionDirection4" devLabel="Top right" translation="Сверху справа" />
     <label commandName="FusDocDimensionHDirection" devLabel="Dimension Datum" translation="База размеров" />
     <label commandName="FusDocDimensionStrategy" devLabel="Dimension Strategy" translation="Стратегия размеров" />
-    <label commandName="FusDocDrawingGenerationMessage" devLabel="Generation of %1% started at %2%. This may take several minutes. We will notify you when it is complete." translation="Генерация %1% начата в %2%. Это может занять несколько минут. Мы уведомим вас по завершении." /><label commandName="FusDocDrawingGenerationMessage" devLabel="Generation of %1% started at %2%. This may take several minutes. We will notify you when it is complete." translation="Генерация %1 %началось с %2 %. Это может занять несколько минут. Мы уведомим вас, когда это будет завершено." />
+    <label commandName="FusDocDrawingGenerationMessage" devLabel="Generation of %1% started at %2%. This may take several minutes. We will notify you when it is complete." translation="Генерация %1% начата в %2%. Это может занять несколько минут. Мы уведомим вас по завершении." />
     <label commandName="FusDocDrawingGenerationStarted" devLabel="Generation started" translation="Начато создание" />
     <label commandName="FusDocFacesForAutoRotate" devLabel="Maximum Number Of Faces For Auto Rotate" translation="Максимальное количество граней для автоматического поворота" />
     <label commandName="FusDocFailedToDownload" devLabel="Failed to download selected template file" translation="Не удалось загрузить выбранный файл шаблона" />

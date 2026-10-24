@@ -63,7 +63,7 @@
     <label commandName="SimClippingPlaneStartCreation1TipsAndTricksDesc" devLabel="Hover the cursor over the visible mesh surface and left-click on the desired location. After the initial position is picked, the newly created slice plane can be adjusted more precisely." translation="Наведите курсор на видимую поверхность сетки и щелкните левой кнопкой мыши в желаемом месте. После того, как начальная позиция была выбрана, вновь созданная плоскость среза может быть более точно настроена." />
     <label commandName="SimClippingPlaneStartCreation1TipsAndTricksTips" devLabel="Start to create a slice plane by selecting a point on the mesh surface." translation="Начните создавать плоскость среза, выбрав точку на поверхности сетки." />
     <label commandName="SimClippingPlaneStartCreation1TipsAndTricksTitle" devLabel="Slice Plane Information" translation="Срезать информацию о плоскости" />
-    <label commandName="SimClippingPlanesCountExceededError" devLabel="Maximum number of applied slice planes has been exceeded.&#10;Your current hardware supports %1% slice planes." translation="Максимальное количество применяемых срезных плоскостей было превышено.&#10;Ваше текущее оборудование поддерживает % 1 % среза." />
+    <label commandName="SimClippingPlanesCountExceededError" devLabel="Maximum number of applied slice planes has been exceeded.&#10;Your current hardware supports %1% slice planes." translation="Превышено максимальное количество применённых плоскостей сечения.&#10;Ваше текущее оборудование поддерживает плоскостей сечения: %1%." />
     <label commandName="SimCloneStudiesInput" devLabel="Clone Studies" translation="Изучение клонов" />
     <label commandName="SimColorTransition" devLabel="Color Transition" translation="Цвет переход" />
     <label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить единичную систему" />
@@ -176,7 +176,7 @@
     <label commandName="SimOptimizationGoal" devLabel="Goal" translation="Цель" />
     <label commandName="SimOptimizationGoals" devLabel="Goals" translation="Цели" />
     <label commandName="SimOptimizationIteration" devLabel="Iteration" translation="Итерация" />
-    <label commandName="SimOptimizationIterationTag" devLabel="Iteration %1%" translation="Итерация %1 %" />
+    <label commandName="SimOptimizationIterationTag" devLabel="Iteration %1%" translation="Итерация %1%" />
     <label commandName="SimOptimizationPLotUICaption" devLabel="Optimization Plot" translation="График оптимизации" />
     <label commandName="SimOptimizationParams" devLabel="Parameters" translation="Параметры" />
     <label commandName="SimOptimizationPlotStyleGoalGoal" devLabel="Pareto (Goal vs. Goal)" translation="Парето (цель против цели)" />

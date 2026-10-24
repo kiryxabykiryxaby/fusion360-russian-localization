@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Resource>
 	<label commandName="Download_File" devLabel="Download file" translation="" />
-	<label commandName="Export_Complete_Notification_Message" devLabel="has been exported to .%1% format." translation="" />
-	<label commandName="Export_Failed_Notification_Message" devLabel="Could not export this file. Please try again." translation="" />
+	<label commandName="Export_Complete_Notification_Message" devLabel="%1% has been exported to .%2% format. You can now download the file to your device's downloads folder." translation="%1% экспортирован в формат .%2%. Теперь файл можно скачать в папку загрузок на устройстве." />
+	<label commandName="Export_Failed_Notification_Message" devLabel="Could not export %1%. Please try again." translation="Не удалось экспортировать %1%. Повторите попытку." />
 </Resource>

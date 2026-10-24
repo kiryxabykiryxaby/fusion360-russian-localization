@@ -61,7 +61,7 @@
 	<label commandName="Str1And2" devLabel="%1%&#10;%2%" translation="" />
 	<label commandName="Str1Col2" devLabel="%1%: %2%" translation="" />
 	<label commandName="TestBaseStatus" devLabel="Bad status to test behavior" translation="" />
-	<label commandName="UninitializedAsset" devLabel="Asset: %1% is an uninitialized asset!" translation="" />
+	<label commandName="UninitializedAsset" devLabel="Document : %1%, Asset: %2% is an uninitialized asset!" translation="Документ: %1%, ресурс: %2% — ресурс не инициализирован!" />
 	<label commandName="UnknowExceptionThrown" devLabel="Internal error" translation="" />
 	<label commandName="UnknownSelectionId" devLabel="Unknown Selection" translation="" />
 	<label commandName="UnknownSelectionsId" devLabel="Unknown Selections" translation="" />
